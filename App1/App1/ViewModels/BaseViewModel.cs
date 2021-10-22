@@ -8,9 +8,9 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Runtime.CompilerServices;
+using System.Text;
 using App1.common;
-using CsvHelper;
-using CsvHelper.Configuration;
+using TinyCsvParser;
 using Xamarin.Forms;
 
 namespace App1.ViewModels
@@ -59,19 +59,20 @@ namespace App1.ViewModels
 		#endregion
 
 
-		private Dictionary<string, string> LoadDicFromFile(string fileName)
+		protected Dictionary<string, string> LoadDicFromFile(string fileName)
 		{
 			string csvContent = LoadFile(fileName);
 
-			IEnumerable<KeyValuePair<string, string>> records;
+			CsvParserOptions csvParserOptions = new CsvParserOptions(true, ';');
+			var csvMapper = new CsvMapping();
+			var csvParser = new CsvParser<KeyValue>(csvParserOptions, csvMapper);
 
-			using (var textReader = new StringReader(csvContent))
-			using (var csv = new CsvReader(textReader, CultureInfo.InvariantCulture))
-			{
-				records = csv.GetRecords<KeyValuePair<string,string>>();
-			}
+			var records = csvParser.ReadFromString(new CsvReaderOptions(newLine:new[]{"\r\n"}),csvContent).ToList();
 
-			return records.ToDictionary(keySelector: x => x.Key, elementSelector: x => x.Value);
+			return records
+				.Where(r=>r.IsValid)
+				.Select(r=>r.Result)
+				.ToDictionary(keySelector: x => x.Key, elementSelector: x => x.Value);
 		}
 
 

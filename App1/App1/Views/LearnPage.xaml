@@ -34,7 +34,7 @@
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <htmlLabel:HtmlLabel Text="{Binding HtmlString}"/>
+                <htmlLabel:HtmlLabel Text="{Binding HtmlString}" TextColor="Black"  BackgroundColor="LightGray"/>
             </StackLayout>
 
         </ScrollView>
