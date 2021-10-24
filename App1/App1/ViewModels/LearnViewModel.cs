@@ -13,30 +13,6 @@ namespace App1.ViewModels
 	{
 		public ICommand OnButtonCommand { get; }
 
-		private Dictionary<string, string> _vocabulary;
-		private Dictionary<string, string> _resourceTexts;
-		private static object _sync = new object();
-
-		private Dictionary<string, string> Vocabulary => GetDictionary(ref _vocabulary, "Vocabulary.csv");
-		private Dictionary<string, string> Labels => GetDictionary(ref _vocabulary, "Labels.csv");
-
-		private Dictionary<string, string> GetDictionary(ref Dictionary<string, string> dic, string scvFileName)
-		{
-			if (dic != null)
-			{
-				return dic;
-			}
-
-			lock (_sync)
-			{
-				if (dic == null)
-				{
-					dic = LoadDicFromFile(scvFileName);
-				}
-			}
-
-			return dic;
-		}
 
 		public LearnViewModel()
 		{

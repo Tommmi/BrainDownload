@@ -17,6 +17,12 @@ namespace App1.ViewModels
 {
 	public class BaseViewModel : INotifyPropertyChanged
 	{
+		private static AppResource _vocabulary = new AppResource("Vocabulary.csv");
+		private AppResource _labels = new AppResource("Labels.csv");
+
+		protected Dictionary<string, string> Vocabulary => _vocabulary.Dic;
+		protected Dictionary<string, string> Labels => _labels.Dic;
+
 		public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>();
 
 		bool isBusy = false;
@@ -57,39 +63,6 @@ namespace App1.ViewModels
 			changed.Invoke(this, new PropertyChangedEventArgs(propertyName));
 		}
 		#endregion
-
-
-		protected Dictionary<string, string> LoadDicFromFile(string fileName)
-		{
-			string csvContent = LoadFile(fileName);
-
-			CsvParserOptions csvParserOptions = new CsvParserOptions(true, ';');
-			var csvMapper = new CsvMapping();
-			var csvParser = new CsvParser<KeyValue>(csvParserOptions, csvMapper);
-
-			var records = csvParser.ReadFromString(new CsvReaderOptions(newLine:new[]{"\r\n"}),csvContent).ToList();
-
-			return records
-				.Where(r=>r.IsValid)
-				.Select(r=>r.Result)
-				.ToDictionary(keySelector: x => x.Key, elementSelector: x => x.Value);
-		}
-
-
-		private string LoadFile(string fileName)
-		{
-			var assembly = Assembly.GetExecutingAssembly();
-			string resourceName = assembly.GetManifestResourceNames().Single(str => str.EndsWith(fileName));
-
-			using (Stream stream = assembly.GetManifestResourceStream(resourceName))
-			using (StreamReader reader = new StreamReader(stream))
-			{
-				string result = reader.ReadToEnd();
-				return result;
-			}
-		}
-
-
 
 	}
 }
