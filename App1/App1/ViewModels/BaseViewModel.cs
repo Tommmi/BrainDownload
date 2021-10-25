@@ -17,27 +17,82 @@ namespace App1.ViewModels
 {
 	public class BaseViewModel : INotifyPropertyChanged
 	{
-		private static AppResource _vocabulary = new AppResource("Vocabulary.csv");
-		private AppResource _labels = new AppResource("Labels.csv");
+		#region fields
 
-		protected Dictionary<string, string> Vocabulary => _vocabulary.Dic;
-		protected Dictionary<string, string> Labels => _labels.Dic;
+		private static object _sync = new object();
+		private static Dictionary<Guid, (string left, string right)> _vocabulary;
+		private Dictionary<string, string> _labels;
+		bool isBusy = false;
+
+		string title = string.Empty;
+
+		#endregion
+
+		#region properties
+
+		protected AppStorage UserData { get; } = new AppStorage(); 
+
+		protected Dictionary<Guid, (string left, string right)> Vocabulary => GetVocabulary();
 
 		public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>();
 
-		bool isBusy = false;
+		public string Title
+		{
+			get { return title; }
+			set { SetProperty(ref title, value); }
+		}
+
 		public bool IsBusy
 		{
 			get { return isBusy; }
 			set { SetProperty(ref isBusy, value); }
 		}
 
-		string title = string.Empty;
-		public string Title
+		protected Dictionary<string, string> Labels => GetLabels();
+
+		#endregion
+
+		#region private methods
+
+		private Dictionary<Guid, (string left, string right)> GetVocabulary()
 		{
-			get { return title; }
-			set { SetProperty(ref title, value); }
+			if (_vocabulary == null)
+			{
+				lock (_sync)
+				{
+					if (_vocabulary == null)
+					{
+						var dic = new AppResource("Vocabulary.csv").Dic;
+						_vocabulary = dic.ToDictionary(keySelector: x => Guid.Parse(x.Key),
+							elementSelector: x => (left: x.Value[0], right: x.Value[1]));
+					}
+				}
+			}
+
+			return _vocabulary;
 		}
+
+		private Dictionary<string, string> GetLabels()
+		{
+			if (_labels == null)
+			{
+				lock (_sync)
+				{
+					if (_labels == null)
+					{
+						var dic = new AppResource("Labels.csv").Dic;
+						_labels = dic.ToDictionary(keySelector: x => x.Value[0],
+							elementSelector: x => x.Value[1]);
+					}
+				}
+			}
+
+			return _labels;
+		}
+
+		#endregion
+
+		#region protected
 
 		protected bool SetProperty<T>(ref T backingStore, T value,
 			[CallerMemberName] string propertyName = "",
@@ -51,6 +106,8 @@ namespace App1.ViewModels
 			OnPropertyChanged(propertyName);
 			return true;
 		}
+
+		#endregion
 
 		#region INotifyPropertyChanged
 		public event PropertyChangedEventHandler PropertyChanged;

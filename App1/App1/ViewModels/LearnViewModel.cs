@@ -17,7 +17,7 @@ namespace App1.ViewModels
 		public LearnViewModel()
 		{
 			Title = "About";
-			HtmlString = Vocabulary["5"];
+			HtmlString = Vocabulary[Guid.Parse("8c522248-354f-44e7-9d9f-d83efe4a9075")].right;
 			OnButtonCommand = new Command(async () => OnButton());
 		}
 

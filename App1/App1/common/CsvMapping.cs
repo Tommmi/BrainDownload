@@ -7,18 +7,20 @@ namespace App1.common
 {
 	public class KeyValue
 	{
-		public string Key { get; set; }
-		public string Value { get; set; }
+		public string Col1 { get; set; }
+		public string Col2 { get; set; }
+		public string Col3 { get; set; }
 
 		public KeyValue()
 		{
 
 		}
 
-		public KeyValue(string key, string value)
+		public KeyValue(string col1, string col2, string col3)
 		{
-			Key = key;
-			Value = value;
+			Col1 = col1;
+			Col2 = col2;
+			Col3 = col3;
 		}
 	}
 
@@ -27,8 +29,9 @@ namespace App1.common
 		public CsvMapping()
 			: base()
 		{
-			MapProperty(0, x => x.Key);
-			MapProperty(1, x => x.Value);
+			MapProperty(0, x => x.Col1);
+			MapProperty(1, x => x.Col2);
+			MapProperty(2, x => x.Col3);
 		}
 	}
 }

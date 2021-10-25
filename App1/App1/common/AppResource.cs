@@ -12,16 +12,16 @@ namespace App1.common
 	{
 		private readonly string _csvFilename;
 		private static object _sync = new object();
-		private static Dictionary<string, string> _dic;
+		private static Dictionary<string, string[]> _dic;
 
-		public Dictionary<string, string> Dic => GetDictionary(_csvFilename);
+		public Dictionary<string, string[]> Dic => GetDictionary(_csvFilename);
 
 		public AppResource(string csvFilename)
 		{
 			_csvFilename = csvFilename;
 		}
 
-		private Dictionary<string, string> GetDictionary(string scvFileName)
+		private Dictionary<string, string[]> GetDictionary(string scvFileName)
 		{
 			if (_dic == null)
 			{
@@ -37,7 +37,7 @@ namespace App1.common
 			return _dic;
 		}
 
-		private Dictionary<string, string> LoadDicFromFile(string fileName)
+		private Dictionary<string, string[]> LoadDicFromFile(string fileName)
 		{
 			string csvContent = LoadFile(fileName);
 
@@ -50,7 +50,7 @@ namespace App1.common
 			return records
 				.Where(r => r.IsValid)
 				.Select(r => r.Result)
-				.ToDictionary(keySelector: x => x.Key, elementSelector: x => x.Value);
+				.ToDictionary(keySelector: x => x.Col1, elementSelector: x => new[] {x.Col2,x.Col3});
 		}
 
 		private string LoadFile(string fileName)
