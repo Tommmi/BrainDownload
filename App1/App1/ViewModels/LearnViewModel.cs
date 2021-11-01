@@ -12,26 +12,26 @@ namespace App1.ViewModels
 	public class LearnViewModel : BaseViewModel
 	{
 		public ICommand OnButtonCommand { get; }
-
+		private int _count = 0;
 
 		public LearnViewModel()
 		{
-			Title = "About";
-			HtmlString = Vocabulary[Guid.Parse("8c522248-354f-44e7-9d9f-d83efe4a9075")].right;
+			HtmlString = "8786234";
 			OnButtonCommand = new Command(async () => OnButton());
 		}
 
 
-		string htmlString = string.Empty;
+		private string htmlString = "";
+
 		public string HtmlString
 		{
 			get { return htmlString; }
 			set { SetProperty(ref htmlString, value); }
 		}
 
-
 		private void OnButton()
 		{
+			HtmlString = string.Format(Labels["htmlString"], _count++);
 		}
 	}
 }

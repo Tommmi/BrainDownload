@@ -1,5 +1,4 @@
-﻿using App1.Models;
-using App1.Services;
+﻿using App1.Services;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -10,6 +9,9 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text;
 using App1.common;
+using App1.Infrastructure;
+using Brain.Entities;
+using Brain.Interfaces;
 using TinyCsvParser;
 using Xamarin.Forms;
 
@@ -19,76 +21,20 @@ namespace App1.ViewModels
 	{
 		#region fields
 
-		private static object _sync = new object();
-		private static Dictionary<Guid, (string left, string right)> _vocabulary;
-		private Dictionary<string, string> _labels;
-		bool isBusy = false;
-
-		string title = string.Empty;
 
 		#endregion
 
 		#region properties
 
-		protected AppStorage UserData { get; } = new AppStorage(); 
+		public IDictionary<string, string> Labels => DependencyService.Get<LabelRepository>().GetLabels();
 
-		protected Dictionary<Guid, (string left, string right)> Vocabulary => GetVocabulary();
+		public string Title => Labels["LearnPageTitle"];
 
-		public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>();
-
-		public string Title
-		{
-			get { return title; }
-			set { SetProperty(ref title, value); }
-		}
-
-		public bool IsBusy
-		{
-			get { return isBusy; }
-			set { SetProperty(ref isBusy, value); }
-		}
-
-		protected Dictionary<string, string> Labels => GetLabels();
+		public ILearnService LearnService => DependencyService.Get<ILearnService>();
 
 		#endregion
 
 		#region private methods
-
-		private Dictionary<Guid, (string left, string right)> GetVocabulary()
-		{
-			if (_vocabulary == null)
-			{
-				lock (_sync)
-				{
-					if (_vocabulary == null)
-					{
-						var dic = new AppResource("Vocabulary.csv").Dic;
-						_vocabulary = dic.ToDictionary(keySelector: x => Guid.Parse(x.Key),
-							elementSelector: x => (left: x.Value[0], right: x.Value[1]));
-					}
-				}
-			}
-
-			return _vocabulary;
-		}
-
-		private Dictionary<string, string> GetLabels()
-		{
-			if (_labels == null)
-			{
-				lock (_sync)
-				{
-					if (_labels == null)
-					{
-						var dic = new AppResource("Labels.csv").Dic;
-						_labels = dic.ToDictionary(keySelector: x => x.Value[0],
-							elementSelector: x => x.Value[1]);
-					}
-				}
-			}
-
-			return _labels;
-		}
 
 		#endregion
 

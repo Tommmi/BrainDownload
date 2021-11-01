@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -6,10 +6,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Labels.csv" />
     <None Remove="Vocabulary.csv" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Labels.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vocabulary.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
@@ -19,8 +23,14 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="TinyCsvParser" Version="2.6.1" />
     <PackageReference Include="Xam.Plugin.HtmlLabel" Version="5.0.0" />
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />  
-    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />  
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Brain.Entities\Brain.Entities.csproj" />
+    <ProjectReference Include="..\..\Brain.Interfaces\Brain.Interfaces.csproj" />
+    <ProjectReference Include="..\..\Brain.Services\Brain.Services.csproj" />
   </ItemGroup>
 
   <ItemGroup>

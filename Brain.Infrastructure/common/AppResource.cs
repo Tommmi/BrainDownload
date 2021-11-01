@@ -1,47 +1,44 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using System.Text;
-using TinyCsvParser;
 
-namespace App1.common
+namespace Brain.Infrastructure.common
 {
 	public class AppResource
 	{
 		private readonly string _csvFilename;
-		private static object _sync = new Object();
-		private static List<(string id, string[] values)> _items;
+		private static object _sync = new object();
+		private static Dictionary<string, string[]> _dic;
 
-		public List<(string id, string[] values)> Items => GetItems(_csvFilename);
+		public Dictionary<string, string[]> Dic => GetDictionary(_csvFilename);
 
 		public AppResource(string csvFilename)
 		{
 			_csvFilename = csvFilename;
 		}
 
-		private List<(string id, string[] values)> GetItems(string scvFileName)
+		private Dictionary<string, string[]> GetDictionary(string scvFileName)
 		{
-			if (_items == null)
+			if (_dic == null)
 			{
 				lock (_sync)
 				{
-					if (_items == null)
+					if (_dic == null)
 					{
-						_items = LoadItemsFromFile(scvFileName);
+						_dic = LoadDicFromFile(scvFileName);
 					}
 				}
 			}
 
-			return _items;
+			return _dic;
 		}
 
-		private List<(string id, string[] values)> LoadItemsFromFile(string fileName)
+		private Dictionary<string, string[]> LoadDicFromFile(string fileName)
 		{
 			string csvContent = LoadFile(fileName);
 
-			CsvParserOptions csvParserOptions = new CsvParserOptions(skipHeader:true, fieldsSeparator:';');
+			CsvParserOptions csvParserOptions = new CsvParserOptions(true, ';');
 			var csvMapper = new CsvMapping();
 			var csvParser = new CsvParser<KeyValue>(csvParserOptions, csvMapper);
 
@@ -50,8 +47,7 @@ namespace App1.common
 			return records
 				.Where(r => r.IsValid)
 				.Select(r => r.Result)
-				.Select(x => (id: x.Col1, values: new string[] { x.Col2, x.Col3 }))
-				.ToList();
+				.ToDictionary(keySelector: x => x.Col1, elementSelector: x => new[] {x.Col2,x.Col3});
 		}
 
 		private string LoadFile(string fileName)
