@@ -16,19 +16,16 @@ namespace App1
 		{
 			InitializeComponent();
 
-			DependencyService.Register<ISystemTime, SystemTime>();
-			DependencyService.RegisterSingleton(new SystemTime());
-			DependencyService.Register<IUserRepository, UserRepository>();
-			DependencyService.RegisterSingleton(new UserRepository());
-			DependencyService.Register<ILearnService, LearnService>();
-			DependencyService.RegisterSingleton(new LearnService(DependencyService.Get<ISystemTime>(), DependencyService.Get<IUserRepository>()));
-			DependencyService.RegisterSingleton(new LabelRepository());
+			DependencyService.RegisterSingleton< ISystemTime>(new SystemTime());
+			DependencyService.RegisterSingleton<IUserRepository>(new UserRepository());
+			DependencyService.RegisterSingleton<ILearnService>(new LearnService(DependencyService.Get<ISystemTime>(), DependencyService.Get<IUserRepository>()));
+			DependencyService.RegisterSingleton<LabelRepository>(new LabelRepository());
 			MainPage = new AppShell();
 		}
 
 		protected override void OnStart()
 		{
-			
+			DependencyService.Get<ILearnService>().Initialize().Wait();
 		}
 
 		protected override void OnSleep()

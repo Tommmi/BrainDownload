@@ -67,7 +67,7 @@ namespace App1.Infrastructure
 					if (_usersStatus == null)
 					{
 						var usersStatus = _appStorage.TryGet<UsersStatus>(KEYUSERSTATUS).Result;
-						_usersStatus = usersStatus;
+						_usersStatus = usersStatus??new UsersStatus(cntWordsTaken:0,firstTimeSpan:TimeSpan.FromSeconds(10));
 					}
 				}
 			}
@@ -84,7 +84,7 @@ namespace App1.Infrastructure
 					if (_vocabularyStatus == null)
 					{
 						var vocabularyStatus = _appStorage.TryGet<VocabularyStatus>(KEYUSERSTATUS).Result;
-						_vocabularyStatus = vocabularyStatus.Words;
+						_vocabularyStatus = vocabularyStatus?.Words??new List<WordStatus>();
 					}
 				}
 			}
