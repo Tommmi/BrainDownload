@@ -59,7 +59,7 @@ namespace App1.Infrastructure
 				{
 					if (_vocabularyStatus == null)
 					{
-						var vocabularyStatus = _appStorage.TryGet<VocabularyStatus>(KEYVOCABULARYSTATUS).Result;
+						_vocabularyStatus = _appStorage.TryGet<VocabularyStatus>(KEYVOCABULARYSTATUS).Result;
 					}
 				}
 			}

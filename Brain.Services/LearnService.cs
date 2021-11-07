@@ -89,7 +89,7 @@ namespace Brain.Services
 				var status = new WordStatus(
 					id: nextNewWord.Key,
 					nextRepetition: now,
-					lastRepetition: now,
+					lastRepetition: now - TimeSpan.FromDays(1), 
 					cntApproved: 0,
 					cntFailed: 0,
 					deleted: false);
@@ -131,6 +131,11 @@ namespace Brain.Services
 		private DateTime GetNextRepetition(DateTime now, WordStatus wordStatus, bool moreOrLess)
 		{
 			TimeSpan waitTime = now - wordStatus.LastRepetition;
+
+			if (waitTime.TotalMilliseconds < 0)
+			{
+				waitTime = _userStatus.FirstTimeSpan;
+			}
 
 			if (!moreOrLess)
 			{
