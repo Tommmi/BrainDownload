@@ -14,6 +14,8 @@ namespace App1.ViewModels
 {
 	public class LearnViewModel : BaseViewModel
 	{
+		#region types
+
 		private enum State
 		{
 			Initial,
@@ -22,9 +24,19 @@ namespace App1.ViewModels
 			RightShowing
 		}
 
+		#endregion
+
+		#region fields
+
+		private string _htmlLeft = "";
+		private string _htmlRight = "";
 		private State _state = State.Initial;
 		private int _count = 0;
 		private NextWordResult _nextWordResult;
+
+		#endregion
+
+		#region Constructor
 
 		public LearnViewModel()
 		{
@@ -35,13 +47,18 @@ namespace App1.ViewModels
 			SetThreeBttnState(isWellKnownBttnVisible:false);
 		}
 
+		#endregion
+
+		#region private methods
+
+
 		private void SetNextWord()
 		{
 			_nextWordResult = LearnService.TryGetNextVocable().Result;
 
 			if (_nextWordResult.Succeeded)
 			{
-				HtmlLeft = _nextWordResult.Vocable.Left;
+				HtmlLeft = _nextWordResult.Vocable.Left.ReplaceLineFeeds();
 				_state = State.LeftShowing;
 			}
 			else
@@ -65,23 +82,38 @@ namespace App1.ViewModels
 			IsWellKnownBttnVisible = isWellKnownBttnVisible;
 			IsNextBttnEnabled = !isWellKnownBttnVisible;
 			IsNextBttnVisible = !isWellKnownBttnVisible;
+			IsHtmlRightVisible = isWellKnownBttnVisible;
 		}
 
-		private string htmlLeft = "";
+		#endregion
+
+		#region HtmlLeft
 
 		public string HtmlLeft
 		{
-			get { return htmlLeft; }
-			set { SetProperty(ref htmlLeft, value); }
+			get { return _htmlLeft; }
+			set { SetProperty(ref _htmlLeft, value); }
 		}
 
-		private string htmlRight = "";
+		#endregion
+
+		#region HtmlRight
+
+		private bool _isHtmlRightVisible = false;
 
 		public string HtmlRight
 		{
-			get { return htmlRight; }
-			set { SetProperty(ref htmlRight, value); }
+			get { return _htmlRight; }
+			set { SetProperty(ref _htmlRight, value); }
 		}
+
+		public bool IsHtmlRightVisible
+		{
+			get { return _isHtmlRightVisible; }
+			set { SetProperty(ref _isHtmlRightVisible, value); }
+		}
+
+		#endregion
 
 		#region Button Next
 
@@ -112,7 +144,7 @@ namespace App1.ViewModels
 					SetNextWord();
 					break;
 				case State.LeftShowing:
-					HtmlRight = _nextWordResult.Vocable.Right;
+					HtmlRight = _nextWordResult.Vocable.Right.ReplaceLineFeeds();
 					SetThreeBttnState(isWellKnownBttnVisible:true);
 					_state = State.RightShowing;
 					break;

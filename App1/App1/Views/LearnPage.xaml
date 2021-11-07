@@ -18,7 +18,6 @@
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
@@ -28,21 +27,20 @@
                          Spacing="10">
                 <htmlLabel:HtmlLabel 
                     Text="{Binding HtmlLeft}" 
-                    TextColor="Black"  
+                    TextColor="Black"
+                    FontSize="Medium"
+                    HeightRequest="150"
                     BackgroundColor="LightGoldenrodYellow"/>
-            </StackLayout>
-        </ScrollView>
-        <ScrollView Grid.Row="1" >
-            <StackLayout Orientation="Vertical" 
-                         Padding="30,24,30,24" 
-                         Spacing="10">
                 <htmlLabel:HtmlLabel 
                     Text="{Binding HtmlRight}" 
                     TextColor="Black"  
+                    FontSize="Medium"
+                    HeightRequest="150"
+                    IsVisible="{Binding IsHtmlRightVisible}"
                     BackgroundColor="LightBlue"/>
             </StackLayout>
         </ScrollView>
-        <StackLayout Grid.Row="2" Orientation="Horizontal" Padding="30,24,30,24" Spacing="10">
+        <StackLayout Grid.Row="1" Orientation="Horizontal" Padding="30,24,30,24" Spacing="10">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto" />
