@@ -128,6 +128,48 @@ namespace Brain.Services
 			await _userRepository.SaveWordStatus(word.status);
 		}
 
+		public async Task<LearnProgress> GetProgress()
+		{
+			Initialize();
+
+			double wordsInLongMemory = 0;
+			double wordsInShortMemory = 0;
+
+			foreach (var word in _activeVocabulary.Values)
+			{
+				double curInterval = (word.status.NextRepetition - word.status.LastRepetition).TotalSeconds;
+				double overTime = (_systemTime.GetUtcTime() - word.status.NextRepetition).TotalSeconds;
+
+				double progress = 1.0;
+
+				if (overTime > 0)
+				{
+					progress = 1.0 - (overTime / (2.0 * curInterval));
+				}
+
+				if (progress < 0)
+				{
+					progress = 0;
+				}
+				else if (progress > 1.0)
+				{
+					progress = 1.0;
+				}
+
+				wordsInShortMemory += progress;
+
+				if (curInterval > TimeSpan.FromDays(30).TotalSeconds)
+				{
+					wordsInLongMemory += progress;
+				}
+			}
+
+
+			return new LearnProgress(
+				wordsInLongMemory: wordsInLongMemory,
+				wordsInShortMemory: wordsInShortMemory);
+		}
+
 		private DateTime GetNextRepetition(DateTime now, WordStatus wordStatus, bool moreOrLess)
 		{
 			TimeSpan waitTime = now - wordStatus.LastRepetition;

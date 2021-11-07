@@ -30,6 +30,11 @@ namespace App1.ViewModels
 
 		private string _htmlLeft = "";
 		private string _htmlRight = "";
+		private int _wordsInLongMemory = 0;
+		private int _wordsInShortMemory = 0;
+		private string _wordsInLongMemoryLabel = "";
+		private string _wordsInShortMemoryLabel = "";
+		
 		private State _state = State.Initial;
 		private int _count = 0;
 		private NextWordResult _nextWordResult;
@@ -70,6 +75,12 @@ namespace App1.ViewModels
 			HtmlRight = "";
 
 			SetThreeBttnState(isWellKnownBttnVisible: false);
+
+			var progress = LearnService.GetProgress().Result;
+			WordsInLongMemory = progress.WordsInLongMemory.ToInt();
+			WordsInShortMemory = progress.WordsInShortMemory.ToInt();
+			WordsInLongMemoryLabel = Labels["WordsInLongMemoryLabel"];
+			WordsInShortMemoryLabel = Labels["WordsInShortMemoryLabel"];
 		}
 
 		private void SetThreeBttnState(bool isWellKnownBttnVisible)
@@ -85,6 +96,37 @@ namespace App1.ViewModels
 			IsHtmlRightVisible = isWellKnownBttnVisible;
 		}
 
+		#endregion
+
+		#region WordsInLongMemory
+
+		public int WordsInLongMemory
+		{
+			get { return _wordsInLongMemory; }
+			set { SetProperty(ref _wordsInLongMemory, value); }
+		}
+
+		public string WordsInLongMemoryLabel
+		{
+			get { return _wordsInLongMemoryLabel; }
+			set { SetProperty(ref _wordsInLongMemoryLabel, value); }
+		}
+
+		#endregion
+
+		#region WordsInShortMemory
+
+		public int WordsInShortMemory
+		{
+			get { return _wordsInShortMemory; }
+			set { SetProperty(ref _wordsInShortMemory, value); }
+		}
+
+		public string WordsInShortMemoryLabel
+		{
+			get { return _wordsInShortMemoryLabel; }
+			set { SetProperty(ref _wordsInShortMemoryLabel, value); }
+		}
 		#endregion
 
 		#region HtmlLeft

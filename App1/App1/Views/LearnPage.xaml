@@ -20,6 +20,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
         <ScrollView Grid.Row="0" >
             <StackLayout Orientation="Vertical" 
@@ -40,7 +41,43 @@
                     BackgroundColor="LightBlue"/>
             </StackLayout>
         </ScrollView>
-        <StackLayout Grid.Row="1" Orientation="Horizontal" Padding="30,24,30,24" Spacing="10">
+        <StackLayout Grid.Row="1" Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Label 
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Text="{Binding WordsInLongMemoryLabel}" 
+                    TextColor="Black"
+                    BackgroundColor="White"/>
+                <Label
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    Text="{Binding WordsInLongMemory}" 
+                    TextColor="Black"
+                    BackgroundColor="White"/>
+                <Label 
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    Text="{Binding WordsInShortMemoryLabel}" 
+                    TextColor="Black"
+                    BackgroundColor="White"/>
+                <Label
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Text="{Binding WordsInShortMemory}" 
+                    TextColor="Black"
+                    BackgroundColor="White"/>
+            </Grid>
+        </StackLayout>
+        <StackLayout Grid.Row="2" Orientation="Horizontal" Padding="30,24,30,24" Spacing="10">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto" />
