@@ -9,8 +9,7 @@ namespace Brain.Interfaces
 {
 	public interface ILearnService
 	{
-		Task Initialize();
-		Task<(bool succeeded, Word vocable, WordStatus wordStatus)> TryGetNextVocable();
+		Task<NextWordResult> TryGetNextVocable();
 		Task SetTrainResult(Guid wordId, TrainResult trainResult);
 	}
 }

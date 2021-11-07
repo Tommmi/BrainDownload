@@ -12,7 +12,7 @@ namespace App1.common
 	{
 		private readonly string _csvFilename;
 		private static object _sync = new Object();
-		private static List<(string id, string[] values)> _items;
+		private List<(string id, string[] values)> _items;
 
 		public List<(string id, string[] values)> Items => GetItems(_csvFilename);
 
@@ -60,7 +60,7 @@ namespace App1.common
 			string resourceName = assembly.GetManifestResourceNames().Single(str => str.EndsWith(fileName));
 
 			using (Stream stream = assembly.GetManifestResourceStream(resourceName))
-			using (StreamReader reader = new StreamReader(stream))
+			using (StreamReader reader = new StreamReader(stream, Encoding.UTF8))
 			{
 				string result = reader.ReadToEnd();
 				return result;

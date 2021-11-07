@@ -16,9 +16,10 @@ namespace App1.Infrastructure
 		#region fields
 
 		private const string KEYUSERSTATUS = "userStatus";
+		private const string KEYVOCABULARYSTATUS = "vocabularyStatus";
 		private static object _sync = new object();
 		private static List<Word> _vocabulary;
-		private static List<WordStatus> _vocabularyStatus;
+		private static VocabularyStatus _vocabularyStatus;
 		private static Dictionary<string, string> _labels;
 		private static Brain.Entities.UserStatus.UsersStatus _usersStatus;
 
@@ -29,31 +30,6 @@ namespace App1.Infrastructure
 
 		#endregion
 
-
-		#region private methods
-
-
-		private Dictionary<string, string> GetLabels()
-		{
-			if (_labels == null)
-			{
-				lock (_sync)
-				{
-					if (_labels == null)
-					{
-						_labels = new AppResource("Labels.csv")
-							.Items
-							.ToDictionary(
-								keySelector: x => x.values[0],
-								elementSelector: x => x.values[1]);
-					}
-				}
-			}
-
-			return _labels;
-		}
-
-		#endregion
 
 
 		#region IUserRepository
@@ -83,13 +59,12 @@ namespace App1.Infrastructure
 				{
 					if (_vocabularyStatus == null)
 					{
-						var vocabularyStatus = _appStorage.TryGet<VocabularyStatus>(KEYUSERSTATUS).Result;
-						_vocabularyStatus = vocabularyStatus?.Words??new List<WordStatus>();
+						var vocabularyStatus = _appStorage.TryGet<VocabularyStatus>(KEYVOCABULARYSTATUS).Result;
 					}
 				}
 			}
 
-			return _vocabularyStatus;
+			return _vocabularyStatus?.Words??new List<WordStatus>();
 			
 		}
 
@@ -126,9 +101,27 @@ namespace App1.Infrastructure
 			}
 		}
 
-		public Task SaveWordStatus(WordStatus vocableStatus)
+		public async Task SaveWordStatus(WordStatus vocableStatus)
 		{
-			throw new NotImplementedException();
+			lock (_sync)
+			{
+				var oldStatus = _vocabularyStatus?.Words.FirstOrDefault(x => x.Id == vocableStatus.Id);
+				if (oldStatus != null)
+				{
+					_vocabularyStatus.Words.Remove(oldStatus);
+				}
+				else
+				{
+					if (_vocabularyStatus == null)
+					{
+						_vocabularyStatus = new VocabularyStatus(new List<WordStatus>());
+					}
+				}
+				
+				_vocabularyStatus.Words.Add(vocableStatus);
+
+				_appStorage.Save(KEYVOCABULARYSTATUS, _vocabularyStatus).Wait();
+			}
 		}
 
 		#endregion

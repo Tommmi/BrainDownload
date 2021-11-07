@@ -19,7 +19,7 @@ namespace App1.common
 			textWriter.Flush();
 			string text = textWriter.ToString();
 			Application.Current.Properties[key] = text;
-			await Application.Current.SavePropertiesAsync();
+			_ = Application.Current.SavePropertiesAsync();
 		}
 
 		public async Task<T> TryGet<T>(string key) where T: class

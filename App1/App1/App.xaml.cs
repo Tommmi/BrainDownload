@@ -25,7 +25,6 @@ namespace App1
 
 		protected override void OnStart()
 		{
-			DependencyService.Get<ILearnService>().Initialize().Wait();
 		}
 
 		protected override void OnSleep()

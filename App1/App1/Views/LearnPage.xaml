@@ -18,18 +18,34 @@
 
     <Grid>
         <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
-        <ScrollView Grid.Row="0">
-            <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
-                <htmlLabel:HtmlLabel Text="{Binding HtmlString}" TextColor="Black"  BackgroundColor="White"/>
+        <ScrollView Grid.Row="0" >
+            <StackLayout Orientation="Vertical" 
+                         Padding="30,24,30,24" 
+                         Spacing="10">
+                <htmlLabel:HtmlLabel 
+                    Text="{Binding HtmlLeft}" 
+                    TextColor="Black"  
+                    BackgroundColor="LightGoldenrodYellow"/>
             </StackLayout>
         </ScrollView>
-        <StackLayout Grid.Row="1" Orientation="Horizontal" Padding="30,24,30,24" Spacing="10">
+        <ScrollView Grid.Row="1" >
+            <StackLayout Orientation="Vertical" 
+                         Padding="30,24,30,24" 
+                         Spacing="10">
+                <htmlLabel:HtmlLabel 
+                    Text="{Binding HtmlRight}" 
+                    TextColor="Black"  
+                    BackgroundColor="LightBlue"/>
+            </StackLayout>
+        </ScrollView>
+        <StackLayout Grid.Row="2" Orientation="Horizontal" Padding="30,24,30,24" Spacing="10">
             <Grid>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
@@ -37,30 +53,34 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <Button Grid.Column="0"
-                        Margin="10,10,10,0" Text="{Binding FailedBttnText}"
+                        Margin="2,10,2,0" Text="{Binding FailedBttnText}"
                         Command="{Binding OnFailedBttnCmd}"
                         BackgroundColor="{StaticResource Red}"
                         TextColor="White" 
+                        Padding="2,2,2,2"
                         IsEnabled="{Binding IsFailedBttnEnabled}"
                         IsVisible="{Binding IsFailedBttnVisible}"/>
                 <Button Grid.Column="1"
-                        Margin="10,10,10,0" Text="{Binding MoreOrLessBttnText}"
+                        Margin="2,10,2,0" Text="{Binding MoreOrLessBttnText}"
                         Command="{Binding OnMoreOrLessBttnCmd}"
                         BackgroundColor="{StaticResource Yellow}"
                         TextColor="White" 
+                        Padding="2,2,2,2"
                         IsEnabled="{Binding IsMoreOrLessBttnEnabled}"
                         IsVisible="{Binding IsMoreOrLessBttnVisible}"/>
-                <StackLayout Margin="10,10,10,0" Grid.Column="2" Orientation="Horizontal" Padding="0,0,0,0" Spacing="0">
+                <StackLayout Margin="2,10,2,0" Grid.Column="2" Orientation="Horizontal" Padding="0,0,0,0" Spacing="0">
                     <Button Margin="0,0,0,0"
                             Text="{Binding WellKnownBttnText}"
                             Command="{Binding OnWellKnownBttnCmd}"
                             BackgroundColor="{StaticResource Green}"
+                            Padding="2,2,2,2"
                             TextColor="White" 
                             IsEnabled="{Binding IsWellKnownBttnEnabled}"
                             IsVisible="{Binding IsWellKnownBttnVisible}"/>
                     <Button Margin="0,0,0,0" Text="{Binding NextBttnText}"
                             Command="{Binding OnNextBttnCmd}"
                             BackgroundColor="{StaticResource Primary}"
+                            Padding="2,2,2,2"
                             TextColor="White" 
                             IsEnabled="{Binding IsNextBttnEnabled}"
                             IsVisible="{Binding IsNextBttnVisible}"/>

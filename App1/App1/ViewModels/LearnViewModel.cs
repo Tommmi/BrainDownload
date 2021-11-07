@@ -5,6 +5,8 @@ using System.Linq;
 using System.Reflection;
 using System.Windows.Input;
 using App1.common;
+using Brain.Entities;
+using Brain.Entities.UserStatus;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 
@@ -12,21 +14,73 @@ namespace App1.ViewModels
 {
 	public class LearnViewModel : BaseViewModel
 	{
+		private enum State
+		{
+			Initial,
+			NoWordsMore,
+			LeftShowing,
+			RightShowing
+		}
+
+		private State _state = State.Initial;
 		private int _count = 0;
+		private NextWordResult _nextWordResult;
 
 		public LearnViewModel()
 		{
-			HtmlString = "8786234";
 			OnNextBttnCmd = new Command(async () => OnNextBttn());
+			OnMoreOrLessBttnCmd = new Command(async () => OnMoreOrLessBttn());
+			OnFailedBttnCmd = new Command(async () => OnFailedBttn());
+			OnWellKnownBttnCmd = new Command(async () => OnWellKnownBttn());
+			SetThreeBttnState(isWellKnownBttnVisible:false);
 		}
 
-
-		private string htmlString = "";
-
-		public string HtmlString
+		private void SetNextWord()
 		{
-			get { return htmlString; }
-			set { SetProperty(ref htmlString, value); }
+			_nextWordResult = LearnService.TryGetNextVocable().Result;
+
+			if (_nextWordResult.Succeeded)
+			{
+				HtmlLeft = _nextWordResult.Vocable.Left;
+				_state = State.LeftShowing;
+			}
+			else
+			{
+				HtmlLeft = Labels["noWordsLeft"];
+				_state = State.NoWordsMore;
+			}
+
+			HtmlRight = "";
+
+			SetThreeBttnState(isWellKnownBttnVisible: false);
+		}
+
+		private void SetThreeBttnState(bool isWellKnownBttnVisible)
+		{
+			IsFailedBttnEnabled = isWellKnownBttnVisible;
+			IsFailedBttnVisible = isWellKnownBttnVisible;
+			IsMoreOrLessBttnEnabled = isWellKnownBttnVisible;
+			IsMoreOrLessBttnVisible = isWellKnownBttnVisible;
+			IsWellKnownBttnEnabled = isWellKnownBttnVisible;
+			IsWellKnownBttnVisible = isWellKnownBttnVisible;
+			IsNextBttnEnabled = !isWellKnownBttnVisible;
+			IsNextBttnVisible = !isWellKnownBttnVisible;
+		}
+
+		private string htmlLeft = "";
+
+		public string HtmlLeft
+		{
+			get { return htmlLeft; }
+			set { SetProperty(ref htmlLeft, value); }
+		}
+
+		private string htmlRight = "";
+
+		public string HtmlRight
+		{
+			get { return htmlRight; }
+			set { SetProperty(ref htmlRight, value); }
 		}
 
 		#region Button Next
@@ -51,7 +105,21 @@ namespace App1.ViewModels
 
 		private void OnNextBttn()
 		{
-			HtmlString = string.Format(Labels["htmlString"], _count++);
+			switch (_state)
+			{
+				case State.Initial:
+				case State.NoWordsMore:
+					SetNextWord();
+					break;
+				case State.LeftShowing:
+					HtmlRight = _nextWordResult.Vocable.Right;
+					SetThreeBttnState(isWellKnownBttnVisible:true);
+					_state = State.RightShowing;
+					break;
+				case State.RightShowing:
+				default:
+					throw new ArgumentOutOfRangeException();
+			}
 		}
 
 		#endregion
@@ -78,6 +146,18 @@ namespace App1.ViewModels
 
 		private void OnWellKnownBttn()
 		{
+			switch (_state)
+			{
+				case State.RightShowing:
+					LearnService.SetTrainResult(wordId: _nextWordResult.Vocable.Id, TrainResult.WellKnown).Wait();
+					SetNextWord();
+					break;
+				case State.Initial:
+				case State.NoWordsMore:
+				case State.LeftShowing:
+				default:
+					throw new ArgumentOutOfRangeException();
+			}
 		}
 
 		#endregion
@@ -104,6 +184,18 @@ namespace App1.ViewModels
 
 		private void OnFailedBttn()
 		{
+			switch (_state)
+			{
+				case State.RightShowing:
+					LearnService.SetTrainResult(wordId: _nextWordResult.Vocable.Id, TrainResult.Failed).Wait();
+					SetNextWord();
+					break;
+				case State.Initial:
+				case State.NoWordsMore:
+				case State.LeftShowing:
+				default:
+					throw new ArgumentOutOfRangeException();
+			}
 		}
 
 		#endregion
@@ -130,6 +222,18 @@ namespace App1.ViewModels
 
 		private void OnMoreOrLessBttn()
 		{
+			switch (_state)
+			{
+				case State.RightShowing:
+					LearnService.SetTrainResult(wordId: _nextWordResult.Vocable.Id, TrainResult.MoreOrLess).Wait();
+					SetNextWord();
+					break;
+				case State.Initial:
+				case State.NoWordsMore:
+				case State.LeftShowing:
+				default:
+					throw new ArgumentOutOfRangeException();
+			}
 		}
 
 		#endregion

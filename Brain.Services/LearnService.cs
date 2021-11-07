@@ -14,11 +14,12 @@ namespace Brain.Services
 		private readonly ISystemTime _systemTime;
 		private readonly IUserRepository _userRepository;
 
+		private object _sync = new object();
+		private bool _initialized = false;
 
 		private Dictionary<Guid, (WordStatus status, Word word)> _activeVocabulary;
 		private Dictionary<Guid, Word> _newVocabulary;
 		private UsersStatus _userStatus;
-
 
 		public LearnService(
 			ISystemTime systemTime,
@@ -28,34 +29,49 @@ namespace Brain.Services
 			_userRepository = userRepository;
 		}
 
-		public async Task Initialize()
+		private void Initialize()
 		{
-			_userStatus = await _userRepository.LoadStatus();
-
-			var words = (await _userRepository.LoadAllWords()).ToDictionary(
-				keySelector: x => x.Id, elementSelector: x => x);
-			var vocabulary = (await _userRepository.LoadCompleteVocablaryStatus())
-				.Where(x => !x.Deleted)
-				.ToList();
-
-			_activeVocabulary = new Dictionary<Guid, (WordStatus status, Word word)>();
-
-			foreach (var wordStatus in vocabulary)
+			lock (_sync)
 			{
-				if (!words.TryGetValue(wordStatus.Id, out var word))
+				if (_initialized)
 				{
-					wordStatus.Deleted = true;
-					await _userRepository.SaveWordStatus(wordStatus);
+					return;
 				}
-				else
+				_userStatus = _userRepository.LoadStatus().Result;
+
+				var words = _userRepository.LoadAllWords().Result.ToDictionary(
+					keySelector: x => x.Id, elementSelector: x => x);
+				var vocabulary = _userRepository.LoadCompleteVocablaryStatus()
+					.Result
+					.Where(x => !x.Deleted)
+					.ToList();
+
+				_activeVocabulary = new Dictionary<Guid, (WordStatus status, Word word)>();
+
+				foreach (var wordStatus in vocabulary)
 				{
-					_activeVocabulary[word.Id] = (status: wordStatus, word: word);
+					if (!words.TryGetValue(wordStatus.Id, out var word))
+					{
+						wordStatus.Deleted = true;
+						_userRepository.SaveWordStatus(wordStatus).Wait();
+					}
+					else
+					{
+						_activeVocabulary[word.Id] = (status: wordStatus, word: word);
+					}
 				}
+
+				_newVocabulary = words
+					.Where(w => !_activeVocabulary.ContainsKey(w.Key)).
+					ToDictionary(keySelector: w => w.Key, elementSelector: w => w.Value);
+
+				_initialized = true;
 			}
 		}
 
-		public async Task<(bool succeeded, Word vocable, WordStatus wordStatus)> TryGetNextVocable()
+		public async Task<NextWordResult> TryGetNextVocable()
 		{
+			Initialize();
 			var now = _systemTime.GetUtcTime();
 			var nextWord = _activeVocabulary
 				.Where(word => now > word.Value.status.NextRepetition)
@@ -64,7 +80,7 @@ namespace Brain.Services
 
 			if (nextWord.Value.word != null)
 			{
-				return (succeeded: true, vocable: nextWord.Value.word, wordStatus: nextWord.Value.status);
+				return new NextWordResult(succeeded: true, vocable: nextWord.Value.word, wordStatus: nextWord.Value.status);
 			}
 
 			var nextNewWord = _newVocabulary.OrderBy(x => x.Value.Prio).FirstOrDefault();
@@ -78,16 +94,18 @@ namespace Brain.Services
 					cntFailed: 0,
 					deleted: false);
 				_activeVocabulary[status.Id] = (status: status, word: nextNewWord.Value);
+				_newVocabulary.Remove(nextNewWord.Key);
 				_userStatus.CntWordsTaken++;
 				await _userRepository.SaveUserStatus(_userStatus);
-				return (succeeded: true, vocable: nextNewWord.Value, wordStatus: status);
+				return new NextWordResult(succeeded: true, vocable: nextNewWord.Value, wordStatus: status);
 			}
 
-			return (succeeded: false, vocable: null, wordStatus: null);
+			return new NextWordResult(succeeded: false, vocable: null, wordStatus: null);
 		}
 
 		public async Task SetTrainResult(Guid wordId, TrainResult trainResult)
 		{
+			Initialize();
 			var word = _activeVocabulary[wordId];
 			var now = _systemTime.GetUtcTime();
 
