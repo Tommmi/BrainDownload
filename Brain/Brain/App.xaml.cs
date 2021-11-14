@@ -1,13 +1,13 @@
-﻿using App1.Services;
-using App1.Views;
+﻿using DownloadToBrain.Services;
+using DownloadToBrain.Views;
 using System;
-using App1.Infrastructure;
+using DownloadToBrain.Infrastructure;
 using Brain.Interfaces;
 using Brain.Services;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace App1
+namespace DownloadToBrain
 {
 	public partial class App : Application
 	{

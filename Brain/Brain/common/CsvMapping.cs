@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using TinyCsvParser.Mapping;
 
-namespace App1.common
+namespace DownloadToBrain.common
 {
 	public class KeyValue
 	{

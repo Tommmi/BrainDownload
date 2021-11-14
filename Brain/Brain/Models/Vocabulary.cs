@@ -1,4 +1,4 @@
-﻿namespace App1.Models
+﻿namespace DownloadToBrain.Models
 {
 	public class Vocabulary
 	{

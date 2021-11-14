@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace App1.common
+namespace DownloadToBrain.common
 {
 	public static class StringExtension
 	{

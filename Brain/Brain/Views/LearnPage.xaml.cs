@@ -3,7 +3,7 @@ using System.ComponentModel;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace App1.Views
+namespace DownloadToBrain.Views
 {
 	public partial class LearnPage : ContentPage
 	{

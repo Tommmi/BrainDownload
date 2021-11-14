@@ -1,4 +1,4 @@
-﻿using App1.Services;
+﻿using DownloadToBrain.Services;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,14 +8,14 @@ using System.Linq;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text;
-using App1.common;
-using App1.Infrastructure;
+using DownloadToBrain.common;
+using DownloadToBrain.Infrastructure;
 using Brain.Entities;
 using Brain.Interfaces;
 using TinyCsvParser;
 using Xamarin.Forms;
 
-namespace App1.ViewModels
+namespace DownloadToBrain.ViewModels
 {
 	public class BaseViewModel : INotifyPropertyChanged
 	{

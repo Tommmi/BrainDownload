@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using App1.common;
+using DownloadToBrain.common;
 using Brain.Entities;
 using Brain.Entities.UserStatus;
 using Brain.Interfaces;
 using Xamarin.Forms;
 
-namespace App1.Infrastructure
+namespace DownloadToBrain.Infrastructure
 {
 	public class UserRepository : IUserRepository
 	{

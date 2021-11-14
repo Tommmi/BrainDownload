@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Brain.Entities.UserStatus;
 
-namespace App1.common
+namespace DownloadToBrain.common
 {
 	public class VocabularyStatus
 	{

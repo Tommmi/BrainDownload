@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace App1.Services
+namespace DownloadToBrain.Services
 {
 	public interface IDataStore<T>
 	{

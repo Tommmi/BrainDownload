@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace App1.common
+namespace DownloadToBrain.common
 {
 	public static class ObjectExtension
 	{

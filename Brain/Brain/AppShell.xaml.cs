@@ -1,10 +1,10 @@
-﻿using App1.ViewModels;
-using App1.Views;
+﻿using DownloadToBrain.ViewModels;
+using DownloadToBrain.Views;
 using System;
 using System.Collections.Generic;
 using Xamarin.Forms;
 
-namespace App1
+namespace DownloadToBrain
 {
 	public partial class AppShell : Xamarin.Forms.Shell
 	{

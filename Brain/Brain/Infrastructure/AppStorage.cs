@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 using Plugin.Settings;
 using Xamarin.Forms;
 
-namespace App1.Infrastructure
+namespace DownloadToBrain.Infrastructure
 {
 	public class AppStorage
 	{

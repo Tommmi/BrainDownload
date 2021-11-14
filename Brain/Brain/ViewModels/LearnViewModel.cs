@@ -4,13 +4,13 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Windows.Input;
-using App1.common;
+using DownloadToBrain.common;
 using Brain.Entities;
 using Brain.Entities.UserStatus;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 
-namespace App1.ViewModels
+namespace DownloadToBrain.ViewModels
 {
 	public class LearnViewModel : BaseViewModel
 	{

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using App1.common;
+using DownloadToBrain.common;
 
-namespace App1.Infrastructure
+namespace DownloadToBrain.Infrastructure
 {
 	public class LabelRepository
 	{

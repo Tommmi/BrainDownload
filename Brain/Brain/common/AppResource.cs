@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Text;
 using TinyCsvParser;
 
-namespace App1.common
+namespace DownloadToBrain.common
 {
 	public class AppResource
 	{
