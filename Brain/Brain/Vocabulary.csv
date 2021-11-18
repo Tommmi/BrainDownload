@@ -16,10 +16,14 @@ aa88f568-8371-47e4-977c-2abd30169d8d;Hi! (im Vorübergehen);Opa!
 1c96943c-536c-4d68-b348-32f6a71e386b;ab hier;daqui para a frente 
 26e49b93-4264-4bce-ab61-a7e17a727f0d;ab da;"1. a partir daí
 2. de lá "
-511e1eb8-84d2-4fe0-9155-3a1e5bb6760c;am Anfang;no início 
+511e1eb8-84d2-4fe0-9155-3a1e5bb6760c;am Anfang;"1. no início 
+2. ao princípio"
 17088c3e-caab-4dc7-b091-ddbd8a9615ef;der Ast;o ramo 
 17738693-9f17-48a8-8371-5b7528b5f7c8;auf dem Tisch (Position);em cima da mesa 
-6f693120-bd01-44a6-bd2c-dc992c92d252;Auf jeden Fall!;Com certeza! 
+6f693120-bd01-44a6-bd2c-dc992c92d252;Auf jeden Fall!;"1. com certeza
+2. em todo o caso
+3. de qualquer forma
+4. de qualquer maneira"
 3dcba3e3-9c60-4f4f-8ad7-f4e06f62d3cd;bestehend aus;composto de 
 ab9c794f-aa25-452c-8bf1-1b89e9e5c924;aus Glas;de vidro 
 23bff4fb-df46-4e1c-8da8-ed11434ba709;aus Kassel;kasselense 
@@ -28,8 +32,9 @@ ab9c794f-aa25-452c-8bf1-1b89e9e5c924;aus Glas;de vidro
 96e4fd0e-ce4f-412b-9fcb-ce86b9396a6f;"Portuguiesisches Wort für ""~""";"til ""tiu"""
 cbf0323f-a9d4-4f39-95a6-b56fe4964f27;"Aussprache ""s""";"""esse""  - wie ß, aber innerhalb eines Wortes summend."
 dbf3428c-4c87-4cc9-8a2f-edf6488982cb;"Aussprache ""z""";"""sä"" - summend"
-82f31cfc-e0ee-45b4-9c22-770d4d082e27;"Aussprache ""r""";"""ehe"" - wie ""chh"" am Anfang eines Wortes und 
-vor Konsonanten. Sonst wie spanisches ""r"""
+82f31cfc-e0ee-45b4-9c22-770d4d082e27;"Aussprache ""r""";"""ehe"" (Buchstabe)
+""h"" am Anfang eines Wortes
+""rch"" sonst"
 36d845c8-d2d4-4ae3-b7d4-d745d75f1b17;"Buchstabe ""Q""";"""ke"""
 56a3ea94-c4af-468e-9b45-1b5174e31b47;"Buchstabe ""G""";"""je"""
 6c3be3f3-7b64-4579-9158-1ec3f19ab76b;"Buchstabe ""V""";"""we"""
@@ -39,3 +44,30 @@ c245c388-b0eb-4560-b9b6-cce6f1ef3fee;"Buchstabe ""w""";"""dabliu"""
 5ea90843-e42a-4089-8685-8565ab3ff453;"Buchstabe ""c""";"""ße"""
 aa88baf7-feaf-4662-adcb-8e32afd1eac2;"Aussprache ""rr""";"""h"""
 23e4c8c8-015a-49d4-bcf5-2d69bf6faa56;Bruder;"irmão ""irchmãu"""
+ca9e6aef-63bb-4ce9-ac18-02bbb78054fa;aber;1. mas 2. porém
+cef8e888-559b-4525-900b-5e6ee3c19e1f;alles;tudo
+4174fea0-a27e-453f-8bd6-2899b3220d6a;alle;todos
+69d7ac47-3a93-4d6f-ab44-c093ca7c6fd9;alle zwei Tage;dia sim, dia não
+18ac82c0-5016-473d-9eb2-42dbfc5cd0f7;dia sim, dia não;alle zwei Tage
+7f795bfe-6859-4ec2-a233-7ed0589e3b20;de maneira alguma;auf keinen Fall
+dad851b5-14df-4a49-a830-ce6d4bde493b;dadurch;"1. dessa maneira
+2. por isso
+3. assim"
+1d15f091-a9af-4e21-8d4e-d3c2799846f0;auf <b>keinen</b> Fall;"1. de modo algum
+2. de maneira alguma
+3. nem a pau"
+c6f7d296-4faa-4557-9de4-cfd71d3f164f;nem a pau;auf keinen Fall
+22dc2380-4324-45bf-9714-ae45eb4e25c9;nem morto;auf keinen Fall
+eeed314e-b937-4432-9f9f-748c3d78bde9;wir sitzen alle im selben Boot;estamos todos no mesmo barco
+dca56c53-0816-460a-b749-fcbff3d24c01;para lá de;"1. mehr als
+2. weiter als"
+05babcab-cba3-43c1-8554-34c86641a624;älter als;mais velho (do) que
+4d070942-65c9-4752-b986-6cb632462484;als (zeitlich);quando
+8cfb4290-e6b4-4527-8b14-ad216d33f1a4;als Chef;como chefe
+d7282e7d-f154-4900-98d8-8162f901b1d0;Koch;"chef ""chefe"""
+7a21babb-0f5c-4e01-aa62-68669a25d010;am Abend;"1. de noite
+2. à noite"
+6f30235c-6ff0-4d69-bbb2-b99b21f1825f;am Strand;na praia
+f8e9e9a6-161c-4e91-962c-ef18da1ebab4;am Freitag;na seixta-feira
+b5ba614e-19a7-4573-a98f-f375e56e00ab;am wichtigsten;o mais importante
+d00a9b98-fcb1-4a65-b5b9-44002e39e861;Ameise;formiga
