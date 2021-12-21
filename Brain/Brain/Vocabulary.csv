@@ -34,7 +34,8 @@ cbf0323f-a9d4-4f39-95a6-b56fe4964f27;"Aussprache ""s""";"""esse""  - wie ß, abe
 dbf3428c-4c87-4cc9-8a2f-edf6488982cb;"Aussprache ""z""";"""sä"" - summend"
 82f31cfc-e0ee-45b4-9c22-770d4d082e27;"Aussprache ""r""";"""ehe"" (Buchstabe)
 ""h"" am Anfang eines Wortes
-""rch"" sonst"
+""rch"" vor Konsonant
+spanisches ""r"" vor Vokal"
 36d845c8-d2d4-4ae3-b7d4-d745d75f1b17;"Buchstabe ""Q""";"""ke"""
 56a3ea94-c4af-468e-9b45-1b5174e31b47;"Buchstabe ""G""";"""je"""
 6c3be3f3-7b64-4579-9158-1ec3f19ab76b;"Buchstabe ""V""";"""we"""
@@ -71,3 +72,151 @@ d7282e7d-f154-4900-98d8-8162f901b1d0;Koch;"chef ""chefe"""
 f8e9e9a6-161c-4e91-962c-ef18da1ebab4;am Freitag;na seixta-feira
 b5ba614e-19a7-4573-a98f-f375e56e00ab;am wichtigsten;o mais importante
 d00a9b98-fcb1-4a65-b5b9-44002e39e861;Ameise;formiga
+b0ffdc3d-417f-42a3-a41c-c67307f35c04;sei lá;ich weiß nicht
+3d35bd93-5f76-4136-8785-23bd288f42cd;der Ballon, die Ballone;o balão, os balões
+93863656-2e5a-4a3c-a4a1-aa4d6c94a207;Der Bruder, die Brüder;o irmão, os irmãos
+19bef106-1b78-4213-9601-70cb7002b2f6;30 Grad;treinta grãos
+17bc0fe8-8fd8-48bf-a8e1-6fa494b1527f;Der Knopf, die Knoepfe;o boão, os botões
+f3edd34f-4968-45bb-8943-edaeaa641e34;die Christen;os cristãos
+e908726a-fd0b-4a3a-a8cb-64cea067a13b;Das Lied, die Lieder;o cancão, os cansões
+3581fb9c-3987-4109-b29c-44371c6a16fd;Die Hand, die Hände;a mão, as mãos
+ee495399-14c4-4f2c-a27f-081961d64894;Die Konfession, die Konfessionen;o confissão, os confissões
+b8be2751-910d-48f6-a9f8-e81f0cff1f21;Der Deutsche, die Deutschen;o alemão, os alemães
+7f2ca45a-9cc0-4ab2-a225-19f8d872435e;cão;Hund
+90b5879d-4705-4bc8-b4d6-f91e85b9224d;10 Brötchen;dez pães
+46b460cf-7e73-402d-a86d-542dafa629f1;Das Geständnis, die Geständnisse;o confissão, os confissões
+d1db1506-c1fd-4f8a-bffc-d0cb969a4151;Die Limone, die Limonen;o limão, os limões
+4adbbc5f-7f2c-4507-bd91-25cf4d93c170;Die Melone, die Melonen;o melão, os melões
+572b26db-2281-4a22-97da-5612e3bb8460;"Aussprache ""ca""";"""ká"""
+bef72867-201b-441e-aefb-56a0565d6cc8;cães;Hunde
+638f06f3-837f-4a66-ae3b-1aa30a4e91f2;Die Frage, die Fragen;o questão, os questões
+09a87b29-d73d-405d-bf2f-192dc54a1762;Der Grund, die Gründe;o razão, os razões
+8b3d65b0-f05a-4b89-8fac-69dc68123a10;"Aussprache ""ci""";"""ßí"""
+bc81909c-5cb6-4e79-b1bb-90b5cd7ef463;Der Hai, die Haie;o tubarão, os tubarões
+592706cc-5f43-468a-b371-e2a7df69cdeb;"Aussprache ""ce""";"""ßä"""
+02f5c8e3-5336-485d-9e4b-d1dea75c9bfd;"Aussprache ""be""";"""bä"""
+14482782-9d97-4867-afad-756b67c17259;"Aussprache ""ge""";"""jä"""
+37a2e313-99f2-42d1-a0ef-714b4838deb1;"Aussprache ""gi""";"""jí"""
+12d61cd4-d6a6-423b-9756-8d4934bcaf94;"Aussprache ""ga""";"""gá"""
+812687e6-ed31-4431-b9a3-763d6fcdd495;"Aussprache ""go""";"""gó"""
+9f7b9ba8-27a4-4b86-81de-9d1c5b758402;"Aussprache ""gu""";"""gú"""
+e67f5338-a396-4d2c-89d0-9a1cd1fb8a7b;"Aussprache ""el""";"""äu"""
+b20ca3df-a4b6-4078-a1c3-0c10b53c282a;"Aussprache ""eu""";"""éu"""
+ec3f8629-0b88-41c2-bed8-170407da91ec;"Aussprache ""qua""";"""kwá"""
+b6641e26-0cee-4bfc-bb9d-d733d0409ecd;"Aussprache ""quão""";"""kwão"""
+1a89114a-e32d-4e6c-9471-f3fa853b7923;"Aussprache ""qual""";"""kwáu"""
+adaa28b2-7a9f-40ac-a870-aba8fcd25271;Die Silbe, die Silben;a sílbala, as sílbalas
+fbd43016-3d06-42f6-958d-432f03f3b72a;Ditongo;Zweivokalsilbe
+ac85848b-ef10-43b7-8d07-33e0c2d9fc14;Tritongo;Dreivokalsilbe
+8456fa19-6a62-42e0-8296-874a36566102;Wort;palavra
+9c6e0a6f-b55e-4371-b51b-8962c2d11cf5;dem Wolf geht es schlecht;o lobo está mal
+a700f4ad-dd01-4d03-8abd-fbfb266842ce;dem Wolf geht es gut;o lobo está bem
+70b9e458-bfb9-48eb-90a8-7276f4c6d659;Der Wolf ist gut;o lobo é bom
+04e4c6d6-7e01-4e88-8327-a604de997b9d;Der Wolf ist schlecht;o lobo é mau
+c65d8db7-b35a-4fd1-a2cc-4e6f944cf9de;Die Katze ist gut;a gata é boa
+0d88f97d-d359-421e-8e2b-bd23eb9b5847;Die Katze ist schlecht;a gata é má
+b2e9eaaa-2e1e-4874-a1f7-dac002dcbdcd;Vorletzte Silbe;penultima sílaba
+1f398858-5565-4b0f-a7aa-de2ffc0c8c7f;Drittletzte Silbe;antepenultima sílaba
+6dded1d4-970c-4793-b08d-cc4bd2bb1a2f;faísca;Funken
+3c1b46f2-f795-4e39-80c4-dddee7d94072;Funken;faísca
+1fd48371-2a72-4b10-abe4-95a2eab97e82;elogio;"""eloj<b>i</b>o"" Kompliment"
+84405a49-3ccd-4503-ab40-1c8b92b1fcb7;ich habe;eu tenho
+275badf0-3538-4c63-ae0d-bb3ad35534bc;du hast (bras.);vc tem
+bc86fdd5-6dcc-41b6-a405-a9afd1a7b26f;du hast (Portugal);tu tens
+29bc6620-a536-4e0d-8710-474bf25cdf00;er/sie/es hat ;ele, ela tem
+3f7ffcea-e8b0-4ec5-ae4f-252c627401c9;wir haben;temos
+80a3196c-6eb7-4d56-b875-f170ef2ff638;ihr habt;vcs têm
+e41fc7eb-544f-4b5b-8faf-ca206a71d3e0;sie haben;eles têm
+750183bf-f833-4f5f-a802-dcdd4eb990f2;Könnten Sie bitte die Rechnung bringen ?;Poderia trazer a conta ?
+55f6d125-8978-478e-a9e6-4cc1ccf79ead;ich hatte;eu tinha
+e2a45b47-c46b-455b-8581-24e140edf252;Du hattest (bras.);vc tinha
+a16672b4-5f14-4f62-bc18-089e04f957ac;er hatte;ele tinha
+f1208464-1d22-49e7-83ca-bac522c07888;wir hatten;nós tivemos
+a02b5f62-21a4-4c9c-83a5-50968637ae4c;Ihr hattet;Vocês tinham
+156f0a30-c053-4b57-8129-74bed7076d2e;sie hatten;eles tinham
+a40ac8a8-c00e-48e5-afd8-4d48a5a76201;"Was ist ""Futuro do pretérito""?";würde / wird vielleicht - Zukunft
+b6c8d772-7175-4461-bc73-c2c84cc7b468;"Was ist ""Futuro do presente""?";sicher eintretende Zukunft
+73c1a86f-2f7c-46ae-bb98-41e16a0b3d7b;"Was ist ""pretérito imperfecto"" ?";Lange Vergangenheit
+dac93b28-afc7-40f5-adf8-ec93abff2e4b;;
+bb99028c-e4f7-4fab-b3f0-39ea9e9d7048;;
+5f60e358-df75-46a2-9613-990c7059ef33;;
+8c31ef8b-6a70-48d1-882b-e59b5da80c17;;
+329fb71e-883e-4f44-9ff2-c87966aa7179;;
+4d8786b1-9b19-4e7d-ba02-a89e829cdf0d;;
+42a9a776-9888-4bc0-926d-f68925c13837;;
+a449b1a5-0b8e-4111-aff3-9650b41a6249;;
+f54980e0-fded-4e22-aeb0-332d059804fe;;
+6370fcc1-7e52-44bf-859a-00551d0176a6;;
+ce49d8d4-4785-428d-a016-573b5bb45f27;;
+e62e5918-ed3b-42f4-8843-1b90082d558d;;
+2bc195f6-9520-4147-925f-467c8371d0db;;
+56ecb84f-3487-407a-a37f-48eae99ce83a;;
+2905a874-8215-4cbf-8957-3269f61f322b;;
+1056f1d6-d562-4070-b5cc-efc25751fd92;;
+19bcd231-806f-4d75-b3ad-9d4048417e5a;;
+d2c55452-9c15-4d51-a7ef-cd04e0d992a2;;
+77f3ea5b-56e2-4598-b8d4-cd2e5678f2d9;;
+ad5a06fa-b92b-4065-bddf-730e45d8c60d;;
+c8f4a094-3c24-42ea-b838-8f0e43794a7f;;
+88c1fc4d-559d-4df9-9229-b3cbe24bcbf4;;
+876cd02d-4165-4f66-817d-8e28963c2ce6;;
+efe6490b-529e-4315-aabb-1f45e64f6a1b;;
+92034fc1-5ae5-4370-a327-dadba550d7ab;;
+c754e961-6865-4aa3-a24f-121422311cfd;;
+821d7049-760e-4d18-99a6-9bed0bc3aa6c;;
+36d8473d-693c-4f1e-878a-37981fc9b132;;
+8c60803d-f89b-4122-ac0a-26ac04dc4a8f;;
+82b75f05-9566-4b75-8235-f555fb82a727;;
+5d91bfa8-36fb-45db-a09f-8ef6389f47e1;;
+5a07fb6f-afef-424c-a512-75efd14415a9;;
+097e946f-613e-46fb-b638-2906c52d5476;;
+7b76c06c-3585-4e8e-b514-4953074caa9f;;
+271811f5-c24c-401a-bcd9-321a47de642e;;
+6afaddfb-16d6-4fc8-98a0-edb40c2b36cf;;
+aacd80e1-33ee-4a53-8383-25eba21c3af3;;
+9be8840e-7aa6-40cb-a834-480ac6d19494;;
+76f4ec36-279c-49cf-95d1-1cc7e020d5fc;;
+6fdbfa51-a364-43ac-b3c3-60235c026c72;;
+97d63c63-3934-4137-a1c2-5e6930ffc3ba;;
+829bb9e0-e139-481b-9f0f-74254c5ec6ca;;
+35469b6a-660b-42d7-a1ba-28e62c90ff8e;;
+06d6fa63-360a-40b9-a3af-d3f65c6d1031;;
+db4c0e66-6109-4f48-9560-8642d12d6878;;
+7bd72060-0f6a-41b3-b256-c117bbee2517;;
+e76190fe-d7f2-428d-a43d-2a6581f66bca;;
+d413d0e8-c0e4-4c51-9ee3-324c80cb030c;;
+00ad7d96-91e9-41ec-a3dc-1f4ceadb4059;;
+bbece002-307e-4b7b-b737-ca389a7a467b;;
+7f934c2b-d879-41d1-9d14-462196509e24;;
+148a2b40-1d45-4edb-b3ab-3c3c2db3bd73;;
+9807ed87-2efa-4e31-9a16-8259cef896bd;;
+583a1d91-3e43-4286-8805-799ef81e92d2;;
+e344bda5-4b2d-4e34-ad5d-6957c62f88ec;;
+72f3f0d4-13ec-4372-931a-42051cea33b2;;
+aee9a85f-2a26-437b-896f-c1c508ca57c0;;
+0ed25adf-da3e-4de7-8d8f-9e44ad57b3dc;;
+6492ecf7-ba03-4f0e-9390-5fa4865d1317;;
+a0387974-6c00-4ace-8c6f-f4755cdf12d6;;
+5c9efa32-2335-4612-ad63-eec06ced5a37;;
+b04359db-d8dd-4aab-a203-414418034276;;
+9e0ddb2f-64f1-4fdf-8ee1-969f8b9af0e4;;
+fb293529-d328-4fbb-94e8-f14de9f39d5a;;
+276a50e9-01ad-450b-afd8-9ffa0f91e34f;;
+b67a686e-5c28-4a41-a9d5-49ddf9e0a7b1;;
+ee37cede-ca9f-457f-9ab5-ab13fe04907d;;
+59769dae-91f6-4537-9b6f-119ee8aa4f27;;
+6e19de22-db81-4c5f-90ee-a808f9bc1411;;
+aa7dcb47-d7a4-4719-8222-b2843683435c;;
+1098d662-a0dc-4249-bd1b-ce170a8359ec;;
+cd34f8dc-323a-47f1-8f09-628d82add42a;;
+17265217-5331-47d4-8424-8c90655624c3;;
+431ea283-eb72-46f1-8d30-a043228ff848;;
+c52fd22e-181b-4395-9485-6e0db188a53c;;
+81ba330e-8d5a-4e5f-88df-8d476a56a528;;
+f2662856-7da6-4f58-9ea6-242b340020b7;;
+12ae4ed0-fb06-42ae-b5e2-43ad1528d646;;
+c8e78b33-5322-49ce-a882-e80a730cf45e;;
+8e8b3b44-d205-4325-88fd-3425ec9e0561;;
+724a1fd7-73e3-4b32-a965-eb3767883664;;
+b8162822-1483-49e0-ae93-864f9800d942;;
+d06dd346-e020-482c-935d-fecb84b28bba;;
