@@ -1,7 +1,9 @@
 ﻿using System.IO;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+using Plugin.Settings;
 
-namespace Brain.Infrastructure.common
+namespace DownloadToBrain.common
 {
 	public class AppStorage
 	{
@@ -13,18 +15,21 @@ namespace Brain.Infrastructure.common
 			_serializer.Serialize(textWriter,data);
 			textWriter.Flush();
 			string text = textWriter.ToString();
-			Application.Current.Properties[key] = text;
-			await Application.Current.SavePropertiesAsync();
+			CrossSettings.Current.AddOrUpdateValue(key: key, value: text);
+			//Application.Current.Properties[key] = text;
+			//_ = Application.Current.SavePropertiesAsync();
 		}
 
 		public async Task<T> TryGet<T>(string key) where T: class
 		{
-			if (!Application.Current.Properties.TryGetValue(key, out var text))
+			string value = CrossSettings.Current.GetValueOrDefault(key: key, defaultValue: (string)null);
+
+			if (value==null)
 			{
 				return null;
 			}
 
-			var textReader = new StringReader((string)text);
+			var textReader = new StringReader(value);
 			var jsonReader = new JsonTextReader(textReader);
 			var result = _serializer.Deserialize<T>(jsonReader);
 			return result;

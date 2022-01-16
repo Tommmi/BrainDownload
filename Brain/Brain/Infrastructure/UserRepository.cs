@@ -1,13 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
-using DownloadToBrain.common;
 using Brain.Entities;
 using Brain.Entities.UserStatus;
 using Brain.Interfaces;
-using Xamarin.Forms;
+using DownloadToBrain.common;
 
 namespace DownloadToBrain.Infrastructure
 {

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using TinyCsvParser.Mapping;
+﻿using TinyCsvParser.Mapping;
 
 namespace DownloadToBrain.common
 {
