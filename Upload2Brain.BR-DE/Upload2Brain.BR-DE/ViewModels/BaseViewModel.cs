@@ -1,44 +1,30 @@
-﻿using DownloadToBrain.Services;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Globalization;
-using System.IO;
-using System.Linq;
-using System.Reflection;
 using System.Runtime.CompilerServices;
-using System.Text;
-using DownloadToBrain.common;
-using Brain.Entities;
-using Brain.Interfaces;
-using DownloadToBrain.Infrastructure;
-using TinyCsvParser;
+using Upload2Brain.BR_DE.Models;
+using Upload2Brain.BR_DE.Services;
 using Xamarin.Forms;
 
-namespace DownloadToBrain.ViewModels
+namespace Upload2Brain.BR_DE.ViewModels
 {
 	public class BaseViewModel : INotifyPropertyChanged
 	{
-		#region fields
+		public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>();
 
+		bool isBusy = false;
+		public bool IsBusy
+		{
+			get { return isBusy; }
+			set { SetProperty(ref isBusy, value); }
+		}
 
-		#endregion
-
-		#region properties
-
-		public IDictionary<string, string> Labels => DependencyService.Get<LabelRepository>().GetLabels();
-
-		public string Title => Labels["LearnPageTitle"];
-
-		public ILearnService LearnService => DependencyService.Get<ILearnService>();
-
-		#endregion
-
-		#region private methods
-
-		#endregion
-
-		#region protected
+		string title = string.Empty;
+		public string Title
+		{
+			get { return title; }
+			set { SetProperty(ref title, value); }
+		}
 
 		protected bool SetProperty<T>(ref T backingStore, T value,
 			[CallerMemberName] string propertyName = "",
@@ -53,8 +39,6 @@ namespace DownloadToBrain.ViewModels
 			return true;
 		}
 
-		#endregion
-
 		#region INotifyPropertyChanged
 		public event PropertyChangedEventHandler PropertyChanged;
 		protected void OnPropertyChanged([CallerMemberName] string propertyName = "")
@@ -66,6 +50,5 @@ namespace DownloadToBrain.ViewModels
 			changed.Invoke(this, new PropertyChangedEventArgs(propertyName));
 		}
 		#endregion
-
 	}
 }
