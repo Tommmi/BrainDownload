@@ -11,6 +11,7 @@ namespace Brain.Interfaces
 	{
 		Task<NextWordResult> TryGetNextVocable();
 		Task SetTrainResult(Guid wordId, TrainResult trainResult);
+		Task DelayVocable(Guid wordId);
 
 		Task<LearnProgress> GetProgress();
 	}

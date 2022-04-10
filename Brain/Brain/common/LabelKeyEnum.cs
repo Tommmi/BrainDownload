@@ -13,6 +13,8 @@ namespace DownloadToBrain.common
 		// Label "don't know"
 		Failed,
 		// Label "more or less known"
-		MoreOrLess
+		MoreOrLess,
+		// Label Button "not now"
+		NotNow
 	}
 }
