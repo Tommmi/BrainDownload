@@ -87,31 +87,33 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Button Grid.Column="0"
-                        Margin="2,10,2,0" Text="{Binding FailedBttnText}"
-                        Command="{Binding OnFailedBttnCmd}"
-                        BackgroundColor="{StaticResource Red}"
-                        TextColor="White" 
-                        Padding="2,2,2,2"
-                        IsEnabled="{Binding IsFailedBttnEnabled}"
-                        IsVisible="{Binding IsFailedBttnVisible}"/>
-                <Button Grid.Column="1"
-                        Margin="2,10,2,0" Text="{Binding MoreOrLessBttnText}"
-                        Command="{Binding OnMoreOrLessBttnCmd}"
-                        BackgroundColor="{StaticResource Yellow}"
-                        TextColor="White" 
-                        Padding="2,2,2,2"
-                        IsEnabled="{Binding IsMoreOrLessBttnEnabled}"
-                        IsVisible="{Binding IsMoreOrLessBttnVisible}"/>
-                <StackLayout Margin="2,10,2,0" Grid.Column="2" Orientation="Horizontal" Padding="0,0,0,0" Spacing="0">
-                    <Button Margin="0,0,0,0"
-                            Text="{Binding WellKnownBttnText}"
-                            Command="{Binding OnWellKnownBttnCmd}"
-                            BackgroundColor="{StaticResource Green}"
-                            Padding="2,2,2,2"
+                <StackLayout Margin="2,10,2,0" Grid.Column="0" Orientation="Vertical" Padding="0,0,0,0" Spacing="0">
+                    <Button Margin="0,0,0,0" 
+                            Text="{Binding FailedBttnText}"
+                            Command="{Binding OnFailedBttnCmd}"
+                            BackgroundColor="{StaticResource Red}"
                             TextColor="White" 
-                            IsEnabled="{Binding IsWellKnownBttnEnabled}"
-                            IsVisible="{Binding IsWellKnownBttnVisible}"/>
+                            Padding="2,2,2,2"
+                            IsEnabled="{Binding IsFailedBttnEnabled}"
+                            IsVisible="{Binding IsFailedBttnVisible}"/>
+                    <Button Margin="10,0,0,0" 
+                            Text="{Binding NotNowBttnText}"
+                            Command="{Binding OnNotNowBttnCmd}"
+                            BackgroundColor="{StaticResource Primary}"
+                            TextColor="White" 
+                            Padding="2,2,2,2"
+                            IsEnabled="{Binding IsNotNowBttnEnabled}"
+                            IsVisible="{Binding IsNotNowBttnVisible}"/>
+                </StackLayout>
+                <StackLayout Margin="2,10,2,0" Grid.Column="1" Orientation="Vertical" Padding="0,0,0,0" Spacing="0">
+                    <Button Margin="0,0,0,0" 
+                            Text="{Binding MoreOrLessBttnText}"
+                            Command="{Binding OnMoreOrLessBttnCmd}"
+                            BackgroundColor="{StaticResource Yellow}"
+                            TextColor="White" 
+                            Padding="2,2,2,2"
+                            IsEnabled="{Binding IsMoreOrLessBttnEnabled}"
+                            IsVisible="{Binding IsMoreOrLessBttnVisible}"/>
                     <Button Margin="0,0,0,0" Text="{Binding NextBttnText}"
                             Command="{Binding OnNextBttnCmd}"
                             BackgroundColor="{StaticResource Primary}"
@@ -120,6 +122,15 @@
                             IsEnabled="{Binding IsNextBttnEnabled}"
                             IsVisible="{Binding IsNextBttnVisible}"/>
                 </StackLayout>
+                <Button Grid.Column="2" 
+                        Margin="2,10,2,0"
+                        Text="{Binding WellKnownBttnText}"
+                        Command="{Binding OnWellKnownBttnCmd}"
+                        BackgroundColor="{StaticResource Green}"
+                        Padding="2,2,2,2"
+                        TextColor="White" 
+                        IsEnabled="{Binding IsWellKnownBttnEnabled}"
+                        IsVisible="{Binding IsWellKnownBttnVisible}"/>
             </Grid>
 
         </StackLayout>

@@ -14,7 +14,7 @@ abab5c6c-570d-4f7d-93f9-ebf49372fc32;nós estamos;wir sind
 2a363e77-1452-4ba8-bde7-afdc329b3ed0;elas sáo/estão;sie sind
 f3157958-077f-44c3-84fa-aa69d72925ce;O Senhor está;Sie sind
 8819b905-96d4-4838-a2cd-dd964d3f4cd6;A Senhora é;Sie sind
-a7a51e54-3a33-46f0-aaa6-23aa086fb7a9;Du bist;eu sou/estou
+a7a51e54-3a33-46f0-aaa6-23aa086fb7a9;Du bist;vc é/vc está
 341b48d2-abe5-44b6-a84e-570f2ecb26d3;er ist;ele é ou ele está
 f5f67cd9-8932-4a2c-9450-ec2b0092ba6f;Sie sind;O Senhor/A Senhora é/está
 99f011d5-d22f-44eb-8894-bce2c20a66b4;sie sind;eles sáo
@@ -64,7 +64,7 @@ fae060c7-f0ec-4444-b1cf-76fea6d8b439;já;schon
 669442b9-dddb-4868-b7bb-1b76ab1c2623;Oi;Hallo
 dd6aae5e-49f2-415e-b09a-e6b91717e719;1;"""eins"""
 ec8ce20c-5ec9-4d78-b0b1-6579ecc03239;uma;eine
-7a631d13-b133-42ac-8b98-460fa7d825b3;uma;ein
+7a631d13-b133-42ac-8b98-460fa7d825b3;um;ein
 bc265655-980d-47bc-9971-1d27d3c00f3a;2;"""zwei"""
 f9c752ba-0b9f-4f4c-864a-581a97b7940d;6;"""sechs"""
 28a00b4a-9807-47f1-afbe-32a56b7a0148;3;"""drei"""
@@ -83,7 +83,7 @@ fd30dbe6-7431-417e-ac75-d4ef42b88354;"""fünf""";5
 bb94aa75-826f-462b-89a8-1e69ada71eef;"""zehn""";10
 ba9cd39a-a8a9-4cff-8545-112ef4796e18;"""eins""";1
 413d850d-a722-4795-980a-ba1825fd3052;eine;uma
-5d57879b-6723-4786-9a28-bc451b557d3f;ein;uma
+5d57879b-6723-4786-9a28-bc451b557d3f;ein;um
 fe6b36f8-6205-411a-a7d5-c2bb18fb5fef;13;dreizehn
 b0c19bb8-9746-4f3d-b7c5-2bcee62af4b9;11;elf
 b531ab1f-a034-40bb-a45c-82153b9ebe93;12;zwölf
@@ -196,7 +196,7 @@ ec1c3733-b205-4925-8b52-9de231596a46;sie kommen;eles vêm
 a94c530b-fabf-4065-b6c9-5c237e1f696c;Sie kommen;vc está vindo o senhor
 3613ef20-a116-48a2-8a56-7dc037315f1a;Wann kommen Sie ?;Quando vc está vindo o senhor ?
 008ab473-ebc8-4514-add0-94a58c7ab11e;Quando o trem chega ?;Wann kommt der Zug ?
-7d4ad24b-47cf-4ce0-9325-0fec2d1d09fc;falsch;errado
+7d4ad24b-47cf-4ce0-9325-0fec2d1d09fc;FALSCH;errado
 c3bbf0f5-fbaf-4ad3-8cdf-b5ae6a7acae7;Ihr;voces
 098c5fa3-1793-4a17-bacc-48cae7185b5c;MONTAG;SEGUNDA FEIRA
 6575e447-0056-4351-af76-d8918ed8da65;DIENSTAG;TERÇA
@@ -306,7 +306,7 @@ fec4ee29-0d70-49ee-a52d-463316dd8d0b;DER ALLTAG;DIA A DIA
 (exemplo: se você dirige rápido, você pode morrer
 Nesta frase, você não se refere pessoalmente, mas ""voce"" se refere às pessoas em geral.)"
 d1b4fbb6-a221-43d6-8a33-c68bbe316193;STEIGEN;SUBIR
-14c9f137-1995-408c-b19d-132a898c57e5;ANTWORTEN;RESPONDER
+14c9f137-1995-408c-b19d-132a898c57e5;antworten;responder
 0bb5962b-5498-4fb2-a833-4d4383362ed1;DAS WASSER;AGUA
 bd34fe2e-4355-433f-902d-86deb960130b;GUT;BOM
 1d49c383-04ff-4c45-bc0f-a8c8e69a7a19;JEMAND;ALGUÉM
@@ -391,7 +391,6 @@ bca98796-ea39-453d-87c9-1c277748ea1b;ZAHLEN;PAGAR
 5bf43581-354d-406f-b16c-a202e644db8b;ZUSAMMEN;TODO JUNTO
 fd4ce33d-0799-4e76-ad61-66c8ad096c01;WANN;QUANDO
 058e3478-c1ce-4bdf-bc56-fb4bd3c7e284;ab + (tempo / lugar);A PARTIR DE/DESDE
-cfff21b2-8221-48ff-8461-6b7074ffc8eb;bei ;em
 b0146445-4ced-403b-ac83-e16abc1d0e65;je;cada
 9ee953e3-501a-4b60-9fb7-0e8231897ebe;MELDEN;CHAMAR
 c0420b88-da5b-4c79-976c-3c5be8266582;mehr als;mais de
@@ -399,11 +398,14 @@ a416502d-fbe9-4cfd-8c9f-c4dbc591c294;sich verabreden;marcar um encontro (com�
 436a1b95-95b1-49d7-80c0-290e32849b36;ANGEBEN;INDICAR
 da2e9c50-af56-4591-83d6-e7d971d6aec1;AUFSTEHEN;LEVANTAR
 bfed6230-d01e-4499-90ee-d04e80869934;BRINGEN;trazer
-62746325-9074-485e-bdc2-7750df9095b9;DAS ABENDESSEN;a janta
+03327d66-04f6-481c-b254-4475659a26b1;essen;comer
+c2dfb44e-2ac4-41d5-887b-b80144b9ac1e;comer;essen
+39f42219-1a83-412b-98e0-404617043f2e;a comida;<b>das</b> Essen
+c288f991-78ae-4ba9-9595-6af4f65ffe84;a janta;das Abendessen
+62746325-9074-485e-bdc2-7750df9095b9;das Abendessen;a janta
 aee6dd63-0186-4cdf-8e5a-b0895ac022e5;VOR;ANTES DE
 23186917-153e-4aeb-9a78-d47f82aca8b3;jede;CADA
 35e2ef93-e499-4513-a3d2-8e9bd635df37;anfangen;COMEÇAR
-03327d66-04f6-481c-b254-4475659a26b1;ESSEN;COMER
 2711a372-e681-4d3b-8d85-05dc134087d0;AUFMACHEN;ABRIR
 0e5e1fda-14ab-4d28-9a88-0e8b34b7a458;zuhören;ESCUTAR
 8759bebc-5012-4cb3-8185-a8b7f1cd7094;KOCHEN;COZINHAR
@@ -417,3 +419,108 @@ a771bc2a-26b2-4bf0-a62e-33afef5db852;WARTEN;ESPERAR
 4c16f01b-9187-4a4e-8e35-fb11822c11f1;EINFACH;FACIL
 aba9a708-621a-4e23-8fb1-879aeca4ec63;gerade (temporal),;AGORA/NESTE MOMENTO
 7cd9886d-c11e-4d5b-9a64-8e6021af65c1;gerade (geometrico);em linha reta
+d353eb55-c9bd-4e83-8399-14755194a872;o endereço;die Adresse
+21018ba5-5a01-4f9a-b66c-43c07432236c;sem álcool;alkoholfrei
+9a196ad4-7f0a-47db-adac-682ca9bb3cb5;sozinho,-a, só;allein
+ee7f3a56-6ee3-402b-b674-4bc957bb1c5b;o construção;<b>der</b> Bau
+0fff0d79-a739-46b2-bed4-55a458353b99;o construção antiga;<b>der</b> Altbau
+8c06d0ae-0385-455d-a37d-7bfb94f2357d;o apartamento ;<b>die</b> Wohnung
+5380770e-9f8e-4e12-9eea-f0bbf2bf4dc7;o apartamento da construção antiga;"<b>die</b> Altbauwohnung (femina porque ""die Wohnung"")"
+75fa9525-db70-4381-958b-8419a5543a0b;ligado;an
+3345796b-9001-4163-9ab3-f33bd45bea7b;;
+f1e5885c-9201-439b-9910-e354af82e53c;die Adresse;o endereço
+4303e0e9-f897-4f52-8df5-83fff4fd0482;alkoholfrei;sem álcool
+a2c0289b-89b3-4fb5-9cba-c43feaf73c21;;
+30ce8883-e508-4bbd-a9d9-3ed547c85d22;allein;sozinho,-a, só
+32618131-7358-4039-9fe4-0a8cf73dbdc0;die Lampe ist an;a lampada está ligada
+beee6187-41d0-4c69-bad6-b00c288271b8;o fim;<b>das</b> Ende
+e4fe10ef-fc73-45c5-bdb5-d9f82fc514cc;fim da semana;das Wochenende
+9984ee59-ee52-42af-9dc7-0810dd43114c;nas fins da semana;an Wochenenden
+a41bec8a-4a86-4a52-8bdd-cf795cacc1cc;no Natal;an Weihnachten
+afa9d7de-c899-411f-ad02-0054751e6246;o abril;der April
+c21c192c-a294-4543-ad86-d91d53839773;no dia primeiro de abril;<b>am</b> ersten April
+972b9f15-8682-418d-9216-3084f675e707;começar;anfangen
+cdbf46f6-6f35-4604-bca4-eb8c2e381c61;o inicio;der Anfang
+ac2ffec4-3f30-46de-a30f-686466c76d32;ele começou (<b>passado!</b>);er hat angefangen
+ad193501-2957-4be0-bc1a-6d81fed1cf7a;a chamada;der Anruf
+d048b4a3-4c54-46df-846e-2621c68ef63d;ligar, chamar;anrufen
+84885612-045d-4ad6-a20f-24a4359f2339;ele ligou;er hat angerufen
+cef8f471-ec5f-41e6-b5ed-1fce2fd78758;ele respondeu;er hat geantwortet
+4b4c3910-7a52-401f-b73e-a59023889b4f;o suco;der Saft
+513877df-8f50-484f-84f9-33fb09eb316d;a maçã;der Apfel
+3a7b52fa-b515-4028-ae37-26de162b75dc;anfangen;começar
+df108178-9499-4629-9a90-9dd47d2d690e;o suco da maçã;der Apfelsaft
+a691834d-328e-4c97-ad1d-44fba766bdfa;os sucos;die Säfte
+4d47b19c-cfcd-4c12-b032-94251d1e67d5;os sucos da maçã;die Apfelsäfte
+e6ac4439-cb45-4970-a388-7e0724d42a7f;Die Schorle;"	bebida, normalmente vinho branco ou suco de fruta, misturada com água mineral com gás"
+62b93ee8-f7a9-4648-b074-b4a3234bc6a4;suco da maçã misturada com água mineral com gás;die Apfelsaftschorle
+928cb5e1-3845-435c-8690-c560afac0518;o trabalho;<b>die</b> Arbeit
+bf9a2894-7291-4dc6-84e7-e63eb6eb6bd1;os trabalhos;die Arbeiten
+8dc8fe1a-e65a-47bc-9698-c18919e8c148;trabalhar;arbeiten
+d916d7f3-d196-4894-bf35-8fdc93d4a642;ele trabalhou;er hat gearbeitet
+929231e8-09c7-4843-ae1c-b867cd4b1b73;a instrução;die Anweisung
+f398912e-3c95-4078-805e-85b1c3d945d3;a instrução de trabalho;die Arbeitsanweisung
+f5f851a4-0399-4b8a-af20-cac7826a0849;o quarto;das Zimmer
+bd613869-818c-4452-aba7-c8a67227ed60;o escriório (em casa);das Arbeitszimmer
+73f0344d-81c2-484a-9150-831b62f1fb20;pobre;arm
+0b960034-4858-4b52-b4b1-c645d7cdfa49;o braço;der Arm
+d2d5d41c-4b3a-4cdf-bef5-9816fbe2f2b6;o artigo;der Artikel
+74fa1c59-b9db-499c-9288-29db8666f405;o médico;der Arzt
+68161ca0-2e66-4557-abcc-f0fae922c5bf;a médica;die Ärztin
+2a8723e2-726a-4eca-b44f-fbe702e9797d;os médicos;die Ärzte
+4d36615f-1c96-4df9-917d-df11c4e172a8;as médicas;die Ärztinnen
+bb5c6cee-207a-4472-83ef-2550c88f69e2;a hora (marcada);der Termin
+729fc6f1-ba8b-4a7d-ab1d-a2155f0b5ee1;a consulta / hora marcada com médico;der Arzttermin
+1cc704dc-0436-42a4-9674-c4691df9e6e7;atraente;attraktiv
+c643dee7-711a-4473-a870-b20d54c9e00d;auf dem Land;no campo
+71831f7b-2ef4-4e86-9064-ceafbad39e0e;Auf Wiederhören!;tchau!
+b47b15d1-7f34-426e-9ac0-4555f810022e;Auf Wiedersehen!;tchau! Ate a vista
+36ba274e-659d-4850-8c94-987bcafb0484;ele se levantou;er ist aufgestanden
+2ebfce22-ee2f-44bd-a6ab-a8db7b725dc6;a saída;der Ausgang
+6cce2a31-cc9a-4079-bd30-719077f03ea2;ausgehen;sair com alg.
+2ed13c72-b032-4399-ae9a-7cab756247a8;;
+ef9e07f1-0968-40a8-800f-393d68425887;a autoestrada;die Autobahn
+626cbc68-be58-4e6e-b727-96ec3d28f1b7;a concessionária (de carros);das Autohaus
+3bc53734-7254-4d0d-8d67-82666be9f397;tomar banho;baden
+c9b9f5e5-774c-4aa2-acd1-982ef02bc20c;ele tomou banho;er hat gebadet
+44126be0-badd-4bcf-afda-9fd1f640e5bd;tchau! (no telefono);Auf Wiederhören!
+0fa4af86-424a-45b1-8fa4-681a1fcf0143;Adeus! Ate a vista;Auf Wiedersehen!
+d544b680-8925-487f-b1cb-297e4acc39d2;o banheiro;das Badezimmer
+4dc6fe0f-e8a1-4cc7-ab3e-62d3011d97a6;o trem;die Bahn / der Zug
+8245639f-0d61-48cb-b460-82dd067026c8;a estação de trem;der Bahnhof
+ffa2bb71-c4c3-400d-9052-44ae63bb3b46;balcão  / sacada;der Balkon
+23d57e10-cce8-4c3f-9e0e-3e004c67cb9f;o banco;die Bank
+9acd9eb3-9a3d-4c30-a796-30a889791bac;os bancos;die Banken
+6f6fd9c4-0a09-497d-b30b-86f94c102abc;o bar;die Bar
+177f9300-7838-4448-87ad-435eaab83ce9;o sítio / casa rural;das Bauernhaus / der Bauernhof
+9912d9d1-085d-4f61-b082-707af9f1e948;a caneca;der Becher
+af1958b6-0873-4e13-ae79-732d10f43730;beginnen;comecar
+a1971142-8752-40ed-83f0-91960d76e104;mit der Bahn fahren;ir com trem
+e497d482-08d3-4564-baed-36c032bb7528;er hat begonnen;elle comeceu
+df457903-1d69-4fc2-8d13-cc02367337f1;Begrüßung;saudação
+92f46ca4-1025-4e13-8ecd-c514356bd2a3;das Bauernhaus;o sítio
+b3560c05-e34b-41e9-92f0-66badabbdd01;der Bauernhof;o sítio
+49d0c9be-0a3e-45a8-88a6-b64a6ee57e1c;<b>a</b> saudação;die Begrüßung
+b085178d-045e-4a3c-b77c-51ec875047db;em cima;auf
+40fb2d00-0846-486f-956c-b2c8f115bd16;bei Hamburg;perto de Hamburgo
+ecd28d8d-ca8f-4afe-954c-971603d25fbe;bei der Arbeit;na trabalho
+f5aa0ff7-fb73-4237-bccf-2737a776d023;bei mir;onde eu estou / comigo
+00c4d6a0-f8ec-4a77-9bea-d5e0dec458a0;mit mir;junto comigo
+12960d84-5022-4295-914a-09ce9497297d;beide;os dois / as duas
+6fd4c6fe-66cb-4dcf-92d6-11f75b841680;receber;bekommen
+51049c3e-3ff7-4e7f-95b9-e55e9f2c0c4f;elle recebeu;er hat bekommen
+42644330-7755-4982-bf4f-3fa584766233;alguém;jemand (Nominativo), jemanden (acusativo)
+2cc0d1f2-c01e-4b8d-9ce2-3c252f76b79c;aconselhar alg.;jemanden beraten
+b4342a8c-6a20-4ca3-be40-e6001f5d7ca4;na trabalho;bei der Arbeit
+94a4f29a-31ba-4662-9703-65934ee0e2b3;os dois / as duas;beide
+282cb57a-8ab6-46ae-91b6-6b28e89702c6;a consulta;die Beratung
+63b9c244-1f1e-40bd-9da3-e37227b19882;a profissão;der Beruf
+da767e86-b1aa-4ab8-84cf-7ac0c2d3b329;bekommen;receber
+b0c5e79d-b144-4132-b301-41d1a9c0243f;famoso / -a;berühmt
+6fbf7c2c-3149-46b9-a837-b78cdff78688;o ator;der Schauspieler
+f0d81d42-72dd-4d19-b0ad-1c7a68f4efa3;a atriz;die Schauspielerin
+dced2ee4-c085-4863-a39b-5705967891d1;a famosa atriz;die berühmte Schauspielerin
+dde8ecef-40e2-4bd8-8f75-ab7a3f571ca6;pedir;bestellen
+eec95553-1449-41af-95ef-7dffe32dea8b;o pedido;die Bestellung
+6e4d3bfa-452f-477a-bf92-35f9b49aad25;visitar;besuchen
+5e4eeb95-b2bd-4d12-ade1-c4cb5674f03f;besuchen;visitar

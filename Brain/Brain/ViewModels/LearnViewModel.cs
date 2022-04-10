@@ -49,7 +49,9 @@ namespace DownloadToBrain.ViewModels
 			OnMoreOrLessBttnCmd = new Command(async () => OnMoreOrLessBttn());
 			OnFailedBttnCmd = new Command(async () => OnFailedBttn());
 			OnWellKnownBttnCmd = new Command(async () => OnWellKnownBttn());
-			SetThreeBttnState(isWellKnownBttnVisible:false);
+			OnNotNowBttnCmd = new Command(async () => OnNotNowBttn());
+			
+			SetThreeBttnState(isWellKnownBttnVisible:false, isLeftWordShowing:false);
 		}
 
 		#endregion
@@ -74,7 +76,7 @@ namespace DownloadToBrain.ViewModels
 
 			HtmlRight = "";
 
-			SetThreeBttnState(isWellKnownBttnVisible: false);
+			SetThreeBttnState(isWellKnownBttnVisible: false, isLeftWordShowing: _nextWordResult.Succeeded);
 
 			var progress = LearnService.GetProgress().Result;
 			WordsInLongMemory = progress.WordsInLongMemory.ToInt();
@@ -83,7 +85,7 @@ namespace DownloadToBrain.ViewModels
 			WordsInShortMemoryLabel = Labels["WordsInShortMemoryLabel"];
 		}
 
-		private void SetThreeBttnState(bool isWellKnownBttnVisible)
+		private void SetThreeBttnState(bool isWellKnownBttnVisible, bool isLeftWordShowing)
 		{
 			IsFailedBttnEnabled = isWellKnownBttnVisible;
 			IsFailedBttnVisible = isWellKnownBttnVisible;
@@ -93,6 +95,8 @@ namespace DownloadToBrain.ViewModels
 			IsWellKnownBttnVisible = isWellKnownBttnVisible;
 			IsNextBttnEnabled = !isWellKnownBttnVisible;
 			IsNextBttnVisible = !isWellKnownBttnVisible;
+			IsNotNowBttnVisible = isLeftWordShowing;
+			IsNotNowBttnEnabled = isLeftWordShowing;
 			IsHtmlRightVisible = isWellKnownBttnVisible;
 		}
 
@@ -187,10 +191,49 @@ namespace DownloadToBrain.ViewModels
 					break;
 				case State.LeftShowing:
 					HtmlRight = _nextWordResult.Vocable.Right.ReplaceLineFeeds();
-					SetThreeBttnState(isWellKnownBttnVisible:true);
+					SetThreeBttnState(isWellKnownBttnVisible: true, isLeftWordShowing:false);
 					_state = State.RightShowing;
 					break;
 				case State.RightShowing:
+				default:
+					throw new ArgumentOutOfRangeException();
+			}
+		}
+
+		#endregion
+
+		#region Button NotNow
+
+		public string NotNowBttnText => Labels[LabelKeyEnum.NotNow.ToString()];
+
+		private bool _isNotNowBttnEnabled = false;
+		private bool _isNotNowBttnVisible = false;
+		public ICommand OnNotNowBttnCmd { get; }
+
+		public bool IsNotNowBttnEnabled
+		{
+			get { return _isNotNowBttnEnabled; }
+			set { SetProperty(ref _isNotNowBttnEnabled, value); }
+		}
+
+		public bool IsNotNowBttnVisible
+		{
+			get { return _isNotNowBttnVisible; }
+			set { SetProperty(ref _isNotNowBttnVisible, value); }
+		}
+
+		private void OnNotNowBttn()
+		{
+			switch (_state)
+			{
+				case State.Initial:
+				case State.NoWordsMore:
+				case State.RightShowing:
+					break;
+				case State.LeftShowing:
+					LearnService.DelayVocable(wordId: _nextWordResult.Vocable.Id).Wait();
+					SetNextWord();
+					break;
 				default:
 					throw new ArgumentOutOfRangeException();
 			}
