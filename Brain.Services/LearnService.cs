@@ -128,6 +128,15 @@ namespace Brain.Services
 			await _userRepository.SaveWordStatus(word.status);
 		}
 
+		public async Task DelayVocable(Guid wordId)
+		{
+			Initialize();
+			var word = _activeVocabulary[wordId];
+			var now = _systemTime.GetUtcTime();
+			word.status.NextRepetition = now + TimeSpan.FromHours(1);
+			await _userRepository.SaveWordStatus(word.status);
+		}
+
 		public async Task<LearnProgress> GetProgress()
 		{
 			Initialize();
