@@ -1,5 +1,5 @@
 ﻿ID;Key;Translation
-53a78728-d3ed-4b54-a306-3a0c061be482;estar;sein
+53a78728-d3ed-4b54-a306-3a0c061be482;estar ;sein
 557c11e3-fffa-44f7-ab45-f650c3e65876;ser;sein
 46293cc4-3278-4929-a473-47701926a420;eu estou;ich bin
 942c5a48-a32a-4436-ab66-d55306ed7d5c;eu sou;ich bin
@@ -120,7 +120,7 @@ ed62a19a-f155-46ab-9dfc-a1e55742461e;2000;zweitausend
 74d03a87-6e08-44c6-95e4-957b78842db1;5000;fünftausend
 b9bed140-410e-46e7-b9a9-2b92d56e3107;em casa;zuhause
 9fd8dd97-750b-4325-a877-5106f4c19966;mas;aber
-30590bdf-92d0-4736-8e19-1e3b15872cd9;então;also
+30590bdf-92d0-4736-8e19-1e3b15872cd9;então;also / dann
 8f01cf0e-c326-4261-b14c-ffcb69ca52aa;porque, por ...;weil
 d3930af1-08f3-42c0-93cc-181efa229de2;só, somente;nur
 420aba55-74b3-45a6-b5c2-b179cb122866;a cama;das Bett (neutrum)
@@ -145,23 +145,24 @@ c4a92f44-3575-4c7a-b6e5-294e06b2dfd8;Eis (para comer);sorvete
 577c35fc-f8b4-47af-8a02-1f6bd0679f53;aquilo;das da hinten
 e3997085-0f79-45ec-bcea-4473dac89476;isso;das da 
 50a17cc7-90e6-425f-bfde-3e9c17dbaf40;lang;comprido
-86461990-2301-4970-8bfb-d24d4fc2e19e;die Schlüssel;as chaves
+dbdd544c-9e09-405d-a5af-edb5a30c07dd;Der Schlüssel;a chave
+86461990-2301-4970-8bfb-d24d4fc2e19e;Die Schlüssel;as chaves
 dd237699-ac1b-4037-badc-e29127c47368;velho;alt
 0450915c-461f-4189-9e77-37b000a547ca;fliegen;voar
 d91d00ad-3756-46ce-ab57-1fe7cee5efdf;jovem;jung
 fa2732dd-418b-475b-a91b-212777dcb438;moços;Jungs
 82b4b23f-1f2f-4179-8225-fb049905fdf4;<b>o</b> sorvete;<b>das</b> Eis
 c8fce66f-17db-49d5-8d55-16c2cb8d173d;comprido;lang
+cc71ffb8-38bf-4ff5-9015-47735eac3572;a chave;der Schlüssel
 7cd8c573-a111-48fb-a4eb-03388fa48ff2;as chaves;die Schlüssel
 a9010412-a6e9-42de-8b96-126689636e1c;voar;fliegen
-87f1e14d-9780-43ee-a9af-19c1321258af;Karte;cartão
 51800592-a347-494e-84ee-de2f2477989a;Fahrkarte;bilhete
 6e47fb19-fe96-4e20-9c0f-4ce16e98227a;Kreditkarte;cartão de credito
 8edd8755-33d1-479d-9c07-20929e70d0e6;Karte (im Restaurant);cardapio
-6b6325e5-bb69-4aac-9ae6-8a7afe221a30;mapa;Karte
+6b6325e5-bb69-4aac-9ae6-8a7afe221a30;o mapa;Die Karte
 0c9723fd-7d7a-47a5-a6cf-8cfbcfb053f1;links;esquerda
 e1470713-2bb5-427e-a3f4-4c7c417a07ef;rechts;direita
-a51ef696-dd2f-488a-a2c1-c84ee1b0c425;bilhete;Fahrkarte
+a51ef696-dd2f-488a-a2c1-c84ee1b0c425;O bilhete;Die Fahrkarte
 ad87c809-74f8-44d8-bdf0-d45d78870f8d;cartão de credito;Kreditkarte
 11c3f148-eed0-44d0-b47e-9579b5643164;o cardapio;die Karte
 daf6e3ae-1f9f-45d5-97c5-a163197dfa1e;o cartão;die Karte
@@ -169,10 +170,10 @@ daf6e3ae-1f9f-45d5-97c5-a163197dfa1e;o cartão;die Karte
 7e78a776-3463-4a8a-8d9c-7f3ae9aacdef;esquerda;links
 ce7c7ec7-797f-4628-badd-99d20bf88f1b;direita;rechts
 8b8c2fee-8344-498f-b469-8761ce3f5c96;á direita;nach rechts
-dcfe4600-2b10-4b2d-a49f-70f37909b4e8;langsam;devagado
+dcfe4600-2b10-4b2d-a49f-70f37909b4e8;langsam;devagar
 d64f0912-4140-496d-8b8b-49f8c8183044;Sprachvisum;vista para aprender uma lenguagem
 535ab1c6-f5cb-4b4f-bf32-c0573a5ffaf3;Brot;pão
-fc85ad9d-7523-4af1-aed0-3a38af74ebf1;devagado;langsam
+fc85ad9d-7523-4af1-aed0-3a38af74ebf1;devagar;langsam
 73c32393-4892-4365-b583-216ef556e327;pãozinho;Brötchen
 018d6acd-fe4e-4e48-b2f9-c39bf7b548c7;Quais pãozinhos vc tem ?;Was für Brötchen haben Sie?
 274b5ace-6fe7-49e4-ab53-d378b4454338;o trem;der Zug
@@ -181,11 +182,12 @@ fc85ad9d-7523-4af1-aed0-3a38af74ebf1;devagado;langsam
 d638d5b5-0144-45ea-806f-992e36174515;eu venho;ich komme
 2d7ee261-2970-4395-89dd-7f6f75b21626;vc vem;du kommst
 cfe3b39f-a537-46d3-bbb7-84e33955508b;ele vem;er kommt
-84699b4f-97d4-466d-bd5f-2f67bdc2f0ea;nos vamos;wir kommen
+84699b4f-97d4-466d-bd5f-2f67bdc2f0ea;nos vamos;wir gehen
+a431e861-193d-4b26-bb61-4c4173d63e4e;nos viemos;wir kommen
 b269c103-954b-471b-a3c9-55c036b849f5;vcs vêm;ihr kommt
 5204a0ae-a61f-464d-8547-ddb362a7b341;eles vêm;sie kommen
 838466ce-df16-4c05-a058-fbadd66208f9;vc está vindo o senhor;Sie kommen
-e747f795-f431-4bd9-a5c4-549b3232d4b5;Quando vc está vindo o senhor ?;Wann kommen Sie ?
+e747f795-f431-4bd9-a5c4-549b3232d4b5;Quando está vindo o senhor ?;Wann kommen Sie ?
 ec45706b-2792-43e3-9269-e20171e9fa28;kommen;vir
 0a422ab4-66d2-4586-bdd1-febbcc758ceb;ich komme;eu venho
 988d41ad-559c-48a7-a98c-655f39a6dbeb;du kommst;vc vem
@@ -194,34 +196,40 @@ dacf0e44-12ce-47ce-bc26-ca1d7b4dfac0;er kommt;ele vem
 9e685e82-08a1-4a46-b6e4-5e99a37a420d;ihr kommt;vcs vêm
 ec1c3733-b205-4925-8b52-9de231596a46;sie kommen;eles vêm
 a94c530b-fabf-4065-b6c9-5c237e1f696c;Sie kommen;vc está vindo o senhor
-3613ef20-a116-48a2-8a56-7dc037315f1a;Wann kommen Sie ?;Quando vc está vindo o senhor ?
+3613ef20-a116-48a2-8a56-7dc037315f1a;Wann kommen Sie ?;Quando está vindo o senhor ?
 008ab473-ebc8-4514-add0-94a58c7ab11e;Quando o trem chega ?;Wann kommt der Zug ?
 7d4ad24b-47cf-4ce0-9325-0fec2d1d09fc;FALSCH;errado
 c3bbf0f5-fbaf-4ad3-8cdf-b5ae6a7acae7;Ihr;voces
-098c5fa3-1793-4a17-bacc-48cae7185b5c;MONTAG;SEGUNDA FEIRA
-6575e447-0056-4351-af76-d8918ed8da65;DIENSTAG;TERÇA
-a3b18bb6-b38f-40af-8517-91c9600cd0c6;MITTWOCH;QUARTA
-dc403cf9-d12d-47bb-a95c-5883816f67dd;DONNERSTAG;QUINTA FEIRA
-b9425359-6395-4b93-b6a2-71f70efcfd96;FREITAG;SEXTA FEIRA
-3e66fdd2-1960-44ab-978d-735b94088402;SAMSTAG;SABADO
-4077ac5c-4a15-4726-aa84-91e39cdac63d;SONNTAG;DOMINGO
-130056e8-b2a1-4162-99b1-f420afc882ca;MÖCHTEN SIE …. ?;Vc gostaria de ..?
-5060abfa-2d40-4d30-979d-e663f54d2351;WAS IST DAS ?;O QUE É ISSO?
-ee22fd42-19ce-4925-98a6-8c14fa9c1b34;WAS KOSTET DAS?;QUANTO CUSTA?
-88bdb783-c71d-407f-8048-97805889a214;WO IST DER ..?;ONDE ESTA O.. ?
-100c75e2-d8b9-4395-ad82-3ec10567651d;WO IST DAS..?;ONDE ESTA A ..?
-7b44158a-0bab-4e76-90ad-82d80be3c3bd;SPRECHEN SIE DEUTSCH?;FALA ALEMAO?
+098c5fa3-1793-4a17-bacc-48cae7185b5c;Montag;segunda feira
+6575e447-0056-4351-af76-d8918ed8da65;Dienstag;TERÇA
+a3b18bb6-b38f-40af-8517-91c9600cd0c6;Mittwoch;quarta
+dc403cf9-d12d-47bb-a95c-5883816f67dd;Donnerstag;quinta feira
+b9425359-6395-4b93-b6a2-71f70efcfd96;Freitag;sexta feira
+3e66fdd2-1960-44ab-978d-735b94088402;Samstag;sabado
+4077ac5c-4a15-4726-aa84-91e39cdac63d;Sonntag;domingo
+130056e8-b2a1-4162-99b1-f420afc882ca;Möchten Sie … ?;Vc gostaria de ..?
+5060abfa-2d40-4d30-979d-e663f54d2351;Was ist das ?;o que é isso ?
+ee22fd42-19ce-4925-98a6-8c14fa9c1b34;Was kostet das ?;quanto custa ?
+88bdb783-c71d-407f-8048-97805889a214;Wo ist der … ?;onde está o .. ?
+100c75e2-d8b9-4395-ad82-3ec10567651d;Wo ist das … ?;onde está a .. ?
+7b44158a-0bab-4e76-90ad-82d80be3c3bd;Sprechen Sie Deutsch ?;fala alemao ?
 5dae967c-c04e-41c4-8acd-5a1685901a2d;ICH SPRECHE KEIN DEUTSCH;EU NÃO FALO ALEMAO
 9706605c-b4a0-416e-83a3-5cbe130e1996;Ich weiß nicht ;EU NÃO SEI
 3d39beca-a5eb-45cc-ae78-98b7362a292a;SPRECHEN SIE BITTE ETWAS LANGSAMER;FALE MAIS DEVAGAR POR FAVOR
 a199b814-fe4a-4b44-ba9b-a3757543bf81;WO KOMMEN SIE HER?;DE ONDE VOCE É?
 10755a1c-c30f-4212-af94-a46a4544a718;KÖNNEN SIE DAS BITTE WIEDERHOLEN?;PODE REPETIR POR FAVOR?
 b5597883-0e6a-4f57-89b6-592df5000eda;EIN UHR FÜNFZEHN;01:15
-810044d8-cb10-4dbe-a800-d4f60e48eb9c;DIE HERKUNFT;ORIGEM
+810044d8-cb10-4dbe-a800-d4f60e48eb9c;Die Herkunft;ORIGEM
 f7e0fe7f-3648-4fde-9c08-54f421f139b9;"ÜBER C/""r""";DE(SOBRE)
-e67914f9-0245-4625-88fc-8768bb4d05f6;UND;E
-681da0f3-1cff-429c-b4ec-d07d9b22eea7;AUS BRASILIEN;DE(DESLOCAÇÃO)
-4cbda697-c74c-41e7-a143-c5b97a6a3646;AUS (aparilho);disligado
+e67914f9-0245-4625-88fc-8768bb4d05f6;und;e
+681da0f3-1cff-429c-b4ec-d07d9b22eea7;aus (Brasilien);DE(DESLOCAÇÃO)
+4cbda697-c74c-41e7-a143-c5b97a6a3646;aus (aparilho);disligado
+2af450d9-ff29-47a0-af75-b08f71fb76d7;sou do Brasil;ich bin aus Brasilien
+562550b8-b11c-422d-a5d9-9e380d24dc8e;a TV;der Fernseher 
+4f3d0c45-512b-4a94-bfa5-fc935b2d2239;assistar TV;fernsehen
+f252e15b-224e-4257-9c24-0e33a19ba581;e vejo TV;ich sehe fern
+e4996e21-1a70-4c64-95c7-b84d8533c768;Siehst Du fern ?;vc está assistando TV ?
+08d4b409-86d5-4df1-8214-17198350537c;A TV está desligada?;Ist der Fernseher aus ?
 7943eea4-abc0-4606-8e66-64ea3371adfe;im;em/no (masculino)
 581436bd-5c42-4d59-9a71-32d4a9a3831b;KOMMEN;VIR
 6bd069ce-32b7-4ef6-b317-b96d90393312;WIE;COMO
@@ -241,9 +249,9 @@ d0088186-b52d-4d2f-a507-c62c2305d2f0;viel;muito
 075ec27c-bf7b-4064-9f68-382a0211985c;BERICHTEN;INFORMAR
 0a79f43b-223b-4f7b-84c0-bb8707a71f6b;MITKOMMEN;ACOMPANHAR
 68da08fb-902b-47c2-88d8-2c6f9c2445cc;"ca. (pronuncia como: ""sirqua"")";AO REDOR/APROXIMADAMENTE
-ecff33d3-08e2-4a43-871d-d38595f27877;danach;depois
+ecff33d3-08e2-4a43-871d-d38595f27877;danach;depois disso
 df9a678b-cddf-4e4d-aeff-10011c95e53f;später;depois
-cfd3205e-92c9-497e-9038-724a0ccdc9ac;depois isso;danach
+cfd3205e-92c9-497e-9038-724a0ccdc9ac;depois disso;danach
 d362fdd2-bb5f-476a-86e7-ee0fbfe24ad0;depois de … ;nach dem/der/den … (masculino, feminino o neutrum)
 4114b78f-4839-4b73-9841-9e3d0d9a7b97;depois (nao agora);später
 e9b4eb5b-6ff2-447c-bfac-b1021f219563;nach Hamburg;
@@ -260,93 +268,95 @@ ba817409-b80b-4d92-978f-41d58733211d;erzählen;CONTAR/NARRAR
 30ae76f1-6277-4800-b089-452ed2f7affe;hören;ouvir
 f382ee3d-4cb3-44c2-b60b-3e64aadfd1b7;in;em/na (feminina ou neutrum)
 676beb40-9240-4895-96dd-3609e4c527f4;machen;FAZER
-0babda71-fe66-40ef-b779-8064cbe3875c;ODER;ou
-55b66487-66da-4538-a50a-3dbc55607a74;DIE AUSSPRACHE;o pronunciacao
+0babda71-fe66-40ef-b779-8064cbe3875c;oder;ou
+55b66487-66da-4538-a50a-3dbc55607a74;Die Aussprache;o pronunciacao
 1f647990-173c-41c0-802d-b08f55824af0;bitte;POR FAVOR
-04ddc3cd-1d16-4b95-b26d-5c17e1fc2972;NACHSPRECHEN;REPETIR
-64075d89-f0ec-48a5-96f1-c7e2e9d6ffb0;AUCH;TAMBEM
+04ddc3cd-1d16-4b95-b26d-5c17e1fc2972;nachprechen;REPETIR
+64075d89-f0ec-48a5-96f1-c7e2e9d6ffb0;auch;TAMBEM
 652c8659-e485-49f3-90d4-cd87d48366d4;"üben C/""N""";PRATICAR
-c968353d-a018-4c09-8b07-4c0253901d44;ANKREUZEN;MARCAR
-495c0697-a15d-4acf-8499-b519775178af;EINMAL;UMA VEZ
-bb4ac658-a94e-4af3-925d-d1621dfac7f1;NOCH EINMAL;OUTRA VEZ
-f7a206f1-703a-408b-afd2-5a8a0bb004f3;ORDNEN;ordenar
-76049f31-8ed7-4fc3-aa98-3f048a192c72;SPIELEN;JOGAR
-fd4d16d8-cc0a-47f6-b3dd-9d270cd66996;SCHREIBEN;ESCREVER
-3c663728-c372-41e0-8ed4-3503b3c6f8a5;DAS BEISPIEL;o EXEMPLO
-98329815-8002-4600-b031-47c0a5c7995d;LAUT;com voz alto
-cbe56adc-7096-44c4-a331-65210497654c;LESEN;LER
-d0a56c65-330c-47bb-acf3-5e0ab0c73fe9;RATEN;ADIVINHAR
-a6b1c024-55f9-4111-beee-8b9b4d13443d;WAS;QUE
-da52b0d2-443a-4d94-977a-85ca9b2d9108;WER;QUEM
-36cf59fb-8619-41b7-acc3-43766e3a98aa;WOHNEN;VIVER / morar
-a33355fc-4bc0-4212-aa21-936f90d6b0d9;KONTROLLIEREN;CONTROLAR
-990077d0-de81-4f44-8e76-a55f040cdd52;LIEGEN;deitar
-f75ffe6c-faf3-4cd6-8446-f0cbc75971ce;WO;ONDE
+c968353d-a018-4c09-8b07-4c0253901d44;ankreuzen;MARCAR
+495c0697-a15d-4acf-8499-b519775178af;einmal;UMA VEZ
+bb4ac658-a94e-4af3-925d-d1621dfac7f1;noch einmal;OUTRA VEZ
+f7a206f1-703a-408b-afd2-5a8a0bb004f3;ordnen;arrumar
+76049f31-8ed7-4fc3-aa98-3f048a192c72;spielen;JOGAR
+fd4d16d8-cc0a-47f6-b3dd-9d270cd66996;schreiben;ESCREVER
+3c663728-c372-41e0-8ed4-3503b3c6f8a5;das Beispiel;o EXEMPLO
+98329815-8002-4600-b031-47c0a5c7995d;laut;com voz alto
+cbe56adc-7096-44c4-a331-65210497654c;lesen;LER
+d0a56c65-330c-47bb-acf3-5e0ab0c73fe9;raten;ADIVINHAR
+a6b1c024-55f9-4111-beee-8b9b4d13443d;was;QUE
+da52b0d2-443a-4d94-977a-85ca9b2d9108;wer;QUEM
+36cf59fb-8619-41b7-acc3-43766e3a98aa;wohnen;VIVER / morar
+a33355fc-4bc0-4212-aa21-936f90d6b0d9;kontrollieren;CONTROLAR
+990077d0-de81-4f44-8e76-a55f040cdd52;liegen;deitar
+17f23082-4096-484e-b783-74e8481c6193;lügen;mentir
+f75ffe6c-faf3-4cd6-8446-f0cbc75971ce;wo;ONDE
 1fdb74c5-feba-4237-84bb-a511c6c7877e;der andere;o outro
 d8a1d428-434e-48e3-9691-ca260b47257f;die andere ;a outra
 a9ac3041-4b82-480e-adf5-ca2c37b947af;das andere;o/a outro/a (neutrum)
-a9b8342c-c5ca-467b-94b6-22f6ae63dc9b;SAMMELN;COLETAR
-48f8ebfb-834a-446b-985d-219ae5da275d;DER NACHBAR;VIZINHO
+a9b8342c-c5ca-467b-94b6-22f6ae63dc9b;sammeln;COLETAR
+48f8ebfb-834a-446b-985d-219ae5da275d;der Nachbar;VIZINHO
 16cdfbbc-bed6-4857-90bc-9bd7cb686b58;lernen;APRENDER
 ce9a7e3a-b498-444e-853d-0bdb52f20c71;mit;com
-99d10bef-3ac3-4e2a-9b4c-ea66345201f8;DIE LEUTE;a GENTE
-302f34b3-3192-48f1-837e-58c2f556df80;VERSTEHEN;ENTENDER
-95fd32f1-cdf6-4ad6-9aab-79e7751dc4f7;DER BERUF;PROFISSÃO
-5dce3bad-77e4-4b25-abe2-2e31eab4f399;DER WOHNORT;DOMICILIO
-fec4ee29-0d70-49ee-a52d-463316dd8d0b;DER ALLTAG;DIA A DIA
+99d10bef-3ac3-4e2a-9b4c-ea66345201f8;die Leute;a GENTE
+302f34b3-3192-48f1-837e-58c2f556df80;verstehen;ENTENDER
+95fd32f1-cdf6-4ad6-9aab-79e7751dc4f7;der Beruf;PROFISSÃO
+5dce3bad-77e4-4b25-abe2-2e31eab4f399;der Wohnort;DOMICILIO
+fec4ee29-0d70-49ee-a52d-463316dd8d0b;der Alltag;DIA A DIA
 3c077157-cbf2-4c4a-b7e2-4a649e301cc5;auf;em cima
 42ef629f-bd89-432f-8bc3-d5b506e7a610;Auf Wiedersehen !;até mais ver
-84604917-ba7d-4753-bff5-f521aaf331f0;DER BLICK;a vista / a mirada
-9648b165-e3af-4fad-a176-f5e6a4d7baa5;HABEN;TER
-5e52867d-37bd-45c5-b992-2646a07f94df;OFT;com frequencia
+84604917-ba7d-4753-bff5-f521aaf331f0;der Blick;a vista / a mirada
+5e52867d-37bd-45c5-b992-2646a07f94df;oft;com frequencia
 0f8a3777-e1e9-4a92-acad-6c846f7f5ee7;der Satz;a frase
 8c1f5141-e39f-4219-b22e-86e87974f77e;das Ende;o fim
 557a5f5f-49cd-4d1f-9bed-7ebd6b107bc0;am Ende des Satzes;EM-FIM DE FRASE
 2af3d149-fe0f-42f4-82d8-0cc059c4015f;man;"voce/se 
 (exemplo: se você dirige rápido, você pode morrer
 Nesta frase, você não se refere pessoalmente, mas ""voce"" se refere às pessoas em geral.)"
-d1b4fbb6-a221-43d6-8a33-c68bbe316193;STEIGEN;SUBIR
+d1b4fbb6-a221-43d6-8a33-c68bbe316193;steigen;SUBIR
 14c9f137-1995-408c-b19d-132a898c57e5;antworten;responder
-0bb5962b-5498-4fb2-a833-4d4383362ed1;DAS WASSER;AGUA
-bd34fe2e-4355-433f-902d-86deb960130b;GUT;BOM
-1d49c383-04ff-4c45-bc0f-a8c8e69a7a19;JEMAND;ALGUÉM
+0bb5962b-5498-4fb2-a833-4d4383362ed1;das Wasser;AGUA
+bd34fe2e-4355-433f-902d-86deb960130b;gut;BOM
+1d49c383-04ff-4c45-bc0f-a8c8e69a7a19;jemand;ALGUÉM
 948a35a9-a783-42c3-b08d-141a6e8764da;möchten;QUERER
 02941107-f275-4206-8fc8-1889d0a9b16f;wollen;querer
-09ab2b0b-87a6-4356-9d21-57b2fc761f7f;NEHMEN;TOMAR
-9ab94d45-1b01-48d0-95b3-914d5c932c55;SAGEN;DIZER
-8322bacb-d3b6-4508-92bc-924774e762fb;TRINKEN;BEBER
-3f168b0d-4a65-4412-8597-aa8d0ca01c43;VON;DE
-7b9d3621-7234-4aa3-a810-96e935cccbc7;ZEICHNEN;DESENHAR
-b33c5548-4352-42b7-a347-16ee8b87a287;GANZ;TODO/A
-7810baab-141a-4a58-904b-c80b422f1dec;ANSEHEN;OLHAR
+09ab2b0b-87a6-4356-9d21-57b2fc761f7f;nehmen;pegar
+9ab94d45-1b01-48d0-95b3-914d5c932c55;sagen;DIZER
+8322bacb-d3b6-4508-92bc-924774e762fb;trinken;BEBER
+3f168b0d-4a65-4412-8597-aa8d0ca01c43;von;DE
+7b9d3621-7234-4aa3-a810-96e935cccbc7;zeichnen;DESENHAR
+b33c5548-4352-42b7-a347-16ee8b87a287;ganz;TODO/A
+7810baab-141a-4a58-904b-c80b422f1dec;ansehen;OLHAR
+a596a4cb-760e-4e82-817d-309a09a38b56;er sieht sie an;ele olha para ela
 a0132dca-1938-42eb-8305-434e268c7234;NUR;SÓ
-3d099a84-c853-4a90-acc1-05afc5aebbea;KENNEN;CONHECER
-5d5dc7ea-c178-4be7-9dbb-cc8226f48786;DANN;ENTÃO
-f89d1979-13cf-440e-bfda-d3ccb1c08574;KLAR/HELL;CLARO
-bf16b97f-baf3-463d-9dc3-0e1c7e23d871;DUNKEL;ESCURO
-66811472-9d24-4e15-bf5c-6ddfcac75aa6;MARKIEREN;MARCAR
+3d099a84-c853-4a90-acc1-05afc5aebbea;kennen;CONHECER
+5d5dc7ea-c178-4be7-9dbb-cc8226f48786;dann;ENTÃO
+f89d1979-13cf-440e-bfda-d3ccb1c08574;hell;CLARO
+bf16b97f-baf3-463d-9dc3-0e1c7e23d871;dunkel;ESCURO
+66811472-9d24-4e15-bf5c-6ddfcac75aa6;markieren;MARCAR
 97e48422-499c-431f-b872-e4733b03d5ab;Als + (algo anconteceu);quando (algo anconteceu)
 e8b56fab-fc63-4d9b-910e-100755f21c35;mehr als;mais que / mais de
 65f26eb0-fdf2-4160-bdd7-9a59143a381c;schneller als ..;mais rapido de ..
 6be86040-a976-47b2-9974-7bc23c4da389;Polizist;Policial
 c111e11e-fb28-4890-9bfc-94f4f3212262;Als Polizist;Como Policial
-19d7abcf-67a6-4cf8-a59d-b6e672c40671;SELBST;POR SI MESMO
-2ab42676-505a-49e0-b91b-7579c07c05ad;BIS;ATÉ
-c05d3639-a9bf-4ea5-964f-6ccf95621ba2;NOTIEREN;ANOTAR
-1da42c35-bdba-4cd2-8427-4c31ae411bea;DIE POSTLEITZAHL;CODPOSTAL
-b2fa22ba-78e0-4c72-a60f-a92c381a9230;DAUER;DURAÇÃO
+19d7abcf-67a6-4cf8-a59d-b6e672c40671;selbst;POR SI MESMO
+2ab42676-505a-49e0-b91b-7579c07c05ad;bis;ATÉ
+c05d3639-a9bf-4ea5-964f-6ccf95621ba2;notieren;ANOTAR
+1da42c35-bdba-4cd2-8427-4c31ae411bea;die Postleitzahl;CODPOSTAL
+caacb94c-12fa-4b1f-a36a-c3e8ed7d3803;PLZ;CODPOSTAL
+b2fa22ba-78e0-4c72-a60f-a92c381a9230;Dauer;DURAÇÃO
 d711aebb-d84f-4104-8866-37e5b3dec730;dauern;demorar
-1a1b9824-f40d-4cfe-886e-8b5c7843f449;DIE STUNDE;HORA
-c5b5f84a-7be1-4fab-a9c2-6c7218ad7f06;JETZT;AGORA
+1a1b9824-f40d-4cfe-886e-8b5c7843f449;Stunde;HORA
+c5b5f84a-7be1-4fab-a9c2-6c7218ad7f06;jetzt;AGORA
 01a8ae37-cfb1-48de-8734-f96371ece70c;müde;CANSADO / com sono
-3143b454-baa1-483c-be5b-6a3a9ab79539;NOCH;AINDA
-363fdb3a-7b8c-451f-9b35-91725055cddc;WIE VIEL;QUANTO
+3143b454-baa1-483c-be5b-6a3a9ab79539;noch einmal;AINDA
+363fdb3a-7b8c-451f-9b35-91725055cddc;wieviel;QUANTO
 1912230e-9bc1-41f3-b053-4a592e10dddf;wiedergesehen;visto novamente
 0b403ac3-c37f-4a77-b653-01edcabef797;die Uhr;o relogio
 152a8ecd-5354-4afb-9f08-cd5bdb4f28f2;die Uhrzeit;a hora / o tempo
-6f0c8173-3c69-47c9-a6d6-0c3975eaa5df;ANRUFEN;ligar com o telefono
-7f023646-0cfb-4022-a7af-94ac3cfa6fd0;DAS WOCHENENDE;FIM DE SEMANA
-e2bf1e0f-5c14-4f24-9659-feae7e24d440;DIE NACHRICHTEN;NOTICIAS
+6f0c8173-3c69-47c9-a6d6-0c3975eaa5df;anrufen;ligar com o telefono
+7f023646-0cfb-4022-a7af-94ac3cfa6fd0;das Wochenende;FIM DE SEMANA
+e2bf1e0f-5c14-4f24-9659-feae7e24d440;die Nachrichten;NOTICIAS
 a3874153-fd7f-4cb2-a85c-5fa48d55cae7;können;PODER
 a150390d-44fe-4c98-ac04-8fb1b8b13daf;nicht machen;NÃO fazer
 3a0f208c-5ae6-496d-9c9e-7390c16eb302;nicht sprechen;nao falar
@@ -361,35 +371,33 @@ a6c35638-6332-4dde-a634-0fac8efa2f57;há;es gibt
 b1baab9c-78cf-4ab5-93e2-f523a232624c;não há pão;"es gibt kein Brot (não usa: ""es gibt nicht Brot"")"
 88305c37-8600-4531-99b8-d4941740fb7d;um 10 Uhr;às 10 horas
 8940845f-64bb-46db-9b13-136d5193f931;um .. herum;ao redor da ...
-4ce14525-5582-4e85-9ab3-324b27c0dd06;UNTER;ABAIXO DE
-7a15997d-66c2-4f90-9538-ce4527c0cf73;DIE AUFGABE;TAREFA/EXERCICIO
+4ce14525-5582-4e85-9ab3-324b27c0dd06;unter;ABAIXO DE
+7a15997d-66c2-4f90-9538-ce4527c0cf73;die Aufgabe;TAREFA/EXERCICIO
 46bc8d7c-8f97-49c8-9470-5c70f3310942;às 10 horas;um 10 Uhr
-f7c7c1db-3b1a-47f5-8cfa-a34578f8386b;ERKLAREN;EXPLICAR
-0d830a09-7afb-4b2a-8c98-44a5e77a6cc1;HELFEN;AJUDAR
-83ca4f71-7586-4891-b474-64403c731de9;LANGSAM;LENTO
-56b88ba7-4f0c-4dc8-99ec-f54969ba5ff0;WIEDERHOLT;repetido
-7d015cc2-b411-4598-9bce-2372b3daa12c;ABER;MAS
+f7c7c1db-3b1a-47f5-8cfa-a34578f8386b;erklären;EXPLICAR
+0d830a09-7afb-4b2a-8c98-44a5e77a6cc1;helfen;AJUDAR
+56b88ba7-4f0c-4dc8-99ec-f54969ba5ff0;wiederholt;repetido
 1a476b69-e29a-4e82-9ba1-3d2d4fcff32d;austauschen;trocar
-7f86cc13-037d-40d4-94e2-c2accb756b26;MEIST;A MAIORIA DE/A MAIOR PARTE DE
-d5ad1be1-f219-4e45-93eb-432cadb3e28c;BESCHREIBEN;DESCREVER
-86c268ed-df20-4497-b48e-396f9d0286b5;SEHR;MUITO
-04e16cbd-e77c-4099-ad70-9fc90fab9556;TEUER;CARO
-3bb205fd-a0d7-4d49-bcb0-f1770666f4a0;WENIG;POUCO
-f2b90481-2804-4e4b-a7ca-6429f0d88bbe;IMMER;SEMPRE
+7f86cc13-037d-40d4-94e2-c2accb756b26;meist;A MAIORIA DE/A MAIOR PARTE DE
+d5ad1be1-f219-4e45-93eb-432cadb3e28c;beschreiben;DESCREVER
+86c268ed-df20-4497-b48e-396f9d0286b5;sehr;MUITO
+04e16cbd-e77c-4099-ad70-9fc90fab9556;teuer;CARO
+3bb205fd-a0d7-4d49-bcb0-f1770666f4a0;wenig;POUCO
+f2b90481-2804-4e4b-a7ca-6429f0d88bbe;immer;SEMPRE
 05ac1b9c-dfde-4ac4-9ccc-c4bd4875494f;welche;qual
 a780a18c-401e-48c1-95a8-301574a66c60;welcher;qual
 dd22eb09-03a6-4c7c-a141-c632e63f0e04;für;PARA
-8e4f815e-6fa9-4da9-8abe-1d59517cddc9;ZEIGEN;mostrar
-3662ba36-2ab3-4e36-9552-3ef1012aa8f9;SUCHEN;BUSCAR
-1618b68e-e323-4195-98eb-052411b9235b;KAUFEN;COMPRAR
+8e4f815e-6fa9-4da9-8abe-1d59517cddc9;zeigen;mostrar
+3662ba36-2ab3-4e36-9552-3ef1012aa8f9;suchen;BUSCAR
+1618b68e-e323-4195-98eb-052411b9235b;kaufen;COMPRAR
 8e3b0304-0ae2-47c0-92cf-a2a9815b519a;mögen;GOSTAR
 fd6351a7-5aa0-409c-a138-a245540b4487;alle;TODO/A
 db6a39ad-14ab-4d54-928a-a3fe3ac2d024;so schön;tão lindo
 b5f8ff1d-0c69-400e-ae49-337682ceafe6;so ist es;assim é 
 0536269b-a206-4a91-bbb1-8ccdf1459c9f;so schnell;tão rapido
-bca98796-ea39-453d-87c9-1c277748ea1b;ZAHLEN;PAGAR
-5bf43581-354d-406f-b16c-a202e644db8b;ZUSAMMEN;TODO JUNTO
-fd4ce33d-0799-4e76-ad61-66c8ad096c01;WANN;QUANDO
+bca98796-ea39-453d-87c9-1c277748ea1b;zahlen;PAGAR
+5bf43581-354d-406f-b16c-a202e644db8b;zusammen;TODO JUNTO
+fd4ce33d-0799-4e76-ad61-66c8ad096c01;wann;QUANDO
 058e3478-c1ce-4bdf-bc56-fb4bd3c7e284;ab + (tempo / lugar);A PARTIR DE/DESDE
 b0146445-4ced-403b-ac83-e16abc1d0e65;je;cada
 9ee953e3-501a-4b60-9fb7-0e8231897ebe;MELDEN;CHAMAR
@@ -676,7 +684,6 @@ f74b1fbe-1f84-4f5d-b80d-df8f2301b843;jogar (criancas);spielen
 48c9749e-d091-40fb-b15f-d1765ee8db23;a lingua;die Sprache
 4731bf10-41a5-4750-bcbc-77e219c9246f;o estadio;das Stadion
 60df8bf5-a24d-4228-8ca2-79e16d4c1f99;a bobina;die Spule 
-9a55a55e-44f9-4ee5-a88c-73d6c297dbb5;;
 c57966e8-ad0a-4a1e-88bb-2194e168b2f6;die Schreibtischlampen;as lampadas do abajour 
 3751f7cd-e488-41f4-92bb-918fb19812ed;der Schuh;o sapato
 7217032c-80c3-40b9-9c6c-72ed858e1042;die Schuhe;os sapatos
