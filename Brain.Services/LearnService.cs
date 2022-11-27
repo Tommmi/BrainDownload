@@ -73,17 +73,20 @@ namespace Brain.Services
 		{
 			Initialize();
 			var now = _systemTime.GetUtcTime();
-			var nextWord = _activeVocabulary
-				.Where(word => now > word.Value.status.NextRepetition)
+			var nextActiveWord = _activeVocabulary
 				.OrderBy(word => word.Value.word.Prio)
+				.Where(word => now > word.Value.status.NextRepetition)
 				.FirstOrDefault();
 
-			if (nextWord.Value.word != null)
+			var nextNewWord = _newVocabulary.OrderBy(x => x.Value.Prio).FirstOrDefault();
+
+			if (nextActiveWord.Value.word != null 
+			    && (nextNewWord.Value==null 
+			        || nextActiveWord.Value.word.Prio < nextNewWord.Value.Prio))
 			{
-				return new NextWordResult(succeeded: true, vocable: nextWord.Value.word, wordStatus: nextWord.Value.status);
+				return new NextWordResult(succeeded: true, vocable: nextActiveWord.Value.word, wordStatus: nextActiveWord.Value.status);
 			}
 
-			var nextNewWord = _newVocabulary.OrderBy(x => x.Value.Prio).FirstOrDefault();
 			if (nextNewWord.Value != null)
 			{
 				var status = new WordStatus(
