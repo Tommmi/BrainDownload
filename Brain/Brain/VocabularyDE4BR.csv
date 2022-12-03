@@ -226,36 +226,39 @@ e67914f9-0245-4625-88fc-8768bb4d05f6;und;e
 681da0f3-1cff-429c-b4ec-d07d9b22eea7;aus (Brasilien);DE(DESLOCAÇÃO)
 4cbda697-c74c-41e7-a143-c5b97a6a3646;aus (aparilho);disligado
 2af450d9-ff29-47a0-af75-b08f71fb76d7;sou do Brasil;ich bin aus Brasilien
-562550b8-b11c-422d-a5d9-9e380d24dc8e;a TV;der Fernseher 
-4f3d0c45-512b-4a94-bfa5-fc935b2d2239;assistar TV;fernsehen
-f252e15b-224e-4257-9c24-0e33a19ba581;e vejo TV;ich sehe fern
-e4996e21-1a70-4c64-95c7-b84d8533c768;Siehst Du fern ?;vc está assistando TV ?
+562550b8-b11c-422d-a5d9-9e380d24dc8e;a TV (o aparelho);der Fernseher 
+4f3d0c45-512b-4a94-bfa5-fc935b2d2239;assistir TV;fernsehen
+f252e15b-224e-4257-9c24-0e33a19ba581;e assisto TV;ich sehe fern
+e4996e21-1a70-4c64-95c7-b84d8533c768;Siehst Du fern ?;vc está assistindo TV ?
 08d4b409-86d5-4df1-8214-17198350537c;A TV está desligada?;Ist der Fernseher aus ?
 7943eea4-abc0-4606-8e66-64ea3371adfe;im;em/no (masculino)
 581436bd-5c42-4d59-9a71-32d4a9a3831b;KOMMEN;VIR
 6bd069ce-32b7-4ef6-b317-b96d90393312;WIE;COMO
 e846b42a-c765-4457-8a3b-2706db5b0b5a;woher;DE ONDE ?
-d57f626b-a68f-4807-a170-f804389274f7;zu Thomas;pra Thomas
+d57f626b-a68f-4807-a170-f804389274f7;zu Thomas;para casa do Thomas
 e1d7776b-9440-475b-a8fb-06604dcae089;ist zu ;tá fechado
-3f90ea8e-a51f-4cba-878b-5f3b063e2cc0;pra Thomas;zu Thomas
+3f90ea8e-a51f-4cba-878b-5f3b063e2cc0;para casa do Thomas;zu Thomas
+5f632dbe-f658-4bb5-bc6e-a47b2d5a8011;bei Thomas;na casa do Thomas
 d0088186-b52d-4d2f-a507-c62c2305d2f0;viel;muito
 830a6e2f-0c97-44fd-a205-7e5138a21709;schnell;rapido
 8e70bb09-4e3b-4edc-91a7-4adf2c7c6f82;zu schnell;rápido demais
 9756b6d9-4111-48e3-986f-adc2510f613a;zu viel;demais
+26e94b99-40a4-4d61-8b22-401a7680731d;na casa do Thomas;bei Thomas
 8a9c6182-b393-415c-9aa0-72fa710e1691;tá fechado;"ist zu; (também: ist geschlossen)"
 6ab897d2-08d7-4001-9905-26b18addc82d;beginnen;iniciar
 89085636-9f32-4449-bb11-7dbff9e607c4;pra loja IKEA;zu IKEA
+ddf29db0-5c9f-4b95-90ea-c31ebdfd8b97;mit Thomas;com Thomas (juntos)
 0754c772-5af9-4772-af14-24e9b3fb0bd9;pra Hamburgo;"nach Hamburg (não ""zu Hamburg"", porque é uma cidade)"
 645b4628-d531-4bfe-9190-f7efb683c52d;klingeln;TOCAR CAMPAINHA
 075ec27c-bf7b-4064-9f68-382a0211985c;berichten;INFORMAR
 0a79f43b-223b-4f7b-84c0-bb8707a71f6b;mitkommen;ACOMPANHAR
+fbfd3a29-8cf5-41ba-9239-ba4513ca60b0;com Thomas;mit Thomas
 68da08fb-902b-47c2-88d8-2c6f9c2445cc;"ca. (pronuncia como: ""sirqua"")";AO REDOR/APROXIMADAMENTE
 ecff33d3-08e2-4a43-871d-d38595f27877;danach;depois disso
 df9a678b-cddf-4e4d-aeff-10011c95e53f;später;depois
 cfd3205e-92c9-497e-9038-724a0ccdc9ac;depois disso;danach
 d362fdd2-bb5f-476a-86e7-ee0fbfe24ad0;depois de … ;nach dem/der/den … (masculino, feminino o neutrum)
 4114b78f-4839-4b73-9841-9e3d0d9a7b97;depois (nao agora);später
-e9b4eb5b-6ff2-447c-bfac-b1021f219563;nach Hamburg;
 35a8abd2-02dd-4af4-9796-8d47ad3f992e;nach Hamburg;pra Hamburgo
 c8bd0718-d519-470e-afe6-1def96fbee9c;durch (lugar);âtravés de
 bc0c9393-a664-412f-b736-6d857653ef47;anmachen ;acender, ligar
@@ -272,7 +275,7 @@ f382ee3d-4cb3-44c2-b60b-3e64aadfd1b7;in;em/na (feminina ou neutrum)
 0babda71-fe66-40ef-b779-8064cbe3875c;oder;ou
 55b66487-66da-4538-a50a-3dbc55607a74;Die Aussprache;o pronunciacao
 1f647990-173c-41c0-802d-b08f55824af0;bitte;POR FAVOR
-04ddc3cd-1d16-4b95-b26d-5c17e1fc2972;nachprechen;REPETIR
+04ddc3cd-1d16-4b95-b26d-5c17e1fc2972;nachsprechen;REPETIR
 64075d89-f0ec-48a5-96f1-c7e2e9d6ffb0;auch;também
 652c8659-e485-49f3-90d4-cd87d48366d4;üben;praticar
 c968353d-a018-4c09-8b07-4c0253901d44;ankreuzen;marcar
@@ -352,11 +355,10 @@ da960659-2816-4959-a2db-5e91398baac7;querer;möchten, wollen (como egoista)
 592b15c4-1bfa-470a-80da-3d4575495438;das Land;o pais / estado / campo
 d500a5ca-cc1f-4ccc-a7d7-7b7af5970a45;de;von
 5242816d-d4ba-41e4-a28b-1d629a6c0c50;desenhar;zeichnen
-29cacf5d-f667-4f4b-8ad7-3d01a1ae3bc0;tudo;ganz
+29cacf5d-f667-4f4b-8ad7-3d01a1ae3bc0;todo;ganz
 00add301-14d0-427b-bd82-d18afb748f93;der König;o rei
-7ecdaa0a-37bd-4bce-95ac-757a01c7ce48;olhar;ansehen
+7ecdaa0a-37bd-4bce-95ac-757a01c7ce48;olhar para;ansehen
 5bc44078-d0af-41e3-ac51-9a68ef2a6f8d;ele olha pra ela;er sieht sie an / er blickt sie an
-fc0ab8d8-58d1-4cda-a29d-02de56fdad12;só;nur
 537197f5-7408-4571-a163-2465cd4261c0;conhecer;kennen
 1b2cda7b-b4c3-4457-9051-507adb3d2492;então;dann
 e8349ee9-cdb3-4fd1-a642-ab63add2915c;claro;hell
@@ -423,7 +425,6 @@ d711aebb-d84f-4104-8866-37e5b3dec730;dauern;demorar
 1a1b9824-f40d-4cfe-886e-8b5c7843f449;Stunde;HORA
 c5b5f84a-7be1-4fab-a9c2-6c7218ad7f06;jetzt;AGORA
 01a8ae37-cfb1-48de-8734-f96371ece70c;müde;CANSADO / com sono
-3143b454-baa1-483c-be5b-6a3a9ab79539;noch einmal;AINDA
 363fdb3a-7b8c-451f-9b35-91725055cddc;wieviel;QUANTO
 1912230e-9bc1-41f3-b053-4a592e10dddf;wiedergesehen;visto novamente
 0b403ac3-c37f-4a77-b653-01edcabef797;die Uhr;o relogio
@@ -434,7 +435,7 @@ e2bf1e0f-5c14-4f24-9659-feae7e24d440;die Nachrichten;NOTICIAS
 a3874153-fd7f-4cb2-a85c-5fa48d55cae7;können;PODER
 a150390d-44fe-4c98-ac04-8fb1b8b13daf;nicht machen;NÃO fazer
 3a0f208c-5ae6-496d-9c9e-7390c16eb302;nicht sprechen;nao falar
-67fa36ff-9bf9-4109-998b-1c7d46901e58;nicht sehen;nao olhar
+67fa36ff-9bf9-4109-998b-1c7d46901e58;nicht sehen;nao ver
 ae8c52a7-79a0-4901-b55d-461f9f277b7b;Brot;pão
 86d07af1-c0ac-4abf-b131-f8ec0aee2ed1;es gibt;há
 52df2b25-0521-4ace-893c-78d6038af125;es gibt Brot;há pão
@@ -454,23 +455,105 @@ f7c7c1db-3b1a-47f5-8cfa-a34578f8386b;erklären;EXPLICAR
 1a476b69-e29a-4e82-9ba1-3d2d4fcff32d;austauschen;trocar
 7f86cc13-037d-40d4-94e2-c2accb756b26;meist;A MAIORIA DE/A MAIOR PARTE DE
 d5ad1be1-f219-4e45-93eb-432cadb3e28c;beschreiben;DESCREVER
-86c268ed-df20-4497-b48e-396f9d0286b5;sehr;MUITO
-04e16cbd-e77c-4099-ad70-9fc90fab9556;teuer;CARO
-3bb205fd-a0d7-4d49-bcb0-f1770666f4a0;wenig;POUCO
-f2b90481-2804-4e4b-a7ca-6429f0d88bbe;immer;SEMPRE
+86c268ed-df20-4497-b48e-396f9d0286b5;sehr;muito
+04e16cbd-e77c-4099-ad70-9fc90fab9556;teuer;caro
+3bb205fd-a0d7-4d49-bcb0-f1770666f4a0;wenig;pouco
+f2b90481-2804-4e4b-a7ca-6429f0d88bbe;immer;sempre
 05ac1b9c-dfde-4ac4-9ccc-c4bd4875494f;welche;qual
 a780a18c-401e-48c1-95a8-301574a66c60;welcher;qual
-dd22eb09-03a6-4c7c-a141-c632e63f0e04;für;PARA
+dd22eb09-03a6-4c7c-a141-c632e63f0e04;für;para
+d0013156-a2e3-41b1-ae9b-2785a0103298;"Gramática:
+Como posso encontrar o objeto acusativo em uma frase?";"Você pergunta: ""Quem ou o quê?"".
+por exemplo:
+Meu irmão adora chocolate.
+Quem ou o que meu irmão ama?
+Resposta: ""Chocolate"".
+Portanto, ""chocolate"" é o objeto acusativo na frase."
+6223fed9-8c5f-4d18-bf2c-61b76854236d;"Gramática:
+Qual é o objeto acusativo na frase 
+""A mesa tem quatro pernas""?";quatro pernas
+8d3fe92d-4936-49f9-90c4-b26240ceec38;o Husky (nomitavo);der Husky
+9fe9c219-3ab6-4d30-af6b-26f11af80422;o Husky (akkusativo);der Husky
+edc3d533-dc86-4cd1-acf1-35b5317b2665;"Gramática:
+Forma o accusativo singular de 
+""der""";den
+e8820f3b-254d-4cec-a47d-dd383d182c3b;"Gramática:
+Forma o accusativo singular de 
+""die""";die
+c0689713-e64b-438f-9ba7-f9022d2ac3cd;"Gramática:
+Forma o accusativo plural de 
+""der""";die
+67c8e1a7-630a-406b-8a5b-da4df21ee416;"Gramática:
+Forma o nominativo plural de 
+""der""";die
+9db7a362-bee1-4a73-8981-c6b05844d986;morder;beißen
+3a8a4161-ca80-44f1-bce7-a45883416679;Der Dalamtiner beißt den Husky;o dalmata morde o Husky
+eb8e995c-d48e-4061-aff2-0041921f8320;Der Husky beißt den Dalmatiner;o Husky morde o dalmata
+efd42925-9824-43a3-a081-a91ef99866bf;Den Dalamtiner beißt der Husky;o Husky morde o dalmata
+e112e6d7-f883-444b-b30b-51d5b8fd6b59;Den Husky beißt der Dalmatiner;o dalmata morde o Husky
+e05c6eda-1818-4ba9-98d3-9c406959f7c7;o dalmata morde o Husky;Der Dalamtiner beißt den Husky
+598ca926-f873-47e2-b2b9-4110873b71f2;o Husky morde o dalmata;Der Husky beißt den Dalmatiner
+df0adb72-2db9-4c06-bc0d-68c7276da9d6;o  cão morde o gato;"Der Hund beißt die Katze (""die Katze"" é femina)"
+c02f4647-fe45-4ff2-9e60-04658dcc75f1;"Gramática:
+Forma o accusativo masculino de 
+""ein""";einen
+52560935-b2e1-419d-ad7c-00c4da316a00;"Gramática:
+Forma o accusativo neutrum de 
+""ein""";ein
+bc5437e7-d11f-4059-8a95-e38c5e6e6f7a;"Gramática:
+Forma o accusativo de 
+""eine""";eine
+10649c9f-46da-4c8b-bb0a-3c2f22c15a29;Um cão morde o Thor;Ein Hund beißt Thor
+7b8e8115-6d0b-48e8-a93e-124f2481a41d;Thor morde um cão;Thor beißt einen Hund
+f184f8fb-6529-48f2-8be3-146a4c3ea3c3;Ein Hund beißt Thor;Um cão morde o Thor
+167e6a25-ebcb-4a19-b6b5-af5c2471ccfa;Thor beißt einen Hund;Thor morde um cão
+46b0b5f9-5713-4d44-b85b-3757fac6ac29;verrückt;louco
+439edc1c-7c7d-413b-99ea-dc093a6823f3;rot werden;corar
+b3c94929-7ea9-44db-8a2e-a92d4d8fe373;müde werden;cansar-se
+d5284034-e1db-4eda-8cce-22a6538ddfcd;stark werden;Torne-se forte
+bb604987-da66-4270-aef0-359db223d676;verrückt werden;ficar louco
+1c98c852-a731-4f68-9f54-0eb1ba605a71;eu coro;ich werde rot
+8bec9def-368a-4faa-adde-816ead3b902e;vc cora;Du wirst rot
+f4539781-31d3-4e86-83f7-1e975fd0c503;ele cora;er wird rot
+323ffcea-c3bd-41c5-b007-c64884f42cad;nos cansamos;wir werden müde
+606b6239-7b76-498f-9739-a40d6ef99144;eles ficam cansados;sie werden müde
+fb595ee5-da34-4cff-bc63-099f4a279341;ich werde rot;eu coro
+203166be-9333-4b42-80be-17cc80ecb711;Du wirst rot;vc cora
+a96a39e9-cd4c-441a-a80e-a6b6dec8d6e1;er wird rot;ele cora
+0c5cee56-696e-4229-8f14-761afdac2993;eu estou cansado;ich bin müde
+a59e3ca3-98ed-4de1-8ac3-51badb603186;você está cansado;du bist müde
+99cb166f-8ca0-4c3c-81f8-2ebce41f6038;ele está cansado;er ist müde
+2689ced1-0b0c-4425-a04e-067c1798a102;nos estamos cansados;wir sind müde
+80fe3413-071c-4db5-8e8d-63d7bcf44518;eles estão cansados;sie sind müde
+90706d60-abf7-4d15-a677-aa9daa0352bf;ich bin stark;Eu sou forte
+679712da-1dd5-491e-a979-b654b8e2b594;ich werde stark;Eu me torno forte
+8b7aea7e-297a-4c58-b18a-73eded7586fc;ich bleibe stark;Eu continuo forte
+4aa842ea-9994-4fbd-ace1-cb1b34ff3a8a;du bist stark;você é forte
+6b55280a-5f66-4513-b1fb-63d8dd054a37;du wirst stark;você se torna forte
+d780d5e5-2436-4d92-82a8-693aa7b3bcfa;du bleibst stark;você continua forte
+7593083a-b310-4f80-8a5d-9f0b5213bfa4;você é forte;du bist stark
+a15a27b5-44dd-4b36-88c2-5c826c799cae;você se torna forte;du wirst stark
+9d498a9c-b791-4435-8c56-e1de22fd45b0;você continua forte;du bleibst stark
+bf2e26e1-fb61-4f2e-a905-831c94bc0b3b;Eu sou forte;ich bin stark
+edd3cff1-33f2-4a61-bf61-5ce5bb64a57d;Eu me torno forte;ich werde stark
+20e5698a-d4f2-40bc-8f02-3a6d7d31dac1;Eu continuo forte;ich bleibe stark
+ed66372d-7a52-4254-b68c-289f3f1410bf;ich bin müde;eu estou cansado
+cc151351-fbb9-45b0-bc77-9075dc799c89;du bist müde;você está cansado
+48131254-f0bd-4776-b492-ce7262d96a4a;er ist müde;ele está cansado
+d82981ca-a158-4256-86d3-84de4a08595f;wir sind müde;nos estamos cansados
+1da5da8b-6792-4107-91a3-23b9a92c8883;sie sind müde;eles estão cansados
 8e4f815e-6fa9-4da9-8abe-1d59517cddc9;zeigen;mostrar
 3662ba36-2ab3-4e36-9552-3ef1012aa8f9;suchen;procurar
 1618b68e-e323-4195-98eb-052411b9235b;kaufen;comprar
 8e3b0304-0ae2-47c0-92cf-a2a9815b519a;mögen;gostar
-fd6351a7-5aa0-409c-a138-a245540b4487;alle;todos/todas
+fd6351a7-5aa0-409c-a138-a245540b4487;alle;todos
+d80756f7-c5e5-4575-8fa9-c47a3083edba;alles;tudo
 db6a39ad-14ab-4d54-928a-a3fe3ac2d024;so schön;tão lindo
 b5f8ff1d-0c69-400e-ae49-337682ceafe6;so ist es;assim é 
 0536269b-a206-4a91-bbb1-8ccdf1459c9f;so schnell;tão rapido
 bca98796-ea39-453d-87c9-1c277748ea1b;zahlen;pagar
-5bf43581-354d-406f-b16c-a202e644db8b;zusammen;todo junto
+5bf43581-354d-406f-b16c-a202e644db8b;wir zusammen;nos junto, conjuntamente
+fc52eedf-ed1d-4e94-95bc-cfc723b5dece;macht zusammen 10 EUR;faz um total de 10 EUR
 fd4ce33d-0799-4e76-ad61-66c8ad096c01;wann;quando
 058e3478-c1ce-4bdf-bc56-fb4bd3c7e284;ab + (tempo / lugar);a partir de
 b0146445-4ced-403b-ac83-e16abc1d0e65;je;cada
@@ -594,19 +677,21 @@ f5aa0ff7-fb73-4237-bccf-2737a776d023;bei mir;onde eu estou / comigo
 2cc0d1f2-c01e-4b8d-9ce2-3c252f76b79c;aconselhar alg.;jemanden beraten
 b4342a8c-6a20-4ca3-be40-e6001f5d7ca4;na trabalho;bei der Arbeit
 94a4f29a-31ba-4662-9703-65934ee0e2b3;os dois / as duas;beide
-282cb57a-8ab6-46ae-91b6-6b28e89702c6;a consulta;die Beratung
+d4f93c39-b77b-4053-9ef7-68bf9480499d;die Beratung;a consulta
+282cb57a-8ab6-46ae-91b6-6b28e89702c6;aconselhamento ;die Beratung
 63b9c244-1f1e-40bd-9da3-e37227b19882;a profissão;der Beruf
 da767e86-b1aa-4ab8-84cf-7ac0c2d3b329;bekommen;receber
 b0c5e79d-b144-4132-b301-41d1a9c0243f;famoso / -a;berühmt
 6fbf7c2c-3149-46b9-a837-b78cdff78688;o ator;der Schauspieler
 f0d81d42-72dd-4d19-b0ad-1c7a68f4efa3;a atriz;die Schauspielerin
 dced2ee4-c085-4863-a39b-5705967891d1;a famosa atriz;die berühmte Schauspielerin
-dde8ecef-40e2-4bd8-8f75-ab7a3f571ca6;pedir;bestellen
-eec95553-1449-41af-95ef-7dffe32dea8b;o pedido;die Bestellung
+dde8ecef-40e2-4bd8-8f75-ab7a3f571ca6;encomendar;bestellen
+eec95553-1449-41af-95ef-7dffe32dea8b;a encomenda;die Bestellung
 6e4d3bfa-452f-477a-bf92-35f9b49aad25;visitar;besuchen
 5e4eeb95-b2bd-4d12-ade1-c4cb5674f03f;besuchen;visitar
 0b60658d-e29b-4cce-b583-1428505704b0;a tarde;der Nachmittag
-4dd3e70a-54cf-4eb8-a8d8-541f9ff1fec6;a noite;die Nacht
+4dd3e70a-54cf-4eb8-a8d8-541f9ff1fec6;a noite (até 24h00);der Abend
+5a20aab9-4c09-4c4d-898c-e662f7c0c1ec;a noite (entera);die Nacht
 d5001779-841c-41fd-b389-d23a16b67572;a proximidade;die Nähe
 1021a7b8-6711-45a3-b87b-4f66ddf5d90a;o nome;der Name
 4e0ff674-cc37-465e-8637-f37850008cee;a natureza;die Natur

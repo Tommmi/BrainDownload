@@ -168,11 +168,14 @@ namespace Brain.Services
 					progress = 1.0;
 				}
 
-				wordsInShortMemory += progress;
 
 				if (curInterval > TimeSpan.FromDays(30).TotalSeconds)
 				{
 					wordsInLongMemory += progress;
+				}
+				else
+				{
+					wordsInShortMemory += progress;
 				}
 			}
 
