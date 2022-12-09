@@ -122,7 +122,7 @@ b9bed140-410e-46e7-b9a9-2b92d56e3107;em casa;zuhause
 9fd8dd97-750b-4325-a877-5106f4c19966;mas;aber
 30590bdf-92d0-4736-8e19-1e3b15872cd9;então;also / dann
 8f01cf0e-c326-4261-b14c-ffcb69ca52aa;porque, por ...;weil
-d3930af1-08f3-42c0-93cc-181efa229de2;só, somente;nur
+d3930af1-08f3-42c0-93cc-181efa229de2;somente;nur
 420aba55-74b3-45a6-b5c2-b179cb122866;a cama;das Bett (neutrum)
 6adf791e-fef4-46a0-90ec-4c80e21f20aa;o cobertor;die Bettdecke (feminina)
 7f855fe4-fad2-4cc6-a18b-12986b09477c;a mesa;der Tisch (masculino)
@@ -163,7 +163,8 @@ a9010412-a6e9-42de-8b96-126689636e1c;voar;fliegen
 6b6325e5-bb69-4aac-9ae6-8a7afe221a30;o mapa;Die Karte
 0c9723fd-7d7a-47a5-a6cf-8cfbcfb053f1;links;esquerda
 e1470713-2bb5-427e-a3f4-4c7c417a07ef;rechts;direita
-a51ef696-dd2f-488a-a2c1-c84ee1b0c425;O bilhete;Die Fahrkarte
+a51ef696-dd2f-488a-a2c1-c84ee1b0c425;O bilhete (para tren / para ir em um vehiculo);Die Fahrkarte
+43b92e74-9f3b-46e6-84b2-7d09e8263b18;O bilhete (para entrar / cinema / opera);Die Eintrittskarte
 ad87c809-74f8-44d8-bdf0-d45d78870f8d;cartão de credito;Kreditkarte
 11c3f148-eed0-44d0-b47e-9579b5643164;o cardapio;die Karte
 daf6e3ae-1f9f-45d5-97c5-a163197dfa1e;o cartão;die Karte
@@ -235,7 +236,7 @@ e4996e21-1a70-4c64-95c7-b84d8533c768;Siehst Du fern ?;vc está assistindo TV ?
 581436bd-5c42-4d59-9a71-32d4a9a3831b;KOMMEN;VIR
 6bd069ce-32b7-4ef6-b317-b96d90393312;WIE;COMO
 e846b42a-c765-4457-8a3b-2706db5b0b5a;woher;DE ONDE ?
-d57f626b-a68f-4807-a170-f804389274f7;zu Thomas;para casa do Thomas
+d57f626b-a68f-4807-a170-f804389274f7;zu Thomas;(ir) para Thomas
 e1d7776b-9440-475b-a8fb-06604dcae089;ist zu ;tá fechado
 3f90ea8e-a51f-4cba-878b-5f3b063e2cc0;para casa do Thomas;zu Thomas
 5f632dbe-f658-4bb5-bc6e-a47b2d5a8011;bei Thomas;na casa do Thomas
@@ -337,7 +338,7 @@ bd34fe2e-4355-433f-902d-86deb960130b;gut;bom
 b33c5548-4352-42b7-a347-16ee8b87a287;ganz;todo/a
 7810baab-141a-4a58-904b-c80b422f1dec;ansehen;olhar
 a596a4cb-760e-4e82-817d-309a09a38b56;er sieht sie an;ele olha para ela
-a0132dca-1938-42eb-8305-434e268c7234;nur;só
+a0132dca-1938-42eb-8305-434e268c7234;nur;somente
 3d099a84-c853-4a90-acc1-05afc5aebbea;kennen;conhercer
 5d5dc7ea-c178-4be7-9dbb-cc8226f48786;dann;então
 f89d1979-13cf-440e-bfda-d3ccb1c08574;hell;claro/a
@@ -376,7 +377,11 @@ E.G.: Der Mann - die Männer
 c49fbd14-bae5-454f-855e-83c9b36a0ed8;"Grammatica: 
 Como formar normalmente o plural para substantivos femininos?";"Normalmente por um ""n"" no final da palavra.
 Por exemplo: die Gabel - die Gabeln
-die Reise - die Reisen"
+die Reise - die Reisen
+die Königin - die Königinnen"
+f89ea88f-054b-4e46-b873-c1d7436a2857;die Katze;o gato
+91119591-7f7a-4d16-9ac7-1d2de36d9b1e;os reis;die Könige
+7a448615-3c50-4f5b-a974-1346067d5dbf;as reinhas;die Königinnen
 71f276e4-4c57-415d-84f1-38646f783747;"Grammatica: 
 Como formar normalmente  o plural para substantivos neutrum?";"Normalmente por um ""er"" no final da palavra (e muitas vezes com um ü,ä ou ö no meio)
 Por exemplo: 
@@ -385,6 +390,8 @@ das Land, die Länder,
 das Lied, die Lieder,
 das Kind - die Kinder,
 Das Messer - die Messer"
+7ad3d814-1609-4e8e-a72f-3f76affc67e5;o gato;die Katze
+35a0eacb-0bea-4cc8-8ef1-ac1466d6f1d7;os gatos;die Katzen
 5dce9b80-6f1b-4309-a35b-306fdc1782cb;"Exceções gramaticais:
 Como você forma o plural de uma palavra terminada em ""er"" ?";"A palavra não muda!
 Por exemplo: 
@@ -396,6 +403,10 @@ Por que é
 ""Ich bin gegangen"" 
 e não 
 ""ich habe gegangen""?";"O passado para verbos de locomoção é formado com ""sein"" e não com ""haben""."
+7a9dda90-459f-42a4-9a7f-917d69033435;as mesas;die Tische
+b3f363ce-a5e0-4b4e-8f9e-430a4b7d0864;os pratos;die Teller
+7f0706f1-374e-4432-be5f-0da0676b5b7b;os garfos;die Gabeln
+5ff63f78-e8ae-4ccf-9e2e-621943520cf2;os homens;die Männer (Exceção)
 42dc1d69-dd9d-42cb-bd18-dab3b735c933;"Gramática:
 Por que é 
 ""Ich habe gesagt"" 
@@ -412,7 +423,7 @@ Por que é
 08b92f3d-ea15-4d74-a9f3-3844a35091a6;Der schnelle Mann geht schnell;O homem rápido caminha rápido
 97e48422-499c-431f-b872-e4733b03d5ab;Als + (algo anconteceu);quando (algo anconteceu)
 e8b56fab-fc63-4d9b-910e-100755f21c35;mehr als;mais que / mais de
-65f26eb0-fdf2-4160-bdd7-9a59143a381c;schneller als ..;mais rapido de ..
+65f26eb0-fdf2-4160-bdd7-9a59143a381c;schneller als ..;mais rapido que ..
 6be86040-a976-47b2-9974-7bc23c4da389;Polizist;Policial
 c111e11e-fb28-4890-9bfc-94f4f3212262;Als Polizist;Como Policial
 19d7abcf-67a6-4cf8-a59d-b6e672c40671;selbst;POR SI MESMO
@@ -424,7 +435,7 @@ b2fa22ba-78e0-4c72-a60f-a92c381a9230;Dauer;DURAÇÃO
 d711aebb-d84f-4104-8866-37e5b3dec730;dauern;demorar
 1a1b9824-f40d-4cfe-886e-8b5c7843f449;Stunde;HORA
 c5b5f84a-7be1-4fab-a9c2-6c7218ad7f06;jetzt;AGORA
-01a8ae37-cfb1-48de-8734-f96371ece70c;müde;CANSADO / com sono
+01a8ae37-cfb1-48de-8734-f96371ece70c;müde;com sono
 363fdb3a-7b8c-451f-9b35-91725055cddc;wieviel;QUANTO
 1912230e-9bc1-41f3-b053-4a592e10dddf;wiedergesehen;visto novamente
 0b403ac3-c37f-4a77-b653-01edcabef797;die Uhr;o relogio
@@ -433,9 +444,13 @@ c5b5f84a-7be1-4fab-a9c2-6c7218ad7f06;jetzt;AGORA
 7f023646-0cfb-4022-a7af-94ac3cfa6fd0;das Wochenende;FIM DE SEMANA
 e2bf1e0f-5c14-4f24-9659-feae7e24d440;die Nachrichten;NOTICIAS
 a3874153-fd7f-4cb2-a85c-5fa48d55cae7;können;PODER
+79ea3b4b-feb3-45b4-a13f-1d3bf2820278;com sono;müde
 a150390d-44fe-4c98-ac04-8fb1b8b13daf;nicht machen;NÃO fazer
 3a0f208c-5ae6-496d-9c9e-7390c16eb302;nicht sprechen;nao falar
 67fa36ff-9bf9-4109-998b-1c7d46901e58;nicht sehen;nao ver
+ed23536c-b14e-40fe-9e77-896cf4fd75e4;cansado;kaputt
+59651fa8-df1d-4d64-bf64-d62029c47125;kaputt;quebrado ou cansado
+a30d1806-8859-492c-b29d-55768f0de6d0;quebrado;kaputt
 ae8c52a7-79a0-4901-b55d-461f9f277b7b;Brot;pão
 86d07af1-c0ac-4abf-b131-f8ec0aee2ed1;es gibt;há
 52df2b25-0521-4ace-893c-78d6038af125;es gibt Brot;há pão
@@ -486,6 +501,12 @@ Forma o accusativo plural de
 67c8e1a7-630a-406b-8a5b-da4df21ee416;"Gramática:
 Forma o nominativo plural de 
 ""der""";die
+5ee8768f-2b16-436f-a9dc-988b9210841f;"Gramática:
+Forma o accusativo plural de 
+""die""";die
+8794b783-c660-4b4f-9cbf-0af2f706c1fa;"Gramática:
+Forma o accusativo plural de 
+""das""";die
 9db7a362-bee1-4a73-8981-c6b05844d986;morder;beißen
 3a8a4161-ca80-44f1-bce7-a45883416679;Der Dalamtiner beißt den Husky;o dalmata morde o Husky
 eb8e995c-d48e-4061-aff2-0041921f8320;Der Husky beißt den Dalmatiner;o Husky morde o dalmata
@@ -642,7 +663,6 @@ b47b15d1-7f34-426e-9ac0-4555f810022e;Auf Wiedersehen!;tchau! Ate a vista
 36ba274e-659d-4850-8c94-987bcafb0484;ele se levantou;er ist aufgestanden
 2ebfce22-ee2f-44bd-a6ab-a8db7b725dc6;a saída;der Ausgang
 6cce2a31-cc9a-4079-bd30-719077f03ea2;ausgehen;sair com alg.
-2ed13c72-b032-4399-ae9a-7cab756247a8;;
 ef9e07f1-0968-40a8-800f-393d68425887;a autoestrada;die Autobahn
 626cbc68-be58-4e6e-b727-96ec3d28f1b7;a concessionária (de carros);das Autohaus
 3bc53734-7254-4d0d-8d67-82666be9f397;tomar banho;baden
