@@ -120,7 +120,7 @@ ed62a19a-f155-46ab-9dfc-a1e55742461e;2000;zweitausend
 74d03a87-6e08-44c6-95e4-957b78842db1;5000;fünftausend
 b9bed140-410e-46e7-b9a9-2b92d56e3107;em casa;zuhause
 9fd8dd97-750b-4325-a877-5106f4c19966;mas;aber
-30590bdf-92d0-4736-8e19-1e3b15872cd9;então;also / dann
+30590bdf-92d0-4736-8e19-1e3b15872cd9;então;also dann
 8f01cf0e-c326-4261-b14c-ffcb69ca52aa;porque, por ...;weil
 d3930af1-08f3-42c0-93cc-181efa229de2;somente;nur
 420aba55-74b3-45a6-b5c2-b179cb122866;a cama;das Bett (neutrum)
@@ -185,7 +185,8 @@ d638d5b5-0144-45ea-806f-992e36174515;eu venho;ich komme
 2d7ee261-2970-4395-89dd-7f6f75b21626;vc vem;du kommst
 cfe3b39f-a537-46d3-bbb7-84e33955508b;ele vem;er kommt
 84699b4f-97d4-466d-bd5f-2f67bdc2f0ea;nos vamos;wir gehen
-a431e861-193d-4b26-bb61-4c4173d63e4e;nos viemos;wir kommen
+2b046500-678f-4b7e-9260-78db976252f8;nos vimos;wir kommen
+a431e861-193d-4b26-bb61-4c4173d63e4e;nos viemos;wir sind gekommen
 b269c103-954b-471b-a3c9-55c036b849f5;vcs vêm;ihr kommt
 5204a0ae-a61f-464d-8547-ddb362a7b341;eles vêm;sie kommen
 838466ce-df16-4c05-a058-fbadd66208f9;vc está vindo o senhor;Sie kommen
@@ -194,7 +195,7 @@ ec45706b-2792-43e3-9269-e20171e9fa28;kommen;vir
 0a422ab4-66d2-4586-bdd1-febbcc758ceb;ich komme;eu venho
 988d41ad-559c-48a7-a98c-655f39a6dbeb;du kommst;vc vem
 dacf0e44-12ce-47ce-bc26-ca1d7b4dfac0;er kommt;ele vem
-812823bf-8306-413f-ac3b-fbd4caa9dabe;wir kommen;nos vamos
+812823bf-8306-413f-ac3b-fbd4caa9dabe;wir kommen;nos vimos
 9e685e82-08a1-4a46-b6e4-5e99a37a420d;ihr kommt;vcs vêm
 ec1c3733-b205-4925-8b52-9de231596a46;sie kommen;eles vêm
 a94c530b-fabf-4065-b6c9-5c237e1f696c;Sie kommen;vc está vindo o senhor
@@ -229,7 +230,7 @@ e67914f9-0245-4625-88fc-8768bb4d05f6;und;e
 2af450d9-ff29-47a0-af75-b08f71fb76d7;sou do Brasil;ich bin aus Brasilien
 562550b8-b11c-422d-a5d9-9e380d24dc8e;a TV (o aparelho);der Fernseher 
 4f3d0c45-512b-4a94-bfa5-fc935b2d2239;assistir TV;fernsehen
-f252e15b-224e-4257-9c24-0e33a19ba581;e assisto TV;ich sehe fern
+f252e15b-224e-4257-9c24-0e33a19ba581;eu assisto TV;ich sehe fern
 e4996e21-1a70-4c64-95c7-b84d8533c768;Siehst Du fern ?;vc está assistindo TV ?
 08d4b409-86d5-4df1-8214-17198350537c;A TV está desligada?;Ist der Fernseher aus ?
 7943eea4-abc0-4606-8e66-64ea3371adfe;im;em/no (masculino)
@@ -361,7 +362,6 @@ d500a5ca-cc1f-4ccc-a7d7-7b7af5970a45;de;von
 7ecdaa0a-37bd-4bce-95ac-757a01c7ce48;olhar para;ansehen
 5bc44078-d0af-41e3-ac51-9a68ef2a6f8d;ele olha pra ela;er sieht sie an / er blickt sie an
 537197f5-7408-4571-a163-2465cd4261c0;conhecer;kennen
-1b2cda7b-b4c3-4457-9051-507adb3d2492;então;dann
 e8349ee9-cdb3-4fd1-a642-ab63add2915c;claro;hell
 362175aa-a3ba-4286-9d84-5515faeb8210;escuro;dunkel
 07ea1880-ef66-46f7-b030-acd75ccf11a1;o rei;der König
@@ -488,7 +488,7 @@ Portanto, ""chocolate"" é o objeto acusativo na frase."
 Qual é o objeto acusativo na frase 
 ""A mesa tem quatro pernas""?";quatro pernas
 8d3fe92d-4936-49f9-90c4-b26240ceec38;o Husky (nomitavo);der Husky
-9fe9c219-3ab6-4d30-af6b-26f11af80422;o Husky (akkusativo);der Husky
+9fe9c219-3ab6-4d30-af6b-26f11af80422;o Husky (akkusativo);den Husky
 edc3d533-dc86-4cd1-acf1-35b5317b2665;"Gramática:
 Forma o accusativo singular de 
 ""der""";den
@@ -529,7 +529,7 @@ Forma o accusativo de
 f184f8fb-6529-48f2-8be3-146a4c3ea3c3;Ein Hund beißt Thor;Um cão morde o Thor
 167e6a25-ebcb-4a19-b6b5-af5c2471ccfa;Thor beißt einen Hund;Thor morde um cão
 46b0b5f9-5713-4d44-b85b-3757fac6ac29;verrückt;louco
-439edc1c-7c7d-413b-99ea-dc093a6823f3;rot werden;corar
+439edc1c-7c7d-413b-99ea-dc093a6823f3;rot werden;corar-se
 b3c94929-7ea9-44db-8a2e-a92d4d8fe373;müde werden;cansar-se
 d5284034-e1db-4eda-8cce-22a6538ddfcd;stark werden;Torne-se forte
 bb604987-da66-4270-aef0-359db223d676;verrückt werden;ficar louco
@@ -590,7 +590,6 @@ c2dfb44e-2ac4-41d5-887b-b80144b9ac1e;comer;essen
 39f42219-1a83-412b-98e0-404617043f2e;a comida;<b>das</b> Essen
 c288f991-78ae-4ba9-9595-6af4f65ffe84;a janta;das Abendessen
 62746325-9074-485e-bdc2-7750df9095b9;das Abendessen;a janta
-aee6dd63-0186-4cdf-8e5a-b0895ac022e5;vor;antes de
 23186917-153e-4aeb-9a78-d47f82aca8b3;jede;cada
 35e2ef93-e499-4513-a3d2-8e9bd635df37;anfangen;COMEÇAR
 2711a372-e681-4d3b-8d85-05dc134087d0;aufmachen;ABRIR
@@ -735,7 +734,7 @@ b7b9134e-c455-42fa-bb4a-f2a610d67c74;o leste ;der Osten
 8edf2ea5-7575-4ff3-b3d9-c78b22fe4010;der Nebel;a neblina
 e1573f28-d3d6-4865-a037-896f42d9117f;der Norden;o norte
 ffd9b6cf-ab6a-4a84-9a85-33d4d636274d;der Notizblock;o bloco de notas
-e01794ad-98bf-4a40-9b9c-1340c756e43e;der Nummer;o numero
+e01794ad-98bf-4a40-9b9c-1340c756e43e;die Nummer;o numero
 5dd1598e-cd8e-420a-9c53-691ff6c22ff7;das Oktoberfest;o oktoberfest
 e3a93ad3-fd82-4893-ba18-895b6991a1bf;die Oper;a ópera
 b95de1f2-1838-4112-9fe9-84c04324191d;der Orangensaft;o suco de laranja
@@ -795,9 +794,13 @@ e4a973aa-3261-4f5b-af69-5ba427a2ae7e;die Postleitzahl;o código postal
 14c11058-1c59-496b-89cc-cc0bbb36f7b3;o radio;das Radio
 1b55271a-c842-41e1-a22f-b3eb0a6d5064;a conta;die Rechnung
 f993a0dd-7ad9-4425-9edf-19ced503043d;a estante / a gôndola ;das Regal
-558da803-6c41-48d8-afe6-002e14f598f2;a casa germinada;das Reihenhaus
 0cf335e5-99c7-4fda-b39c-a5cf51e88b6d;o restaurante;das Restaurant
 585955ea-4a76-4b71-8f79-271acbb7ea78;o vinho tinto;der Rotwein
+53827445-6559-4cfd-b826-371520af2f60;der Rücken;a costa
+0b0a2e32-2c95-4bef-8044-285f49d1ea74;der Schmerz;a dor
+72ef20a4-a166-4baf-b7d1-76645e9f8646;die Schmerzen;a dor (plural)
+cc353144-eb36-445c-a6d4-d4170d2c8794;a costa (do corpo);der Rücken
+75d12000-3244-44eb-a409-018a83fbe425;a dor (plural);die Schmerzen
 f1f35d38-6f55-4c7a-8e20-4487bde04d32;as dores nas costas;die Rückenschmerzen
 19795d98-eeec-497a-b87b-b11fb3e85658;a calma;die Ruhe
 120fea35-9ce7-41e0-8982-f3f109bf1d8b;calma (estou calma);ruhig (ich bin ruhig)
@@ -816,7 +819,6 @@ a1457709-c2ef-4236-b671-89359e0f1046;a secretária (móvel);der Schreibtisch
 96a06e54-6892-4a65-bc9b-a6dfb72119ef;das Radio;o radio
 327758b8-7b6b-487d-8e2d-1ad66cc3092e;die Rechnung;a conta
 ab6ba59d-c5c3-4d16-8b90-70750acbcbff;das Regal;a estante / a gôndola 
-8803da72-b939-46f1-a541-b9117de0c937;das Reihenhaus;a casa germinada
 477f689e-bdc7-4c90-b178-e857d4f3e8fa;das Restaurant;o restaurante
 d4a56f9c-51a7-4f42-9c85-0f7f74fcd657;der Rotwein;o vinho tinto
 2af4c23a-cc44-4799-b317-b6fe3522e8a4;die Rückenschmerzen;as dores nas costas
@@ -884,3 +886,62 @@ a147b1c2-f7fa-40e8-b926-afaf4e2222df;er hat gespielt;ele jogou
 04d008f2-a204-41e7-9171-719e6738b676;die Sprache;a lingua
 1a39c1cf-a7cf-4eb3-bd56-51d5d1b008e7;das Stadion;o estadio
 73372f71-8eb5-47b4-9520-d17bb67f9b2b;die Spule ;a bobina
+57a75c46-3b38-460e-acb7-1ae89fb91711;o cão dele;sein Hund
+3597620f-9ef4-4bb6-933b-15bad71dd674;o cão dela;ihr Hund
+7a02c939-eb85-4fb7-931a-1f943093d179;meu cão;mein Hund
+a3f414fb-c84e-411f-aa44-e58d6f71cf2c;nosso cão;unser Hund
+74eef2dd-078e-4d3c-912e-11d15ca0ad89;o cão de vc / seu cão;Dein Hund
+760011d7-ad11-4fce-bced-4fcc95b6a3b1;o gato dele;"seine Katze (por ""Katze"" é femina)"
+3dacee17-7247-4e5b-a56b-f9b9652bf93b;o gato dela;"ihre Katze (por ""Katze"" é femina)"
+23371fc0-d45f-497d-8141-27b4ea7d7052;meu gato;meine Katze
+5187068e-0285-4ff2-b648-8bb58a310252;nosso gato;unsere Katze
+4da80332-56d2-478d-9e9c-8d2df6f9daf3;o gato de vc / seu gato;Deine Katze
+a2119214-aa6a-42e7-96b2-8c428a200a47;o faca dele;"sein Messer (por ""Messer"" é neutrum)"
+f94a1d4c-c867-4cae-b8d2-f880a3a62ed1;o faca dela;"ihr Messer (por ""Messer"" é neutrum)"
+358eed30-d912-4995-89e8-8ef091368261;minha faca;mein Messer
+e189b123-c794-451b-98b0-cfe1ced93687;nossa faca;unser Messer
+4f050f88-f6e9-4f22-8b53-18d848ce0e07;a faca de vc / sua faca;Dein Messer
+d0b52d0d-140f-41ce-ac25-95559fb78b8b;sein Hund;o cão dele
+24365e6f-e4a1-46b1-af48-81031fab48bc;ihr Hund;o cão dela
+241e0ee0-e553-4d09-8bcc-37a543d4020d;mein Hund;meu cão
+b5da2d7b-2f20-495c-b439-38c7b3f39f33;unser Hund;nosso cão
+be76ae35-4772-4d33-bd25-7b19c3e7bf3b;Dein Hund;o cão de vc / seu cão
+13572edc-9ce1-4b34-97df-6b1c0829e0e9;seine Katze;o gato dele
+6c0561b0-83dc-4de9-be96-7810d6a2c8c7;ihre Katze;o gato dela
+48b4e373-10f3-4acb-8ae8-9f37ffb7c2e0;meine Katze;meu gato
+24c3df9f-1c8f-44dc-8526-7052028fdf4f;unsere Katze;nosso gato
+69b48e96-458f-4b6b-8828-f3e7aa182b09;Deine Katze;o gato de vc / seu gato
+3dc482ba-639a-41fc-8c6a-f28a7ed3f66f;sein Messer;o faca dele
+f721cc6f-398e-4f0d-856a-8c2fd14b2af3;ihr Messer;o faca dela
+2bd179c6-a4db-4d8c-b841-7fa8b2be9d88;mein Messer;minha faca
+3af07673-0ea9-4f43-bf10-877d14950758;unser Messer;nossa faca
+9f06a6d5-d6ae-499e-801a-b082f9cd7a58;Dein Messer;a faca de vc / sua faca
+8f09a351-872d-4098-b720-58053d9135af;vamos! Vamos lá!;dann los! Ok, dann los!
+56c0e11e-a61d-465b-9118-58cacae764e5;vor (o significado principal);em frente de
+2f84d905-e540-4ccf-aa03-b0fc9b85c395;vor dem Haus;em frente da casa
+e21ca395-29b0-41fb-bfa3-573bdf9ab924;vor Christus;antes des Christo
+482623d2-f9a8-4c22-aaf8-c104d1db93d7;vor zwei Jahren;dois anos atrás
+ed40a775-8bb9-4ce9-b308-61e39256acb6;vor allem;sobretudo
+b11bfd2d-d84c-4977-a2ee-1c8b5ca1fa99;die Hitze;o calor
+e0b2d7da-7d46-4ab9-9387-953a587f91cf;umkommen;morrer
+c4cbd437-5ccb-4b7d-9818-36e48771a938;sterben;morrer
+c9d0a35f-1fac-4126-9457-829031517f22;vor Hitze umkommen;morrer de calor
+e29bd6cb-1008-4090-9692-cb74224dba5a;Ok, dann los!;vamos lá!
+0f8eb1e0-0c18-4489-9fad-62e7b606b9d1;em frente da casa;vor dem Haus
+00e29e88-73e5-4d43-b0f3-0e3f140db15c;antes de;davor / vor
+87c69076-cae2-43e1-b640-0284501077bf;antes des Christo;vor Christus
+c159249c-2e31-4c4f-9c34-8b4c0f119b93;dois anos atrás;vor zwei Jahren
+7a1bd431-f344-4a70-b468-fcb938fe5a3f;sobretudo;vor allem / vor allen Dingen
+50e0649a-5a6a-49cb-8b72-15c45548edba;o calor;die Hitze
+1c31da8a-6c9d-4a7c-9994-7885f0ea6393;morrer;umkommen / sterben
+738a4c56-72c1-4d8a-a26b-a2f477925bb7;morrer de calor;vor Hitze umkommen
+671348ce-311e-4aa8-a2aa-9f7e3461e50a;"Gramática:
+Como é formado o gerúndio em alemão?";"Não há gerúndio em alemão. 
+Se você quiser, você pode possivelmente incluir a palavra ""jetzt"" ou ""gerade"" 
+na frase para indicar que algo está acontecendo neste momento."
+37a736ca-99ed-481f-abd7-610f8d7be758;eu me levantei;ich bin aufgestanden
+adbce462-ebca-46fc-a324-4f5c457976a5;eu comi;ich habe gegessen
+b82d82c3-5be4-4b0e-8a25-77f1bca95885;já comi;ich habe schon gegessen
+8c718b0c-0538-4721-af0c-ae8988153957;já comi hoje;ich habe heute schon gegessen
+19b5587e-be91-4db3-90b8-8253de634abe;Estou morrendo de calor;ich komme um vor Hitze / ich komme vor Hitze um
+9e97e9ef-3b30-40c2-829f-798ec82d3863;eu morri do calor;ich bin vor Hitze umgekommen.
