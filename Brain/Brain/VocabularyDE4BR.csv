@@ -184,12 +184,12 @@ fc85ad9d-7523-4af1-aed0-3a38af74ebf1;devagar;langsam
 d638d5b5-0144-45ea-806f-992e36174515;eu venho;ich komme
 2d7ee261-2970-4395-89dd-7f6f75b21626;vc vem;du kommst
 cfe3b39f-a537-46d3-bbb7-84e33955508b;ele vem;er kommt
-84699b4f-97d4-466d-bd5f-2f67bdc2f0ea;nos vamos;wir gehen
-a431e861-193d-4b26-bb61-4c4173d63e4e;nos viemos;wir kommen
+84699b4f-97d4-466d-bd5f-2f67bdc2f0ea;nós vamos;wir gehen
+a431e861-193d-4b26-bb61-4c4173d63e4e;nós viemos;wir kommen
 b269c103-954b-471b-a3c9-55c036b849f5;vcs vêm;ihr kommt
 5204a0ae-a61f-464d-8547-ddb362a7b341;eles vêm;sie kommen
-838466ce-df16-4c05-a058-fbadd66208f9;vc está vindo o senhor;Sie kommen
-e747f795-f431-4bd9-a5c4-549b3232d4b5;Quando está vindo o senhor ?;Wann kommen Sie ?
+838466ce-df16-4c05-a058-fbadd66208f9;O senhor vêm;Sie kommen
+e747f795-f431-4bd9-a5c4-549b3232d4b5;Quando o senhor vêm ?;Wann kommen Sie ?
 ec45706b-2792-43e3-9269-e20171e9fa28;kommen;vir
 0a422ab4-66d2-4586-bdd1-febbcc758ceb;ich komme;eu venho
 988d41ad-559c-48a7-a98c-655f39a6dbeb;du kommst;vc vem
@@ -197,8 +197,8 @@ dacf0e44-12ce-47ce-bc26-ca1d7b4dfac0;er kommt;ele vem
 812823bf-8306-413f-ac3b-fbd4caa9dabe;wir kommen;nos vamos
 9e685e82-08a1-4a46-b6e4-5e99a37a420d;ihr kommt;vcs vêm
 ec1c3733-b205-4925-8b52-9de231596a46;sie kommen;eles vêm
-a94c530b-fabf-4065-b6c9-5c237e1f696c;Sie kommen;vc está vindo o senhor
-3613ef20-a116-48a2-8a56-7dc037315f1a;Wann kommen Sie ?;Quando está vindo o senhor ?
+a94c530b-fabf-4065-b6c9-5c237e1f696c;Sie kommen;O senhor vêm
+3613ef20-a116-48a2-8a56-7dc037315f1a;Wann kommen Sie ?;Quando o senhor vêm ?
 008ab473-ebc8-4514-add0-94a58c7ab11e;Quando o trem chega ?;Wann kommt der Zug ?
 7d4ad24b-47cf-4ce0-9325-0fec2d1d09fc;FALSCH;errado
 c3bbf0f5-fbaf-4ad3-8cdf-b5ae6a7acae7;Ihr;voces
@@ -469,13 +469,18 @@ f7c7c1db-3b1a-47f5-8cfa-a34578f8386b;erklären;EXPLICAR
 56b88ba7-4f0c-4dc8-99ec-f54969ba5ff0;wiederholt;repetido
 1a476b69-e29a-4e82-9ba1-3d2d4fcff32d;austauschen;trocar
 7f86cc13-037d-40d4-94e2-c2accb756b26;meist;A MAIORIA DE/A MAIOR PARTE DE
+3ccc9279-d0b4-4618-90aa-b2988cb16328;welche Adresse;qual endereco
+0450fa5d-8c71-4595-97e5-f452066bdf70;welcher Zug;qual trem
+7562f47e-392a-4565-bb9e-5439fd538da2;Abteil;cabine (do trem)
+ac5ade2b-ef59-4164-b579-8d551d3e98e7;welches Abteil;qual cabine
+baa2c777-ae14-46e6-9eb7-fa36e82a5cdf;o trem;der Zug
+49751ff4-4492-4fb4-bb28-301552ad619e;os trens;die Züge
 d5ad1be1-f219-4e45-93eb-432cadb3e28c;beschreiben;DESCREVER
 86c268ed-df20-4497-b48e-396f9d0286b5;sehr;muito
 04e16cbd-e77c-4099-ad70-9fc90fab9556;teuer;caro
 3bb205fd-a0d7-4d49-bcb0-f1770666f4a0;wenig;pouco
 f2b90481-2804-4e4b-a7ca-6429f0d88bbe;immer;sempre
-05ac1b9c-dfde-4ac4-9ccc-c4bd4875494f;welche;qual
-a780a18c-401e-48c1-95a8-301574a66c60;welcher;qual
+05ac1b9c-dfde-4ac4-9ccc-c4bd4875494f;welche Züge;quais trens
 dd22eb09-03a6-4c7c-a141-c632e63f0e04;für;para
 d0013156-a2e3-41b1-ae9b-2785a0103298;"Gramática:
 Como posso encontrar o objeto acusativo em uma frase?";"Você pergunta: ""Quem ou o quê?"".
@@ -488,7 +493,7 @@ Portanto, ""chocolate"" é o objeto acusativo na frase."
 Qual é o objeto acusativo na frase 
 ""A mesa tem quatro pernas""?";quatro pernas
 8d3fe92d-4936-49f9-90c4-b26240ceec38;o Husky (nomitavo);der Husky
-9fe9c219-3ab6-4d30-af6b-26f11af80422;o Husky (akkusativo);der Husky
+9fe9c219-3ab6-4d30-af6b-26f11af80422;o Husky (acusativo);der Husky
 edc3d533-dc86-4cd1-acf1-35b5317b2665;"Gramática:
 Forma o accusativo singular de 
 ""der""";den
@@ -533,19 +538,19 @@ f184f8fb-6529-48f2-8be3-146a4c3ea3c3;Ein Hund beißt Thor;Um cão morde o Thor
 b3c94929-7ea9-44db-8a2e-a92d4d8fe373;müde werden;cansar-se
 d5284034-e1db-4eda-8cce-22a6538ddfcd;stark werden;Torne-se forte
 bb604987-da66-4270-aef0-359db223d676;verrückt werden;ficar louco
-1c98c852-a731-4f68-9f54-0eb1ba605a71;eu coro;ich werde rot
-8bec9def-368a-4faa-adde-816ead3b902e;vc cora;Du wirst rot
-f4539781-31d3-4e86-83f7-1e975fd0c503;ele cora;er wird rot
+1c98c852-a731-4f68-9f54-0eb1ba605a71;eu me coro;ich werde rot
+8bec9def-368a-4faa-adde-816ead3b902e;vc se cora;Du wirst rot
+f4539781-31d3-4e86-83f7-1e975fd0c503;ele se cora;er wird rot
 323ffcea-c3bd-41c5-b007-c64884f42cad;nos cansamos;wir werden müde
-606b6239-7b76-498f-9739-a40d6ef99144;eles ficam cansados;sie werden müde
-fb595ee5-da34-4cff-bc63-099f4a279341;ich werde rot;eu coro
-203166be-9333-4b42-80be-17cc80ecb711;Du wirst rot;vc cora
-a96a39e9-cd4c-441a-a80e-a6b6dec8d6e1;er wird rot;ele cora
-0c5cee56-696e-4229-8f14-761afdac2993;eu estou cansado;ich bin müde
-a59e3ca3-98ed-4de1-8ac3-51badb603186;você está cansado;du bist müde
-99cb166f-8ca0-4c3c-81f8-2ebce41f6038;ele está cansado;er ist müde
-2689ced1-0b0c-4425-a04e-067c1798a102;nos estamos cansados;wir sind müde
-80fe3413-071c-4db5-8e8d-63d7bcf44518;eles estão cansados;sie sind müde
+606b6239-7b76-498f-9739-a40d6ef99144;eles se cansam (por sono);sie werden müde
+fb595ee5-da34-4cff-bc63-099f4a279341;ich werde rot;eu me coro
+203166be-9333-4b42-80be-17cc80ecb711;Du wirst rot;vc se cora
+a96a39e9-cd4c-441a-a80e-a6b6dec8d6e1;er wird rot;ele se cora
+0c5cee56-696e-4229-8f14-761afdac2993;eu estou com sono;ich bin müde
+a59e3ca3-98ed-4de1-8ac3-51badb603186;você está com sono;du bist müde
+99cb166f-8ca0-4c3c-81f8-2ebce41f6038;ele está com sono;er ist müde
+2689ced1-0b0c-4425-a04e-067c1798a102;nos estamos com sono;wir sind müde
+80fe3413-071c-4db5-8e8d-63d7bcf44518;eles estão com sono;sie sind müde
 90706d60-abf7-4d15-a677-aa9daa0352bf;ich bin stark;Eu sou forte
 679712da-1dd5-491e-a979-b654b8e2b594;ich werde stark;Eu me torno forte
 8b7aea7e-297a-4c58-b18a-73eded7586fc;ich bleibe stark;Eu continuo forte
@@ -558,11 +563,11 @@ a15a27b5-44dd-4b36-88c2-5c826c799cae;você se torna forte;du wirst stark
 bf2e26e1-fb61-4f2e-a905-831c94bc0b3b;Eu sou forte;ich bin stark
 edd3cff1-33f2-4a61-bf61-5ce5bb64a57d;Eu me torno forte;ich werde stark
 20e5698a-d4f2-40bc-8f02-3a6d7d31dac1;Eu continuo forte;ich bleibe stark
-ed66372d-7a52-4254-b68c-289f3f1410bf;ich bin müde;eu estou cansado
-cc151351-fbb9-45b0-bc77-9075dc799c89;du bist müde;você está cansado
-48131254-f0bd-4776-b492-ce7262d96a4a;er ist müde;ele está cansado
-d82981ca-a158-4256-86d3-84de4a08595f;wir sind müde;nos estamos cansados
-1da5da8b-6792-4107-91a3-23b9a92c8883;sie sind müde;eles estão cansados
+ed66372d-7a52-4254-b68c-289f3f1410bf;ich bin müde;eu estou com sono
+cc151351-fbb9-45b0-bc77-9075dc799c89;du bist müde;você está com sono
+48131254-f0bd-4776-b492-ce7262d96a4a;er ist müde;ele está com sono
+d82981ca-a158-4256-86d3-84de4a08595f;wir sind müde;nos estamos com sono
+1da5da8b-6792-4107-91a3-23b9a92c8883;sie sind müde;eles estão com sono
 8e4f815e-6fa9-4da9-8abe-1d59517cddc9;zeigen;mostrar
 3662ba36-2ab3-4e36-9552-3ef1012aa8f9;suchen;procurar
 1618b68e-e323-4195-98eb-052411b9235b;kaufen;comprar

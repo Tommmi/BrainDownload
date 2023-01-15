@@ -39,29 +39,29 @@ namespace Brain.Services
 				}
 				_userStatus = _userRepository.LoadStatus().Result;
 
-				var words = _userRepository.LoadAllWords().Result.ToDictionary(
+				var allWords = _userRepository.LoadAllWords().Result.ToDictionary(
 					keySelector: x => x.Id, elementSelector: x => x);
-				var vocabulary = _userRepository.LoadCompleteVocablaryStatus()
+				var activeWords = _userRepository.LoadCompleteVocablaryStatus()
 					.Result
 					.Where(x => !x.Deleted)
 					.ToList();
 
 				_activeVocabulary = new Dictionary<Guid, (WordStatus status, Word word)>();
 
-				foreach (var wordStatus in vocabulary)
+				foreach (var activeWord in activeWords)
 				{
-					if (!words.TryGetValue(wordStatus.Id, out var word))
+					if (!allWords.TryGetValue(activeWord.Id, out var word))
 					{
-						wordStatus.Deleted = true;
-						_userRepository.SaveWordStatus(wordStatus).Wait();
+						activeWord.Deleted = true;
+						_userRepository.SaveWordStatus(activeWord).Wait();
 					}
 					else
 					{
-						_activeVocabulary[word.Id] = (status: wordStatus, word: word);
+						_activeVocabulary[word.Id] = (status: activeWord, word: word);
 					}
 				}
 
-				_newVocabulary = words
+				_newVocabulary = allWords
 					.Where(w => !_activeVocabulary.ContainsKey(w.Key)).
 					ToDictionary(keySelector: w => w.Key, elementSelector: w => w.Value);
 
@@ -72,10 +72,10 @@ namespace Brain.Services
 		public async Task<NextWordResult> TryGetNextVocable()
 		{
 			Initialize();
-			var now = _systemTime.GetUtcTime();
+			var nowUtc = _systemTime.GetUtcTime();
 			var nextActiveWord = _activeVocabulary
 				.OrderBy(word => word.Value.word.Prio)
-				.Where(word => now > word.Value.status.NextRepetition)
+				.Where(word => nowUtc > word.Value.status.NextRepetition)
 				.FirstOrDefault();
 
 			var nextNewWord = _newVocabulary.OrderBy(x => x.Value.Prio).FirstOrDefault();
@@ -84,6 +84,7 @@ namespace Brain.Services
 			    && (nextNewWord.Value==null 
 			        || nextActiveWord.Value.word.Prio < nextNewWord.Value.Prio))
 			{
+
 				return new NextWordResult(succeeded: true, vocable: nextActiveWord.Value.word, wordStatus: nextActiveWord.Value.status);
 			}
 
@@ -91,8 +92,8 @@ namespace Brain.Services
 			{
 				var status = new WordStatus(
 					id: nextNewWord.Key,
-					nextRepetition: now,
-					lastRepetition: now - TimeSpan.FromDays(1), 
+					nextRepetition: nowUtc,
+					lastRepetition: nowUtc - TimeSpan.FromDays(1), 
 					cntApproved: 0,
 					cntFailed: 0,
 					deleted: false);
