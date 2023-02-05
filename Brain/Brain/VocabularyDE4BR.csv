@@ -185,17 +185,18 @@ d638d5b5-0144-45ea-806f-992e36174515;eu venho;ich komme
 2d7ee261-2970-4395-89dd-7f6f75b21626;vc vem;du kommst
 cfe3b39f-a537-46d3-bbb7-84e33955508b;ele vem;er kommt
 84699b4f-97d4-466d-bd5f-2f67bdc2f0ea;nos vamos;wir gehen
-2b046500-678f-4b7e-9260-78db976252f8;nos vimos;wir kommen
+facab58f-e3a9-47bb-9170-b086f53635c2;nos vimos (de ver);wir haben gesehen
+8bcf0d87-8487-4c6e-9f56-62a1267ec9ff;nos vimos (de vir);wir kommen
 a431e861-193d-4b26-bb61-4c4173d63e4e;nos viemos;wir sind gekommen
 b269c103-954b-471b-a3c9-55c036b849f5;vcs vêm;ihr kommt
 5204a0ae-a61f-464d-8547-ddb362a7b341;eles vêm;sie kommen
-838466ce-df16-4c05-a058-fbadd66208f9;O senhor vêm;Sie kommen
+838466ce-df16-4c05-a058-fbadd66208f9;O senhor vem;Sie kommen
 e747f795-f431-4bd9-a5c4-549b3232d4b5;Quando o senhor vêm ?;Wann kommen Sie ?
 ec45706b-2792-43e3-9269-e20171e9fa28;kommen;vir
 0a422ab4-66d2-4586-bdd1-febbcc758ceb;ich komme;eu venho
 988d41ad-559c-48a7-a98c-655f39a6dbeb;du kommst;vc vem
 dacf0e44-12ce-47ce-bc26-ca1d7b4dfac0;er kommt;ele vem
-812823bf-8306-413f-ac3b-fbd4caa9dabe;wir kommen;nos vimos
+812823bf-8306-413f-ac3b-fbd4caa9dabe;wir kommen;nós vimos
 9e685e82-08a1-4a46-b6e4-5e99a37a420d;ihr kommt;vcs vêm
 ec1c3733-b205-4925-8b52-9de231596a46;sie kommen;eles vêm
 a94c530b-fabf-4065-b6c9-5c237e1f696c;Sie kommen;O senhor vêm
@@ -234,7 +235,6 @@ f252e15b-224e-4257-9c24-0e33a19ba581;eu assisto TV;ich sehe fern
 e4996e21-1a70-4c64-95c7-b84d8533c768;Siehst Du fern ?;vc está assistindo TV ?
 08d4b409-86d5-4df1-8214-17198350537c;A TV está desligada?;Ist der Fernseher aus ?
 7943eea4-abc0-4606-8e66-64ea3371adfe;im;em/no (masculino)
-581436bd-5c42-4d59-9a71-32d4a9a3831b;KOMMEN;VIR
 6bd069ce-32b7-4ef6-b317-b96d90393312;WIE;COMO
 e846b42a-c765-4457-8a3b-2706db5b0b5a;woher;DE ONDE ?
 d57f626b-a68f-4807-a170-f804389274f7;zu Thomas;(ir) para Thomas
@@ -284,7 +284,7 @@ c968353d-a018-4c09-8b07-4c0253901d44;ankreuzen;marcar
 495c0697-a15d-4acf-8499-b519775178af;einmal;uma vez
 bb4ac658-a94e-4af3-925d-d1621dfac7f1;noch einmal;outra vez
 f7a206f1-703a-408b-afd2-5a8a0bb004f3;ordnen;arrumar
-76049f31-8ed7-4fc3-aa98-3f048a192c72;spielen;jogar
+76049f31-8ed7-4fc3-aa98-3f048a192c72;spielen ;jogar ou tocar musica (depende do contexto)
 fd4d16d8-cc0a-47f6-b3dd-9d270cd66996;schreiben;escrever
 3c663728-c372-41e0-8ed4-3503b3c6f8a5;das Beispiel;o exemplo
 98329815-8002-4600-b031-47c0a5c7995d;laut;com voz alto
@@ -589,6 +589,8 @@ a416502d-fbe9-4cfd-8c9f-c4dbc591c294;sich verabreden;marcar um encontro (com�
 436a1b95-95b1-49d7-80c0-290e32849b36;etwas angeben;indicar algo
 c0f76c31-0838-49f6-8c23-3a5124fdbe7c;stehen;ficar de pé
 da2e9c50-af56-4591-83d6-e7d971d6aec1;aufstehen;levantar-se
+0efe9404-cbe2-4290-9fc9-504f6b51b21d;tudo;alles
+b3eb0e61-7768-4e66-a796-c43d637042b7;tudo isso;all dies
 bfed6230-d01e-4499-90ee-d04e80869934;bringen;trazer
 03327d66-04f6-481c-b254-4475659a26b1;essen;comer
 c2dfb44e-2ac4-41d5-887b-b80144b9ac1e;comer;essen
@@ -797,7 +799,7 @@ e4a973aa-3261-4f5b-af69-5ba427a2ae7e;die Postleitzahl;o código postal
 8515233b-54c5-48a2-9b2a-537b47fcf698;der Quadratmeter;o metro quadrado
 466edd34-a466-4edf-b567-feef25984363;der Radiergummi;a borracha
 14c11058-1c59-496b-89cc-cc0bbb36f7b3;o radio;das Radio
-1b55271a-c842-41e1-a22f-b3eb0a6d5064;a conta;die Rechnung
+1b55271a-c842-41e1-a22f-b3eb0a6d5064;a conta (restaurante);die Rechnung
 f993a0dd-7ad9-4425-9edf-19ced503043d;a estante / a gôndola ;das Regal
 0cf335e5-99c7-4fda-b39c-a5cf51e88b6d;o restaurante;das Restaurant
 585955ea-4a76-4b71-8f79-271acbb7ea78;o vinho tinto;der Rotwein
@@ -810,7 +812,8 @@ f1f35d38-6f55-4c7a-8e20-4487bde04d32;as dores nas costas;die Rückenschmerzen
 19795d98-eeec-497a-b87b-b11fb3e85658;a calma;die Ruhe
 120fea35-9ce7-41e0-8982-f3f109bf1d8b;calma (estou calma);ruhig (ich bin ruhig)
 96e8eab2-3d72-4abd-a774-c2aa4c3e9368;o suco;der Saft
-6ce5b24c-2c06-4bd4-b7f9-195a30f40bb7;colher;sammeln
+6ce5b24c-2c06-4bd4-b7f9-195a30f40bb7;colher (coletar);sammeln
+76842e76-ba68-4988-939c-9176da50181e;colher (agricultura);ernten
 6e4605d0-3cff-4f16-b847-52b8f5c5225c;coletado;gesammelt
 1f8eaee9-6598-4737-aecc-e7fea7c71eef;ele tem coletado;er hat gesammelt
 a2143022-a174-4e3c-b8d4-4a2ffaff898f;o sábado;der Samstag
@@ -822,7 +825,7 @@ e58ac35c-a881-4c81-9211-7b3e3af7571f;a frase;der Satz
 8f740458-63a3-467c-8da3-10d74c7185cc;a chave;der Schlüssel
 a1457709-c2ef-4236-b671-89359e0f1046;a secretária (móvel);der Schreibtisch
 96a06e54-6892-4a65-bc9b-a6dfb72119ef;das Radio;o radio
-327758b8-7b6b-487d-8e2d-1ad66cc3092e;die Rechnung;a conta
+327758b8-7b6b-487d-8e2d-1ad66cc3092e;die Rechnung;a conta / fatura
 ab6ba59d-c5c3-4d16-8b90-70750acbcbff;das Regal;a estante / a gôndola 
 477f689e-bdc7-4c90-b178-e857d4f3e8fa;das Restaurant;o restaurante
 d4a56f9c-51a7-4f42-9c85-0f7f74fcd657;der Rotwein;o vinho tinto
@@ -830,7 +833,8 @@ d4a56f9c-51a7-4f42-9c85-0f7f74fcd657;der Rotwein;o vinho tinto
 54bfb328-37c5-4de5-a66b-6342a3685f50;die Ruhe;a calma
 844e1c35-21ae-40d7-b855-c2711cb68109;ruhig (ich bin ruhig);calma (estou calma)
 8d97c014-861c-41dc-9f75-daa13dcf29a2;der Saft;o suco
-ecd5b793-2176-4b40-bf2d-860a7b4f1419;sammeln;colher
+ecd5b793-2176-4b40-bf2d-860a7b4f1419;sammeln;colher / coletar
+96d437fd-c4e8-41d5-810e-beddddf02d9e;ernten;colher (agricultura)
 d7dc81f2-77ff-4d84-b012-aaa60853769d;gesammelt;coletado
 87348e4f-3e16-4e16-9598-c3330c3cfcf4;er hat gesammelt;ele tem coletado
 3b8d1250-fdd9-40af-8f8d-7fe0dbcd0f13;der Samstag;o sábado
@@ -842,7 +846,7 @@ b3b6be67-0eeb-4f6b-abc0-43cbc3c88d67;der 10 EUR Schein;a nota de 10 EUR
 54e6cbc7-b5cf-4e73-81e6-6050e47cc81f;das Schlafzimmer;o quarto
 1d047f0b-f4f6-4525-be33-e51cb8208fe5;der Schlüssel;a chave
 2dff6fec-95ed-4c5f-a23a-857ad1331ab6;der Schreibtisch;a secretária (móvel)
-bc988fe5-64df-4e65-845a-73384f665757;as lampadas do abajour ;die Schreibtischlampen
+bc988fe5-64df-4e65-845a-73384f665757;luminaria de mesa;die Schreibtischlampe
 3f61845f-2927-4a1e-95e9-edf6c6219eeb;o sapato;der Schuh
 3ccfda43-dbf3-4a5d-8ce3-794e50bbd794;os sapatos;die Schuhe
 75dcd3ba-2143-4123-b99e-523af4fe35f8;a escola;die Schule
@@ -853,7 +857,6 @@ e1adcfca-59ae-4ce6-b77f-3fdc918bee72;a suíça;die Schweiz
 328d964b-40c1-42e5-9169-8480c7d8a678;a piscina;das Schwimmbad
 d449c9fe-b866-4f7f-b308-d5054d36b021;nadar;schwimmen
 1b7c1fcc-4a3a-4827-b5a4-a2cfd0df0727;ele nadou;er hat geschwommen
-83cefa2b-d757-40e4-8de7-0a835a8c1033;a secretaria;das Sekretariat
 e967296d-2f92-4d36-a49c-e5a30a3be0a6;o sofá;das Sofa
 4aa341e9-10c7-4ceb-88fb-3e54e4663183;o filho;der Sohn
 c0dec7ca-bd0b-4a9c-985b-e2e6caa14060;o verão;der Sommer
@@ -867,7 +870,7 @@ f38d3154-29af-45e4-92ee-b02c184bedb2;jogar;spielen
 48c9749e-d091-40fb-b15f-d1765ee8db23;a lingua;die Sprache
 4731bf10-41a5-4750-bcbc-77e219c9246f;o estadio;das Stadion
 60df8bf5-a24d-4228-8ca2-79e16d4c1f99;a bobina;die Spule 
-c57966e8-ad0a-4a1e-88bb-2194e168b2f6;die Schreibtischlampen;as lampadas do abajour 
+c57966e8-ad0a-4a1e-88bb-2194e168b2f6;die Schreibtischlampe;a lumuniaria de mesa
 3751f7cd-e488-41f4-92bb-918fb19812ed;der Schuh;o sapato
 7217032c-80c3-40b9-9c6c-72ed858e1042;die Schuhe;os sapatos
 f0b76a2e-61e5-44c9-9235-4db7f38c78ed;die Schule;a escola
@@ -921,7 +924,7 @@ f721cc6f-398e-4f0d-856a-8c2fd14b2af3;ihr Messer;o faca dela
 2bd179c6-a4db-4d8c-b841-7fa8b2be9d88;mein Messer;minha faca
 3af07673-0ea9-4f43-bf10-877d14950758;unser Messer;nossa faca
 9f06a6d5-d6ae-499e-801a-b082f9cd7a58;Dein Messer;a faca de vc / sua faca
-8f09a351-872d-4098-b720-58053d9135af;vamos! Vamos lá!;dann los! Ok, dann los!
+8f09a351-872d-4098-b720-58053d9135af;vamos! Vamos lá!;dann los! (tbm.: auf geht's !)
 56c0e11e-a61d-465b-9118-58cacae764e5;vor (o significado principal);em frente de
 2f84d905-e540-4ccf-aa03-b0fc9b85c395;vor dem Haus;em frente da casa
 e21ca395-29b0-41fb-bfa3-573bdf9ab924;vor Christus;antes des Christo
@@ -950,3 +953,40 @@ b82d82c3-5be4-4b0e-8a25-77f1bca95885;já comi;ich habe schon gegessen
 8c718b0c-0538-4721-af0c-ae8988153957;já comi hoje;ich habe heute schon gegessen
 19b5587e-be91-4db3-90b8-8253de634abe;Estou morrendo de calor;ich komme um vor Hitze / ich komme vor Hitze um
 9e97e9ef-3b30-40c2-829f-798ec82d3863;eu morri do calor;ich bin vor Hitze umgekommen.
+139dfc77-22c1-4d47-8bc4-1e2cac2ff07a;wo steht das ?;onde isso está  escrito ?
+eaa2b8c5-d548-4e7b-9168-551ac4f1bba2;Schnee;o neve
+f2db80b3-b9e5-43e4-9ae3-21074b671488;schneien;nevar
+d2531349-6b1d-4fde-8daf-377c827e3505;es schneit;está nevando
+c4e339d4-059f-4b42-87f3-18484e5ada69;o neve;der Schnee
+9d66314a-0874-49fc-a86b-76e8e877e899;onde isso está  escrito ?;wo steht das ?
+786935ab-5b4e-44d8-a2bd-7d15be332f1f;nevar;schneien
+9fda73ef-1b53-4c48-a57b-86c53134698c;está nevando;es schneit
+f144c0af-6ded-4da8-a490-69066f76d42e;"Gramática:
+Em que consiste pelo menos uma frase?";"De um sujeito e de um verbo. 
+Por exemplo: ""ich gehe"" 
+sujeito: ich - Pergunta: quem ou o quê? 
+verbo: gehe"
+4f521fe7-9865-43bb-b0e5-ac75f95e6cf6;"Gramática: 
+O que é um verbo separável?";"Este é um verbo que consiste de um certo prefixo e um verbo. 
+Por exemplo, ""aufmachen""
+(Só para sua informação, existem os seguintes prefixos que fazem de um verbo um verbo separável: ab, an, auf, aus, ein, heim, her, herauf, herein, heraus, hin, los, mit, nach, vor, weg, zu, zurück)"
+bcf61621-bb3c-4c95-8018-f2c63ed80ac9;"Gramática: 
+Quais dos seguintes prefixos não fazem de um verbo um verbo separável?
+ab, be, an, auf, aus, ein, emp,  ent, er, ge";be, emp, ent, er, ge
+d9a1a654-d6d5-4c32-ae27-d957f34da3c2;"Gramática: 
+Quais dos seguintes prefixos não fazem de um verbo um verbo separável?
+heim, her, herauf, herein, heraus, hin, hinter, los, miss, mit, nach, ver, vor, weg, zer, zu, zurück";hinter, miss, ver, zer
+4c35205d-506f-422e-8296-ae16cb9484fd;"Gramática:
+Questão de pronúncia: O prefixo de um verbo separável é dado por uma tensão especial?";"Sim, sempre.
+Por exemplo: <b>auf</b>machen. Nao é auf<b>machen</b>"
+595ec745-b081-410d-9930-564a9311f00f;"Gramática:
+Questão de pronúncia: O prefixo de um verbo non-separável é dado por uma tensão especial?";"Nao!
+Por exemplo: ""ver<b>sagen</b>"". Nao é ""<b>ver</b>sagen"""
+aa12027c-f6ed-420e-883f-836a4bd9bfb6;a porta;die Tür
+004db4bf-1e62-4c0a-96f7-f9cd7858287b;Eu abro a porta;"ich mache die Tür auf. (por o verbo ""aufmachen"" é separável)"
+3c7ab19d-b2ac-4fc6-aa0f-a6c1fd0e8c3f;vender;verkaufen
+b3c83488-ce9a-4c36-aac8-96357a22eed3;eu vendo a casa;"ich verkaufe das Haus (por o verbo ""verkaufen"" nao é separável)"
+44bff56c-8b55-4967-90c3-1e2af7b2510d;eu estou comendo;ich esse gerade
+f7dc6cdf-8d06-43fe-91d8-8b204ed23b55;eu dirijo o carro;ich fahre das Auto
+858103ad-ae4e-4873-b38d-5d5344d48980;eu estou dirigindo o carro;ich fahre gerade das Auto
+85f0dc08-d622-4b9c-bf9c-f7c10e09d27d;verkaufen;vender
