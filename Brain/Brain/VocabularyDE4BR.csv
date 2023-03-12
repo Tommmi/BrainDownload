@@ -275,7 +275,7 @@ ba817409-b80b-4d92-978f-41d58733211d;erzählen;CONTAR/NARRAR
 f382ee3d-4cb3-44c2-b60b-3e64aadfd1b7;in;em/na (feminina ou neutrum)
 676beb40-9240-4895-96dd-3609e4c527f4;machen;fazer
 0babda71-fe66-40ef-b779-8064cbe3875c;oder;ou
-55b66487-66da-4538-a50a-3dbc55607a74;Die Aussprache;o pronunciacao
+55b66487-66da-4538-a50a-3dbc55607a74;Die Aussprache;a pronunciacao
 1f647990-173c-41c0-802d-b08f55824af0;bitte;POR FAVOR
 04ddc3cd-1d16-4b95-b26d-5c17e1fc2972;nachsprechen;REPETIR
 64075d89-f0ec-48a5-96f1-c7e2e9d6ffb0;auch;também
@@ -634,7 +634,7 @@ c21c192c-a294-4543-ad86-d91d53839773;no dia primeiro de abril;<b>am</b> ersten A
 cdbf46f6-6f35-4604-bca4-eb8c2e381c61;o inicio;der Anfang
 ac2ffec4-3f30-46de-a30f-686466c76d32;ele começou (<b>passado!</b>);er hat angefangen
 ad193501-2957-4be0-bc1a-6d81fed1cf7a;a chamada;der Anruf
-d048b4a3-4c54-46df-846e-2621c68ef63d;ligar, chamar;anrufen
+d048b4a3-4c54-46df-846e-2621c68ef63d;ligar (com telefono) (o processo de ligar);anrufen
 84885612-045d-4ad6-a20f-24a4359f2339;ele ligou;er hat angerufen
 cef8f471-ec5f-41e6-b5ed-1fce2fd78758;ele respondeu;er hat geantwortet
 4b4c3910-7a52-401f-b73e-a59023889b4f;o suco;der Saft
@@ -652,7 +652,7 @@ d916d7f3-d196-4894-bf35-8fdc93d4a642;ele trabalhou;er hat gearbeitet
 929231e8-09c7-4843-ae1c-b867cd4b1b73;a instrução;die Anweisung
 f398912e-3c95-4078-805e-85b1c3d945d3;a instrução de trabalho;die Arbeitsanweisung
 f5f851a4-0399-4b8a-af20-cac7826a0849;o quarto;das Zimmer
-bd613869-818c-4452-aba7-c8a67227ed60;o escriório (em casa);das Arbeitszimmer
+bd613869-818c-4452-aba7-c8a67227ed60;o escritório (em casa);das Arbeitszimmer
 73f0344d-81c2-484a-9150-831b62f1fb20;pobre;arm
 0b960034-4858-4b52-b4b1-c645d7cdfa49;o braço;der Arm
 d2d5d41c-4b3a-4cdf-bef5-9816fbe2f2b6;o artigo;der Artikel
@@ -679,8 +679,10 @@ d544b680-8925-487f-b1cb-297e4acc39d2;o banheiro;das Badezimmer
 4dc6fe0f-e8a1-4cc7-ab3e-62d3011d97a6;o trem;die Bahn / der Zug
 8245639f-0d61-48cb-b460-82dd067026c8;a estação de trem;der Bahnhof
 ffa2bb71-c4c3-400d-9052-44ae63bb3b46;balcão  / sacada;der Balkon
-23d57e10-cce8-4c3f-9e0e-3e004c67cb9f;o banco;die Bank
-9acd9eb3-9a3d-4c30-a796-30a889791bac;os bancos;die Banken
+23d57e10-cce8-4c3f-9e0e-3e004c67cb9f;o banco (dinheiro);die Bank
+97aa59bb-0e84-4efc-a0b4-5e6bbb97286c;o banco (para sentar);die Bank
+9acd9eb3-9a3d-4c30-a796-30a889791bac;os bancos (para sentar);die Bänke
+e8a14d7f-c554-478b-b874-263f0aa1b0c9;os bancos (dinheiro);die Banken
 6f6fd9c4-0a09-497d-b30b-86f94c102abc;o bar;die Bar
 177f9300-7838-4448-87ad-435eaab83ce9;o sítio / casa rural;das Bauernhaus / der Bauernhof
 9912d9d1-085d-4f61-b082-707af9f1e948;a caneca;der Becher
@@ -701,7 +703,7 @@ f5aa0ff7-fb73-4237-bccf-2737a776d023;bei mir;onde eu estou / comigo
 51049c3e-3ff7-4e7f-95b9-e55e9f2c0c4f;elle recebeu;er hat bekommen
 42644330-7755-4982-bf4f-3fa584766233;alguém;jemand (Nominativo), jemanden (acusativo)
 2cc0d1f2-c01e-4b8d-9ce2-3c252f76b79c;aconselhar alg.;jemanden beraten
-b4342a8c-6a20-4ca3-be40-e6001f5d7ca4;na trabalho;bei der Arbeit
+b4342a8c-6a20-4ca3-be40-e6001f5d7ca4;no trabalho;bei der Arbeit
 94a4f29a-31ba-4662-9703-65934ee0e2b3;os dois / as duas;beide
 d4f93c39-b77b-4053-9ef7-68bf9480499d;die Beratung;a consulta
 282cb57a-8ab6-46ae-91b6-6b28e89702c6;aconselhamento ;die Beratung
@@ -789,7 +791,7 @@ f207396b-d168-4f45-9245-f8f140f8b309;der Pilot;o piloto
 4. a vaga"
 ef40aa59-5ac7-4391-81d4-c8853168c595;die Polizei;a policia
 e4a973aa-3261-4f5b-af69-5ba427a2ae7e;die Postleitzahl;o código postal
-5822346d-95d7-4570-acd5-f0c488c0450d;die Praxis / die Arztpraxis;a pratica
+5822346d-95d7-4570-acd5-f0c488c0450d;die Praxis / die Arztpraxis;o consultorio
 2cb3eed4-fdba-49f0-9c7e-e27c8cfaa683;der Preis;o preço
 0a90a9aa-71b7-413f-ac88-79852b365ef6;das Problem;o problema
 62d69b17-d644-4a3e-ac64-2369cd302ef1;das Prozent;por cento / %
@@ -845,7 +847,7 @@ a6df55ff-407b-4ccc-8034-324cd287b6f3;der Schein;"1. o brilho
 b3b6be67-0eeb-4f6b-abc0-43cbc3c88d67;der 10 EUR Schein;a nota de 10 EUR
 54e6cbc7-b5cf-4e73-81e6-6050e47cc81f;das Schlafzimmer;o quarto
 1d047f0b-f4f6-4525-be33-e51cb8208fe5;der Schlüssel;a chave
-2dff6fec-95ed-4c5f-a23a-857ad1331ab6;der Schreibtisch;a secretária (móvel)
+2dff6fec-95ed-4c5f-a23a-857ad1331ab6;der Schreibtisch;mesa de escritorio
 bc988fe5-64df-4e65-845a-73384f665757;luminaria de mesa;die Schreibtischlampe
 3f61845f-2927-4a1e-95e9-edf6c6219eeb;o sapato;der Schuh
 3ccfda43-dbf3-4a5d-8ce3-794e50bbd794;os sapatos;die Schuhe
@@ -880,7 +882,7 @@ fe22f6ad-be7b-415f-8ec3-609ab20676c0;die Schweiz;a suíça
 244df516-82b2-4985-9974-12872b3114cf;schwer;pesado
 17cc4236-7d79-43fc-90ec-90d1275f57e0;das Schwimmbad;a piscina
 4f61e037-05cd-46bf-bf59-52bcd6569185;schwimmen;nadar
-86740f95-eb59-4128-aa8f-d6b6b8ebc464;er hat geschwommen;ele nadou
+86740f95-eb59-4128-aa8f-d6b6b8ebc464;er ist geschwommen;ele nadou
 32067528-823c-4cab-aab2-1c3a3a6bad9c;das Sekretariat;a secretaria
 331e8f35-68e2-481f-bf61-c033133530fd;das Sofa;o sofá
 a0bd5acd-f364-4589-92a7-3841802a7a92;der Sohn;o filho
@@ -990,3 +992,27 @@ b3c83488-ce9a-4c36-aac8-96357a22eed3;eu vendo a casa;"ich verkaufe das Haus (por
 f7dc6cdf-8d06-43fe-91d8-8b204ed23b55;eu dirijo o carro;ich fahre das Auto
 858103ad-ae4e-4873-b38d-5d5344d48980;eu estou dirigindo o carro;ich fahre gerade das Auto
 85f0dc08-d622-4b9c-bf9c-f7c10e09d27d;verkaufen;vender
+c8e92954-35ed-4cbd-8fad-396d9a189303;sich vorstellen;apresentar-se
+75dede19-7125-43b8-83eb-e3d895ca0d4e;Stellen Sie sich bitte vor !;Por favor, apresente-se!
+864b2f73-dfa0-4505-ab12-15ecdfb88750;buchstabieren;soletrar
+eea78123-1e13-4085-893b-983cedd3d312;Buchstabieren Sie bitte !;Soletra por favor !
+32f808fc-e137-4c8c-afc9-b862fc5ab68e;Vorname;Primeiro nome
+b9d79248-92e1-4a81-b5ed-f67d61689d4c;Nachname;Sobrenome
+4245ed72-74e4-4c0b-9cdb-5e5d5444ab54;Familienname;Sobrenome
+e3556729-828a-4268-a8a4-2cae254eb27e;Können Sie bitte Ihren Familiennamen buchstabieren ?;Você pode soletrar seu nome de família (sobrenome), por favor?
+f3082d83-5436-4231-bb00-5469a6111b4f;"<b>Exercício:</b>
+Soletre seu nome!";Se você já fez isso, por favor clique em!
+dcec4aa8-7a5c-4c5b-b1d6-cf8d8f5f57b8;Eu tenho 42 anos de idade;Ich bin 42 Jahre alt.
+5a1e5a21-d748-4814-8c09-963545b1e85f;Eu nasci em dezembro;Ich bin im Dezember geboren.
+05367022-55d9-445b-b7e8-a549f4d401a0;Woher kommen Sie ?;De onde você é ?
+5fb3ed5c-25d3-42fd-8ec9-479000d41d4b;Eu venho do Brasil e vivo em Portugal.;Ich komme aus Brasilien und wohne in Portugal.
+c02e34ee-f041-4749-be5b-be045fb2e74a;Wie ist Ihre Adresse ?;Qual é seu endereço?
+924898a4-cb79-4d5a-801d-e4ee905a525b;Wo wohnen Sie ?;Onde você mora?
+31d36ff5-a6cd-4e65-be5b-85c3dc76bff2;"<b>Exercício:</b>
+Responde:
+1. Wie ist Ihre Adresse ?
+2. Wie alt sind Sie ?
+3. Wo sind Sie geboren ?
+4. Wie ist Ihre Postleitzahl ?
+5. Wo wohnen Sie ?";"Se você já fez isso, por favor clique em!"""
+274c17db-64a8-4973-adf1-8b074fa4a1af;Wie ist Ihre Postleitzahl ?;Qual é seu CEP ?
