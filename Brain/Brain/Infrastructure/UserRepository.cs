@@ -80,6 +80,7 @@ namespace DownloadToBrain.Infrastructure
 					int prio = 0;
 					_vocabulary = new AppResource("Vocabulary.csv")
 						.Items
+                        .Where(x=>Validate(x))
 						.Select(x =>
 							new Word(id: Guid.Parse(x.id), prio: prio++, left: x.values[0], right: x.values[1]))
 						.ToList();
@@ -88,7 +89,22 @@ namespace DownloadToBrain.Infrastructure
 			}
 		}
 
-		public async Task SaveUserStatus(Brain.Entities.UserStatus.UsersStatus usersStatus)
+        private bool Validate((string id, string[] values) x)
+        {
+            if (x.id == null)
+            {
+                return false;
+            }
+
+            if (!Guid.TryParse(x.id, out var guid))
+            {
+                return true;
+            }
+
+            return true;
+        }
+
+        public async Task SaveUserStatus(Brain.Entities.UserStatus.UsersStatus usersStatus)
 		{
 			await LoadStatus();
 

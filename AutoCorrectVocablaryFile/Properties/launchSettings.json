@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AutoCorrectVocablaryFile": {
+      "commandName": "Project",
+      "commandLineArgs": "--solutionDir \"\""
+    }
+  }
+}

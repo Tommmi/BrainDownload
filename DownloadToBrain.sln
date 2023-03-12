@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31702.278
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Brain.Entities", "Brain.Entities\Brain.Entities.csproj", "{72CF152A-49A9-4A7E-99AC-1B50E73A9CDB}"
 EndProject
@@ -16,6 +16,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownloadToBrain.Android", "Brain\Brain.Android\DownloadToBrain.Android.csproj", "{29962EF1-C0C0-4AFB-B297-07BC46C3465B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Upload2Brain.BR-DE.Android", "Upload2Brain.BR-DE\Upload2Brain.BR-DE.Android\Upload2Brain.BR-DE.Android.csproj", "{9CFBEBE5-1BD6-4FE7-8791-53F64153F478}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerifyVocabularyFile", "VerifyVocabularyFile\VerifyVocabularyFile.csproj", "{1AB0BFCB-85F1-4E24-915E-E5B709BAD72E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoCorrectVocablaryFile", "AutoCorrectVocablaryFile\AutoCorrectVocablaryFile.csproj", "{C921E767-53B2-460B-8CD5-D921F2E3924E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VerifyAndTest", "VerifyAndTest", "{3E6267B7-AA2E-4F3F-98D2-C3922394BE30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,14 @@ Global
 		{9CFBEBE5-1BD6-4FE7-8791-53F64153F478}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CFBEBE5-1BD6-4FE7-8791-53F64153F478}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9CFBEBE5-1BD6-4FE7-8791-53F64153F478}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1AB0BFCB-85F1-4E24-915E-E5B709BAD72E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AB0BFCB-85F1-4E24-915E-E5B709BAD72E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AB0BFCB-85F1-4E24-915E-E5B709BAD72E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AB0BFCB-85F1-4E24-915E-E5B709BAD72E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C921E767-53B2-460B-8CD5-D921F2E3924E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C921E767-53B2-460B-8CD5-D921F2E3924E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C921E767-53B2-460B-8CD5-D921F2E3924E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C921E767-53B2-460B-8CD5-D921F2E3924E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +73,8 @@ Global
 		{72CF152A-49A9-4A7E-99AC-1B50E73A9CDB} = {66EFF874-D4C2-45EB-8961-CC484F1BCD62}
 		{C78F8381-53F8-4883-BA50-5D79DFC24FF8} = {66EFF874-D4C2-45EB-8961-CC484F1BCD62}
 		{4238D409-34E8-444F-AE91-9D30D54C5310} = {66EFF874-D4C2-45EB-8961-CC484F1BCD62}
+		{1AB0BFCB-85F1-4E24-915E-E5B709BAD72E} = {3E6267B7-AA2E-4F3F-98D2-C3922394BE30}
+		{C921E767-53B2-460B-8CD5-D921F2E3924E} = {3E6267B7-AA2E-4F3F-98D2-C3922394BE30}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A411A0FA-B8AD-4404-A48E-484E28A14B36}
