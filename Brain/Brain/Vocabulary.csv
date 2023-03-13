@@ -1015,4 +1015,51 @@ Responde:
 3. Wo sind Sie geboren ?
 4. Wie ist Ihre Postleitzahl ?
 5. Wo wohnen Sie ?";"Se você já fez isso, por favor clique em!"""
-274c17db-64a8-4973-adf1-8b074fa4a1af;Wie ist Ihre Postleitzahl ?;Qual é seu CEP ?
+ca34b57a-5357-4f53-a201-c8e1af0bbfa2;"Gramática:
+Como reconhecer um objeto dativo em uma frase?";"Pergunta sobre <b>""a quem ?""</b>
+Por exemplo:
+Na frase ""ele lhe dá a bola"". ""lhe"" é o objeto dativo, porque é a resposta à pergunta ""a quem ele dá a bola""."
+d4f286fc-1c3e-4067-9788-779b45c39df5;eu (dativo);mir
+a8d68466-1ea5-4ed9-81ae-4070690cbbca;vc (dativo);dir
+03d086af-0d2e-4def-b49d-bb9d63c047b7;ele (dativo);ihm
+418d8de1-80b5-4aca-9017-fd4023889a12;ela (dativo);ihr
+201765b9-a048-4519-8423-0cf8ff45e1d1;ele/ela (neutrum dativo);ihm
+9a23d88c-93d0-40aa-a2d1-43321d3ee497;nós (dativo);uns
+fc085ed1-f528-4bae-9fe3-8d8deb610e28;vcs (dativo);Euch
+0adc35ce-89ad-4ffa-88cf-2d25c1d73670;eles (dativo);ihnen
+32da9c05-e12a-4961-80d5-d42519797191;pra O Senhor (dativo);Ihnen
+d658881d-f415-4f94-ab0c-bf27ff2d111f;eu (acusativo);mich
+eadd60c4-1df7-44bf-9b61-6ece557424eb;vc (acusativo);dich
+34e90152-a7ac-4a81-be28-4e6c9a4260a5;ele (acusativo);ihn
+918d6556-d6d1-4d7d-8f9f-b77eaa273b54;ela (acusativo);sie
+654e7d75-815c-435f-b120-6b690d8808c7;ele/ela (neutrum acusativo);es
+d916cdf0-840c-44dc-96f4-4b3c30603aa2;nós (acusativo);uns
+71b8ed5c-a310-4d3e-8c8f-41a850b87b56;vcs (acusativo);Euch
+e91db98b-9e4a-4ce0-9fd3-60307010ef98;eles (acusativo);sie
+5e90c94b-8d6c-401c-8164-be9de0d61639;pra O Senhor (acusativo);Sie
+204cd50e-748c-48b5-9b2c-761d66440f95;mir;me (dativo)
+ca7bf82e-c9d4-4c64-a3c0-0a24bff07193;dir;te  (dativo)
+0bd96176-6db2-4110-a2b5-0bfc96615f6d;ihm;lhe  (dativo)
+04c088f1-1375-4184-a2f6-06a44c5b5c1a;ihr (só uma pessoa);lhe  (dativo)
+9018c839-84f5-45d6-9480-8ea2f41c9aae;ihr (varias pessoas);vcs (nominativo)
+fcc01b5e-9276-4d10-84bc-aadb2f2a1b97;zu mir;para mim
+4d3e3c51-1f28-413d-a6b3-541b69f6a0e6;zu ihm;para ele
+93ce4e91-74c1-4f95-87a9-2328d8fb9ab2;zu ihr;para ela
+fbb79aac-b84d-4518-971e-328e87c6a841;mit mir;comigo
+43bc1b1f-b3cb-4e62-a11d-a50e93164436;mit ihm;com ele
+ee9bf0e9-8436-4613-b3cf-5d0f20360015;mit ihr;com ela
+adc9e494-c851-4e20-86c8-febe7e981c33;zu Ihnen;para O Senhor
+8f0144d5-9ab8-4c0c-9ff0-6517d2b85dd7;mit Ihnen;com O Senhor 
+471a3d07-0e3f-4615-affc-bc9d70863da8;mit Euch;com vcs
+b855df51-a6e5-4744-bc6b-0a8141e213f9;uns;nós  (dativo ou acusativo)
+9c5d6a4b-fe44-463f-b533-45615b2d7a58;Euch;vos (dativo ou acusativo)
+ce80baed-61de-4d5f-b629-7a21a2067bef;ihnen;lhes (dativo)
+15fc0f49-96f1-4d47-91d1-e276d1f62018;Ihnen;lhes (dativo, O Senhor)
+12813cd7-b106-4fc9-bd5e-8a33309815e2;mich;me (acusativo)
+b3632e44-1922-4fdd-80cc-e5d4e3952c96;dich;te (acusativo)
+f74a734f-42ca-4ad6-b7cb-5c16b7761306;ihn;o (acusativo)
+daead1b5-65b7-4da2-a57c-27a2f67fe857;sie;a (acusativo ou nominativo)
+414b52c9-9e0e-44a1-9c83-df3758310987;es;o / a (acusativo ou nominativo)
+015ede0b-9fe9-4bd5-8e17-c53ec90ee54c;uns;nós (acusativo)
+5ff7dbf3-2f3e-46b1-8a29-0dd20b852d20;Euch;vos (acusativo ou dativo)
+6edd2f23-1714-43f4-b0e0-9fc6564b9b3d;sie;eles (nomintivo) ou os/as (acusativo)

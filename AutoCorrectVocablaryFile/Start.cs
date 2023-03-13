@@ -27,7 +27,7 @@ namespace AutoCorrectVocablaryFile
                 parseContext.CurrentParseState.ProcessCharacter(parseContext,c);
             }
 
-            File.WriteAllText(vocabularyCsvFilePath, parseContext.NewContent.ToString());
+            File.WriteAllText(vocabularyCsvFilePath, parseContext.NewContent.ToString(),Encoding.UTF8);
         }
 
         private static string? FindProjectFolder(string? path)
