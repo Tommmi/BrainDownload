@@ -22,12 +22,9 @@ namespace AutoCorrectVocablaryFile
             ParseContext parseContext = new ParseContext();
             parseContext.CurrentParseState = new ParseStateColumnStarted();
 
-            foreach (var line in content.Split("\r\n"))
+            foreach(char c in content)
             {
-                foreach(char c in line)
-                {
-                    parseContext.CurrentParseState.ProcessCharacter(parseContext,c);
-                }
+                parseContext.CurrentParseState.ProcessCharacter(parseContext,c);
             }
 
             File.WriteAllText(vocabularyCsvFilePath, parseContext.NewContent.ToString());

@@ -6,38 +6,35 @@ internal class ParseStateQuotationMarkOpened : IParseState
 
     public void ProcessCharacter(ParseContext context, char c)
     {
-        switch (c)
+        if (_quotationMarksCnt == 0)
         {
-            case '\n':
-                context.NewContent.Append(c);
-                break;
-            case '\r':
-                break;
-            case ';':
-                context.NewContent.Append(c);
-                break;
-            case '\"':
-                if (_quotationMarksCnt == 0)
-                {
+            switch (c)
+            {
+                case '\r':
+                    break;
+                case '\"':
+                    context.NewContent.Append(c);
                     _quotationMarksCnt++;
-                }
-                else
-                {
+                    break;
+                default:
+                    context.NewContent.Append(c);
+                    break;
+            }
+        }
+        else
+        {
+            switch (c)
+            {
+                case '\"':
                     context.NewContent.Append(c);
                     _quotationMarksCnt = 0;
-                }
-                break;
-            default:
-                if (_quotationMarksCnt == 0)
-                {
-                    context.NewContent.Append(c);
-                }
-                else
-                {
+                    break;
+                default:
                     context.CurrentParseState = new ParseStateColumnStarted();
-                }
+                    context.CurrentParseState.ProcessCharacter(context, c);
+                    break;
+            }
 
-                break;
         }
     }
 }
