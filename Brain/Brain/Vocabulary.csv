@@ -791,7 +791,7 @@ f207396b-d168-4f45-9245-f8f140f8b309;der Pilot;o piloto
 4. a vaga"
 ef40aa59-5ac7-4391-81d4-c8853168c595;die Polizei;a policia
 e4a973aa-3261-4f5b-af69-5ba427a2ae7e;die Postleitzahl;o código postal
-5822346d-95d7-4570-acd5-f0c488c0450d;die Praxis / die Arztpraxis;o consultorio
+5822346d-95d7-4570-acd5-f0c488c0450d;die Praxis / die Arztpraxis;o consultório
 2cb3eed4-fdba-49f0-9c7e-e27c8cfaa683;der Preis;o preço
 0a90a9aa-71b7-413f-ac88-79852b365ef6;das Problem;o problema
 62d69b17-d644-4a3e-ac64-2369cd302ef1;das Prozent;por cento / %
@@ -1043,6 +1043,7 @@ ca7bf82e-c9d4-4c64-a3c0-0a24bff07193;dir;te  (dativo)
 04c088f1-1375-4184-a2f6-06a44c5b5c1a;ihr (só uma pessoa);lhe  (dativo)
 9018c839-84f5-45d6-9480-8ea2f41c9aae;ihr (varias pessoas);vcs (nominativo)
 fcc01b5e-9276-4d10-84bc-aadb2f2a1b97;zu mir;para mim
+a3e490e2-9e50-4a5b-b7c4-6d345aa1efb1;für mich;para mim
 4d3e3c51-1f28-413d-a6b3-541b69f6a0e6;zu ihm;para ele
 93ce4e91-74c1-4f95-87a9-2328d8fb9ab2;zu ihr;para ela
 fbb79aac-b84d-4518-971e-328e87c6a841;mit mir;comigo
@@ -1063,3 +1064,17 @@ daead1b5-65b7-4da2-a57c-27a2f67fe857;sie;a (acusativo ou nominativo)
 015ede0b-9fe9-4bd5-8e17-c53ec90ee54c;uns;nós (acusativo)
 5ff7dbf3-2f3e-46b1-8a29-0dd20b852d20;Euch;vos (acusativo ou dativo)
 6edd2f23-1714-43f4-b0e0-9fc6564b9b3d;sie;eles (nomintivo) ou os/as (acusativo)
+f9df3afa-2d6a-4d1c-aafa-441b9fb7a34f;für jemanden;para alguém (algo deve pertencer a alguém)
+0b2e6964-9a54-41e1-8052-be3ff227a765;zu jemandem;para alguém (na direção de alguém)
+5506337d-8bb1-4433-b8f0-e4eb5278b5ef;"Gramatica:
+O ""für"" vem com acusativo ou dativo?";Vem com acusativo
+ee17588b-d6de-4e81-a5dc-d59a64ba465c;"Gramatica:
+O ""zu"" vem com acusativo ou dativo?";Vem com dativo
+12d46cc6-0aa6-4832-9e4d-cb11bacd4314;a loja;das Geschäft
+a1b160b6-269e-4604-aba3-7c4ab0cd87e0;"Gramática:
+forma o accusativo de ""das Geschäft"" ?";das Geschäft
+f6d79be9-6ea3-4981-a5b6-2f5fdacb52ea;"Gramática:
+forma o dativo de ""das Geschäft"" ?";dem Geschäft
+2974a79c-ad91-44c3-9466-1c9f5e18ce85;vou para a loja;ich gehe zu dem Geschäft
+44121949-1698-45c6-a0a0-6557dabad982;o dinheiro é para a loja;das Geld ist für das Geschäft
+662fd466-6e47-48c7-aed9-d44ed7b93cc4;das Geschäft;a loja
