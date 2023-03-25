@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="8" android:versionName="8.0" package="upload2brain.br_de" android:installLocation="preferExternal">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" 
+          android:versionCode="8" 
+          android:versionName="8.0" 
+          package="download2brain.en_tom" 
+          android:installLocation="preferExternal">
 	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="30" />
-	<application android:label="Upload2Brain.BR_DE.Android" android:theme="@style/MainTheme" android:icon="@mipmap/launcher_foreground"></application>
+	<application android:label="Download2Brain.EN_Tom.Android" android:theme="@style/MainTheme" android:icon="@mipmap/launcher_foreground"></application>
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 </manifest>

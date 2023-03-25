@@ -13,13 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{66EFF8
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DownloadToBrain", "Brain\Brain\DownloadToBrain.csproj", "{3A836044-DF57-4946-AA4E-2D9577D56880}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownloadToBrain.Android", "Brain\Brain.Android\DownloadToBrain.Android.csproj", "{29962EF1-C0C0-4AFB-B297-07BC46C3465B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Download2Brain.EN-Tom.Android", "Upload2Brain.BR-DE\Upload2Brain.BR-DE.Android\Download2Brain.EN-Tom.Android.csproj", "{9CFBEBE5-1BD6-4FE7-8791-53F64153F478}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Upload2Brain.BR-DE.Android", "Upload2Brain.BR-DE\Upload2Brain.BR-DE.Android\Upload2Brain.BR-DE.Android.csproj", "{9CFBEBE5-1BD6-4FE7-8791-53F64153F478}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VerifyVocabularyFile", "VerifyVocabularyFile\VerifyVocabularyFile.csproj", "{1AB0BFCB-85F1-4E24-915E-E5B709BAD72E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerifyVocabularyFile", "VerifyVocabularyFile\VerifyVocabularyFile.csproj", "{1AB0BFCB-85F1-4E24-915E-E5B709BAD72E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoCorrectVocablaryFile", "AutoCorrectVocablaryFile\AutoCorrectVocablaryFile.csproj", "{C921E767-53B2-460B-8CD5-D921F2E3924E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoCorrectVocablaryFile", "AutoCorrectVocablaryFile\AutoCorrectVocablaryFile.csproj", "{C921E767-53B2-460B-8CD5-D921F2E3924E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VerifyAndTest", "VerifyAndTest", "{3E6267B7-AA2E-4F3F-98D2-C3922394BE30}"
 EndProject
@@ -45,12 +43,6 @@ Global
 		{3A836044-DF57-4946-AA4E-2D9577D56880}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A836044-DF57-4946-AA4E-2D9577D56880}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A836044-DF57-4946-AA4E-2D9577D56880}.Release|Any CPU.Build.0 = Release|Any CPU
-		{29962EF1-C0C0-4AFB-B297-07BC46C3465B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{29962EF1-C0C0-4AFB-B297-07BC46C3465B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{29962EF1-C0C0-4AFB-B297-07BC46C3465B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{29962EF1-C0C0-4AFB-B297-07BC46C3465B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{29962EF1-C0C0-4AFB-B297-07BC46C3465B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{29962EF1-C0C0-4AFB-B297-07BC46C3465B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{9CFBEBE5-1BD6-4FE7-8791-53F64153F478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9CFBEBE5-1BD6-4FE7-8791-53F64153F478}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CFBEBE5-1BD6-4FE7-8791-53F64153F478}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
