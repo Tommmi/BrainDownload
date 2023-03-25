@@ -906,8 +906,8 @@ a3f414fb-c84e-411f-aa44-e58d6f71cf2c;nosso cão;unser Hund
 23371fc0-d45f-497d-8141-27b4ea7d7052;meu gato;meine Katze
 5187068e-0285-4ff2-b648-8bb58a310252;nosso gato;unsere Katze
 4da80332-56d2-478d-9e9c-8d2df6f9daf3;o gato de vc / seu gato;Deine Katze
-a2119214-aa6a-42e7-96b2-8c428a200a47;o faca dele;"sein Messer (por ""Messer"" é neutrum)"
-f94a1d4c-c867-4cae-b8d2-f880a3a62ed1;o faca dela;"ihr Messer (por ""Messer"" é neutrum)"
+a2119214-aa6a-42e7-96b2-8c428a200a47;a faca dele;"sein Messer (por ""Messer"" é neutrum)"
+f94a1d4c-c867-4cae-b8d2-f880a3a62ed1;a faca dela;"ihr Messer (por ""Messer"" é neutrum)"
 358eed30-d912-4995-89e8-8ef091368261;minha faca;mein Messer
 e189b123-c794-451b-98b0-cfe1ced93687;nossa faca;unser Messer
 4f050f88-f6e9-4f22-8b53-18d848ce0e07;a faca de vc / sua faca;Dein Messer
@@ -931,7 +931,7 @@ f721cc6f-398e-4f0d-856a-8c2fd14b2af3;ihr Messer;o faca dela
 2f84d905-e540-4ccf-aa03-b0fc9b85c395;vor dem Haus;em frente da casa
 e21ca395-29b0-41fb-bfa3-573bdf9ab924;vor Christus;antes des Christo
 482623d2-f9a8-4c22-aaf8-c104d1db93d7;vor zwei Jahren;dois anos atrás
-ed40a775-8bb9-4ce9-b308-61e39256acb6;vor allem;sobretudo
+ed40a775-8bb9-4ce9-b308-61e39256acb6;vor allem;acima de tudo
 b11bfd2d-d84c-4977-a2ee-1c8b5ca1fa99;die Hitze;o calor
 e0b2d7da-7d46-4ab9-9387-953a587f91cf;umkommen;morrer
 c4cbd437-5ccb-4b7d-9818-36e48771a938;sterben;morrer
@@ -941,9 +941,9 @@ e29bd6cb-1008-4090-9692-cb74224dba5a;Ok, dann los!;vamos lá!
 00e29e88-73e5-4d43-b0f3-0e3f140db15c;antes de;davor / vor
 87c69076-cae2-43e1-b640-0284501077bf;antes des Christo;vor Christus
 c159249c-2e31-4c4f-9c34-8b4c0f119b93;dois anos atrás;vor zwei Jahren
-7a1bd431-f344-4a70-b468-fcb938fe5a3f;sobretudo;vor allem / vor allen Dingen
+7a1bd431-f344-4a70-b468-fcb938fe5a3f;acima de tudo;vor allem / vor allen Dingen
 50e0649a-5a6a-49cb-8b72-15c45548edba;o calor;die Hitze
-1c31da8a-6c9d-4a7c-9994-7885f0ea6393;morrer;umkommen / sterben
+1c31da8a-6c9d-4a7c-9994-7885f0ea6393;morrer (de uma doença);"sterben (não ""umkommen"")"
 738a4c56-72c1-4d8a-a26b-a2f477925bb7;morrer de calor;vor Hitze umkommen
 671348ce-311e-4aa8-a2aa-9f7e3461e50a;"Gramática:
 Como é formado o gerúndio em alemão?";"Não há gerúndio em alemão. 
@@ -954,12 +954,12 @@ adbce462-ebca-46fc-a324-4f5c457976a5;eu comi;ich habe gegessen
 b82d82c3-5be4-4b0e-8a25-77f1bca95885;já comi;ich habe schon gegessen
 8c718b0c-0538-4721-af0c-ae8988153957;já comi hoje;ich habe heute schon gegessen
 19b5587e-be91-4db3-90b8-8253de634abe;Estou morrendo de calor;ich komme um vor Hitze / ich komme vor Hitze um
-9e97e9ef-3b30-40c2-829f-798ec82d3863;eu morri do calor;ich bin vor Hitze umgekommen.
+9e97e9ef-3b30-40c2-829f-798ec82d3863;eu morri de calor;ich bin vor Hitze umgekommen.
 139dfc77-22c1-4d47-8bc4-1e2cac2ff07a;wo steht das ?;onde isso está  escrito ?
-eaa2b8c5-d548-4e7b-9168-551ac4f1bba2;Schnee;o neve
+eaa2b8c5-d548-4e7b-9168-551ac4f1bba2;Schnee;a neve
 f2db80b3-b9e5-43e4-9ae3-21074b671488;schneien;nevar
 d2531349-6b1d-4fde-8daf-377c827e3505;es schneit;está nevando
-c4e339d4-059f-4b42-87f3-18484e5ada69;o neve;der Schnee
+c4e339d4-059f-4b42-87f3-18484e5ada69;a neve;der Schnee
 9d66314a-0874-49fc-a86b-76e8e877e899;onde isso está  escrito ?;wo steht das ?
 786935ab-5b4e-44d8-a2bd-7d15be332f1f;nevar;schneien
 9fda73ef-1b53-4c48-a57b-86c53134698c;está nevando;es schneit
@@ -1075,6 +1075,21 @@ a1b160b6-269e-4604-aba3-7c4ab0cd87e0;"Gramática:
 forma o accusativo de ""das Geschäft"" ?";das Geschäft
 f6d79be9-6ea3-4981-a5b6-2f5fdacb52ea;"Gramática:
 forma o dativo de ""das Geschäft"" ?";dem Geschäft
+34aa3f3a-83b9-4bd3-8359-7c3aebcb72e4;ganhar dinheiro;Geld verdienen
+9fc3d37d-2105-4df2-a27b-02d98cfed2c2;para (um lugar);zu
+33547f74-d208-4ba0-8086-18cecd1c14ee;para (uma pessoa);zu
+6038c77d-1b90-4501-96e9-0fe8a998044a;para (fazer algo);um zu (+ infinitivo do verbo)
+c88cc95e-8ff4-4c02-8b77-51128eba407e;trabalhar para ganhar dinheiro;arbeiten um Geld zu verdienen
+dc2eb425-af59-4de7-b014-a69018d0c7da;parar de fazer algo;aufhören etwas zu tun
+447e9815-db06-43c1-8fc8-702b495c627a;parar de diregir;anhalten
+b25205ad-a5c3-4711-abda-6cfc1c093659;"1. para ! (Solicitação para não dirigir mais.)
+2. para O Senhor, por favor!
+";"1. Halt! (forma curta) 
+Halt an! (informal)
+2. Halten Sie bitte an! (formal)"
+b11ef3f3-aecd-4f1f-85e6-02e0b6d4c53d;"1. para! (Solicitar que não se faça mais nada.)
+2. Para O Senhor !";"1. Hör auf !
+2. Hören Sie bitte auf !"
 2974a79c-ad91-44c3-9466-1c9f5e18ce85;vou para a loja;ich gehe zu dem Geschäft
 44121949-1698-45c6-a0a0-6557dabad982;o dinheiro é para a loja;das Geld ist für das Geschäft
 662fd466-6e47-48c7-aed9-d44ed7b93cc4;das Geschäft;a loja
