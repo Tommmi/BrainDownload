@@ -219,6 +219,11 @@ ee22fd42-19ce-4925-98a6-8c14fa9c1b34;Was kostet das ?;quanto custa ?
 7b44158a-0bab-4e76-90ad-82d80be3c3bd;Sprechen Sie Deutsch ?;fala alemao ?
 5dae967c-c04e-41c4-8acd-5a1685901a2d;ICH SPRECHE KEIN DEUTSCH;EU NÃO FALO ALEMAO
 9706605c-b4a0-416e-83a3-5cbe130e1996;Ich weiß nicht ;EU NÃO SEI
+cf035a91-f194-4e22-94e8-56ee412ca08c;"Gramática:
+O que é uma ""Komparartiv""?";"O ""Komparativ"" é a forma intensificada de um adjetivo.
+Por exemplo, ""langsamer"" é o Komparativ de ""langsam"" e significa ""mais devagar""."
+0f2c103d-990c-4a3f-af6d-c0bdb15e68c1;"Gramática:
+Como formar o ""Komparativ""?";"Adicione um ""er"" ao final do adjetivo"
 3d39beca-a5eb-45cc-ae78-98b7362a292a;Sprechen Seie bitte etwas langsammer;FALE MAIS DEVAGAR POR FAVOR
 a199b814-fe4a-4b44-ba9b-a3757543bf81;wo kommen Sie her ?;DE ONDE VOCE É?
 10755a1c-c30f-4212-af94-a46a4544a718;KÖNNEN SIE DAS BITTE WIEDERHOLEN?;PODE REPETIR POR FAVOR?
@@ -1058,7 +1063,7 @@ ce80baed-61de-4d5f-b629-7a21a2067bef;ihnen;lhes (dativo)
 15fc0f49-96f1-4d47-91d1-e276d1f62018;Ihnen;lhes (dativo, O Senhor)
 12813cd7-b106-4fc9-bd5e-8a33309815e2;mich;me (acusativo)
 b3632e44-1922-4fdd-80cc-e5d4e3952c96;dich;te (acusativo)
-f74a734f-42ca-4ad6-b7cb-5c16b7761306;ihn;o (acusativo)
+f74a734f-42ca-4ad6-b7cb-5c16b7761306;ihn;ele (acusativo)
 daead1b5-65b7-4da2-a57c-27a2f67fe857;sie;a (acusativo ou nominativo)
 414b52c9-9e0e-44a1-9c83-df3758310987;es;o / a (acusativo ou nominativo)
 015ede0b-9fe9-4bd5-8e17-c53ec90ee54c;uns;nós (acusativo)
@@ -1093,3 +1098,66 @@ b11ef3f3-aecd-4f1f-85e6-02e0b6d4c53d;"1. para! (Solicitar que não se faça mais
 2974a79c-ad91-44c3-9466-1c9f5e18ce85;vou para a loja;ich gehe zu dem Geschäft
 44121949-1698-45c6-a0a0-6557dabad982;o dinheiro é para a loja;das Geld ist für das Geschäft
 662fd466-6e47-48c7-aed9-d44ed7b93cc4;das Geschäft;a loja
+fe9afd1e-c1c5-4a96-a7da-2b997ed90a08;novamente;wieder
+9a8b42dd-108a-4bbb-b6ec-c9ebe839f20b;"Gramatica:
+nominativo singular femina de ""kein""";keine
+b1e8dbaf-7dd0-443d-8121-46a01b9d021c;"Gramatica:
+nominativo singular masculino de ""kein""";kein
+2a31688d-2048-485f-b3d2-19b5415ad9a1;"Gramatica:
+nominativo plural de ""kein""";keine
+a2f5b4fd-7d2e-4498-bb4f-1629d18595fa;"Gramatica:
+acusativo singular femina de ""kein""";keine
+63f603bf-1274-4b7f-90c0-1fac60658219;"Gramatica:
+acusativo singular masculino de ""kein""";keinen
+2e1a2261-fc3b-4c9a-9fec-74512c059898;"Gramatica:
+acusativo plural de ""kein""";keine
+d0f932f8-5442-49f6-81f7-cc376bb048f3;o jornal (para noticias);die Zeitung
+fb15a04d-6b48-446e-912b-376aead96020;a revista;die Zeitschrift
+4da1b0c8-b557-4a82-b75e-eec3973dfee2;Hoje não há jornal;"Heute gibt es keine Zeitung / 
+Es gibt keine Zeitung heute"
+194a0cff-ce17-47dc-9eca-2881d6a4a020;não há pão;es gibt kein Brot
+658bce4b-a4ee-4147-951f-b671c7e5286d;não há pratos;es gibt keine Teller
+68ad1989-0f07-419b-9cf6-429a2966af5c;não há um prato;es gibt keinen Teller
+e170e8ef-e187-4baa-9fdd-225715fa787b;wieder;novamente
+1657c8f4-42d0-4ddf-9768-b711adb858db;preparar;vorbereiten
+0c29d04f-86f8-4b7f-8032-9471513f4dd3;eu preciso limpar a casa e preparar o jantar;ich muss das Haus putzen und das Essen vorbereiten
+2d8748f5-78fb-40c0-ba4e-6a1b2400c60e;Vocé quer comer;Möchtest Du essen ?
+4e3148d3-7514-4f84-998c-a28afb3a0056;não obrigado. Não quero comer;Nein danke. Ich möchte nicht essen.
+8acbb3b6-efb0-4352-a162-e2f3a04176c9;nada;nichts
+1d4ff570-fb66-4ee3-9cfc-25004c535640;o tempo está bom;das Wetter ist gut
+e434995c-f71d-4525-8bfc-4b6a39447a09;o tempo não está bom;das Wetter ist nicht gut
+b6387af7-22f3-488a-9e3a-da0e49a10b3a;como vamos fazer isso ?;"wie machen wir das ? / 
+wie werden wir das machen ?"
+13395350-659b-484e-b013-672f8a1325b3;que horas são?;"wieviel Uhr ist es ? / 
+wie spät ist es ?"
+36aef714-34fd-41e2-aa7b-b72e36046426;o cinema;das Kino
+39c83b70-b796-431d-b466-d06145d3ac8a;vorbereiten;preparar
+12613749-f18f-44d4-a545-5ce205697311;nichts;nada
+9a368306-120b-44cb-87c7-c52028dc579c;eu quero ir ao cinema;ich möchte ins Kino gehen.
+6788ad28-c197-46f2-9e47-b8a97212ce4f;"Gramatica:
+qual é a diferença entre ""ins Kino gehen"" e ""zum Kino gehen"" ?";"""ins Kino gehen"" significa que você está depois dentro do cinema.
+""zum Kino gehen"" significa que você está depois nas proximidades do cinema ou diretamente em frente a ele."
+26a84fd1-7e21-4f15-9cc5-0db3fd8f31db;das Kino;o cinema
+711e9e04-161d-4c29-b03c-cb562a739385;mehr;mais
+23a50934-ff41-41b5-8224-be922d21b974;schnell;rapido
+11880427-0d75-4fc4-8298-20fb83ed5c03;schneller;mais rapidamente (adverbio)
+5d83696c-c9ac-4018-82ea-dbc28d048d95;ich fahre schneller;estou dirigindo mais rapido
+ff704f96-5117-4ac0-a015-abdc15817e4c;das schnellere Auto;o carro mais rapido
+53785826-3176-4040-aeff-4e21764ee63d;der schnellere Zug;o trem mais rapido
+afc8b368-6d4b-401c-a5f3-28b5e8ae6b87;ich fahre das schnellere Auto;eu dirigo o carro mais rapido
+af524bd6-06b6-4577-bdc9-1170c41ea2c4;ich fahre den schnelleren Zug;eu estou indo com o trem mais rapido
+b80cec53-0731-48c2-9d65-b9c6e6ecb644;o trem (para distancias longes);"der Zug / (die ""Bahn"")"
+4bbd5154-113e-41df-b64b-f0e109a1c5da;o trem adentro da cidade ;die Straßenbahn
+9758c57e-9a19-4301-bb00-7deb16d3ec7c;o metro;die U-Bahn
+0d1b1354-39e1-40d7-bdd7-19d4802cc725;rapido;schnell
+47b4036e-a2cb-46eb-8c63-6b6416e6f166;estou dirigindo rapido;ich fahre schnell
+856f3d1c-abad-445d-b229-c4f16fae88bd;estou dirigindo mais rapido;ich fahre schneller
+6b0bfb93-9bc4-4a49-a944-e76b05da8c7c;o carro mais rapido;das schnellere Auto
+388c0446-7d55-41c8-8342-7998745c7ffd;um carro mais rapido;ein schelleres Auto
+b0471f70-db31-4b7a-86e5-3f29b15ea852;o trem mais rapido;der schnellere Zug
+eed28cf0-8fda-4482-8f1a-79b1ea607683;um trem mais rapido;ein schnellerer Zug
+ea876174-fab7-488b-84ca-41152380fcd7;o trem (adentro da cidade) mais rapido;die schnellere Straßenbahn
+998c6c8f-89d4-4f88-907c-76fe4607d1f8;um trem (adentro da cidade) mais rapido;eine schnellere Straßenbahn
+ed90a9b5-1f4a-4017-9335-69d5faa63ebf;eu dirigo o carro mais rapido;ich fahre das schnellere Auto
+9231ebaa-53d5-420f-b8af-bdc75dffd34a;eu estou indo com o trem mais rapido;ich fahre den schnelleren Zug
+79fa3a43-562b-4e35-8bb3-e3c8e60e67fe;o trem é mais rapido que o carro;der Zug ist schneller als das Auto
