@@ -10,6 +10,9 @@ namespace AutoCorrectVocablaryFile
     {
         public StringBuilder NewContent { get; } = new StringBuilder();
         public int Column { get; set; } = 0;
+        
+        public string Guid { get; set; } = string.Empty;
+
         public IParseState CurrentParseState { get; set; }
     }
 }
