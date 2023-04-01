@@ -185,9 +185,9 @@ d638d5b5-0144-45ea-806f-992e36174515;eu venho;ich komme
 2d7ee261-2970-4395-89dd-7f6f75b21626;vc vem;du kommst
 cfe3b39f-a537-46d3-bbb7-84e33955508b;ele vem;er kommt
 84699b4f-97d4-466d-bd5f-2f67bdc2f0ea;nos vamos;wir gehen
-facab58f-e3a9-47bb-9170-b086f53635c2;nos vimos (de ver);wir haben gesehen
-8bcf0d87-8487-4c6e-9f56-62a1267ec9ff;nos vimos (de vir);wir kommen
-a431e861-193d-4b26-bb61-4c4173d63e4e;nos viemos;wir sind gekommen
+facab58f-e3a9-47bb-9170-b086f53635c2;nós vimos (de ver);wir haben gesehen
+8bcf0d87-8487-4c6e-9f56-62a1267ec9ff;nós vimos (de vir);wir kommen
+a431e861-193d-4b26-bb61-4c4173d63e4e;nós viemos;wir sind gekommen
 b269c103-954b-471b-a3c9-55c036b849f5;vcs vêm;ihr kommt
 5204a0ae-a61f-464d-8547-ddb362a7b341;eles vêm;sie kommen
 838466ce-df16-4c05-a058-fbadd66208f9;O senhor vem;Sie kommen
@@ -227,7 +227,7 @@ Como formar o ""Komparativ""?";"Adicione um ""er"" ao final do adjetivo"
 3d39beca-a5eb-45cc-ae78-98b7362a292a;Sprechen Seie bitte etwas langsammer;FALE MAIS DEVAGAR POR FAVOR
 a199b814-fe4a-4b44-ba9b-a3757543bf81;wo kommen Sie her ?;DE ONDE VOCE É?
 10755a1c-c30f-4212-af94-a46a4544a718;KÖNNEN SIE DAS BITTE WIEDERHOLEN?;PODE REPETIR POR FAVOR?
-b5597883-0e6a-4f57-89b6-592df5000eda;EIN UHR FÜNFZEHN;01:15
+b5597883-0e6a-4f57-89b6-592df5000eda;EIN UHR FÜNFZEHN;0,052083333
 810044d8-cb10-4dbe-a800-d4f60e48eb9c;Die Herkunft;ORIGEM
 f7e0fe7f-3648-4fde-9c08-54f421f139b9;"ÜBER C/""r""";DE(SOBRE)
 e67914f9-0245-4625-88fc-8768bb4d05f6;und;e
@@ -431,6 +431,13 @@ e8b56fab-fc63-4d9b-910e-100755f21c35;mehr als;mais que / mais de
 65f26eb0-fdf2-4160-bdd7-9a59143a381c;schneller als ..;mais rapido que ..
 6be86040-a976-47b2-9974-7bc23c4da389;Polizist;Policial
 c111e11e-fb28-4890-9bfc-94f4f3212262;Als Polizist;Como Policial
+6454585e-af66-4a75-a88f-0c3fa707db81;Eu sou como você;ich bin wie Du
+1fb1e5af-3172-4ea3-b40e-b6fdce37f113;como sempre;wie immer
+fbc36c19-255f-433f-b88c-262c2739a512;Como?;Wie bitte ?
+69f6aa7a-836d-4efb-961e-b69fc6c46d3e;Como assim ?;wieso ?
+eedc2bb4-071c-4493-8cfa-178eeef84b65;sim, como nao ?;Ja, warum nicht ?
+0ea3baa8-a6cb-42fb-b98f-7c8a0dd05b09;como está ?;wie geht es Dir ?
+f7bb7696-06a2-466a-8905-e5da4dc543c2;como te chama ?;wie heißt Du ?
 19d7abcf-67a6-4cf8-a59d-b6e672c40671;selbst;POR SI MESMO
 2ab42676-505a-49e0-b91b-7579c07c05ad;bis;ATÉ
 c05d3639-a9bf-4ea5-964f-6ccf95621ba2;notieren;ANOTAR
@@ -980,9 +987,7 @@ Por exemplo, ""aufmachen""
 bcf61621-bb3c-4c95-8018-f2c63ed80ac9;"Gramática: 
 Quais dos seguintes prefixos não fazem de um verbo um verbo separável?
 ab, be, an, auf, aus, ein, emp,  ent, er, ge";be, emp, ent, er, ge
-d9a1a654-d6d5-4c32-ae27-d957f34da3c2;"Gramática: 
-Quais dos seguintes prefixos não fazem de um verbo um verbo separável?
-heim, her, herauf, herein, heraus, hin, hinter, los, miss, mit, nach, ver, vor, weg, zer, zu, zurück";hinter, miss, ver, zer
+d9a1a654-d6d5-4c32-ae27-d957f34da3c2;Gramática: Quais dos seguintes prefixos não fazem de um verbo um verbo separável? heim, her, herauf, herein, heraus, hin, hinter, los, miss, mit, nach, ver, vor, weg, zer, zu, zurück;hinter, miss, ver, zer
 4c35205d-506f-422e-8296-ae16cb9484fd;"Gramática:
 Questão de pronúncia: O prefixo de um verbo separável é dado por uma tensão especial?";"Sim, sempre.
 Por exemplo: <b>auf</b>machen. Nao é auf<b>machen</b>"
@@ -1024,11 +1029,16 @@ ca34b57a-5357-4f53-a201-c8e1af0bbfa2;"Gramática:
 Como reconhecer um objeto dativo em uma frase?";"Pergunta sobre <b>""a quem ?""</b>
 Por exemplo:
 Na frase ""ele lhe dá a bola"". ""lhe"" é o objeto dativo, porque é a resposta à pergunta ""a quem ele dá a bola""."
-d4f286fc-1c3e-4067-9788-779b45c39df5;eu (dativo);mir
-a8d68466-1ea5-4ed9-81ae-4070690cbbca;vc (dativo);dir
-03d086af-0d2e-4def-b49d-bb9d63c047b7;ele (dativo);ihm
-418d8de1-80b5-4aca-9017-fd4023889a12;ela (dativo);ihr
-201765b9-a048-4519-8423-0cf8ff45e1d1;ele/ela (neutrum dativo);ihm
+d4f286fc-1c3e-4067-9788-779b45c39df5;"Gramatica: 
+Forma o dativo de ""ich""";mir
+a8d68466-1ea5-4ed9-81ae-4070690cbbca;"Gramatica: 
+Forma o dativo de ""du""";dir
+03d086af-0d2e-4def-b49d-bb9d63c047b7;"Gramatica: 
+Forma o dativo de ""er""";ihm
+418d8de1-80b5-4aca-9017-fd4023889a12;"Gramatica: 
+Forma o dativo de ""sie"" (feminina singular)";ihr
+201765b9-a048-4519-8423-0cf8ff45e1d1;"Gramatica: 
+Forma o neutrum dativo de ""es""";ihm
 9a23d88c-93d0-40aa-a2d1-43321d3ee497;nós (dativo);uns
 fc085ed1-f528-4bae-9fe3-8d8deb610e28;vcs (dativo);Euch
 0adc35ce-89ad-4ffa-88cf-2d25c1d73670;eles (dativo);ihnen
@@ -1161,3 +1171,229 @@ ea876174-fab7-488b-84ca-41152380fcd7;o trem (adentro da cidade) mais rapido;die 
 ed90a9b5-1f4a-4017-9335-69d5faa63ebf;eu dirigo o carro mais rapido;ich fahre das schnellere Auto
 9231ebaa-53d5-420f-b8af-bdc75dffd34a;eu estou indo com o trem mais rapido;ich fahre den schnelleren Zug
 79fa3a43-562b-4e35-8bb3-e3c8e60e67fe;o trem é mais rapido que o carro;der Zug ist schneller als das Auto
+012fc434-4ada-4b06-8c76-56fad582ee48;in ;em
+e194cef1-465c-4f2d-9b6c-e7fa6f559e2f;im;em
+5a40412c-9f9d-47ab-b7de-c99b851b3960;em Berlin;in Berlin
+d842dc32-85d6-4d6e-a867-2b2926969bb7;em cima;oben
+10865f16-c9eb-4f05-bf21-65b550875a79;em geral;im Allgemeinen
+ea4cf334-6dc0-4fd8-83e4-a152095b83ea;em Alemão;auf Deutsch
+bf8d4885-449d-4774-bd4f-917aee9168de;em casa;zuhause
+37890d24-8227-4a17-bb32-743e843e1839;em parte;teilweise
+2d108e61-6637-4e2a-8a5e-6f9314b6589b;em principio;im Prinzip
+4c4909b2-7901-45b4-8ff4-6ff03c155ee6;em comparação com algo;im Vergleich zu etwas
+5d647435-d06b-4b06-841e-ccd3d80ba4b0;em 10 minutos;in 10 Minuten
+722b075d-4c89-4a79-a734-80cccaf2b928;sich;se
+78e11731-ad20-4a59-afe2-1eeb5970413a;Se o gato vier, o cão ladra.;falls die Katze kommt, bellt der Hund (tbm: wenn die Katze kommt, bellt der Hund)
+f9852335-cd3f-4357-8ad7-9fe35bc48e37;quando o gato vem, o cão ladra;wenn die Katze kommt, bellt der Hund
+e43900e3-74c2-4380-9fa7-1c2a4988396b;ca.;"""circa"": aproximadamente"
+67ff574d-d064-4973-b631-56bfa84f179d;d.h.;"""das heißt"": ou seja"
+33ad3643-d301-4c09-a510-eb1d0d6f7d74;der ICE;"""I C E"": trem rapido da Alemanha"
+3367ea03-a6d0-458b-aa42-8e5d38adc73a;der Lkw / die Lkws;"""L K W"": Caminhão / Caminhãos"
+ca4386c9-97da-40b4-b928-4dc6572953e0;der PC / PCs;"""P C"": computador / computadores"
+e11013e2-9f56-4379-8038-eb541282f66a;die SMS;"""S M S"": Mensagem curta (SMS)"
+d2f87a5a-7560-4bc7-82a1-012633a67616;usw.;"""und so weiter"" : etc."
+5880f026-58f6-4b27-9bd9-028c1c466347;das WC;"""W C"": banheiro"
+79d03d43-1ee7-4113-8623-070d666be14c;z. B. ;"""zum Beipiel"": por exemplo"
+a0c44b24-e894-46ab-aed3-16b3b6237398;der Antwortbogen;Ficha de resposta
+1c68cdb6-e014-4a08-b244-b7e9eb63bb19;die Aufgabe;Tarefa
+41c1706e-2036-4f17-a4d3-6ec26c82af66;das Beispiel;Exemplo
+60709261-a4a8-4e5a-94db-de18ff818749;die Durchsage;Anúncio
+083a9e7b-483e-4234-82bd-b85ced3d7b77;die Lösung;Solução
+f6702e5d-6713-4738-9d49-a55cebbc63da;markieren;marca
+a62e7b5a-9f68-4132-8d40-3e640289971e;der Prüfer;Examinador
+3747df79-da56-4105-8ba7-30d545216b65;die Prüferin;Examinador
+e388f12d-0713-4678-a76b-5758ca9b0db2;die Prüfung;Exame
+d0914202-f1b9-46d0-872b-58389493a680;der Punkt;Item
+895a37bb-cd4b-4fa7-8ca6-52674334cb76;der Teil;Parte
+80b6455b-3810-4f26-9b96-634e923832b2;der Test;Teste
+4bc10f44-2f2c-47e6-add4-b59bad2f9390;der Text;Texto
+d49bd611-0b04-4c40-9735-1e7158ba0d0b;das Wörterbuch;Dicionário
+2d66d7e1-b89d-47f2-9d1b-5f74fe10e9fb;der Angestellte;o funcionário
+3025502a-22f4-4b04-9838-ee9ce6029785;ein Angestellter;um funcionário
+afb2345c-aa65-46ea-b972-24c1401d6d6b;der Auszubildende;o aprendiz
+20f6887a-d796-4208-bcec-f158c3977646;ein Auszubildender;um estagiário
+eb7310dd-00ac-4fe0-a3f7-172d7fa9ee5b;die Auszubildende;a estagiária
+0808e90b-45f8-42b7-90e8-0950547ada74;eine Auszubildende;uma estagiária
+3d41a247-649b-4aee-8c5b-11c9ef56acd8;der/ein Autor;o/um autor
+3171cf93-a0b5-4442-b2c9-9bce2c81c4a5;die/eine Autorin;a/uma autora
+2a894c08-e84d-4a34-80fa-b04473280e66;der/ein Babysitter;uma babá
+2db28da3-f316-4997-b237-267e62557e5d;der/ein Bäcker;o/um padeiro
+fa842b9b-8fdd-46d2-aafa-b8b52cd2d8dd;die/eine Bäckerin;a/uma padeira
+fc5e5ca2-ea5f-433b-b7ac-c4fb0f2bf42a;der/ein Doktor;o/um médico
+010260ed-bd02-4b2a-8487-b8af0252a1d3;die/eine Doktorin;a/uma médica
+96b10c3d-a18b-4b52-bc70-d5f9640becf9;der/ein Fahrer;o/um motorista
+909162bf-50f1-4893-8657-09a88fae4c5f;die/eine Fahrerin;a/uma motorista
+0d28c064-6052-4081-8008-710619c8dd28;der/ein Friseur;o/um cabeleireiro
+5f4e215f-45ce-4913-bd19-245758e0db37;die/eine Friseurin;a/uma cabeleireira
+c083884b-2414-4489-aa31-92ae6a223004;der/ein Handwerker;o/um artesão
+a158359d-c934-49e7-a8dd-712003b67074;die/eine Handwerkerin;a/uma artesã
+12f0ff87-c921-4b29-9b43-73f9df1ed7c4;der/ein Hausmann;o/um househusband
+364639e6-c6be-4480-8ea2-8f8877e59cf0;die/eine Hausfrau;a/uma dona-de-casa
+c5b2295c-6367-4395-93d5-25409e0a2234;der/ein Journalist;o/um jornalista
+a794242a-28d2-4030-8832-a00f9ac1433a;die/eine Journalistin;a/uma jornalista
+22e81203-b7a9-4901-9f47-2a951d8f304e;der/ein Kaufmann;o/um homem de negócios
+a90bcd4c-28f0-4309-9bd8-c38693c53ac0;die/eine Kauffrau;a/uma mulher de negócios
+77f2184e-f48f-4bbf-9cf1-e25c0a70033c;die Kaufleute;um comerciante
+955f1099-6768-4227-acfc-26b11206e3d7;der/ein Kellner;o/um garçom
+0dd29dfd-43a5-43e8-a13a-a49041e50456;die/eine Kellnerin;a/uma garçonete
+d9922d39-c21b-4fbe-b80f-f4121232f38d;der/ein Koch;o/um cozinheiro
+47b624ac-b2c1-4fa8-bc56-01b66de11858;die/eine Köchin;a/uma cozinheira
+2db8abac-5263-4a80-ba89-6556151884cc;der/ein Krankenpfleger;o/um enfermeiro
+880503f2-e837-4b27-a9cd-59c53a0e5a4d;die/eine Krankenpflegerin;a/uma enfermeira
+39260b5b-51a0-4c7c-b8dc-424f1b95f331;die/eine Krankenschwester;a/uma enfermeira
+64910421-6e42-4964-bfeb-a930f0fdb7a8;der/ein Künstler;o/um artista
+e5687a29-df25-4880-8254-a8486c079c00;die/eine Künstlerin;a/uma artista
+ae2d0a2b-c64b-4256-99db-fdc48d72b8ab;der/ein Lehrer;o/um professor
+2d920d19-e9b3-4da4-b2bc-4cb396ad432a;die/eine Lehrerin;a/uma professora
+eada1854-4330-49c8-989b-408d3a37065d;der/ein Mechaniker;o/um mecânico
+ebbb97db-2f8c-41e1-bf87-d24c111b0dd9;die/eine Mechanikerin;a/uma mecânica
+9da64b12-c8c2-4509-9073-c083502615a5;das/ein Model;o/um modelo
+ebb0ff1d-5645-4ad6-9f9e-cc5e82e0d445;der/ein Musiker;o/um músico
+29cdd43f-2689-4501-99bf-87f6b95a1a59;die/eine Musikerin;a/uma música
+82594585-efc6-45dd-8dd6-88cd07b89a0f;der/ein Polizist;o/um policial
+ecfa278b-bbbb-4884-9d1d-90fbe99000ce;die/eine Polizistin;uma mulher policial
+40483e90-8718-4c00-ad77-6f39404856e8;der/ein Rentner;o/um pensionista
+1d996d9b-c95d-4802-a818-69bf00f02754;die/eine Rentnerin;a/uma pensionista
+07c56900-bb31-4be8-a22d-7bb5babaf0ce;der/ein Sänger;o/um cantor
+8fb56cb3-afb1-4462-ba4b-a0257843e641;die/eine Sängerin;a/uma cantora
+2ba74444-f873-4148-b9a7-5ed5671e7491;der/ein Techniker;o/um técnico
+49b6b464-ec87-42c9-bd16-d45dce9addc4;die/eine Technikerin;a/uma técnica
+c5388e73-44f8-42d4-a670-f6d36bf47f8a;der/ein Verkäufer;o/um vendedor
+caca61fa-a3db-4c0e-a807-fae1a0c57fde;die/eine Verkäuferin;a/uma vendedora
+be04c487-5105-40a1-8299-50fded78248f;luxemburguês (adjectivo);luxemburgisch
+46d86440-7bc8-43d6-afd4-f89659be739e;O Luxemburguês;Der Luxemburger
+95d4dac9-7380-443e-915c-f2b816eace77;o Europa;Das Europa
+eb79e160-cd64-4727-906c-fc1169bb8d79;o Europeu;der Europäer
+37d3f50f-3e40-4f47-a1d7-469ade9e27b7;a Europea;die Europäerin
+63d9a2eb-3e6c-4d49-87d4-29293fd4d0be;européio,-a;europäisch / europäischer / europäische
+d5fede8f-8823-4915-a20e-24fd9ad14b68;das Abitur;exame final do ensino secundário, que dá acesso ao ensino superior (para estudar no universidade)
+8955644a-54fb-491e-bbe6-4ab88a33694a;der Direktor;o diretor
+e771489b-984a-4efb-aadf-4b8e5cd95d67;die Direktorin;a diretora
+5df1465d-7247-47bb-b49a-1013c39c762f;die Hausaufgabe;as tarefas de casa 
+02e8f215-6541-46ba-9008-e777204fbb45;die Klasse;a classe
+a1ff4c4b-d6ae-478e-b43c-cdd651a47198;die Klassenfahrt;a viagem de classe
+d970f551-a145-4786-8672-a6851a6bf2e2;das Sekretariat;o escritório da secretária
+61417824-bae2-464c-99d3-5ede8ce0dbc9;der Stundenplan;horário (das aulas)
+2c4c0357-ce91-411d-9647-f819e0450ab6;Biologie;Biologia
+0b42f3ac-f29a-468d-843b-823ca27d523b;Chemie;Química
+c6e05544-c73b-49b3-9ed1-33f7b1372a67;Deutsch;Alemão
+0bd8ee72-b101-402d-984b-e76a826599af;Englisch;Inglês
+0cda7c36-8708-46da-aedd-f68ceb0a981b;Französisch;Francês
+86b46b09-dab4-442b-a3b6-a1f4588217a8;Geografie;Geografia
+86fa8e8d-1313-4bb2-9ff7-917b7ea2a32c;Geschichte;História
+b3a8ddeb-037f-409c-a537-79c5869d3b47;Kunst;Arte
+5eb68737-1335-4eb7-be93-703f027bdf91;Latein;Latim
+61419992-8953-493e-90e8-68abff7abac5;Mathematik;Matemática
+0e27b44c-4d2d-4c86-87b8-c0e1c3573551;Musik;Música
+80d7d84f-0dce-4e73-8b6f-5d5c86269168;Physik;Física
+052ac862-4515-4a19-b02a-f1296fac7c92;Religion;Religião
+78b5d21f-796a-4239-a2c8-e67bd0b91159;Sozialkunde;Estudos sociais
+861d7154-2c7b-43f6-9c45-7a9d72e5cd9b;Sport ;Esporte 
+21951b03-07bd-4990-880c-a838306aba25;Eu tinha latim na escola;Ich habe in der Schule Latein gehabt (Nenhum artigo é usado para uma matéria escolar)
+a6b759db-25da-4a00-9d20-612ae9fe406c;Leia em voz alta: 1m;"1 m / ""ein Meter"""
+859925ff-143d-4da7-b442-ad954b83898e;Leia em voz alta: 1,50 m;"1,50 m / ""ein Meter fünfzig"""
+30e45d18-40bd-4a92-ab87-792f6a94f446;Leia em voz alta: 1cm;"1 cm / ""ein Centimeter"""
+1b5193ef-f82c-4632-953f-5440e53c2421;Leia em voz alta: 2km;"2 km / ""zwei Kilometer"""
+27e3eac4-b5fc-49c9-9eec-34a130c4a4ef;Leia em voz alta: 1%;"1 % / ""ein Prozent"""
+9629c56c-4ef3-4e4f-b02c-686a134afac9;Leia em voz alta: 1L;"1 l / ""ein Liter"""
+1e219db1-6f84-47d5-ab75-53fc96d70914;Leia em voz alta: 1g;"1 g / ""ein Gramm"""
+87caf4e2-38ab-4943-8c32-2f93f7c753b3;Leia em voz alta: 1kg;"1 kg  / ""ein Kilogramm"""
+8764dadf-5839-4acb-b380-f17605cc01f7;Leia em voz alta: 10°C;"10 °C / ""Zehn Grad Celsius"""
+bbb19a60-fd94-4468-ad15-aad3d7a5d7d3;Leia em voz alta: 3,95 EUR;"""drei Euro fünfundneunzig"""
+01526288-6600-4867-a9e6-5ad536dd6592;Leia em voz alta: 1848;"""achtzehnhundertachtundvierzig"""
+94caefe6-5815-4415-9672-c8bcccccd5ba;Leia em voz alta: 2020;"""zweitausendzwanzig"""
+54d9bcaf-7585-421a-9d23-0ba4edc9b934;Leia em voz alta: 20.02.2023;zwanzigste zweite zweitausenddreiundzwanzig
+25f25eda-5c1d-47a9-9cfb-f49244e936fb;Karneval;Carnaval
+6f4d9b19-0bd1-4d12-8ed4-fc8c2db3a3ea;Ostern;Páscoa
+9aeb176c-1829-4957-941b-33159c390ca6;Weihnachten;Natal
+d9023767-f2c9-4116-8bf0-c05ee5c09007;Neujahr/Silvester;Ano Novo/Véspera de Ano Novo
+f6e4827e-f151-414c-87bf-97897d16dd28;Frühling / Frühjahr;prima veira
+a54d8fc0-a659-42d8-9abf-c08a4b6cd6b5;Sommer;Verão
+a568b4e7-1dc5-4129-a5e8-10a577b3d375;Herbst;Outono
+2f1185a6-d21d-4172-8773-d68e5b0efe8a;Winter;Inverno
+81b1218b-7770-4a85-9e22-62d4314b6fca;Januar;Janeiro
+9abee2f7-2d33-4120-b885-5d015c237d5a;August;Agosto
+4414c9f0-cf74-4465-a10b-dff7d3f21d70;März;Março
+e367262d-c5d1-4fc0-b7d4-c3eb3ecb9809;April;Abril
+5feaf397-b20d-4847-b86e-999e99444306;Mai;Maio
+9113c693-0136-481c-ad41-dc55cd4a4d49;Juni;Junho
+3182fe3b-a325-44a6-abca-4cddc302ecce;September;Setembro
+6fc44f3c-7947-4f3f-aec7-0ed5ae6d244e;Oktober;Outubro
+a5d15ea5-652a-4193-9e77-16397f9224bb;Februar;Fevereiro
+8dee779f-e10a-4f32-b97b-124b808ac84d;November;Novembro
+b1feccea-2456-4337-a6f4-65f85ba179c4;Dezember ;Dezembro 
+637da92a-9b47-4332-90a3-61ed81f8bf99;Juli;Julho
+8eb1acbf-4a23-4b25-946a-0b44ffcbd3a3;täglich;cada dia
+e08d8f27-8694-48f8-9ecb-43db4a2f492d;tagsüber;durante o dia (nao durante da noite)
+46eca2b4-6918-414b-9a3e-b5d829666b22;morgens;cada manhã / á manhã (ate 10h00)
+d43a80e9-6723-43d0-9494-9bdd28d735fb;am Morgen;pela manhã (ate 10h00)
+6fc7eaf8-3579-4d7d-ada2-4bdd56ac1447;vormittags;cada manhã / á manhã (ate 12h00)
+a5188dd0-829c-425a-962a-e151ac7127db;am Vormittag;pela manhã (ate 12h00)
+a6a3697c-ff42-471b-abd3-cdf04157ad60;mittags;cada meio-dia / ao meio-dia
+05bab018-c289-424c-a7f0-1afdf50de3c9;am Mittag;ao meio-dia
+5a183124-2957-42af-a9a7-c03ff3f3654e;nachmittags;cada tarde (ate 18h00) / á tarde
+e995bf5e-3b36-4955-bf3e-3bf85dafdbe3;am Nachmittag;á tarde (ate 18h00)
+a6ad2e17-e44f-42ea-85f1-992cb5d8ae04;abends;cada noite / á noite (ate 24h00)
+32e20199-05f1-49cb-8d02-ca9ce7e58f99;am Abend;á noite (ate 24h00)
+c788df2d-2722-4e64-820a-843b5a251696;nachts;cada noite / á noite (22h00 - 06h00)
+998d082a-b9d2-4d44-9ec3-263fd85be528;in der Nacht;á noite (22h00 - 06h00)
+ada8194f-458d-440a-81fc-1527c619d719;um Mitternacht ;á meia noite
+d5fc3f48-1b0c-40aa-b9c1-5032926e388e;Leia em voz alta: 07:03;sieben Uhr drei
+c5afb49e-ff9c-4060-ad72-75ff62f4f4fa;Leia em voz alta: 03:15 ;drei Uhr fünfzehn
+d99a742f-1262-4648-b25b-02fa40560e4f;Leia em voz alta: 15:30;fünfzehn Uhr dreißig / halb vier
+9db2e5a6-08d3-473f-8a43-e1e4ce9349e5;Leia em voz alta: 24:00;vierundzwanzig Uhr
+1e8286e7-26c5-42b3-ae06-29be431edcfe;Leia em voz alta: 13:00;dreizehn Uhr / ein Uhr
+a9c6b2ed-5d4e-403c-b639-f50015649825;Leia em voz alta: 11:30;elf Uhr 30 / halb zwölf
+a2f17e71-d990-4a94-9d62-a839bb7e6923;Leia em voz alta: 14:05;vierzehn Uhr fünf / fünf nach zwei
+4bd5b8b9-d8d6-4977-ad71-1fd501568be0;Leia em voz alta: 14:55;vierzehn Uhr fünfundfünfzig / fünf vor drei
+a360fd34-3fbe-4f62-acb9-ebcb8dff77e8;Leia em voz alta: 10:15;viertel nach zehn
+8ec2d9d7-207f-42c9-aba7-244184036ef7;Leia em voz alta: 06:45 ;viertel vor sieben
+7514acf1-d971-4d6f-bba9-f34c4f864d6d;Leia em voz alta: 20:40;zwanzig Uhr vierzig / zwanzig vor neun
+1a97c903-3320-40de-938f-9a10f4709919;drei Uhr fünfzehn;03:15 
+925225b1-e3a7-41ec-9e9c-5a7cf55adb1e;halb vier (nachmittags);15:30
+2fc43a78-055d-4b6a-b4d3-5f1fe56003c8;halb zwölf (vormittags);11:30
+794a7fa5-977b-4c33-b101-55c01da080ef;fünf nach zwei (nachmittags);14:05
+f0e872f3-c022-41a0-a8ab-cf450814a9df;fünf vor drei (nachmittags);14:55
+44588984-7ba8-4f92-8237-7561d7292c51;viertel nach zehn (vormittags);10:15
+4f6f701a-6c41-47c0-b53f-69d10b3b23e8;viertel vor sieben (morgens);06:45 
+d9e4a7c8-2cc5-4f32-ad99-6abae94d2c98;zwanzig vor neun (abends);20:40
+f284d1f9-3266-40f5-9043-eecfd4824bfb;am Wochenende;no fim de semana (sabado e domingo)
+f67c27c3-5f3d-41bd-8ae7-50cdabc8deef;montags;cada segunda feira
+9311f2c5-d25a-44bd-b546-dcd646dbfaf9;am Montag;na segunda-feira
+a8f41a64-ec9b-4d5d-aef9-26d8cc9ea0d9;dienstags;cada terça-feira
+3e9d34a5-570c-496c-9229-b8600cc48588;am Dienstag;na terça-feira
+b424e7de-9c69-4d4e-953c-3c0f1586e57f;mittwochs;cada quarta-feira
+a23c11c8-3e9a-4bd6-b013-a81f5c4761f3;am Mittwoch;na quarta-feira
+7990a3f0-95c1-449f-ba20-6a9f00577973;donnerstags;cada quinta-feira
+5efd771f-5cf2-479e-80aa-f6c499794014;am Donnerstag;na quinta-feira
+d2c50ecc-c1bc-4863-bbfc-a1f6c1a1b4c9;freitags;cada sexta-feira
+ee891dc9-b8b3-4e3d-9339-d0307acd4126;am Freitag;na sexta-feira
+e4bd3e13-86cd-4320-803d-24225b93a17d;samstags;cada sábado
+c55b34f2-cf08-4b96-8898-ad27e97b0806;am Samstag;no sábado
+43fff60c-f08e-4db7-8ca0-139b677dede9;sonntags;cada domingo
+e410f6f8-d332-4e4a-b295-93c8a3ed9db9;am Sonntag;no domingo
+57a81540-4b55-4a50-a240-89c30fdbbbac;Arbeitstag/Werktag;um dia de trabalho (sem Feriado público e domingo e <b>sábado</b>)
+d3fc7985-053e-4cf6-a9ad-7446ec52dec8;werktags;cada dia sem Feriado público e domingo e <b>sábado</b>
+88a92bf8-1612-4804-af67-d0d1f4c996dc;Feiertag;"Feriado público e domingo. Sábado não e um ""Feiertag"""
+fc02d04e-615d-47ed-a646-2659d0df913a;o segundo (hora);die Sekunde
+b81beea5-99b1-4e30-8880-e10deb30f29e;o minuto;die Minute
+e25a6e2a-53e4-4396-b3a2-e220b9c6fb5f;a hora;die Stunde
+122ec8dd-b30e-443e-adf9-e83470834b77;a semana;die Woche
+070f9e80-b7d5-4ad6-87c8-ed4aec17ecb2;o ano;das Jahr
+2b054faa-0a2e-4828-a9ed-5319e2362c9e;die Sekunde;o segundo (hora)
+f4f25454-7b32-4e6d-b66c-0d295d0b14e5;die Minute;o minuto
+46a786a8-2440-49b9-981a-dcf0c86b9353;die Stunde;a hora
+b8b569d4-306d-4b96-aad2-fbd4f1c47bc1;die Woche;a semana
+f95fd0e9-227c-4d64-a7d9-7512be86a5e8;das Jahr;o ano
+ed092edf-6770-4074-a7c8-144768f9daa2;o primeiro / a primeira;der/die erste
+2afe23fa-ef87-48b7-bed0-b1b5c8129f3d;o segundo / a segunda (ordem);der/die zweite
+6776fbdd-32e5-4571-99d7-8fd854ac44be;o terceiro / a terceira;der/die dritte
+b1607533-d5de-4df0-8416-b3a8c2375afa;o quarto / a quarta;der/ die vierte
+c2892821-4d51-4b7f-98bc-f012430aae17;"Leia em voz alta: ""1.""";"""erstens"""
+35712eda-52f7-43ee-a533-f24b5aae4f78;"Leia em voz alta: ""2.""";"""zweitens"""
+13d13f59-5526-434d-9d8a-2f7a35cdec38;"Leia em voz alta: ""3.""";"""drittens"""
+7938a0f5-3de7-4f30-b181-705131d4334c;"Leia em voz alta: ""4.""";"""viertens"""
+8fa8e00e-6dad-47fd-ae15-236e7bb5a599;uma vez;einmal
+81e88606-b3f1-42de-89c1-e8053608c389;duas vezes;zweimal
+c0f9cdc9-9611-4a69-8e46-7fc4dac20e2d;três vezes;dreimal
+487e97d7-88fe-43f6-bbe0-7f4d961d06a3;quatro vezes;viermal
