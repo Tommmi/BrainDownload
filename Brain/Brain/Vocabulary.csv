@@ -1025,10 +1025,10 @@ Responde:
 3. Wo sind Sie geboren ?
 4. Wie ist Ihre Postleitzahl ?
 5. Wo wohnen Sie ?";"Se você já fez isso, por favor clique em!"""
-ca34b57a-5357-4f53-a201-c8e1af0bbfa2;"Gramática:
-Como reconhecer um objeto dativo em uma frase?";"Pergunta sobre <b>""a quem ?""</b>
-Por exemplo:
-Na frase ""ele lhe dá a bola"". ""lhe"" é o objeto dativo, porque é a resposta à pergunta ""a quem ele dá a bola""."
+748cb242-36bc-48b3-81b2-0cdfdd5fbbb1;"Gramática:
+Como reconhecer um objeto dativo em uma frase?";"Pergunta sobre <b>a quem ?</b> ou <b>onde ?</b>. Por exemplo:
+""er gibt <b>ihm</b> den Ball"" (ele da lhe a bola).
+""der Bus hält an <b>der Haltestelle</b>"" (O ônibus pára na parada.)"
 d4f286fc-1c3e-4067-9788-779b45c39df5;"Gramatica: 
 Forma o dativo de ""ich""";mir
 a8d68466-1ea5-4ed9-81ae-4070690cbbca;"Gramatica: 
@@ -1084,7 +1084,15 @@ f9df3afa-2d6a-4d1c-aafa-441b9fb7a34f;für jemanden;para alguém (algo deve perte
 5506337d-8bb1-4433-b8f0-e4eb5278b5ef;"Gramatica:
 O ""für"" vem com acusativo ou dativo?";Vem com acusativo
 ee17588b-d6de-4e81-a5dc-d59a64ba465c;"Gramatica:
-O ""zu"" vem com acusativo ou dativo?";Vem com dativo
+O ""zu"" vem com acusativo ou dativo?";Vem com dativo (pq é quase a resposta da pergunta <b>onde?</b>
+bf64e659-2082-4d5f-86c7-862cd70a6423;"Gramatica:
+o que é o dativo de ""der""";dem
+88b04ff4-6b3a-4482-9157-9f785cb613b5;"Gramatica:
+o que é o dativo de ""die"" (singular)";der
+8625ecd9-b1f9-48e9-b074-13c9214480af;"Gramatica:
+o que é o dativo de ""das""";dem
+6013fae3-e704-4c3d-ba28-08c95d5aa3a8;"Gramatica:
+o que é o dativo de ""die"" (plural)";den
 12d46cc6-0aa6-4832-9e4d-cb11bacd4314;a loja;das Geschäft
 a1b160b6-269e-4604-aba3-7c4ab0cd87e0;"Gramática:
 forma o accusativo de ""das Geschäft"" ?";das Geschäft
@@ -1349,13 +1357,13 @@ a2f17e71-d990-4a94-9d62-a839bb7e6923;Leia em voz alta: 14:05;vierzehn Uhr fünf 
 a360fd34-3fbe-4f62-acb9-ebcb8dff77e8;Leia em voz alta: 10:15;viertel nach zehn
 8ec2d9d7-207f-42c9-aba7-244184036ef7;Leia em voz alta: 06:45 ;viertel vor sieben
 7514acf1-d971-4d6f-bba9-f34c4f864d6d;Leia em voz alta: 20:40;zwanzig Uhr vierzig / zwanzig vor neun
-1a97c903-3320-40de-938f-9a10f4709919;drei Uhr fünfzehn;03:15 
+1a97c903-3320-40de-938f-9a10f4709919;drei Uhr fünfzehn;03:15
 925225b1-e3a7-41ec-9e9c-5a7cf55adb1e;halb vier (nachmittags);15:30
 2fc43a78-055d-4b6a-b4d3-5f1fe56003c8;halb zwölf (vormittags);11:30
 794a7fa5-977b-4c33-b101-55c01da080ef;fünf nach zwei (nachmittags);14:05
 f0e872f3-c022-41a0-a8ab-cf450814a9df;fünf vor drei (nachmittags);14:55
 44588984-7ba8-4f92-8237-7561d7292c51;viertel nach zehn (vormittags);10:15
-4f6f701a-6c41-47c0-b53f-69d10b3b23e8;viertel vor sieben (morgens);06:45 
+4f6f701a-6c41-47c0-b53f-69d10b3b23e8;viertel vor sieben (morgens);06:45
 d9e4a7c8-2cc5-4f32-ad99-6abae94d2c98;zwanzig vor neun (abends);20:40
 f284d1f9-3266-40f5-9043-eecfd4824bfb;am Wochenende;no fim de semana (sabado e domingo)
 f67c27c3-5f3d-41bd-8ae7-50cdabc8deef;montags;cada segunda feira
@@ -1397,3 +1405,68 @@ c2892821-4d51-4b7f-98bc-f012430aae17;"Leia em voz alta: ""1.""";"""erstens"""
 81e88606-b3f1-42de-89c1-e8053608c389;duas vezes;zweimal
 c0f9cdc9-9611-4a69-8e46-7fc4dac20e2d;três vezes;dreimal
 487e97d7-88fe-43f6-bbe0-7f4d961d06a3;quatro vezes;viermal
+9858a9c9-4e8f-471d-af8c-f7549d34cf5f;entregar algo;etwas abgeben
+378b9f9a-aaaa-4a57-a6e2-82602a98c327;ele entregou algo;er hat etwas abgegeben
+1c4b1e32-829c-463e-b832-936710d61e4f;ele entrega a chave;er gibt den Schlüssel ab
+aaf156b8-0abb-4619-ab3f-4d654b3ac1f7;buscar alguem;"jemanden abholen (""abholen"" é com acusativo)"
+0be1720c-dd5a-402e-baa5-aae1e0610637;fechar (a janela);schließen
+c7f72951-2718-4a52-bd04-c21454aaa981;encerrar;abschließen
+baf22578-7f6e-46ce-9f50-39482eca9241;Achtung!;Atenção!
+17be5eb3-505e-41e2-b7f9-3675af900589;Não faço a mínima ideia!;Keine Ahnung!
+4cd89ad2-1ca9-4f2d-b79c-392d361e39fc;activo;aktiv
+a68fccb1-7f63-4453-b36a-85f6c31f2135;etwas abgeben;entregar algo
+7ded4c48-1185-4ade-a32c-56802870e5d3;abholen;buscar
+1420c3cf-bb88-4769-8636-e7eb9dbdf490;schließen;fechar
+3fbbdc21-a3fc-4af5-b9e1-0b2def4601b4;abschließen;encerrar
+79b48b78-c740-4703-8cf3-1305a50921a8;Keine Ahnung!;Não faço a mínima ideia!
+d2ff63ff-cd0e-4f48-b6f5-02f4508a8b1a;activamente;aktiv
+6ae8db70-ff83-4703-a55c-63dddf251d01;atual;aktuell
+18462aa2-f5a8-4c55-a57d-502e44724c1f;alles;tudo
+9f6a0c38-9126-4c08-9c3d-2ea4b2f6651a;alle;todos,-as (nominativo ou accusativo)
+36f58677-edc7-48ae-af1c-0a2feb36be07;allen;"1. a todos os .. (é dativo masculino)
+2. a todas as .. (é dativo fem.)"
+dce73b52-73ff-40b1-bb4a-9cc167332b95;aller;"1. de todas as … (é genetivo)
+2. de todos os … (é genetivo)"
+07504fb1-5b33-4658-967e-25063f5bd7cb;aktuell;atual
+831b0168-7355-456b-91f2-1dc1f6e87657;a todos (dativo, masculino);allen
+b6c995ed-aa5a-43d0-b4d6-3a79d7165358;tudo;alles
+71122e89-3338-4f5f-8c89-12f3683fed02;todos (nominativo ou accusativo);alle
+f88c5e0e-ac08-4170-8b4f-14fddc67952e;todas (nominativo ou accusativo);alle
+cbdd6518-6d0d-4f9b-9e99-8a37488e1b0f;de todos os meninos;aller Jungs
+02a4f7f2-012b-4f1b-82a7-0b505d3902c5;de todas as meninas;aller Mädchen
+1c8ad1f4-5558-4ede-983c-62c0bebe5a0a;todos os meninos;alle Jungs
+7365559d-598c-4d2e-be63-dcab9abf5f3a;todas as meninas;alle Mädchen
+29ca2705-077c-4ae5-ab4a-542c61aeff11;also;portanto
+e4d78868-dfc2-4c92-9290-1453ef5b0682;edade;das Alter
+082eaf53-7f25-4a8c-84c4-4c8de4bd0480;semaforo;die Ampel
+56eb2b3b-4f30-4a68-8ba5-b8c2f49eba54;Alter;edade
+12ab51eb-d278-436c-a44a-652aa0786659;portanto;also
+993cb2b0-48c5-40cb-b283-58142e3d74f3;a parada;die Haltestelle
+e67e833e-7308-4031-8246-c3a78f8e4c49;die Ampel;semaforo
+4d5fb919-7eba-4c62-ae0f-1d2144670bc1;die Lampe ist an.;a lampada está ligada
+6e287b16-3bf4-4f87-ab3d-1d0073f5c77c;an Wochenenden;nos fins de semanas
+1e4176b1-23df-42e6-aa37-7b26558aca9c;an der Haltestelle;na parada
+0a42caa4-a957-4b1c-997e-14f593022b0a;An: (email);Para:
+add91f4d-90f0-425f-903a-098f013743f2;Von:;de:
+e4343c1b-6000-482c-8909-5e3f703b2ee2;jemandem etwas anbieten;oferecer algo a alguém
+20eee3cf-ff13-4163-b16b-c49b73c6b1ad;o convidado;der Gast
+786b06da-ec2e-4a9d-b92f-3196ddd6090c;os convidados;die Gäste
+cdb29788-62e9-4de4-b424-d523829105b2;Eu ofereço o bolo ao convidado;"ich biete dem Gast den Kuchen an 
+(""dem Gast"" é dativo; ""den Kuchen"" é acusativo)"
+fe405cbe-569e-4903-9c42-dcda39b52d6b;Eu ofereço o bolo aos convidados;"ich biete den Gästen den Kuchen an 
+(""dem Gast"" é dativo; ""den Kuchen"" é acusativo)"
+7f1a8a7f-7688-49e7-afdc-21c34b1e44ee;na parada;an der Haltestelle (é dativo pq podi perguntar <b>onde?</b>)
+11aedeb5-142b-4d1f-8137-c80c59fd1252;a promoção;das Angebot
+1cbd6966-bb3e-46f5-bdd8-082a7f92495c;algo muda;"etwas ändert sich (infinitivo: ""sich ändern"")"
+d501a369-f1ec-4558-9012-d9807a07d490;o tempo muda;das Wetter ändert sich
+cce7d509-4686-4bac-bb41-4fec01c23bf7;mudar de casa;umziehen
+32cfdc2e-eb68-482e-91c6-40e146650524;mudar de assunto;Thema wechseln
+73667d0a-25e2-4e19-b49f-6f166d08fce8;das Angebot (em supermercado);a promoção
+80413937-fae6-4c77-8c74-20654e75aa64;o medo;die Angst
+c7b59ecc-5154-476a-b44b-afbc5034c051;não se preocupe!;keine Angst!
+58dd8f36-b48f-4f51-909f-04f13f6d50bb;ankommen;chegar
+382e909c-de87-4e6d-a10b-087d234eb1d3;sich anmelden;registrar-se
+ae92a3b3-29f0-42a5-a8ea-453cab157512;die Anmeldung;registro
+69737859-9e4c-4f5b-ae09-7c2ed4bd901c;der Anrufbeantworter;secretária eletrônica
+b7632e1e-f38d-425e-b092-eb376bde6326;der Anschluss (trem);conexão
+31282a0f-acfc-416e-92a4-7171895b5b46;die Angst;o medo
