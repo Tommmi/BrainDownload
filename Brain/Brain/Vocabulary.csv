@@ -494,13 +494,15 @@ d5ad1be1-f219-4e45-93eb-432cadb3e28c;beschreiben;DESCREVER
 f2b90481-2804-4e4b-a7ca-6429f0d88bbe;immer;sempre
 05ac1b9c-dfde-4ac4-9ccc-c4bd4875494f;welche Züge;quais trens
 dd22eb09-03a6-4c7c-a141-c632e63f0e04;für;para
-d0013156-a2e3-41b1-ae9b-2785a0103298;"Gramática:
-Como posso encontrar o objeto acusativo em uma frase?";"Você pergunta: ""Quem ou o quê?"".
-por exemplo:
-Meu irmão adora chocolate.
-Quem ou o que meu irmão ama?
-Resposta: ""Chocolate"".
-Portanto, ""chocolate"" é o objeto acusativo na frase."
+58ce75d6-fb5a-4d9f-8917-cfc0b7acaaed;"Gramática:
+O que é um objeto acusativo ?";O objeto acusativo de uma frase é a coisa ou a pessoa com a qual algo é feito. Por outro lado, o sujeito de uma frase é a coisa ou a pessoa que faz algo ativo.
+436eaf30-f322-449e-913b-3fd03db8d180;"Gramática:
+Qual é o objeto acusativo nas frases 
+1. ""Meu irmão come chocolate."" 
+2. ""Meu irmão adora chocolate."" 
+3. ""Meu irmão tem chocolate."" ";"1. chocolate
+2. chocolate
+3. chocolate"
 6223fed9-8c5f-4d18-bf2c-61b76854236d;"Gramática:
 Qual é o objeto acusativo na frase 
 ""A mesa tem quatro pernas""?";quatro pernas
@@ -593,7 +595,8 @@ bca98796-ea39-453d-87c9-1c277748ea1b;zahlen;pagar
 5bf43581-354d-406f-b16c-a202e644db8b;wir zusammen;nos junto, conjuntamente
 fc52eedf-ed1d-4e94-95bc-cfc723b5dece;macht zusammen 10 EUR;faz um total de 10 EUR
 fd4ce33d-0799-4e76-ad61-66c8ad096c01;wann;quando
-058e3478-c1ce-4bdf-bc56-fb4bd3c7e284;ab + (tempo / lugar);a partir de
+2dd3560e-6f2f-49c0-a956-be0f492967bd;ab + (tempo / lugar);a partir de
+592d9e9f-8baf-4f70-b8d0-331df6f48608;ab morgen;a partir de amanhã
 b0146445-4ced-403b-ac83-e16abc1d0e65;je;cada
 9ee953e3-501a-4b60-9fb7-0e8231897ebe;MELDEN;informar
 c0420b88-da5b-4c79-976c-3c5be8266582;mehr als;mais de
@@ -1025,10 +1028,10 @@ Responde:
 3. Wo sind Sie geboren ?
 4. Wie ist Ihre Postleitzahl ?
 5. Wo wohnen Sie ?";"Se você já fez isso, por favor clique em!"""
-748cb242-36bc-48b3-81b2-0cdfdd5fbbb1;"Gramática:
-Como reconhecer um objeto dativo em uma frase?";"Pergunta sobre <b>a quem ?</b> ou <b>onde ?</b>. Por exemplo:
-""er gibt <b>ihm</b> den Ball"" (ele da lhe a bola).
-""der Bus hält an <b>der Haltestelle</b>"" (O ônibus pára na parada.)"
+880a9f53-710c-4bc6-b419-634089ec75ec;"Gramática:
+Como reconhecer um objeto dativo em uma frase?";"Pergunta ""Onde?"", ""A onde?"", ""A quem?"" Por exemplo:
+""er gibt <b>ihm</b> den Ball"" (ele da <b>lhe</b> a bola).
+""der Bus hält <b>an der Haltestelle</b>"" (O ônibus pára <b>na parada</b>.)"
 d4f286fc-1c3e-4067-9788-779b45c39df5;"Gramatica: 
 Forma o dativo de ""ich""";mir
 a8d68466-1ea5-4ed9-81ae-4070690cbbca;"Gramatica: 
@@ -1416,8 +1419,10 @@ baf22578-7f6e-46ce-9f50-39482eca9241;Achtung!;Atenção!
 4cd89ad2-1ca9-4f2d-b79c-392d361e39fc;activo;aktiv
 a68fccb1-7f63-4453-b36a-85f6c31f2135;etwas abgeben;entregar algo
 7ded4c48-1185-4ade-a32c-56802870e5d3;abholen;buscar
-1420c3cf-bb88-4769-8636-e7eb9dbdf490;schließen;fechar
+3f22740c-ff52-44c0-a30e-0619aa9b88fa;schließen;fechar
 3fbbdc21-a3fc-4af5-b9e1-0b2def4601b4;abschließen;encerrar
+e09bf5ff-835e-49e6-8df7-6b7188e37c65;geschlossen;fechado
+f8985fed-72b9-44d8-a737-8c511610546b;eu fechei a porta;ich habe die Tür geschlossen
 79b48b78-c740-4703-8cf3-1305a50921a8;Keine Ahnung!;Não faço a mínima ideia!
 d2ff63ff-cd0e-4f48-b6f5-02f4508a8b1a;activamente;aktiv
 6ae8db70-ff83-4703-a55c-63dddf251d01;atual;aktuell
@@ -1470,3 +1475,73 @@ ae92a3b3-29f0-42a5-a8ea-453cab157512;die Anmeldung;registro
 69737859-9e4c-4f5b-ae09-7c2ed4bd901c;der Anrufbeantworter;secretária eletrônica
 b7632e1e-f38d-425e-b092-eb376bde6326;der Anschluss (trem);conexão
 31282a0f-acfc-416e-92a4-7171895b5b46;die Angst;o medo
+0d3c96db-835d-44d2-b356-02beb30c0d1c;"Gramática:
+Forma ou acusativo e dativo de ""ich"". ";"mich (acusativo)
+mir (dativo)"
+62dd785e-59e6-4869-b369-c507da9a3dd7;"Gramática:
+Forma ou acusativo e dativo de ""du"". ";"dich (acusativo)
+dir (dativo)"
+08474774-7032-4b4d-af99-0b6bae8d8cae;"Gramática:
+Forma ou acusativo e dativo de ""er"". ";"ih<b>n</b> (acusativo)
+ih<b>m</b> (dativo)"
+2771843b-cc07-4486-9758-081f47d052fe;"Gramática:
+Forma ou acusativo e dativo de ""sie"" (ela). ";"sie (acusativo)
+ihr (dativo)"
+b8ad9303-74ea-4a6a-bf7b-3a95aa263127;"Gramática:
+Forma ou acusativo e dativo de ""es"". ";"es (acusativo)
+ihm (dativo)"
+e68ca34f-edc8-4484-b687-4001a0ef8445;"Gramática:
+Forma ou acusativo e dativo de ""wir"". ";"uns (acusativo)
+uns (dativo)"
+6de9de50-478e-457e-aacc-1a8278fe5114;"Gramática:
+Forma ou acusativo e dativo de ""ihr"" (vcs). ";"Euch (acusativo)
+Euch (dativo)"
+938ccddc-d9fa-4705-8caa-87f06fc8d99d;"Gramática:
+Forma ou acusativo e dativo de ""sie"" (eles). ";"sie (acusativo) 
+ihnen (dativo)"
+32203dbc-11ce-416d-a3b1-0da71b6d2f99;"Gramática:
+Forma ou acusativo e dativo de ""Sie"" (O Senhor). ";"Sie (acusativo)
+<b>I</b>hnen (dativo)"
+ef3be18b-37a6-4876-a88b-f082dd49a176;ich kann nicht kommen;não posso vir
+f00a7426-17f9-4605-886d-74a07978c4ef;die Zeit;o tempo (sentido relógio, não meteorológico)
+de0dcca3-bc32-4066-8405-c9025af3b288;o tempo (meteorológico);das Wetter
+99ca6fd0-a6ea-4148-b896-9fe0cf10a87f;o tempo (sentido relógio, não meteorológico);die Zeit
+a36b895c-eefb-416b-85f6-f7206de2c471;nur eine kleine;somente uma pequena (feminina)
+c9893ac6-16ef-4d79-aeb0-f4a0ffa79fa5;nur ein kleiner;somente um pequeno (masculino)
+042e14b7-acbd-49c3-b6c4-fa31d89127dc;das ist;isso é
+1a1dd4a9-4aff-4b19-8747-28f12a2f7f86;bei Dir;com vc / na casa de vc
+6fb050a8-cb17-421d-ad3d-af47d375a622;"Gramática:
+Porqué é ""wir gehen zu Dir"" e não ""wir gehen zu Dich"" ?";" ==""nós vamos para vc.""
+""para vc"" é uma determinação do lugar. 
+As determinações de lugar são sempre no caso dativo.
+""Dir"" é dativo, ""Dich"" é acusativo."
+aa5bc4bd-dcb8-4c0a-a331-b66cb774a34b;Pass auf !;Cuidado !
+29365520-a63a-44e9-8cbe-3587e332f5a1;o transito;der Verkehr
+5458edb5-f252-4861-9a34-2238b9568b79;der Wunsch;o desejo
+4997546e-7bb6-4d06-8305-dd89df6ac809;desejar;wünschen
+5fcff69a-121d-4d1b-a48d-a6710e5daf00;eu desejo algo;ich wünsche mir etwas (mir é dativo)
+bf4e40a7-0226-4a08-8320-016484a78b46;Desejo algo a vc;ich wünsche Dir etwas
+cb2eeb73-5390-4ee5-8a87-8830d2aaf729;Desejo algo a ele;ich wünsche ihm etwas
+c0b703e9-9000-48c9-9c02-8606a0c26e61;der Verkehr;o transito
+57a757fb-2963-475f-9b39-0e73d2972e5a;o desejo;der Wunsch
+bdcfb7dc-63ac-4c54-9919-7e06e0bdeaf8;ich wünsche Dir etwas;Desejo algo a vc
+a99aa960-1772-4939-9ef4-bf4aa586a2f7;eu desejei algo;ich habe mir etwas gewünscht
+cdf6032f-4a75-4e53-936c-df05e42370de;noch etwas;algo mais
+9072190c-1fa3-4b41-9779-d16f0e8177d4;noch einmal;novamente
+9d797ef4-5b9d-41c0-b0e9-921cba0f3669;noch mehr;ainda mais
+b285f0a3-bf6e-4026-8017-90e7f9c22eed;dieses;este (neutrum)
+4d7f7bb1-4e42-4c6d-a6ff-47ae1d0cbc4a;"Gramática:
+O que o final ""en"" indica em uma palavra ?";"""en"" no final de uma palavra
+1. é o infinitivo de um verbo (""sag<b>en</b>"", ""geh<b>en</b>"") ou
+2. o plural de um substantivo (geralmente feminino) ou
+3. o singular acusativo de um substantivo (masculino ou neutro)"
+e835ad41-0ebe-4fc7-8eb8-7ed1ca96f9fa;algo mais;noch etwas
+e515eea1-5342-4fc0-8ba9-3f222a6240af;novamente;noch einmal
+bcebfec5-d34a-44fe-ba42-38cb50235e66;ainda mais;noch mehr
+97db0f11-c6b1-490c-88e4-12ea32e5941b;gefährlich;perigoso
+1ca9313e-5701-4b26-a461-3ec497650287;hatte;"""tinha"" ou forma de passado:
+""hatte gesagt"" : tinha dito"
+691ae8d9-ecb3-4e26-84e3-bf945a21bd13;jung;jovem / novo
+d167531f-fa48-4bbb-8c85-57f0592cc184;junger Mann;rapaz
+9dff3f29-5d33-4012-86de-b57e2d025289;junge Frau;jovem mulher
+b1d817ad-37c8-478b-a9da-1fc3ac6fb2c1;die Sache ist so:;a coisa é o seguinte:
