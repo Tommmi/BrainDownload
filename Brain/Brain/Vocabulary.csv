@@ -433,7 +433,7 @@ e8b56fab-fc63-4d9b-910e-100755f21c35;mehr als;mais que / mais de
 c111e11e-fb28-4890-9bfc-94f4f3212262;Als Polizist;Como Policial
 6454585e-af66-4a75-a88f-0c3fa707db81;Eu sou como você;ich bin wie Du
 1fb1e5af-3172-4ea3-b40e-b6fdce37f113;como sempre;wie immer
-fbc36c19-255f-433f-b88c-262c2739a512;Como?;Wie bitte ?
+fbc36c19-255f-433f-b88c-262c2739a512;Como? (nao entendí);Wie bitte ?
 69f6aa7a-836d-4efb-961e-b69fc6c46d3e;Como assim ?;wieso ?
 eedc2bb4-071c-4493-8cfa-178eeef84b65;sim, como nao ?;Ja, warum nicht ?
 0ea3baa8-a6cb-42fb-b98f-7c8a0dd05b09;como está ?;wie geht es Dir ?
@@ -915,32 +915,32 @@ a147b1c2-f7fa-40e8-b926-afaf4e2222df;er hat gespielt;ele jogou
 3597620f-9ef4-4bb6-933b-15bad71dd674;o cão dela;ihr Hund
 7a02c939-eb85-4fb7-931a-1f943093d179;meu cão;mein Hund
 a3f414fb-c84e-411f-aa44-e58d6f71cf2c;nosso cão;unser Hund
-74eef2dd-078e-4d3c-912e-11d15ca0ad89;o cão de vc / seu cão;Dein Hund
+74eef2dd-078e-4d3c-912e-11d15ca0ad89;seu cão;Dein Hund
 760011d7-ad11-4fce-bced-4fcc95b6a3b1;o gato dele;"seine Katze (por ""Katze"" é femina)"
 3dacee17-7247-4e5b-a56b-f9b9652bf93b;o gato dela;"ihre Katze (por ""Katze"" é femina)"
 23371fc0-d45f-497d-8141-27b4ea7d7052;meu gato;meine Katze
 5187068e-0285-4ff2-b648-8bb58a310252;nosso gato;unsere Katze
-4da80332-56d2-478d-9e9c-8d2df6f9daf3;o gato de vc / seu gato;Deine Katze
+4da80332-56d2-478d-9e9c-8d2df6f9daf3;seu gato;Deine Katze
 a2119214-aa6a-42e7-96b2-8c428a200a47;a faca dele;"sein Messer (por ""Messer"" é neutrum)"
 f94a1d4c-c867-4cae-b8d2-f880a3a62ed1;a faca dela;"ihr Messer (por ""Messer"" é neutrum)"
 358eed30-d912-4995-89e8-8ef091368261;minha faca;mein Messer
 e189b123-c794-451b-98b0-cfe1ced93687;nossa faca;unser Messer
-4f050f88-f6e9-4f22-8b53-18d848ce0e07;a faca de vc / sua faca;Dein Messer
+4f050f88-f6e9-4f22-8b53-18d848ce0e07;sua faca;Dein Messer
 d0b52d0d-140f-41ce-ac25-95559fb78b8b;sein Hund;o cão dele
 24365e6f-e4a1-46b1-af48-81031fab48bc;ihr Hund;o cão dela
 241e0ee0-e553-4d09-8bcc-37a543d4020d;mein Hund;meu cão
 b5da2d7b-2f20-495c-b439-38c7b3f39f33;unser Hund;nosso cão
-be76ae35-4772-4d33-bd25-7b19c3e7bf3b;Dein Hund;o cão de vc / seu cão
+be76ae35-4772-4d33-bd25-7b19c3e7bf3b;Dein Hund;seu cão
 13572edc-9ce1-4b34-97df-6b1c0829e0e9;seine Katze;o gato dele
 6c0561b0-83dc-4de9-be96-7810d6a2c8c7;ihre Katze;o gato dela
 48b4e373-10f3-4acb-8ae8-9f37ffb7c2e0;meine Katze;meu gato
 24c3df9f-1c8f-44dc-8526-7052028fdf4f;unsere Katze;nosso gato
-69b48e96-458f-4b6b-8828-f3e7aa182b09;Deine Katze;o gato de vc / seu gato
+69b48e96-458f-4b6b-8828-f3e7aa182b09;Deine Katze;seu gato
 3dc482ba-639a-41fc-8c6a-f28a7ed3f66f;sein Messer;o faca dele
 f721cc6f-398e-4f0d-856a-8c2fd14b2af3;ihr Messer;o faca dela
 2bd179c6-a4db-4d8c-b841-7fa8b2be9d88;mein Messer;minha faca
 3af07673-0ea9-4f43-bf10-877d14950758;unser Messer;nossa faca
-9f06a6d5-d6ae-499e-801a-b082f9cd7a58;Dein Messer;a faca de vc / sua faca
+9f06a6d5-d6ae-499e-801a-b082f9cd7a58;Dein Messer;sua faca
 8f09a351-872d-4098-b720-58053d9135af;vamos! Vamos lá!;dann los! (tbm.: auf geht's !)
 56c0e11e-a61d-465b-9118-58cacae764e5;vor (o significado principal);em frente de
 2f84d905-e540-4ccf-aa03-b0fc9b85c395;vor dem Haus;em frente da casa
@@ -1005,7 +1005,7 @@ b3c83488-ce9a-4c36-aac8-96357a22eed3;eu vendo a casa;"ich verkaufe das Haus (por
 f7dc6cdf-8d06-43fe-91d8-8b204ed23b55;eu dirijo o carro;ich fahre das Auto
 858103ad-ae4e-4873-b38d-5d5344d48980;eu estou dirigindo o carro;ich fahre gerade das Auto
 85f0dc08-d622-4b9c-bf9c-f7c10e09d27d;verkaufen;vender
-c8e92954-35ed-4cbd-8fad-396d9a189303;sich vorstellen;apresentar-se
+c8e92954-35ed-4cbd-8fad-396d9a189303;sich vorstellen (trabalho);apresentar-se
 75dede19-7125-43b8-83eb-e3d895ca0d4e;Stellen Sie sich bitte vor !;Por favor, apresente-se!
 864b2f73-dfa0-4505-ab12-15ecdfb88750;buchstabieren;soletrar
 eea78123-1e13-4085-893b-983cedd3d312;Buchstabieren Sie bitte !;Soletra por favor !
@@ -1045,7 +1045,7 @@ Forma o neutrum dativo de ""es""";ihm
 9a23d88c-93d0-40aa-a2d1-43321d3ee497;nós (dativo);uns
 fc085ed1-f528-4bae-9fe3-8d8deb610e28;vcs (dativo);Euch
 0adc35ce-89ad-4ffa-88cf-2d25c1d73670;eles (dativo);ihnen
-32da9c05-e12a-4961-80d5-d42519797191;pra O Senhor (dativo);Ihnen
+32da9c05-e12a-4961-80d5-d42519797191;Para o Senhor (dativo) (aonde?);zu Ihnen
 d658881d-f415-4f94-ab0c-bf27ff2d111f;eu (acusativo);mich
 eadd60c4-1df7-44bf-9b61-6ece557424eb;vc (acusativo);dich
 34e90152-a7ac-4a81-be28-4e6c9a4260a5;ele (acusativo);ihn
@@ -1054,7 +1054,7 @@ eadd60c4-1df7-44bf-9b61-6ece557424eb;vc (acusativo);dich
 d916cdf0-840c-44dc-96f4-4b3c30603aa2;nós (acusativo);uns
 71b8ed5c-a310-4d3e-8c8f-41a850b87b56;vcs (acusativo);Euch
 e91db98b-9e4a-4ce0-9fd3-60307010ef98;eles (acusativo);sie
-5e90c94b-8d6c-401c-8164-be9de0d61639;pra O Senhor (acusativo);Sie
+5e90c94b-8d6c-401c-8164-be9de0d61639;é para O Senhor (acusativo);für Sie (acusativo)
 204cd50e-748c-48b5-9b2c-761d66440f95;mir;me (dativo)
 ca7bf82e-c9d4-4c64-a3c0-0a24bff07193;dir;te  (dativo)
 0bd96176-6db2-4110-a2b5-0bfc96615f6d;ihm;lhe  (dativo)
@@ -1081,7 +1081,9 @@ daead1b5-65b7-4da2-a57c-27a2f67fe857;sie;a (acusativo ou nominativo)
 414b52c9-9e0e-44a1-9c83-df3758310987;es;o / a (acusativo ou nominativo)
 015ede0b-9fe9-4bd5-8e17-c53ec90ee54c;uns;nós (acusativo)
 5ff7dbf3-2f3e-46b1-8a29-0dd20b852d20;Euch;vos (acusativo ou dativo)
-6edd2f23-1714-43f4-b0e0-9fc6564b9b3d;sie;eles (nomintivo) ou os/as (acusativo)
+6edd2f23-1714-43f4-b0e0-9fc6564b9b3d;sie ;"1. a (singular fem.)
+2. eles (nominativo)
+3. os/as (acusativo)"
 f9df3afa-2d6a-4d1c-aafa-441b9fb7a34f;für jemanden;para alguém (algo deve pertencer a alguém)
 0b2e6964-9a54-41e1-8052-be3ff227a765;zu jemandem;para alguém (na direção de alguém)
 5506337d-8bb1-4433-b8f0-e4eb5278b5ef;"Gramatica:
@@ -1142,7 +1144,7 @@ Es gibt keine Zeitung heute"
 e170e8ef-e187-4baa-9fdd-225715fa787b;wieder;novamente
 1657c8f4-42d0-4ddf-9768-b711adb858db;preparar;vorbereiten
 0c29d04f-86f8-4b7f-8032-9471513f4dd3;eu preciso limpar a casa e preparar o jantar;ich muss das Haus putzen und das Essen vorbereiten
-2d8748f5-78fb-40c0-ba4e-6a1b2400c60e;Vocé quer comer;Möchtest Du essen ?
+2d8748f5-78fb-40c0-ba4e-6a1b2400c60e;Vocé quer comer ?;Möchtest Du essen ?
 4e3148d3-7514-4f84-998c-a28afb3a0056;não obrigado. Não quero comer;Nein danke. Ich möchte nicht essen.
 8acbb3b6-efb0-4352-a162-e2f3a04176c9;nada;nichts
 1d4ff570-fb66-4ee3-9cfc-25004c535640;o tempo está bom;das Wetter ist gut
@@ -1214,7 +1216,6 @@ f6702e5d-6713-4738-9d49-a55cebbc63da;markieren;marca
 a62e7b5a-9f68-4132-8d40-3e640289971e;der Prüfer;Examinador
 3747df79-da56-4105-8ba7-30d545216b65;die Prüferin;Examinador
 e388f12d-0713-4678-a76b-5758ca9b0db2;die Prüfung;Exame
-d0914202-f1b9-46d0-872b-58389493a680;der Punkt;Item
 895a37bb-cd4b-4fa7-8ca6-52674334cb76;der Teil;Parte
 80b6455b-3810-4f26-9b96-634e923832b2;der Test;Teste
 4bc10f44-2f2c-47e6-add4-b59bad2f9390;der Text;Texto
@@ -1244,7 +1245,7 @@ c5b2295c-6367-4395-93d5-25409e0a2234;der/ein Journalist;o/um jornalista
 a794242a-28d2-4030-8832-a00f9ac1433a;die/eine Journalistin;a/uma jornalista
 22e81203-b7a9-4901-9f47-2a951d8f304e;der/ein Kaufmann;o/um homem de negócios
 a90bcd4c-28f0-4309-9bd8-c38693c53ac0;die/eine Kauffrau;a/uma mulher de negócios
-77f2184e-f48f-4bbf-9cf1-e25c0a70033c;die Kaufleute;um comerciante
+77f2184e-f48f-4bbf-9cf1-e25c0a70033c;die Kaufleute;os comerciantes
 955f1099-6768-4227-acfc-26b11206e3d7;der/ein Kellner;o/um garçom
 0dd29dfd-43a5-43e8-a13a-a49041e50456;die/eine Kellnerin;a/uma garçonete
 d9922d39-c21b-4fbe-b80f-f4121232f38d;der/ein Koch;o/um cozinheiro
@@ -1313,7 +1314,7 @@ a6b759db-25da-4a00-9d20-612ae9fe406c;Leia em voz alta: 1m;"1 m / ""ein Meter"""
 bbb19a60-fd94-4468-ad15-aad3d7a5d7d3;Leia em voz alta: 3,95 EUR;"""drei Euro fünfundneunzig"""
 01526288-6600-4867-a9e6-5ad536dd6592;Leia em voz alta: 1848;"""achtzehnhundertachtundvierzig"""
 94caefe6-5815-4415-9672-c8bcccccd5ba;Leia em voz alta: 2020;"""zweitausendzwanzig"""
-54d9bcaf-7585-421a-9d23-0ba4edc9b934;Leia em voz alta: 20.02.2023;zwanzigste zweite zweitausenddreiundzwanzig
+54d9bcaf-7585-421a-9d23-0ba4edc9b934;Leia em voz alta: 20.02.2023;zwanzigster zweiter zweitausenddreiundzwanzig
 25f25eda-5c1d-47a9-9cfb-f49244e936fb;Karneval;Carnaval
 6f4d9b19-0bd1-4d12-8ed4-fc8c2db3a3ea;Ostern;Páscoa
 9aeb176c-1829-4957-941b-33159c390ca6;Weihnachten;Natal
@@ -1509,7 +1510,7 @@ de0dcca3-bc32-4066-8405-c9025af3b288;o tempo (meteorológico);das Wetter
 a36b895c-eefb-416b-85f6-f7206de2c471;nur eine kleine;somente uma pequena (feminina)
 c9893ac6-16ef-4d79-aeb0-f4a0ffa79fa5;nur ein kleiner;somente um pequeno (masculino)
 042e14b7-acbd-49c3-b6c4-fa31d89127dc;das ist;isso é
-1a1dd4a9-4aff-4b19-8747-28f12a2f7f86;bei Dir;com vc / na casa de vc
+1a1dd4a9-4aff-4b19-8747-28f12a2f7f86;bei Dir;com vc / na sua casa
 6fb050a8-cb17-421d-ad3d-af47d375a622;"Gramática:
 Porqué é ""wir gehen zu Dir"" e não ""wir gehen zu Dich"" ?";" ==""nós vamos para vc.""
 ""para vc"" é uma determinação do lugar. 
