@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{66EFF8
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DownloadToBrain", "Brain\Brain\DownloadToBrain.csproj", "{3A836044-DF57-4946-AA4E-2D9577D56880}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Download2Brain.EN-Tom.Android", "Upload2Brain.BR-DE\Upload2Brain.BR-DE.Android\Download2Brain.EN-Tom.Android.csproj", "{9CFBEBE5-1BD6-4FE7-8791-53F64153F478}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Download2Brain.Fabiana2.Android", "Upload2Brain.BR-DE\Upload2Brain.BR-DE.Android\Download2Brain.Fabiana2.Android.csproj", "{9CFBEBE5-1BD6-4FE7-8791-53F64153F478}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoCorrectVocablaryFile", "AutoCorrectVocablaryFile\AutoCorrectVocablaryFile.csproj", "{C921E767-53B2-460B-8CD5-D921F2E3924E}"
 EndProject
