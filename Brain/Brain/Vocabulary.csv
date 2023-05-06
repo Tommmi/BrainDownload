@@ -1,35 +1,157 @@
 ﻿ID;Key;Translation
-38cd0850-92fa-45b7-952d-43e809a5c9f0;primeiro;erster
-ab216753-73a4-4ef5-a00c-2039b3d5b247;primeira;erste
-ebfeaef3-b85d-406c-be14-cd27972de75c;primeiro (neutrum!);erstes
-3db8c67c-80f6-4aca-9ca9-5f94281a8f87;segundo;zweiter
-d3b68832-4eb8-4b7f-8daf-b2ad749ca4ac;segunda;zweite
-500b1334-2618-4ce1-bf5a-668d1936cdcc;terceiro;dritter
-50527b46-a5c5-4e41-86ad-101385ad9bdc;quarto;vierter
-55232278-1276-46e1-9901-7a02d362484b;quarto (neutrum);viertes
-e24f535f-00d5-426c-8140-2d88532fea18;quinto;fünfter
-262f74e1-19bd-47d9-8b9d-72ff681ccef4;sexto;sechster
-23bd06ed-9762-4553-99b2-ed01d6547093;sexta;sechste
-9b151e0c-6ed1-470f-b3f2-d23ea6366c4c;sétimo;siebter
-2dc52e01-b2ca-45c2-816b-f7aee1a5647b;oitavo;achter
-dede46d5-67c2-4d02-a8e2-8b0ce5f56a3d;oitavo (neutrum);achtes
-a5cd996f-bf70-4a69-a359-a28a5b61ad6b;nono;neunter
-e0555451-0c2c-4495-a3a7-a8acd34cce10;nona;neunte
-91aae51e-e7c7-43d3-acfa-dcf71acec91a;décimo;zehnter
-8a6c0109-35b2-45fe-a8bf-00b54bd17f51;erster;primeiro
-1283954f-ec38-4c22-a447-ae511a8b574e;zweiter;segundo
-f2bed8d1-9713-4949-b760-9e8513e7dc2a;dritte;terceira
-ee679953-70cf-4124-8641-5d0276bfedd0;vierter;quarto
-19a9f2c4-921a-45c7-a074-6b6b976dd36f;fünfte;quinta
-b705dd81-9c97-4df3-95b3-ab1bdfac7049;sechster;sexto
-1e0e4891-5a42-4755-a5e1-ea36fb76ac2f;siebter;sétimo
-0ad796bd-5a3c-4080-9a03-1a2fa63753ea;achtes;oitavo (neutrum)
-e4943905-9719-4224-b5f5-39d3e07079ab;neunter;nono
-6a1722c1-8203-412d-b15b-4342bd2b21df;zehnter;décimo
-52789a56-92f2-4c27-9372-2e572a302804;11. (masculino);elfter
-6ae30dc6-551f-475e-bfe0-dedea35964ea;12.(masculino);zwölfter
-cabed599-6894-4387-a758-aa4869b5453e;10.02.;zehnter zweiter
-f2387571-8d09-4b8a-b272-742c49822729;23.;dreiundzwanzigster
+e92d9fb5-34ca-42b4-85fe-dcc22749293f;"Gramática:
+Singular, nominativo, masculino de 
+1. ""der,die,das""
+2. ""jeder""";"1. der
+2. jeder"
+ff3c9114-c60d-462b-9c75-3c876c3fd194;"Gramática:
+Singular, nominativo, femininum de 
+1. ""der,die,das""
+2. ""jeder""";"1. die
+2. jede"
+269345a8-ec68-40f5-a4a9-33b65a828f68;"Gramática:
+Singular, acusativo, femininum de 
+1. ""der,die,das""
+2. ""jeder""";"1. die
+2. jede"
+9ba1db8e-9a4e-4525-8b3e-126eb27fa2bf;"Gramática:
+Singular, nominativo, neutrum de 
+1. ""der,die,das""
+2. ""jeder""";"1. das
+2. jedes"
+726ce37c-87c0-42ae-a669-65c28ad9d449;"Gramática:
+Singular, accusativo, neutrum de 
+1. ""der,die,das""
+2. ""jeder""";"1. das
+2. jedes"
+b0a0339d-cea7-41ef-bba8-6e5fd4905e0b;"Gramática:
+Singular, accusativo, masculino de 
+1. ""der,die,das""
+2. ""jeder""";"1. den
+2. jeden"
+23ea1899-645f-483b-9e18-6129a6aa09be;"Gramática:
+Singular, dativo, masculino de 
+1. ""der,die,das""
+2. ""jeder""";"1. dem
+2. jedem"
+e20b4995-8990-4138-8c45-f16a2ed2385a;"Gramática:
+Singular, dativo, neutrum de 
+1. ""der,die,das""
+2. ""jeder""";"1. dem
+2. jedem"
+cf3fc371-294d-419f-b619-49c035cecf24;"Gramática:
+Singular, dativo, femininum de 
+1. ""der,die,das""
+2. ""jeder""";"1. der
+2. jeder"
+befae3a1-199f-43d2-b7df-8cfd98ff8c69;"Gramática:
+Plural, nominativo de 
+""der,die,das""";"die
+"
+15f17ea4-00e2-4879-a880-f415793d7a91;"Gramática:
+Plural, acusativo de 
+""der,die,das""";"die
+"
+daa1218f-26eb-4fa6-8ec4-816bb48c7a66;"Gramática:
+Plural, dativo de 
+""der,die,das""";"den
+"
+705d9ac0-39c4-44a9-b340-5487e2fef1c0;"Gramática:
+Singular, nominativo, masculinum de 
+1. ""ein""
+2. ""kein""";"1. ein
+2. kein"
+e56a38c4-150a-41a2-a584-ed8ed15b2a2c;"Gramática:
+Singular, nominativo, neutrum de 
+1. ""ein""
+2. ""kein""";"1. ein
+2. kein"
+e95e42d7-b547-436d-9f40-f81c28ed1925;"Gramática:
+Singular, nominativo, femininum de 
+1. ""ein""
+2. ""kein""";"1. eine
+2. keine"
+7afa9d2b-9061-4a85-8adf-0656c9cd01f3;"Gramática:
+Singular, acusativo, femininum de 
+1. ""ein""
+2. ""kein""";"1. eine
+2. keine"
+3f124240-ddac-4698-93ff-3f5f455cc606;"Gramática:
+Singular, acusativo, masculinum de 
+1. ""ein""
+2. ""kein""";"1. einen
+2. keinen"
+e4e47909-3ea1-4a1e-8e03-3cf4d9947ffc;"Gramática:
+Singular, acusativo, neutrum de 
+1. ""ein""
+2. ""kein""";"1. ein
+2. kein"
+62387d8f-c155-42ab-8e17-a6bc413b298a;"Gramática:
+Singular, dativo, masculinum de 
+1. ""ein""
+2. ""kein""";"1. einem
+2. keinem"
+f93599ed-2610-4125-81d9-f56ca226aefb;"Gramática:
+Singular, dativo, neutrum de 
+1. ""ein""
+2. ""kein""";"1. einem
+2. keinem"
+79522ad0-a93d-4f43-99aa-d9bb4c3a3b4f;"Gramática:
+Singular, dativo, femininum de 
+1. ""ein""
+2. ""kein""";"1. einer
+2. keiner"
+7814f878-d258-43d8-b138-756ce9910bea;"Gramática:
+Plural, nominativo de 
+1. ""kein""
+2. ""alle""";"1. keine
+2. alle"
+d9fc517d-352c-46f8-87c4-d9394051a9b1;"Gramática:
+Plural, acusativo de 
+1. ""kein""
+2. ""alle""";"1. keine
+2. alle"
+03f5a2da-5cfd-4ed4-afde-7722abe7cbd7;"Gramática:
+Plural, dativo de 
+1. ""kein""
+2. ""alle""";"1. keinen
+2. allen"
+65a3196c-20a7-4fc9-b7ce-095694562915;"Gramática:
+Qual é geralmente a terminação dos adjetivos?";"""-en"""
+76fbb4cd-e61c-418b-bba1-e929b0020e36;"Gramática:
+Quais são as tres exceções para a terminação <b>""-en""</b> em adjetivos?";"1. Singular, nominativo indepedente do sexo
+2. Singular, acusativo neutrum 
+3. Singular, acusativo femininum 
+<b>-e</b>"
+9a0b1ab5-f025-49a8-a545-2ff639c9fb8a;o primeiro lugar (nominativo);der erste Platz
+f96be0bc-7758-4c62-a5d0-b423a1aef657;a primeira cidade  (nominativo);die erste Stadt
+f3b60f0c-6a11-4f66-8422-888abc1a798e;a primeira casa (nominativo);das erste Haus
+6e642b7a-a557-4a57-a896-85c5f83baf48;o segundo lugar;der zweite Platz
+d0e81c28-54e4-4a1f-ac28-b81084d80dca;a segunda cidade;die zweite Stadt
+35b7d25c-05fd-4688-a697-85b76599ba93;terceiro ..;dritte ..
+c1a6e262-c0f2-4984-a6a1-6563a9423468;quarto ..;vierte ..
+2ad88b38-d8e6-4cc8-9759-0fa401aeb239;quinto ..;fünfte ..
+c7ea4950-3ba9-4b1c-b716-11bb6e49b1eb;sexto ..;sechste ..
+83c619cb-6128-49e3-a047-af549fa8b774;sexta ..;sechste ..
+48b3d902-442e-4194-ab74-c6dd2ec0d129;sétimo ..;siebte ..
+a0482be3-3f3b-484c-98d5-5eb1edc1534c;oitavo ..;achte ..
+9e98a466-a776-452a-bb01-cafc7a8f4ab6;oitavo (neutrum, nominativo);achte ..
+902e6eac-5987-4829-9e66-94cbaed3b108;nono ..;neunte ..
+e2d7bb49-3295-4598-99f7-335ba7f5f2bb;décimo ..;zehnte ..
+a8a84e4a-8b4e-4cb2-989e-45e7b2e47e3c;der erste Platz;o primeiro lugar
+6498cfe0-324e-4dd2-aee9-86e7f9017b89;der zweite Platz;o segundo lugar
+c1d792cf-92f4-4348-81da-a4a77685d25c;die dritte Stadt;a terceira cidade
+a297e94f-8cd0-4a75-85b2-46905fce38ef;das vierte Buch;o quarto livro
+ab77adb4-d666-4672-b1ad-c2f0d55c28d5;die fünfte Gabel;o quinto garfo
+80ecb419-87a7-44bb-bcdb-c1c9f705baa0;sechste ..;sexto ..
+1da06626-635b-4070-a6b1-3b36323cee4d;siebte ..;sétimo ..
+66ad18a5-df25-4037-bad9-1e7bfb6d6741;achte ..;oitavo ..
+6ff4b5ab-ded7-438e-a877-be36c0c172c0;neunte ..;nono ..
+ab9e1787-faae-49bd-9091-0f50a4bdaa79;zehnte ..;décimo ..
+7b11ee5a-ae83-4138-ac9c-ebf3ff3952f6;11. (masculino);der elfte
+6340e1c5-ee04-45aa-b825-be0f1ae9ed35;12.(masculino);der zwölfte
+79e8e759-9144-44d3-8eea-2c7acefe7801;10.02.;der zehnte zweite
+5afd59bc-284a-4966-bee8-488b66c37206;o 23. lugar;der dreiundzwanzigste Platz
 e5312b41-65ab-494b-a46a-64e7ac179ab4;01.01.2023;erster erster zweitausenddreiundzwanzig
 4cf8eec1-9fc5-49eb-8f08-0876908c0873;ano 1999;Jahr neuzehnhundertneunundneunzig
 a8af844c-cfca-407c-b10e-47b72de5d071;25.05.2023;fünfundzwanzigster fünfter zweitausenddreiundzwanzig
