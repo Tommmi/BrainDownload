@@ -2,10 +2,16 @@
 
 using DownloadToBrain.Infrastructure;
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine("verifying Brain\\Brain\\Vocabulary.csv ...");
 
-var userRepository = new UserRepository();
+var userRepository = new UserRepository(validate:true);
 
-var words = await userRepository.LoadAllWords();
-
-int a = 0;
+try
+{
+    var words = await userRepository.LoadAllWords();
+    Console.WriteLine("succeeded");
+}
+catch (Exception e)
+{
+    Console.WriteLine("##############\nERROR\n##############\nin line: " + e.Message);
+}

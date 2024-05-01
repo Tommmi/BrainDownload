@@ -227,7 +227,7 @@ Como formar o ""Komparativ""?";"Adicione um ""er"" ao final do adjetivo"
 3d39beca-a5eb-45cc-ae78-98b7362a292a;Sprechen Seie bitte etwas langsammer;FALE MAIS DEVAGAR POR FAVOR
 a199b814-fe4a-4b44-ba9b-a3757543bf81;wo kommen Sie her ?;DE ONDE VOCE É?
 10755a1c-c30f-4212-af94-a46a4544a718;KÖNNEN SIE DAS BITTE WIEDERHOLEN?;PODE REPETIR POR FAVOR?
-b5597883-0e6a-4f57-89b6-592df5000eda;EIN UHR FÜNFZEHN;0,052083333
+b5597883-0e6a-4f57-89b6-592df5000eda;Ein Uhr fünfzehn;1h15
 810044d8-cb10-4dbe-a800-d4f60e48eb9c;Die Herkunft;ORIGEM
 f7e0fe7f-3648-4fde-9c08-54f421f139b9;"ÜBER C/""r""";DE(SOBRE)
 e67914f9-0245-4625-88fc-8768bb4d05f6;und;e
@@ -277,7 +277,7 @@ ca7979ba-de61-4714-8515-859163b7c934;da .. (razão);por …
 0ecf24af-1be9-4dbc-bf08-a01917137c7e;weil;por / porque
 ba817409-b80b-4d92-978f-41d58733211d;erzählen;CONTAR/NARRAR
 30ae76f1-6277-4800-b089-452ed2f7affe;hören;ouvir
-f382ee3d-4cb3-44c2-b60b-3e64aadfd1b7;in;em/na (feminina ou neutrum)
+f382ee3d-4cb3-44c2-b60b-3e64aadfd1b7;in;em/na/no
 676beb40-9240-4895-96dd-3609e4c527f4;machen;fazer
 0babda71-fe66-40ef-b779-8064cbe3875c;oder;ou
 55b66487-66da-4538-a50a-3dbc55607a74;Die Aussprache;a pronunciacao
@@ -507,7 +507,7 @@ Qual é o objeto acusativo nas frases
 Qual é o objeto acusativo na frase 
 ""A mesa tem quatro pernas""?";quatro pernas
 8d3fe92d-4936-49f9-90c4-b26240ceec38;o Husky (nomitavo);der Husky
-9fe9c219-3ab6-4d30-af6b-26f11af80422;o Husky (acusativo);der Husky
+9fe9c219-3ab6-4d30-af6b-26f11af80422;o Husky (acusativo);den Husky
 edc3d533-dc86-4cd1-acf1-35b5317b2665;"Gramática:
 Forma o accusativo singular de 
 ""der""";den
@@ -641,7 +641,7 @@ f1e5885c-9201-439b-9910-e354af82e53c;die Adresse;o endereço
 32618131-7358-4039-9fe4-0a8cf73dbdc0;die Lampe ist an;a lampada está ligada
 beee6187-41d0-4c69-bad6-b00c288271b8;o fim;<b>das</b> Ende
 e4fe10ef-fc73-45c5-bdb5-d9f82fc514cc;fim da semana;das Wochenende
-9984ee59-ee52-42af-9dc7-0810dd43114c;nas fins da semana;an Wochenenden
+9984ee59-ee52-42af-9dc7-0810dd43114c;em fins de semana;an Wochenenden
 a41bec8a-4a86-4a52-8bdd-cf795cacc1cc;no Natal;an Weihnachten
 afa9d7de-c899-411f-ad02-0054751e6246;o abril;der April
 c21c192c-a294-4543-ad86-d91d53839773;no dia primeiro de abril;<b>am</b> ersten April
@@ -720,7 +720,7 @@ f5aa0ff7-fb73-4237-bccf-2737a776d023;bei mir;onde eu estou / comigo
 2cc0d1f2-c01e-4b8d-9ce2-3c252f76b79c;aconselhar alg.;jemanden beraten
 b4342a8c-6a20-4ca3-be40-e6001f5d7ca4;no trabalho;bei der Arbeit
 94a4f29a-31ba-4662-9703-65934ee0e2b3;os dois / as duas;beide
-d4f93c39-b77b-4053-9ef7-68bf9480499d;die Beratung;a consulta
+d4f93c39-b77b-4053-9ef7-68bf9480499d;die Beratung;aconselhamento
 282cb57a-8ab6-46ae-91b6-6b28e89702c6;aconselhamento ;die Beratung
 63b9c244-1f1e-40bd-9da3-e37227b19882;a profissão;der Beruf
 da767e86-b1aa-4ab8-84cf-7ac0c2d3b329;bekommen;receber
@@ -832,7 +832,7 @@ f1f35d38-6f55-4c7a-8e20-4487bde04d32;as dores nas costas;die Rückenschmerzen
 6ce5b24c-2c06-4bd4-b7f9-195a30f40bb7;colher (coletar);sammeln
 76842e76-ba68-4988-939c-9176da50181e;colher (agricultura);ernten
 6e4605d0-3cff-4f16-b847-52b8f5c5225c;coletado;gesammelt
-1f8eaee9-6598-4737-aecc-e7fea7c71eef;ele tem coletado;er hat gesammelt
+1f8eaee9-6598-4737-aecc-e7fea7c71eef;ele coletou;er hat gesammelt
 a2143022-a174-4e3c-b8d4-4a2ffaff898f;o sábado;der Samstag
 e369b2eb-574f-4f33-b8f8-fc4ece812c7c;o sandwiche;das Sandwich
 e58ac35c-a881-4c81-9211-7b3e3af7571f;a frase;der Satz
@@ -920,7 +920,7 @@ a3f414fb-c84e-411f-aa44-e58d6f71cf2c;nosso cão;unser Hund
 3dacee17-7247-4e5b-a56b-f9b9652bf93b;o gato dela;"ihre Katze (por ""Katze"" é femina)"
 23371fc0-d45f-497d-8141-27b4ea7d7052;meu gato;meine Katze
 5187068e-0285-4ff2-b648-8bb58a310252;nosso gato;unsere Katze
-4da80332-56d2-478d-9e9c-8d2df6f9daf3;seu gato;Deine Katze
+4da80332-56d2-478d-9e9c-8d2df6f9daf3;seu gato (o gato de vc);Deine Katze
 a2119214-aa6a-42e7-96b2-8c428a200a47;a faca dele;"sein Messer (por ""Messer"" é neutrum)"
 f94a1d4c-c867-4cae-b8d2-f880a3a62ed1;a faca dela;"ihr Messer (por ""Messer"" é neutrum)"
 358eed30-d912-4995-89e8-8ef091368261;minha faca;mein Messer
@@ -1077,7 +1077,7 @@ ce80baed-61de-4d5f-b629-7a21a2067bef;ihnen;lhes (dativo)
 12813cd7-b106-4fc9-bd5e-8a33309815e2;mich;me (acusativo)
 b3632e44-1922-4fdd-80cc-e5d4e3952c96;dich;te (acusativo)
 f74a734f-42ca-4ad6-b7cb-5c16b7761306;ihn;ele (acusativo)
-daead1b5-65b7-4da2-a57c-27a2f67fe857;sie;a (acusativo ou nominativo)
+daead1b5-65b7-4da2-a57c-27a2f67fe857;sie;ela/a/eles/os/ou/as
 414b52c9-9e0e-44a1-9c83-df3758310987;es;o / a (acusativo ou nominativo)
 015ede0b-9fe9-4bd5-8e17-c53ec90ee54c;uns;nós (acusativo)
 5ff7dbf3-2f3e-46b1-8a29-0dd20b852d20;Euch;vos (acusativo ou dativo)
@@ -1104,7 +1104,10 @@ forma o accusativo de ""das Geschäft"" ?";das Geschäft
 f6d79be9-6ea3-4981-a5b6-2f5fdacb52ea;"Gramática:
 forma o dativo de ""das Geschäft"" ?";dem Geschäft
 34aa3f3a-83b9-4bd3-8359-7c3aebcb72e4;ganhar dinheiro;Geld verdienen
-9fc3d37d-2105-4df2-a27b-02d98cfed2c2;para (um lugar);zu
+9fc3d37d-2105-4df2-a27b-02d98cfed2c2;para (um lugar mas nao uma cidade ou pais);zu (+ dativo)
+465e589c-d77d-473d-886e-d02877489e02;para (um pais ou cidade);nach
+3ad34e81-f307-4924-bbf8-56fbbe515d76;para a loja;zum Geschäft/zu dem Geschäft
+5af7cf08-45e3-4d68-9ee7-bf6652b399a6;para Hamburgo;nach Hamburg
 33547f74-d208-4ba0-8086-18cecd1c14ee;para (uma pessoa);zu
 6038c77d-1b90-4501-96e9-0fe8a998044a;para (fazer algo);um zu (+ infinitivo do verbo)
 c88cc95e-8ff4-4c02-8b77-51128eba407e;trabalhar para ganhar dinheiro;arbeiten um Geld zu verdienen
@@ -1156,6 +1159,12 @@ wie spät ist es ?"
 36aef714-34fd-41e2-aa7b-b72e36046426;o cinema;das Kino
 39c83b70-b796-431d-b466-d06145d3ac8a;vorbereiten;preparar
 12613749-f18f-44d4-a545-5ce205697311;nichts;nada
+a1b76171-e24b-4422-8e57-820d67216aca;in + (lugar, accusativo);para (aonde?)
+89d6b125-4386-454d-bc63-6834de63c0ab;in + (lugar, dativo);no (onde?)
+566f1752-1382-4e2a-8496-d4d899738453;in das Kino;para a cinema
+0051b325-0df0-4867-94e0-8d823ae0d4f6;ins Kino;para a cinema
+9e9d2107-fb11-4781-8467-1c2e9e0046ac;in dem Kino;no cinema
+09ade290-db55-4920-9586-e5aeec2b1cc7;im Kino;no cinema
 9a368306-120b-44cb-87c7-c52028dc579c;eu quero ir ao cinema;ich möchte ins Kino gehen.
 6788ad28-c197-46f2-9e47-b8a97212ce4f;"Gramatica:
 qual é a diferença entre ""ins Kino gehen"" e ""zum Kino gehen"" ?";"""ins Kino gehen"" significa que você está depois dentro do cinema.
@@ -1546,3 +1555,8 @@ bcebfec5-d34a-44fe-ba42-38cb50235e66;ainda mais;noch mehr
 d167531f-fa48-4bbb-8c85-57f0592cc184;junger Mann;rapaz
 9dff3f29-5d33-4012-86de-b57e2d025289;junge Frau;jovem mulher
 b1d817ad-37c8-478b-a9da-1fc3ac6fb2c1;die Sache ist so:;a coisa é o seguinte:
+166261c7-d8a3-4e1b-a578-d4e7cddc50d0;Se eu vier, estarei lá;wenn ich komme, bin ich da
+73c667fe-4b22-4084-abd0-115d8b54ce16;wenn ich komme, bin ich da;Quando chego, estou lá
+50bac868-b922-4860-8dbf-4bdf372e7a35;falls ich komme, bin ich da;Se eu vier, estarei lá
+4f048e45-017f-4f2f-be68-f6c13f687831;Quando cheguei, … (eu estava lá);<b>als</b> ich gekommen bin, .. (war ich da)
+7437cd79-0849-46b9-a897-2153f8231fc7;Quando cheguei ?;Wann bin ich gekommen ?

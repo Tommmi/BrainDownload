@@ -11,7 +11,9 @@ namespace DownloadToBrain.Infrastructure
 {
 	public class UserRepository : IUserRepository
 	{
-		#region fields
+        private readonly bool _validate = false;
+
+        #region fields
 
 		private const string KEYUSERSTATUS = "userStatus";
 		private const string KEYVOCABULARYSTATUS = "vocabularyStatus";
@@ -26,13 +28,62 @@ namespace DownloadToBrain.Infrastructure
 
 		string title = string.Empty;
 
-		#endregion
+        #endregion
 
 
+        #region constructor
 
-		#region IUserRepository
+        public UserRepository()
+        {
 
-		public async Task<Brain.Entities.UserStatus.UsersStatus> LoadStatus()
+        }
+
+        public UserRepository(bool validate)
+        {
+            _validate = validate;
+        }
+
+        #endregion
+
+        #region private
+
+        private bool Validate((string id, string[] values) x)
+        {
+            if (x.id == null)
+            {
+				ThrowValidationException(x);
+                return false;
+            }
+
+            if (!Guid.TryParse(x.id, out var guid))
+            {
+                ThrowValidationException(x);
+                return false;
+            }
+
+			if(x.values == null || x.values.Length != 2 || x.values.Any(v=>v == null))
+            {
+                ThrowValidationException(x);
+                return false;
+            }
+
+            return true;
+        }
+
+        private void ThrowValidationException((string id, string[] values) line)
+        {
+            if(_validate)
+            {
+				throw new ApplicationException($"id:{line.id??""},key:{(line.values.Any() ? line.values[0] : "")},value:{(line.values.Length > 1 ? line.values[1] : "")}");
+            }
+        }
+
+        #endregion
+
+
+        #region IUserRepository
+
+        public async Task<Brain.Entities.UserStatus.UsersStatus> LoadStatus()
 		{
 			if (_usersStatus == null)
 			{
@@ -88,21 +139,6 @@ namespace DownloadToBrain.Infrastructure
 				return _vocabulary;
 			}
 		}
-
-        private bool Validate((string id, string[] values) x)
-        {
-            if (x.id == null)
-            {
-                return false;
-            }
-
-            if (!Guid.TryParse(x.id, out var guid))
-            {
-                return true;
-            }
-
-            return true;
-        }
 
         public async Task SaveUserStatus(Brain.Entities.UserStatus.UsersStatus usersStatus)
 		{
