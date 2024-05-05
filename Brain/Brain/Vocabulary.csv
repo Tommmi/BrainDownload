@@ -186,8 +186,6 @@ d638d5b5-0144-45ea-806f-992e36174515;eu venho;ich komme
 cfe3b39f-a537-46d3-bbb7-84e33955508b;ele vem;er kommt
 84699b4f-97d4-466d-bd5f-2f67bdc2f0ea;nos vamos;wir gehen
 facab58f-e3a9-47bb-9170-b086f53635c2;nós vimos (de ver);wir haben gesehen
-8bcf0d87-8487-4c6e-9f56-62a1267ec9ff;nós vimos (de vir);wir kommen
-a431e861-193d-4b26-bb61-4c4173d63e4e;nós viemos;wir sind gekommen
 b269c103-954b-471b-a3c9-55c036b849f5;vcs vêm;ihr kommt
 5204a0ae-a61f-464d-8547-ddb362a7b341;eles vêm;sie kommen
 838466ce-df16-4c05-a058-fbadd66208f9;O senhor vem;Sie kommen
@@ -203,7 +201,7 @@ a94c530b-fabf-4065-b6c9-5c237e1f696c;Sie kommen;O senhor vêm
 3613ef20-a116-48a2-8a56-7dc037315f1a;Wann kommen Sie ?;Quando o senhor vêm ?
 008ab473-ebc8-4514-add0-94a58c7ab11e;Quando o trem chega ?;Wann kommt der Zug ?
 7d4ad24b-47cf-4ce0-9325-0fec2d1d09fc;FALSCH;errado
-c3bbf0f5-fbaf-4ad3-8cdf-b5ae6a7acae7;Ihr;voces
+c3bbf0f5-fbaf-4ad3-8cdf-b5ae6a7acae7;Ihr geht;voces vao
 098c5fa3-1793-4a17-bacc-48cae7185b5c;Montag;segunda feira
 6575e447-0056-4351-af76-d8918ed8da65;Dienstag;TERÇA
 a3b18bb6-b38f-40af-8517-91c9600cd0c6;Mittwoch;quarta
@@ -220,7 +218,7 @@ ee22fd42-19ce-4925-98a6-8c14fa9c1b34;Was kostet das ?;quanto custa ?
 5dae967c-c04e-41c4-8acd-5a1685901a2d;ICH SPRECHE KEIN DEUTSCH;EU NÃO FALO ALEMAO
 9706605c-b4a0-416e-83a3-5cbe130e1996;Ich weiß nicht ;EU NÃO SEI
 cf035a91-f194-4e22-94e8-56ee412ca08c;"Gramática:
-O que é uma ""Komparartiv""?";"O ""Komparativ"" é a forma intensificada de um adjetivo.
+O que é uma ""Komparativ""?";"O ""Komparativ"" é a forma intensificada de um adjetivo.
 Por exemplo, ""langsamer"" é o Komparativ de ""langsam"" e significa ""mais devagar""."
 0f2c103d-990c-4a3f-af6d-c0bdb15e68c1;"Gramática:
 Como formar o ""Komparativ""?";"Adicione um ""er"" ao final do adjetivo"
@@ -898,7 +896,7 @@ fe22f6ad-be7b-415f-8ec3-609ab20676c0;die Schweiz;a suíça
 17cc4236-7d79-43fc-90ec-90d1275f57e0;das Schwimmbad;a piscina
 4f61e037-05cd-46bf-bf59-52bcd6569185;schwimmen;nadar
 86740f95-eb59-4128-aa8f-d6b6b8ebc464;er ist geschwommen;ele nadou
-32067528-823c-4cab-aab2-1c3a3a6bad9c;das Sekretariat;a secretaria
+32067528-823c-4cab-aab2-1c3a3a6bad9c;das Sekretariat;o escritório da secretária
 331e8f35-68e2-481f-bf61-c033133530fd;das Sofa;o sofá
 a0bd5acd-f364-4589-92a7-3841802a7a92;der Sohn;o filho
 79edfa25-f6f9-49e5-873d-4aa67c4a5b2c;der Sommer;o verão
@@ -1042,23 +1040,34 @@ Forma o dativo de ""er""";ihm
 Forma o dativo de ""sie"" (feminina singular)";ihr
 201765b9-a048-4519-8423-0cf8ff45e1d1;"Gramatica: 
 Forma o neutrum dativo de ""es""";ihm
-9a23d88c-93d0-40aa-a2d1-43321d3ee497;nós (dativo);uns
+9a23d88c-93d0-40aa-a2d1-43321d3ee497;"Gramatica: 
+dativo de nos (ele nos deu a chave)";uns (dativo)
+7db596a6-0cd0-4a9c-98d0-5854fb1d64f9;"Gramatica: 
+accusativo de nos (ele não nos ouve)";uns (accusativo)
 fc085ed1-f528-4bae-9fe3-8d8deb610e28;vcs (dativo);Euch
 0adc35ce-89ad-4ffa-88cf-2d25c1d73670;eles (dativo);ihnen
-32da9c05-e12a-4961-80d5-d42519797191;Para o Senhor (dativo) (aonde?);zu Ihnen
+fc7b0861-4607-4ec1-9877-d0c195797f99;zu;para
+f1402bbb-d1d0-430c-8072-e7f29e4f05be;"Gramatica:
+com qual caso chega ""zu"" ? ";com dativo
+469ecfa8-b04b-43e2-a264-fb4430ecf191;für;para
+d35fe9b4-cffb-4582-ac78-50d64734a309;"Gramatica:
+com qual caso chega ""für"" ? ";com acusativo
+b416f50c-e015-44ba-9d65-b3d0112f73d4;(um movimento) para;"""zu"" (mas ""nach"" se é uma cidade o pais)"
+fba36544-8383-4ecd-86ab-d2b7bc9fcf08;(algo) para ;für
+3cff6fae-e509-48c6-82ed-48b5a9fc50de;para (fazer algo);um (etwas zu tun / zu + infinitivo do verbo)
+32da9c05-e12a-4961-80d5-d42519797191;Para o Senhor;zu Ihnen
 d658881d-f415-4f94-ab0c-bf27ff2d111f;eu (acusativo);mich
 eadd60c4-1df7-44bf-9b61-6ece557424eb;vc (acusativo);dich
 34e90152-a7ac-4a81-be28-4e6c9a4260a5;ele (acusativo);ihn
 918d6556-d6d1-4d7d-8f9f-b77eaa273b54;ela (acusativo);sie
 654e7d75-815c-435f-b120-6b690d8808c7;ele/ela (neutrum acusativo);es
-d916cdf0-840c-44dc-96f4-4b3c30603aa2;nós (acusativo);uns
 71b8ed5c-a310-4d3e-8c8f-41a850b87b56;vcs (acusativo);Euch
 e91db98b-9e4a-4ce0-9fd3-60307010ef98;eles (acusativo);sie
 5e90c94b-8d6c-401c-8164-be9de0d61639;é para O Senhor (acusativo);für Sie (acusativo)
 204cd50e-748c-48b5-9b2c-761d66440f95;mir;me (dativo)
 ca7bf82e-c9d4-4c64-a3c0-0a24bff07193;dir;te  (dativo)
-0bd96176-6db2-4110-a2b5-0bfc96615f6d;ihm;lhe  (dativo)
-04c088f1-1375-4184-a2f6-06a44c5b5c1a;ihr (só uma pessoa);lhe  (dativo)
+0bd96176-6db2-4110-a2b5-0bfc96615f6d;ihm;para ele / lhe (dativo)
+04c088f1-1375-4184-a2f6-06a44c5b5c1a;ihr (só uma pessoa);para ela / lhe (dativo)
 9018c839-84f5-45d6-9480-8ea2f41c9aae;ihr (varias pessoas);vcs (nominativo)
 fcc01b5e-9276-4d10-84bc-aadb2f2a1b97;zu mir;para mim
 a3e490e2-9e50-4a5b-b7c4-6d345aa1efb1;für mich;para mim
@@ -1070,16 +1079,15 @@ ee9bf0e9-8436-4613-b3cf-5d0f20360015;mit ihr;com ela
 adc9e494-c851-4e20-86c8-febe7e981c33;zu Ihnen;para O Senhor
 8f0144d5-9ab8-4c0c-9ff0-6517d2b85dd7;mit Ihnen;com O Senhor 
 471a3d07-0e3f-4615-affc-bc9d70863da8;mit Euch;com vcs
-b855df51-a6e5-4744-bc6b-0a8141e213f9;uns;nós  (dativo ou acusativo)
+b855df51-a6e5-4744-bc6b-0a8141e213f9;uns;nos
 9c5d6a4b-fe44-463f-b533-45615b2d7a58;Euch;vos (dativo ou acusativo)
-ce80baed-61de-4d5f-b629-7a21a2067bef;ihnen;lhes (dativo)
-15fc0f49-96f1-4d47-91d1-e276d1f62018;Ihnen;lhes (dativo, O Senhor)
+ce80baed-61de-4d5f-b629-7a21a2067bef;ihnen;para eles / lhes (dativo)
+15fc0f49-96f1-4d47-91d1-e276d1f62018;Ihnen;para O Senhor / lhes (dativo, O Senhor)
 12813cd7-b106-4fc9-bd5e-8a33309815e2;mich;me (acusativo)
 b3632e44-1922-4fdd-80cc-e5d4e3952c96;dich;te (acusativo)
 f74a734f-42ca-4ad6-b7cb-5c16b7761306;ihn;ele (acusativo)
 daead1b5-65b7-4da2-a57c-27a2f67fe857;sie;ela/a/eles/os/ou/as
 414b52c9-9e0e-44a1-9c83-df3758310987;es;o / a (acusativo ou nominativo)
-015ede0b-9fe9-4bd5-8e17-c53ec90ee54c;uns;nós (acusativo)
 5ff7dbf3-2f3e-46b1-8a29-0dd20b852d20;Euch;vos (acusativo ou dativo)
 6edd2f23-1714-43f4-b0e0-9fc6564b9b3d;sie ;"1. a (singular fem.)
 2. eles (nominativo)
@@ -1106,7 +1114,8 @@ forma o dativo de ""das Geschäft"" ?";dem Geschäft
 34aa3f3a-83b9-4bd3-8359-7c3aebcb72e4;ganhar dinheiro;Geld verdienen
 9fc3d37d-2105-4df2-a27b-02d98cfed2c2;para (um lugar mas nao uma cidade ou pais);zu (+ dativo)
 465e589c-d77d-473d-886e-d02877489e02;para (um pais ou cidade);nach
-3ad34e81-f307-4924-bbf8-56fbbe515d76;para a loja;zum Geschäft/zu dem Geschäft
+3ad34e81-f307-4924-bbf8-56fbbe515d76;(ir) para a loja ;zum Geschäft/zu dem Geschäft
+b24af24a-56e8-47f2-b9af-70d8b69db307;(nao movimento) para a loja;für das Geschäft / fürs Geschäft
 5af7cf08-45e3-4d68-9ee7-bf6652b399a6;para Hamburgo;nach Hamburg
 33547f74-d208-4ba0-8086-18cecd1c14ee;para (uma pessoa);zu
 6038c77d-1b90-4501-96e9-0fe8a998044a;para (fazer algo);um zu (+ infinitivo do verbo)
@@ -1291,7 +1300,8 @@ d5fede8f-8823-4915-a20e-24fd9ad14b68;das Abitur;exame final do ensino secund
 8955644a-54fb-491e-bbe6-4ab88a33694a;der Direktor;o diretor
 e771489b-984a-4efb-aadf-4b8e5cd95d67;die Direktorin;a diretora
 5df1465d-7247-47bb-b49a-1013c39c762f;die Hausaufgabe;as tarefas de casa 
-02e8f215-6541-46ba-9008-e777204fbb45;die Klasse;a classe
+56b920b8-97aa-480b-80c4-10e350db03bd;die 7. Klasse; o 7º ano (da escola)
+02e8f215-6541-46ba-9008-e777204fbb45;die Klasse (escola);a turma
 a1ff4c4b-d6ae-478e-b43c-cdd651a47198;die Klassenfahrt;a viagem de classe
 d970f551-a145-4786-8672-a6851a6bf2e2;das Sekretariat;o escritório da secretária
 61417824-bae2-464c-99d3-5ede8ce0dbc9;der Stundenplan;horário (das aulas)
@@ -1310,6 +1320,10 @@ b3a8ddeb-037f-409c-a537-79c5869d3b47;Kunst;Arte
 052ac862-4515-4a19-b02a-f1296fac7c92;Religion;Religião
 78b5d21f-796a-4239-a2c8-e67bd0b91159;Sozialkunde;Estudos sociais
 861d7154-2c7b-43f6-9c45-7a9d72e5cd9b;Sport ;Esporte 
+47b8387c-e73f-4090-9733-6a848e713451;a turma;die Klasse
+b5e26b70-d435-491e-96fc-ddb8abc119bc;a aula;der Unterricht
+70602968-7de2-4795-b155-f9199c168d99;o 7º ano (da escola);die 7. Klasse
+e677acc8-b861-4b5f-ac2f-524eef25672a;primeira classe (de tren);die erste Klasse
 21951b03-07bd-4990-880c-a838306aba25;Eu tinha latim na escola;Ich habe in der Schule Latein gehabt (Nenhum artigo é usado para uma matéria escolar)
 a6b759db-25da-4a00-9d20-612ae9fe406c;Leia em voz alta: 1m;"1 m / ""ein Meter"""
 859925ff-143d-4da7-b442-ad954b83898e;Leia em voz alta: 1,50 m;"1,50 m / ""ein Meter fünfzig"""
@@ -1324,6 +1338,8 @@ bbb19a60-fd94-4468-ad15-aad3d7a5d7d3;Leia em voz alta: 3,95 EUR;"""drei Euro fü
 01526288-6600-4867-a9e6-5ad536dd6592;Leia em voz alta: 1848;"""achtzehnhundertachtundvierzig"""
 94caefe6-5815-4415-9672-c8bcccccd5ba;Leia em voz alta: 2020;"""zweitausendzwanzig"""
 54d9bcaf-7585-421a-9d23-0ba4edc9b934;Leia em voz alta: 20.02.2023;zwanzigster zweiter zweitausenddreiundzwanzig
+45b2b2a6-eafd-49de-8eac-d536184ad894;ich fahre erste Klasse;eu viajo na primeira classe
+cd20cf78-921d-4c45-ad60-d621c7b7415a;der Unterricht;a aula
 25f25eda-5c1d-47a9-9cfb-f49244e936fb;Karneval;Carnaval
 6f4d9b19-0bd1-4d12-8ed4-fc8c2db3a3ea;Ostern;Páscoa
 9aeb176c-1829-4957-941b-33159c390ca6;Weihnachten;Natal
@@ -1418,7 +1434,8 @@ c2892821-4d51-4b7f-98bc-f012430aae17;"Leia em voz alta: ""1.""";"""erstens"""
 81e88606-b3f1-42de-89c1-e8053608c389;duas vezes;zweimal
 c0f9cdc9-9611-4a69-8e46-7fc4dac20e2d;três vezes;dreimal
 487e97d7-88fe-43f6-bbe0-7f4d961d06a3;quatro vezes;viermal
-9858a9c9-4e8f-471d-af8c-f7549d34cf5f;entregar algo;etwas abgeben
+9858a9c9-4e8f-471d-af8c-f7549d34cf5f;entregar uma pizza;eine Pizza liefern
+ab06d138-7553-4577-8101-4de702af55bd;entregar a chave;den Schlüssel abgeben
 378b9f9a-aaaa-4a57-a6e2-82602a98c327;ele entregou algo;er hat etwas abgegeben
 1c4b1e32-829c-463e-b832-936710d61e4f;ele entrega a chave;er gibt den Schlüssel ab
 aaf156b8-0abb-4619-ab3f-4d654b3ac1f7;buscar alguem;"jemanden abholen (""abholen"" é com acusativo)"
@@ -1428,6 +1445,7 @@ baf22578-7f6e-46ce-9f50-39482eca9241;Achtung!;Atenção!
 17be5eb3-505e-41e2-b7f9-3675af900589;Não faço a mínima ideia!;Keine Ahnung!
 4cd89ad2-1ca9-4f2d-b79c-392d361e39fc;activo;aktiv
 a68fccb1-7f63-4453-b36a-85f6c31f2135;etwas abgeben;entregar algo
+d07b06cc-6444-498f-aa31-91a182799d71;etwas liefern;entregar algo
 7ded4c48-1185-4ade-a32c-56802870e5d3;abholen;buscar
 3f22740c-ff52-44c0-a30e-0619aa9b88fa;schließen;fechar
 3fbbdc21-a3fc-4af5-b9e1-0b2def4601b4;abschließen;encerrar
@@ -1512,7 +1530,8 @@ ihnen (dativo)"
 32203dbc-11ce-416d-a3b1-0da71b6d2f99;"Gramática:
 Forma ou acusativo e dativo de ""Sie"" (O Senhor). ";"Sie (acusativo)
 <b>I</b>hnen (dativo)"
-ef3be18b-37a6-4876-a88b-f082dd49a176;ich kann nicht kommen;não posso vir
+ef3be18b-37a6-4876-a88b-f082dd49a176;ich kann nicht kommen;não posso ir
+39ddcbe1-e74c-42db-9d59-8a1a4e7ce881;er kann nicht kommen;ele não posso vir
 f00a7426-17f9-4605-886d-74a07978c4ef;die Zeit;o tempo (sentido relógio, não meteorológico)
 de0dcca3-bc32-4066-8405-c9025af3b288;o tempo (meteorológico);das Wetter
 99ca6fd0-a6ea-4148-b896-9fe0cf10a87f;o tempo (sentido relógio, não meteorológico);die Zeit
@@ -1548,6 +1567,7 @@ O que o final ""en"" indica em uma palavra ?";"""en"" no final de uma palavra
 e835ad41-0ebe-4fc7-8eb8-7ed1ca96f9fa;algo mais;noch etwas
 e515eea1-5342-4fc0-8ba9-3f222a6240af;novamente;noch einmal
 bcebfec5-d34a-44fe-ba42-38cb50235e66;ainda mais;noch mehr
+24512bfd-e393-4d5d-9a87-6ca4ef9bb577;ainda não;noch nicht
 97db0f11-c6b1-490c-88e4-12ea32e5941b;gefährlich;perigoso
 1ca9313e-5701-4b26-a461-3ec497650287;hatte;"""tinha"" ou forma de passado:
 ""hatte gesagt"" : tinha dito"
@@ -1560,3 +1580,8 @@ b1d817ad-37c8-478b-a9da-1fc3ac6fb2c1;die Sache ist so:;a coisa é o seguinte:
 50bac868-b922-4860-8dbf-4bdf372e7a35;falls ich komme, bin ich da;Se eu vier, estarei lá
 4f048e45-017f-4f2f-be68-f6c13f687831;Quando cheguei, … (eu estava lá);<b>als</b> ich gekommen bin, .. (war ich da)
 7437cd79-0849-46b9-a897-2153f8231fc7;Quando cheguei ?;Wann bin ich gekommen ?
+11024b13-7e56-49e8-9436-1e70a83420c7;noch nicht;ainda não
+11ca2598-c90e-48d7-a0ac-d9f3c4d9e80e;o sobremesa;der Nachtisch
+be1d1863-1a7c-4365-9783-4d42202f7997;mesa de cabezera;der Nachttisch
+1db8edf8-de00-4bae-92ae-5e3b78377f4c;der Nachtisch;o sobremesa
+15fee34b-ed72-45e0-b144-d22290a6e0cd;der Nachttisch;mesa de cabezera
