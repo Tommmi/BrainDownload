@@ -598,9 +598,9 @@ fd4ce33d-0799-4e76-ad61-66c8ad096c01;wann;quando
 b0146445-4ced-403b-ac83-e16abc1d0e65;je;cada
 9ee953e3-501a-4b60-9fb7-0e8231897ebe;MELDEN;informar
 c0420b88-da5b-4c79-976c-3c5be8266582;mehr als;mais de
-a416502d-fbe9-4cfd-8c9f-c4dbc591c294;sich verabreden;marcar um encontro (com alg.)
+a416502d-fbe9-4cfd-8c9f-c4dbc591c294;sich verabreden;marcar um encontro (com alg.)
 436a1b95-95b1-49d7-80c0-290e32849b36;etwas angeben;indicar algo
-c0f76c31-0838-49f6-8c23-3a5124fdbe7c;stehen;ficar de pé
+c0f76c31-0838-49f6-8c23-3a5124fdbe7c;stehen;ficar de pé
 da2e9c50-af56-4591-83d6-e7d971d6aec1;aufstehen;levantar-se
 0efe9404-cbe2-4290-9fc9-504f6b51b21d;tudo;alles
 b3eb0e61-7768-4e66-a796-c43d637042b7;tudo isso;all dies
@@ -626,7 +626,7 @@ a771bc2a-26b2-4bf0-a62e-33afef5db852;warten;esperar
 aba9a708-621a-4e23-8fb1-879aeca4ec63;gerade (temporal),;AGORA/NESTE MOMENTO
 7cd9886d-c11e-4d5b-9a64-8e6021af65c1;gerade (geometrico);em linha reta
 d353eb55-c9bd-4e83-8399-14755194a872;o endereço;die Adresse
-21018ba5-5a01-4f9a-b66c-43c07432236c;sem álcool;alkoholfrei
+21018ba5-5a01-4f9a-b66c-43c07432236c;sem álcool;alkoholfrei
 9a196ad4-7f0a-47db-adac-682ca9bb3cb5;sozinho,-a, só;allein
 ee7f3a56-6ee3-402b-b674-4bc957bb1c5b;o construção;<b>der</b> Bau
 0fff0d79-a739-46b2-bed4-55a458353b99;o construção antiga;<b>der</b> Altbau
@@ -634,7 +634,7 @@ ee7f3a56-6ee3-402b-b674-4bc957bb1c5b;o construção;<b>der</b> Bau
 5380770e-9f8e-4e12-9eea-f0bbf2bf4dc7;o apartamento da construção antiga;"<b>die</b> Altbauwohnung (femina porque ""die Wohnung"")"
 75fa9525-db70-4381-958b-8419a5543a0b;ligado;an
 f1e5885c-9201-439b-9910-e354af82e53c;die Adresse;o endereço
-4303e0e9-f897-4f52-8df5-83fff4fd0482;alkoholfrei;sem álcool
+4303e0e9-f897-4f52-8df5-83fff4fd0482;alkoholfrei;sem álcool
 30ce8883-e508-4bbd-a9d9-3ed547c85d22;allein;sozinho,-a, só
 32618131-7358-4039-9fe4-0a8cf73dbdc0;die Lampe ist an;a lampada está ligada
 beee6187-41d0-4c69-bad6-b00c288271b8;o fim;<b>das</b> Ende
@@ -663,7 +663,7 @@ bf9a2894-7291-4dc6-84e7-e63eb6eb6bd1;os trabalhos;die Arbeiten
 8dc8fe1a-e65a-47bc-9698-c18919e8c148;trabalhar;arbeiten
 d916d7f3-d196-4894-bf35-8fdc93d4a642;ele trabalhou;er hat gearbeitet
 929231e8-09c7-4843-ae1c-b867cd4b1b73;a instrução;die Anweisung
-f398912e-3c95-4078-805e-85b1c3d945d3;a instrução de trabalho;die Arbeitsanweisung
+f398912e-3c95-4078-805e-85b1c3d945d3;a instrução de trabalho;die Arbeitsanweisung
 f5f851a4-0399-4b8a-af20-cac7826a0849;o quarto;das Zimmer
 bd613869-818c-4452-aba7-c8a67227ed60;o escritório (em casa);das Arbeitszimmer
 73f0344d-81c2-484a-9150-831b62f1fb20;pobre;arm
@@ -683,14 +683,14 @@ b47b15d1-7f34-426e-9ac0-4555f810022e;Auf Wiedersehen!;tchau! Ate a vista
 2ebfce22-ee2f-44bd-a6ab-a8db7b725dc6;a saída;der Ausgang
 6cce2a31-cc9a-4079-bd30-719077f03ea2;ausgehen;sair com alg.
 ef9e07f1-0968-40a8-800f-393d68425887;a autoestrada;die Autobahn
-626cbc68-be58-4e6e-b727-96ec3d28f1b7;a concessionária (de carros);das Autohaus
+626cbc68-be58-4e6e-b727-96ec3d28f1b7;a concessionária (de carros);das Autohaus
 3bc53734-7254-4d0d-8d67-82666be9f397;tomar banho;baden
 c9b9f5e5-774c-4aa2-acd1-982ef02bc20c;ele tomou banho;er hat gebadet
 44126be0-badd-4bcf-afda-9fd1f640e5bd;tchau! (no telefono);Auf Wiederhören!
 0fa4af86-424a-45b1-8fa4-681a1fcf0143;Adeus! Ate a vista;Auf Wiedersehen!
 d544b680-8925-487f-b1cb-297e4acc39d2;o banheiro;das Badezimmer
 4dc6fe0f-e8a1-4cc7-ab3e-62d3011d97a6;o trem;die Bahn / der Zug
-8245639f-0d61-48cb-b460-82dd067026c8;a estação de trem;der Bahnhof
+8245639f-0d61-48cb-b460-82dd067026c8;a estação de trem;der Bahnhof
 ffa2bb71-c4c3-400d-9052-44ae63bb3b46;balcão  / sacada;der Balkon
 23d57e10-cce8-4c3f-9e0e-3e004c67cb9f;o banco (dinheiro);die Bank
 97aa59bb-0e84-4efc-a0b4-5e6bbb97286c;o banco (para sentar);die Bank
@@ -715,7 +715,7 @@ f5aa0ff7-fb73-4237-bccf-2737a776d023;bei mir;onde eu estou / comigo
 6fd4c6fe-66cb-4dcf-92d6-11f75b841680;receber;bekommen
 51049c3e-3ff7-4e7f-95b9-e55e9f2c0c4f;elle recebeu;er hat bekommen
 42644330-7755-4982-bf4f-3fa584766233;alguém;jemand (Nominativo), jemanden (acusativo)
-2cc0d1f2-c01e-4b8d-9ce2-3c252f76b79c;aconselhar alg.;jemanden beraten
+2cc0d1f2-c01e-4b8d-9ce2-3c252f76b79c;aconselhar alg.;jemanden beraten
 b4342a8c-6a20-4ca3-be40-e6001f5d7ca4;no trabalho;bei der Arbeit
 94a4f29a-31ba-4662-9703-65934ee0e2b3;os dois / as duas;beide
 d4f93c39-b77b-4053-9ef7-68bf9480499d;die Beratung;aconselhamento
@@ -1211,7 +1211,7 @@ ea4cf334-6dc0-4fd8-83e4-a152095b83ea;em Alemão;auf Deutsch
 bf8d4885-449d-4774-bd4f-917aee9168de;em casa;zuhause
 37890d24-8227-4a17-bb32-743e843e1839;em parte;teilweise
 2d108e61-6637-4e2a-8a5e-6f9314b6589b;em principio;im Prinzip
-4c4909b2-7901-45b4-8ff4-6ff03c155ee6;em comparação com algo;im Vergleich zu etwas
+4c4909b2-7901-45b4-8ff4-6ff03c155ee6;em comparação com algo;im Vergleich zu etwas
 5d647435-d06b-4b06-841e-ccd3d80ba4b0;em 10 minutos;in 10 Minuten
 722b075d-4c89-4a79-a734-80cccaf2b928;sich;se
 78e11731-ad20-4a59-afe2-1eeb5970413a;Se o gato vier, o cão ladra.;falls die Katze kommt, bellt der Hund (tbm: wenn die Katze kommt, bellt der Hund)
@@ -1296,10 +1296,10 @@ be04c487-5105-40a1-8299-50fded78248f;luxemburguês (adjectivo);luxemburgisch
 eb79e160-cd64-4727-906c-fc1169bb8d79;o Europeu;der Europäer
 37d3f50f-3e40-4f47-a1d7-469ade9e27b7;a Europea;die Europäerin
 63d9a2eb-3e6c-4d49-87d4-29293fd4d0be;européio,-a;europäisch / europäischer / europäische
-d5fede8f-8823-4915-a20e-24fd9ad14b68;das Abitur;exame final do ensino secundário, que dá acesso ao ensino superior (para estudar no universidade)
+d5fede8f-8823-4915-a20e-24fd9ad14b68;das Abitur;exame final do ensino secundário, que dá acesso ao ensino superior (para estudar no universidade)
 8955644a-54fb-491e-bbe6-4ab88a33694a;der Direktor;o diretor
 e771489b-984a-4efb-aadf-4b8e5cd95d67;die Direktorin;a diretora
-5df1465d-7247-47bb-b49a-1013c39c762f;die Hausaufgabe;as tarefas de casa 
+5df1465d-7247-47bb-b49a-1013c39c762f;die Hausaufgabe;as tarefas de casa 
 56b920b8-97aa-480b-80c4-10e350db03bd;die 7. Klasse; o 7º ano (da escola)
 02e8f215-6541-46ba-9008-e777204fbb45;die Klasse (escola);a turma
 a1ff4c4b-d6ae-478e-b43c-cdd651a47198;die Klassenfahrt;a viagem de classe
@@ -1442,7 +1442,7 @@ aaf156b8-0abb-4619-ab3f-4d654b3ac1f7;buscar alguem;"jemanden abholen (""abholen"
 0be1720c-dd5a-402e-baa5-aae1e0610637;fechar (a janela);schließen
 c7f72951-2718-4a52-bd04-c21454aaa981;encerrar;abschließen
 baf22578-7f6e-46ce-9f50-39482eca9241;Achtung!;Atenção!
-17be5eb3-505e-41e2-b7f9-3675af900589;Não faço a mínima ideia!;Keine Ahnung!
+17be5eb3-505e-41e2-b7f9-3675af900589;Não faço a mínima ideia!;Keine Ahnung!
 4cd89ad2-1ca9-4f2d-b79c-392d361e39fc;activo;aktiv
 a68fccb1-7f63-4453-b36a-85f6c31f2135;etwas abgeben;entregar algo
 d07b06cc-6444-498f-aa31-91a182799d71;etwas liefern;entregar algo
@@ -1451,7 +1451,7 @@ d07b06cc-6444-498f-aa31-91a182799d71;etwas liefern;entregar algo
 3fbbdc21-a3fc-4af5-b9e1-0b2def4601b4;abschließen;encerrar
 e09bf5ff-835e-49e6-8df7-6b7188e37c65;geschlossen;fechado
 f8985fed-72b9-44d8-a737-8c511610546b;eu fechei a porta;ich habe die Tür geschlossen
-79b48b78-c740-4703-8cf3-1305a50921a8;Keine Ahnung!;Não faço a mínima ideia!
+79b48b78-c740-4703-8cf3-1305a50921a8;Keine Ahnung!;Não faço a mínima ideia!
 d2ff63ff-cd0e-4f48-b6f5-02f4508a8b1a;activamente;aktiv
 6ae8db70-ff83-4703-a55c-63dddf251d01;atual;aktuell
 18462aa2-f5a8-4c55-a57d-502e44724c1f;alles;tudo
@@ -1477,7 +1477,7 @@ e4d78868-dfc2-4c92-9290-1453ef5b0682;edade;das Alter
 993cb2b0-48c5-40cb-b283-58142e3d74f3;a parada;die Haltestelle
 e67e833e-7308-4031-8246-c3a78f8e4c49;die Ampel;semaforo
 4d5fb919-7eba-4c62-ae0f-1d2144670bc1;die Lampe ist an.;a lampada está ligada
-6e287b16-3bf4-4f87-ab3d-1d0073f5c77c;an Wochenenden;nos fins de semanas
+6e287b16-3bf4-4f87-ab3d-1d0073f5c77c;an Wochenenden;nos fins de semanas
 1e4176b1-23df-42e6-aa37-7b26558aca9c;an der Haltestelle;na parada
 0a42caa4-a957-4b1c-997e-14f593022b0a;An: (email);Para:
 add91f4d-90f0-425f-903a-098f013743f2;Von:;de:
@@ -1500,7 +1500,7 @@ c7b59ecc-5154-476a-b44b-afbc5034c051;não se preocupe!;keine Angst!
 58dd8f36-b48f-4f51-909f-04f13f6d50bb;ankommen;chegar
 382e909c-de87-4e6d-a10b-087d234eb1d3;sich anmelden;registrar-se
 ae92a3b3-29f0-42a5-a8ea-453cab157512;die Anmeldung;registro
-69737859-9e4c-4f5b-ae09-7c2ed4bd901c;der Anrufbeantworter;secretária eletrônica
+69737859-9e4c-4f5b-ae09-7c2ed4bd901c;der Anrufbeantworter;secretária eletrônica
 b7632e1e-f38d-425e-b092-eb376bde6326;der Anschluss (trem);conexão
 31282a0f-acfc-416e-92a4-7171895b5b46;die Angst;o medo
 0d3c96db-835d-44d2-b356-02beb30c0d1c;"Gramática:
@@ -1531,7 +1531,7 @@ ihnen (dativo)"
 Forma ou acusativo e dativo de ""Sie"" (O Senhor). ";"Sie (acusativo)
 <b>I</b>hnen (dativo)"
 ef3be18b-37a6-4876-a88b-f082dd49a176;ich kann nicht kommen;não posso ir
-39ddcbe1-e74c-42db-9d59-8a1a4e7ce881;er kann nicht kommen;ele não posso vir
+39ddcbe1-e74c-42db-9d59-8a1a4e7ce881;er kann nicht kommen;ele não pode vir
 f00a7426-17f9-4605-886d-74a07978c4ef;die Zeit;o tempo (sentido relógio, não meteorológico)
 de0dcca3-bc32-4066-8405-c9025af3b288;o tempo (meteorológico);das Wetter
 99ca6fd0-a6ea-4148-b896-9fe0cf10a87f;o tempo (sentido relógio, não meteorológico);die Zeit
@@ -1575,12 +1575,14 @@ bcebfec5-d34a-44fe-ba42-38cb50235e66;ainda mais;noch mehr
 d167531f-fa48-4bbb-8c85-57f0592cc184;junger Mann;rapaz
 9dff3f29-5d33-4012-86de-b57e2d025289;junge Frau;jovem mulher
 b1d817ad-37c8-478b-a9da-1fc3ac6fb2c1;die Sache ist so:;a coisa é o seguinte:
-166261c7-d8a3-4e1b-a578-d4e7cddc50d0;Se eu vier, estarei lá;wenn ich komme, bin ich da
-73c667fe-4b22-4084-abd0-115d8b54ce16;wenn ich komme, bin ich da;Quando chego, estou lá
+98bff564-4c28-44a4-a059-172b63dd7dec;mitbringen;trazer
+166261c7-d8a3-4e1b-a578-d4e7cddc50d0;Quando eu vier, trarei bolo;wenn ich komme, bringe ich Kuchen mit
+73c667fe-4b22-4084-abd0-115d8b54ce16;wenn ich komme, bringe ich Kuchen mit;Quando eu vier, trarei bolo
 50bac868-b922-4860-8dbf-4bdf372e7a35;falls ich komme, bin ich da;Se eu vier, estarei lá
 4f048e45-017f-4f2f-be68-f6c13f687831;Quando cheguei, … (eu estava lá);<b>als</b> ich gekommen bin, .. (war ich da)
 7437cd79-0849-46b9-a897-2153f8231fc7;Quando cheguei ?;Wann bin ich gekommen ?
 11024b13-7e56-49e8-9436-1e70a83420c7;noch nicht;ainda não
+af2483ee-5cb0-45e7-b7f2-1a9fc8477cec;trazer;bringen / mitbringen
 11ca2598-c90e-48d7-a0ac-d9f3c4d9e80e;o sobremesa;der Nachtisch
 be1d1863-1a7c-4365-9783-4d42202f7997;mesa de cabezera;der Nachttisch
 1db8edf8-de00-4bae-92ae-5e3b78377f4c;der Nachtisch;o sobremesa
@@ -1590,7 +1592,7 @@ be1d1863-1a7c-4365-9783-4d42202f7997;mesa de cabezera;der Nachttisch
 a994d191-d7ae-4046-be51-7c720c3f8902;saber fazer algo;wissen, wie man etwas tut
 40f64522-7802-45b8-9e48-24a52aaa695f;eu sei nadar;"ich weiß, wie man schwimmt /
 ich kann schwimmen"
-b333e4ff-c016-4d1d-9581-7dbccfab402d;die meisten;a maior parte de
+b333e4ff-c016-4d1d-9581-7dbccfab402d;die meisten;a maior parte de
 139502b2-aa5e-4411-b2a2-b676674c6ab0;"wie viel Kilometer
 wie viel EUR";"Quantos quilômetros - 
 Quanto EUR"
@@ -1647,3 +1649,31 @@ a1fb7419-2343-48c1-b845-fe6e6377290e;o nave / barco;das Schiff
 b4fe2728-7b1d-4442-a625-d77b7b22acda;O capitão;Der Kapitän
 713d5b3a-4abf-4acc-973c-86c7f3c26486;das Schiff;o nave / barco
 3cc6f43d-1df7-49bc-b13c-4353713574da;O capitão comanda o navio da ponte.;Der Kapiän befiehlt von der Brücke aus das Schiff
+1418dc20-a9f0-497d-ac0f-4c9fb2c3409c;einschalten;ligar
+6593cf19-f6d4-4222-bf1c-28f1943f81f2;Esstisch;mesa de jantar
+1c564d51-68bb-40bc-8583-e763c04c6dcb;das Geschirr;a louça
+e6f5f9f3-9804-41e3-bebe-8487fc691a5f;spülen;enxaguar
+96dbaac9-ed4e-423d-9cb4-29fc457eb92a;der Spüler;aquele que enxague
+415bd6dd-41cb-4f68-a9ed-724da38085f0;der Geschirrspüler;máquina de lavar louça
+4a506bd7-5a1e-48fa-930b-b527f6c78891;die Maschine;a machina
+ee1e3381-9319-41d3-94d0-ad5eb292d353;die Geschirrspülmaschine;máquina de lavar louça
+cc9cbfb0-9338-457d-8706-34b5900d3371;a louça;das Geschirr
+94110cd6-06e2-46d3-9669-de300e6f17b6;enxaguar;spülen
+95357ec3-1ba0-49d3-bc2a-0bc69dccda30;máquina de lavar louça;der Geschirrspüler
+c26092ca-8eed-4571-9254-354be2dc7b81;deshalb;por isso
+ac32fe5f-f580-4fe4-b21a-18bd99016a7d;schmutzig;sujo / suja
+f82fc072-8c5a-42b8-8a22-d265c412d224;etwas abwaschen;lavar algo
+7dc6b3c1-bdef-4fbc-a017-03422d5d3e37;anstrengend;cansativo
+59c27a37-bc71-4090-bc3b-d5044d454c88;die Waschmaschine;máquina de lavar roupa
+d7831e34-d8b2-417e-9c20-d82f711c940f;die Dusche;a ducha / chuveiro
+bfe2bfb4-aba9-46dd-9bd2-44aa6e34e454;o banheiro;die Toilette
+5876b66b-3c4f-4ee5-ab18-53397b84de7b;"1. lange
+2. lang";"1. ha muito tempo
+2. cumprido"
+0bff684d-02c0-4ac4-8cca-46da5e10c84c;por isso;deshalb / darum / deswegen / daher
+24ebd845-e8f1-449e-a53f-c1f95588b331;sujo / suja;schmutzig
+b3810913-a3bb-4f0d-ab7b-62c2b348112b;a máquina de lavar roupa;die Waschmaschine
+c6ce6872-9ce7-43e8-b848-79e4fb58a66a;a ducha / chuveiro;die Dusche
+f95cae43-0e15-40e0-b297-a7b286056017;die Toilette;o banheiro
+d40ae866-f494-421c-a70a-2353e7720ba9;ha muito tempo;lange
+7bac4393-3876-47eb-bfe1-626e8e6c2fa8;cumprido;lang
