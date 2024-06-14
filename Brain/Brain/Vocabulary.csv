@@ -245,11 +245,15 @@ e1d7776b-9440-475b-a8fb-06604dcae089;ist zu ;tá fechado
 3f90ea8e-a51f-4cba-878b-5f3b063e2cc0;para casa do Thomas;zu Thomas
 5f632dbe-f658-4bb5-bc6e-a47b2d5a8011;bei Thomas;na casa do Thomas
 d0088186-b52d-4d2f-a507-c62c2305d2f0;viel;muito
+83f8fd02-d092-4026-b90c-5bc4f7840fe0;viele;muitos
 830a6e2f-0c97-44fd-a205-7e5138a21709;schnell;rapido
 8e70bb09-4e3b-4edc-91a7-4adf2c7c6f82;zu schnell;rápido demais
 9756b6d9-4111-48e3-986f-adc2510f613a;zu viel;demais
 26e94b99-40a4-4d61-8b22-401a7680731d;na casa do Thomas;bei Thomas
 8a9c6182-b393-415c-9aa0-72fa710e1691;tá fechado;"ist zu; (também: ist geschlossen)"
+12bbac60-73df-4d40-bb80-a4c7bd27bc7c;"muito (+ substantivo) (por exemplo ""muito neve"")";viel (viel Schnee)
+aad2dc2d-f869-404d-b06e-c57e28380f26;"muito (+ adjectivo) (pro exemplo ""muito rapido"")";sehr (sehr schnell)
+660deb42-f072-478c-8a3c-4ffc21819d9b;muitos;viele
 6ab897d2-08d7-4001-9905-26b18addc82d;beginnen;iniciar
 89085636-9f32-4449-bb11-7dbff9e607c4;pra loja IKEA;zu IKEA
 ddf29db0-5c9f-4b95-90ea-c31ebdfd8b97;mit Thomas;com Thomas (juntos)
@@ -320,6 +324,9 @@ fec4ee29-0d70-49ee-a52d-463316dd8d0b;der Alltag;DIA A DIA
 3c077157-cbf2-4c4a-b7e2-4a649e301cc5;auf;em cima
 42ef629f-bd89-432f-8bc3-d5b506e7a610;Auf Wiedersehen !;até mais ver
 84604917-ba7d-4753-bff5-f521aaf331f0;der Blick;a vista / a mirada
+84903643-3578-4978-b1c2-88fba4fa0fa2;o outro;der andere
+64ead752-e8d0-4db3-9ed2-6d23d7351f6b;a outra;die andere 
+7e2c49f0-18df-49cb-afc1-8ff5ddfdc838;o/a outro/a (neutrum);das andere
 5e52867d-37bd-45c5-b992-2646a07f94df;oft;com frequencia
 0f8a3777-e1e9-4a92-acad-6c846f7f5ee7;der Satz;a frase
 8c1f5141-e39f-4219-b22e-86e87974f77e;das Ende;o fim
@@ -471,7 +478,7 @@ a6c35638-6332-4dde-a634-0fac8efa2f57;há;es gibt
 b1baab9c-78cf-4ab5-93e2-f523a232624c;não há pão;"es gibt kein Brot (não usa: ""es gibt nicht Brot"")"
 88305c37-8600-4531-99b8-d4941740fb7d;um 10 Uhr;às 10 horas
 8940845f-64bb-46db-9b13-136d5193f931;um .. herum;ao redor da ...
-4ce14525-5582-4e85-9ab3-324b27c0dd06;unter;ABAIXO DE
+af92b172-e2ee-438d-bb1b-7aa0a7956aea;unter;ABAIXO DE
 7a15997d-66c2-4f90-9538-ce4527c0cf73;die Aufgabe;TAREFA/EXERCICIO
 46bc8d7c-8f97-49c8-9470-5c70f3310942;às 10 horas;um 10 Uhr
 f7c7c1db-3b1a-47f5-8cfa-a34578f8386b;erklären;EXPLICAR
@@ -893,9 +900,11 @@ f0b76a2e-61e5-44c9-9235-4db7f38c78ed;die Schule;a escola
 5e73a58f-9121-4f27-90eb-8787e5d43240;der Schüler / die Schülerin;o aluno / a aluna
 fe22f6ad-be7b-415f-8ec3-609ab20676c0;die Schweiz;a suíça
 244df516-82b2-4985-9974-12872b3114cf;schwer;pesado
+5d978058-0136-4527-baa2-10522aaa0405;schwierig;difícil 
 17cc4236-7d79-43fc-90ec-90d1275f57e0;das Schwimmbad;a piscina
 4f61e037-05cd-46bf-bf59-52bcd6569185;schwimmen;nadar
 86740f95-eb59-4128-aa8f-d6b6b8ebc464;er ist geschwommen;ele nadou
+c2eb3332-b40a-442d-be7a-a659bd2750a6;difícil ;schwierig
 32067528-823c-4cab-aab2-1c3a3a6bad9c;das Sekretariat;o escritório da secretária
 331e8f35-68e2-481f-bf61-c033133530fd;das Sofa;o sofá
 a0bd5acd-f364-4589-92a7-3841802a7a92;der Sohn;o filho
@@ -1119,6 +1128,7 @@ b24af24a-56e8-47f2-b9af-70d8b69db307;(nao movimento) para a loja;für das Gesch�
 5af7cf08-45e3-4d68-9ee7-bf6652b399a6;para Hamburgo;nach Hamburg
 33547f74-d208-4ba0-8086-18cecd1c14ee;para (uma pessoa);zu
 6038c77d-1b90-4501-96e9-0fe8a998044a;para (fazer algo);um zu (+ infinitivo do verbo)
+be93a075-9802-4e1e-855a-48e2a7892bd0;para fazer isso;um das zu tun
 c88cc95e-8ff4-4c02-8b77-51128eba407e;trabalhar para ganhar dinheiro;arbeiten um Geld zu verdienen
 dc2eb425-af59-4de7-b014-a69018d0c7da;parar de fazer algo;aufhören etwas zu tun
 447e9815-db06-43c1-8fc8-702b495c627a;parar de diregir;anhalten
@@ -1168,12 +1178,12 @@ wie spät ist es ?"
 36aef714-34fd-41e2-aa7b-b72e36046426;o cinema;das Kino
 39c83b70-b796-431d-b466-d06145d3ac8a;vorbereiten;preparar
 12613749-f18f-44d4-a545-5ce205697311;nichts;nada
-a1b76171-e24b-4422-8e57-820d67216aca;in + (lugar, accusativo);para (aonde?)
-89d6b125-4386-454d-bc63-6834de63c0ab;in + (lugar, dativo);no (onde?)
-566f1752-1382-4e2a-8496-d4d899738453;in das Kino;para a cinema
-0051b325-0df0-4867-94e0-8d823ae0d4f6;ins Kino;para a cinema
-9e9d2107-fb11-4781-8467-1c2e9e0046ac;in dem Kino;no cinema
-09ade290-db55-4920-9586-e5aeec2b1cc7;im Kino;no cinema
+a1b76171-e24b-4422-8e57-820d67216aca;in + (accusativo);para (aonde? / movimento para e entrando depois)
+89d6b125-4386-454d-bc63-6834de63c0ab;in + (dativo);no (onde?)
+566f1752-1382-4e2a-8496-d4d899738453;in das Kino;para a cinema (e entrar depois)
+0051b325-0df0-4867-94e0-8d823ae0d4f6;ins Kino;para a cinema (ins == in das)
+9e9d2107-fb11-4781-8467-1c2e9e0046ac;in dem Kino;no cinema (adentro da cienema)
+09ade290-db55-4920-9586-e5aeec2b1cc7;im Kino;no cinema (im == in dem)
 9a368306-120b-44cb-87c7-c52028dc579c;eu quero ir ao cinema;ich möchte ins Kino gehen.
 6788ad28-c197-46f2-9e47-b8a97212ce4f;"Gramatica:
 qual é a diferença entre ""ins Kino gehen"" e ""zum Kino gehen"" ?";"""ins Kino gehen"" significa que você está depois dentro do cinema.
@@ -1498,6 +1508,8 @@ cce7d509-4686-4bac-bb41-4fec01c23bf7;mudar de casa;umziehen
 80413937-fae6-4c77-8c74-20654e75aa64;o medo;die Angst
 c7b59ecc-5154-476a-b44b-afbc5034c051;não se preocupe!;keine Angst!
 58dd8f36-b48f-4f51-909f-04f13f6d50bb;ankommen;chegar
+419eeca1-13d5-42cc-95fe-a16eb38b029d;mudar de casa;umziehen
+40f41075-6d8f-4a8e-8d86-2f90fb134f30;estou mudando;ich ziehe um
 382e909c-de87-4e6d-a10b-087d234eb1d3;sich anmelden;registrar-se
 ae92a3b3-29f0-42a5-a8ea-453cab157512;die Anmeldung;registro
 69737859-9e4c-4f5b-ae09-7c2ed4bd901c;der Anrufbeantworter;secretária eletrônica
@@ -1606,11 +1618,11 @@ wie viel EUR"
 71444171-7627-4b6e-9258-d450e5cf52c5;Quadratmeter;Metro quadrado
 476ef37c-9ce3-49e2-8371-29db340606ec;Erdgeschoss;Andar térreo
 1636bdb7-d7b8-4515-8562-76ae44d6a1ab;Garten;jardim
-a6dd8300-94db-43a7-9f31-9163f8d2834f;unten;no fundo
+a6dd8300-94db-43a7-9f31-9163f8d2834f;unten;abaixo
 40c847e2-4cf9-4592-b551-3db25c424d1b;der Baum;A árvore
-ef107b3b-a08d-4cca-af13-053cfd93e114;Der Baum steht unten im Garten;A árvore fica no fundo do jardim
+f43f4ce5-fb11-40f0-9c70-fa81ed8b68fa;hinten;no fundo
+ef107b3b-a08d-4cca-af13-053cfd93e114;Der Baum steht hinten im Garten;A árvore fica no fundo do jardim
 68ca8e70-08e1-4af3-a9f0-352f751e689a;Das Buch steht unten im Regal;O livro está na prateleira de baixo
-af92b172-e2ee-438d-bb1b-7aa0a7956aea;unter;debaixo
 9985d65b-7e77-4343-b527-118a5a87e2aa;Der Stuhl ist unter dem Tisch;A cadeira está debaixo da mesa
 37b25ce7-31a6-45b9-abc4-95a4d1651b3b;Eu vou para baixo;Ich gehe nach unten
 4d43d6bf-68e7-436f-8dd3-8fe5a85847de;unterster;mais baixo (masculinum)
@@ -1622,8 +1634,8 @@ cbd88fc2-9334-4503-b355-44d35dbea199;unterste;mais baixa (femininum)
 1f89156f-7e7f-4b17-9080-bcd42fc98dd6;das Bürogebäude;predio para escritorios
 c3c4b638-2c4d-44ff-816a-c5f2f138cb56;Andar térreo;Erdgeschoss
 afe3bdeb-ed0c-4fec-89f3-a985c03ab961;o predio;das Gebäude
-85ec5819-8391-4421-8443-05f1b2c82c03;no fundo;unten
-b80b7498-64f5-414d-aaa7-eb64744630e1;A árvore fica no fundo do jardim;Der Baum steht unten im Garten
+85ec5819-8391-4421-8443-05f1b2c82c03;no fundo;hinten
+b80b7498-64f5-414d-aaa7-eb64744630e1;A árvore fica no fundo do jardim;Der Baum steht hinten im Garten
 5ff67220-e749-4ba3-a427-278c4707ac12;Ich gehe nach unten;Eu vou para baixo
 91b7f8df-7f10-4fd7-8635-1584800c6845;neben;ao lado
 036d8d11-7d78-4311-aa37-6350ba46dfb1;a mesa ao lado;der Tisch daneben / der Nachbartisch
@@ -1677,3 +1689,72 @@ c6ce6872-9ce7-43e8-b848-79e4fb58a66a;a ducha / chuveiro;die Dusche
 f95cae43-0e15-40e0-b297-a7b286056017;die Toilette;o banheiro
 d40ae866-f494-421c-a70a-2353e7720ba9;ha muito tempo;lange
 7bac4393-3876-47eb-bfe1-626e8e6c2fa8;cumprido;lang
+51917f19-6613-409c-bd2f-358a40ecbe47;a banheira;die Badewanne
+ed83a6d4-8f43-4bc4-aa34-86be11d43a92;nah;perto
+16cedacf-49ce-4fb4-88a1-a80dbe730014;der nächste ..;o próxima
+698b1c22-efff-49ff-9afe-69fc430d49a9;die nächste ..;a próxima
+72490f94-8262-4ae1-94fb-19704bd99e34;die Badewanne;a banheira
+657592ff-2596-4e6a-9822-925e8098a678;perto;nah
+19a8536d-e1ac-472b-8a3d-56035db18c47;o próxima ..;der nächste ..
+656f2693-66df-47bc-a4d3-5dbd0010889d;das Lebensmittel;o alimento (singular)
+da780039-e2fe-44de-a7b3-0ff9a3810ab9;die Lebensmittel;os alimentos
+b1304a1d-737d-4aea-9cdd-140b43568462;wichtig;importante
+e9dee2ef-6ffa-4880-999b-89020458693f;nicht nur … sondern auch …;não só ... mas também …
+523e0be7-8200-453a-93d5-d8579e9f7e23;papel higiênico;das Toilettenpapier
+84e817ee-a65c-4daf-8b40-ab3bfd72f74f;os alimentos;die Lebensmittel
+a8119cb1-f057-4d28-bf8d-016ab469b65b;importante;wichtig
+4648e634-d7ac-4ff1-8c94-4a64c2905381;não só ... mas também …;nicht nur … sondern auch …
+f9367ecf-28f5-4474-982b-e5cbde50ac34;das Toilettenpapier;papel higiênico
+8150beac-9704-4df1-8337-b3700b78e74d;die Zahnbürste;escova de dentes
+c189a77e-eac5-4448-b101-ba74fcf88df3;o carrinho de compras;der Einkaufswagen
+c6b1dd43-b3fc-47db-95c2-2b9e3ed4d22b;das Ding;a coisa
+f11509db-2ad6-41a4-a10b-e62b7b4473e4;die Dinge;as coisas
+a877e6a5-db2c-4233-a445-54b4248c76b1;escova de dentes;die Zahnbürste
+6f00464e-31b2-4229-be64-187ad50abc3d;der Einkaufswagen;o carrinho de compras
+9f19bd87-b25b-42c1-b494-eb1cc684db01;a coisa;das Ding
+1e25c819-3a5a-44e9-96e4-3f4d738b6e5a;as coisas;die Dinge
+cc397787-7cfc-4d36-bdc2-772c6e77019b;die Sache;o assunto
+d31e9a28-aa19-4892-84c2-32d5b52b5cf6;der Einkaufschip;"Literalmente: chip de compras.
+Um chip de plástico em vez de uma moeda de 1 euro para destravar carrinhos de compras no supermercado."
+4dbb2001-ada0-4d67-9041-3d83ff2569b7;der Korb;cesto
+d0e6c296-353c-4d34-96df-6cc2bf7d44cd;der Einkaufskorb;cesto de compras
+1ee4e383-9f1c-4bd4-adb6-c000b8d96cc1;die Abteilung;o departamento
+57980cfb-3077-46f4-91a3-c643aa32d40a;das Obst;fruta
+75b00274-d2ad-4615-af3e-d4290f4c73dc;das Gemüse;legume
+2afdeb58-905b-4e16-948b-16859b4f1b2d;die Aubergine;berinjela
+4bd68c0e-4471-425e-b2bb-2c961f7b1a1b;die Früchte;frutas
+30a3ccc4-dd18-47b1-a85b-6e58b4a7361d;o producto;das Produkt
+72e402fa-8ddd-4b1d-bf6b-31b57f67cbac;os productos;die Produkte
+a952a3c7-51d4-4cf0-90ad-6028e204edf6;die Niederlande;Holanda
+d098c45a-8313-4010-9519-3581ac876ce7;besonders;especial / especialmente
+12b86fff-8051-4daa-a95a-4e765a335b58;o departamento;die Abteilung
+1f06813e-19ba-4464-8b40-e5998877187d;a fruta (supermercado);das Obst
+9a3312c3-3a53-4b03-8de9-60adfe6f8f2a;legume;das Gemüse
+09438695-5605-43a4-b700-fbd8ef2f8281;berinjela;die Aubergine
+dc72db95-1b76-4bbc-880f-a078d95822f9;Holanda;die Niederlande / Holland
+37c9f743-a867-4d53-8486-5340fcb93607;producto especial;"das besondere Produkt (aqui ""besondere"" é um adjectivo)"
+f3a835ba-104c-45f4-97d0-1747ce67ac04;o producto é especial;"das Produkt ist besonders (aqui ""besonders"" é um adverbio)"
+38fb15ee-7920-45d1-a12c-f64484038498;nämlich;de fato
+5b990f40-5d7e-4e89-988b-64ee21c92344;hart;duro
+fbeda0b4-948f-4f32-868d-8c6fa39cee67;unterschiedlich;diferente
+5e6b3c2c-b122-439d-98ff-e877315ea8ec;die Sorte;tipo
+d7f3695f-d3f3-4728-b912-438a5fcbdf90;die Sorten;tipos
+fb3214a0-e778-4e06-b769-6974c66c91be;Vollkorn;Produtos de cereais nos quais é usado o grão inteiro, incluindo o germe e as camadas externas.
+d500445c-e606-4fe4-a4ec-d5ba6e2f670f;duro;hart
+44da150c-11cf-4076-9dcf-cb17d60c9f26;diferente;unterschiedlich
+33858d46-0195-47f7-83c5-4a903ba8b68b;tipos;die Sorten
+c5f2749b-cf0a-42ef-b141-23816ee67795;Roggen;um tipo de trigo: centeio
+11050eae-367c-48a6-93ab-c853b30bef87;Lieblingsbrot, Lieblingsbier, Lieblings-Tshirt;pão preferido, cerveza preferido, T-shirt preferido
+40758eaf-431e-44cc-9d9a-9f4608458644;kühl;frio, fria
+ff1508c4-2162-4b8e-a10b-a2a5598c8d2d;kühlen;esfriar
+c234a04b-2e65-4177-94b0-ac457b5c234b;die Truhe;o arca (armario) (a porta é em cima)
+9e80e780-4c16-4cb1-b4e6-49ac40725e55;die Kühltruhe;congelador mas com uma tampa para abrir
+5686479b-3523-4f97-a5c9-f1a306992392;der Käse;queijo
+b60ffdd9-698e-4a91-bf1f-ebd60f063e02;der Fisch;peixe
+d8793bf1-17d4-43aa-a75e-29cd47da7e43;das Fleisch;carne
+f2e57bf9-7eb0-49c5-ad65-45ceb7a8e0b6;pão preferido, cerveza preferido, T-shirt preferido;Lieblingsbrot, Lieblingsbier, Lieblings-Tshirt
+9d722c90-c6a1-4299-8a13-1026c25a90b1;frio, fria;kühl
+dd801f28-f296-45ee-965c-22bc4876ddbd;esfriar;kühlen
+345987f5-5af0-4bbc-bc15-dfdd2882371f;queijo;der Käse
+b4fe2ff3-a12c-44bd-aeaf-efe1719d6127;peixe;der Fisch
+7a582dc9-7097-4c25-a8b2-3d0600881141;carne;das Fleisch
