@@ -1,4 +1,5 @@
 ﻿ID;Key;Translation
+458fb1a9-e63b-4937-92f8-b20aa36454ea;Halt !;Stop!
 06cd3e02-079a-47d9-84f0-5e095cbfcc23;to abandon;verlassen, aufgeben
 6dd6874a-ed95-45e1-8eb2-49135b467986;abortion;Abbruch, Schwangerschaftsabbruch
 23d06747-bc1b-4a92-8c74-a73e2fd6526f;to abuse;missbrauchen
@@ -23,7 +24,8 @@ bde91486-a705-4b03-9568-dbf954966fd7;kaum;hardly
 3b2d7ccb-b0d5-48a8-82f5-3954452e90df;gerade jetzt;just now
 35075ac0-64d6-4e48-9ab1-0f08a44c5579;gerade (Weg);straight
 d1c12b6c-5c48-4bcf-8727-b344f455b8fb;gerade (Zahl);even
-f1a87b59-8e95-4865-b1e8-39dcc98bfec7;gerade noch;just in time, barely
+f1a87b59-8e95-4865-b1e8-39dcc98bfec7;gerade noch rechtzeitig;just in time
+663e4c69-069c-4eec-b0b4-ad422dc83d97;gerade noch geschafft;just made it
 be12c552-2dd9-493a-ba69-185857d38ee1;gegenüber;vis-á-vis
 eece2b41-238c-4b3d-828b-e10a56ab7ea3;wenig;little, few
 0bc2e2fc-95d0-4b12-81a9-52f968349494;wenigstens;at least
@@ -116,7 +118,8 @@ de4661fe-71e5-41d0-9ccc-068c5ea6d6bc;deutlich;clear, clearly
 9104107d-10a1-4f32-a551-21dd8ce5eb12;Kollege;colleague, fellow
 9b6fcfdf-c93d-4eaf-a607-5c285b1aad21;die Leiter (klettern);ladder
 e4454ab9-2d9a-4096-a972-a3fd28055102;(eletr.) Leiter;conductor
-46c94b26-5dd0-44bd-99c6-d05c52c3dfa2;Verfahren;method
+46c94b26-5dd0-44bd-99c6-d05c52c3dfa2;Verfahren (techn.);method
+6e520373-d0d8-4037-87b3-60e22d329805;Verfahren (jur.);process
 251baca4-2769-4eef-8f14-39ebf2890fc0;Urteil (Gericht);judgment,sentence
 81e8509e-9e07-4994-991a-4495fdecfef6;Vorurteil;prejudice
 d1ab6b99-28cd-4146-9404-91b77fefe7f9;beurteilen;to rate s.o/sth
@@ -180,3 +183,6 @@ bb30287d-1a5b-47d2-ac67-ed51775c7a95;sogar;even
 e335d699-c0d5-4337-b321-4e1166c82d91;jedenfalls;anyway
 ab8e22d0-904a-4eb1-814e-e808b5182b68;bieten / anbieten;to offer
 a39428e8-487b-4b71-8987-a7e6c03d0f11;sogenannte;so-called
+;sich streiten;to argue / to fight
+;sie wären hier;they would be here
+;Bühne;stage
